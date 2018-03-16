@@ -38,6 +38,43 @@
 
     var xScale;
 
+    // ..........arrow head.............
+    d3.xml('turtle.svg', "image/svg+xml", function(xml){
+        var importedNode = document.importNode(xml.documentElement, true)
+                .getElementsByTagName("g")[0],
+
+            defs = svg.append("defs")
+
+        defs.append("marker")
+            .attr({
+                "id":"arrow",
+                "viewBox":"0 -5 10 10",
+                "refX":5,
+                "refY":0,
+                "markerWidth":4,
+                "markerHeight":4,
+                "orient":"auto"
+            })
+            .append("path")
+            .attr("d", "M0,-5L10,0L0,5")
+            .attr("class","arrowHead");
+
+        defs.append("marker")
+            .attr({
+                "id":"turtle",
+                "viewBox":"0 0 100 100",
+                "refX":50,
+                "refY":50,
+                "markerWidth":10,
+                "markerHeight":10,
+                "orient":"auto"
+            })
+            .node().appendChild(importedNode);
+
+    })
+    //.......................
+
+
     function drawDiagram(json) {
         drawTimeAxis(json.nodes);
         drawGraph(json)
@@ -45,8 +82,12 @@
 
     function drawTimeAxis(nodes) {
         // define the x scale (horizontal)
-        var mindate = new Date(d3.min(nodes, function (d) {return d.time;})),
-            maxdate = new Date(d3.max(nodes, function (d) {return d.time;}));
+        var mindate = new Date(d3.min(nodes, function (d) {
+                return d.time;
+            })),
+            maxdate = new Date(d3.max(nodes, function (d) {
+                return d.time;
+            }));
 
         xScale = d3.time.scale()
             .domain([mindate, maxdate])
@@ -78,7 +119,8 @@
         //     if (error) throw error;
         var link = svg.selectAll("line")
             .data(json.links)
-            .enter().append("line");
+            .enter().append("line")
+            .attr({"marker-end":"url(#" + Math.round(Math.random()) + ")"});
 
         var node = svg.selectAll("circle")
             .data(json.nodes)
