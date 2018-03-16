@@ -18,25 +18,62 @@
         crossorigin="anonymous"></script>
 <script src="elastic-connector.js"></script>
 
-
-<script src="http://d3js.org/d3.v3.min.js"></script>
+<script src="https://d3js.org/d3.v3.min.js"></script>
 <script>
+    var width = 960,
+        height = 600,
+        radius = 6,
+        padding = 50;
+
+    var fill = d3.scale.category20();
+
+    var force = d3.layout.force()
+        .charge(-120)
+        .linkDistance(30)
+        .size([width, height]);
+
+    var svg = d3.select("body").append("svg")
+        .attr("width", width)
+        .attr("height", height);
+
+    var xScale;
+
+    function drawDiagram(json) {
+        drawTimeAxis(json.nodes);
+        drawGraph(json)
+    }
+
+    function drawTimeAxis(nodes) {
+        // define the x scale (horizontal)
+        var mindate = new Date(d3.min(nodes, function (d) {return d.time;})),
+            maxdate = new Date(d3.max(nodes, function (d) {return d.time;}));
+
+        xScale = d3.time.scale()
+            .domain([mindate, maxdate])
+            .range([padding, width - padding * 2]);   // map these the the chart width = total width minus padding at both sides
+
+        // define the x axis
+        var xAxis = d3.svg.axis()
+            .orient("bottom")
+            .scale(xScale);
+
+        // draw x axis with labels and move to the bottom of the chart area
+        svg.append("g")
+            .attr("class", "xaxis")   // give it a class so it can be used to select only xaxis labels  below
+            .attr("transform", "translate(0," + (height - padding) + ")")
+            .call(xAxis);
+
+        // now rotate text on x axis
+        // solution based on idea here: https://groups.google.com/forum/?fromgroups#!topic/d3-js/heOBPQF3sAY
+        // first move the text left so no longer centered on the tick
+        // then rotate up to get 45 degrees.
+        svg.selectAll(".xaxis text")  // select all the text elements for the xaxis
+            .attr("transform", function (d) {
+                return "translate(" + this.getBBox().height * -2 + "," + this.getBBox().height + ")rotate(-15)";
+            });
+    }
+
     function drawGraph(json) {
-        var width = 960,
-            height = 500,
-            radius = 6;
-
-        var fill = d3.scale.category20();
-
-        var force = d3.layout.force()
-            .charge(-120)
-            .linkDistance(30)
-            .size([width, height]);
-
-        var svg = d3.select("body").append("svg")
-            .attr("width", width)
-            .attr("height", height);
-
         // d3.json("graph.json", function (error, json) {
         //     if (error) throw error;
         var link = svg.selectAll("line")
@@ -48,14 +85,12 @@
             .enter().append("circle")
             .attr("r", radius - .75)
             .style("fill", function (d) {
-                return fill(d.group);
+                return fill(d.color);
             })
             .style("stroke", function (d) {
                 return d3.rgb(fill(d.group)).darker();
             })
             .call(force.drag);
-
-        console.log(json.nodes)
 
         force
             .nodes(json.nodes)
@@ -72,13 +107,13 @@
                     d.source.x -= k, d.target.x += k;
                 })
                 .attr("x1", function (d) {
-                    return d.source.x;
+                    return xScale(d.source.time);
                 })
                 .attr("y1", function (d) {
                     return d.source.y;
                 })
                 .attr("x2", function (d) {
-                    return d.target.x;
+                    return xScale(d.target.time);
                 })
                 .attr("y2", function (d) {
                     return d.target.y;
@@ -86,18 +121,18 @@
 
             node
                 .attr("cx", function (d) {
-                    return d.x;
+                    return xScale(d.time);
                 })
                 .attr("cy", function (d) {
                     return d.y;
                 });
-
         }
 
+        drawTimeAxis(json.nodes);
         // });
     }
 
-    populateNodes(drawGraph);
+    populateNodes(drawDiagram);
 </script>
 </body>
 </html>

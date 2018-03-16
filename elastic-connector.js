@@ -19,8 +19,22 @@ function populateNodes(drawGraph) {
             // data = JSON.parse(data);
             console.log(data.hits.total);
             $.each(data.hits.hits, function (index, value) {
-                // console.log(value._source.parent);
-                graph_json.nodes.push({name: value._source.id.toString()});
+                //     // console.log(value._source.parent);
+                var color = 'green';
+                if (value._source.emotion == 'sad') {
+                    color = 'blue';
+                } else if (value._source.emotion == 'excited') {
+                    color = 'yellow';
+                } else if (value._source.emotion == 'fear') {
+                    color = 'black';
+                } else if (value._source.emotion == 'angry') {
+                    color = 'red';
+                }
+                graph_json.nodes.push({
+                    name: value._source.id.toString(),
+                    color: color,
+                    time: value._source.time
+                });
                 graph_json.links.push({
                     source: value._source.parent,
                     target: value._source.id
