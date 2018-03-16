@@ -1,0 +1,33 @@
+/.web-server-pid
+/app/config/parameters.yml
+/build/
+/phpunit.xml
+/var/*
+!/var/cache
+/var/cache/*
+!var/cache/.gitkeep
+!/var/logs
+/var/logs/*
+!var/logs/.gitkeep
+!/var/sessions
+/var/sessions/*
+!var/sessions/.gitkeep
+!var/SymfonyRequirements.php
+/vendor/
+/web/bundles/
+.idea/
+/web/uploads/
+
+*.swp
+*.swo
+
+#Design directory
+node_modules/
+junk/
+pre-design/
+/web/backend-root/assets/plugins/
+/app/Resources/views/base.old.html.twig
+*.psd
+#Semantic UI
+/web/assets/examples/
+/web/assets/semantic/dist/components/
