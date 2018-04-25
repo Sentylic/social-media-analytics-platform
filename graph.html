@@ -10,7 +10,18 @@
         stroke: #999;
         stroke-width: 1.5px;
     }
-
+    div.tooltip {
+        position: absolute;
+        text-align: left;
+        width: 400px;
+        height: 120px;
+        padding: 10px;
+        font: 25px sans-serif;
+        background: lightsteelblue;
+        border: 0px;
+        border-radius: 8px;
+        pointer-events: none;
+    }
 </style>
 <body>
 <script src="https://code.jquery.com/jquery-3.3.1.min.js"
@@ -20,9 +31,9 @@
 
 <script src="https://d3js.org/d3.v3.min.js"></script>
 <script>
-    var width = 960,
-        height = 600,
-        radius = 6,
+    var width = 1500,
+        height = 900,
+        radius = 10,
         padding = 50;
 
     var fill = d3.scale.category20();
@@ -72,6 +83,12 @@
             .node().appendChild(importedNode);
 
     })
+
+    // Define the div for the tooltip
+    var div = d3.select("body").append("div")
+        .attr("class", "tooltip")
+        .style("opacity", 0);
+
     //.......................
 
 
@@ -132,7 +149,26 @@
             .style("stroke", function (d) {
                 return d3.rgb(fill(d.group)).darker();
             })
-            .call(force.drag);
+            .call(force.drag)
+            .on("mouseover", function(d) {
+                div.transition()
+                    .duration(200)
+                    .style("opacity", .9);
+                div.html(
+                    "Title : " + d.title + "<br/>" +
+                    "Time : " + d.time + "<br/>" +
+                    "Emotion : " + d.emotion + "<br/>" +
+                    "Sentiment : " + d.sentiment + "<br/>"
+                )
+                    .style("left", (d3.event.pageX) + "px")
+                    .style("top", (d3.event.pageY - 28) + "px");
+            })
+            .on("mouseout", function(d) {
+                div.transition()
+                    .duration(500)
+                    .style("opacity", 0);
+            })
+        ;
 
         force
             .nodes(json.nodes)

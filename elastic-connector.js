@@ -33,7 +33,10 @@ function populateNodes(drawGraph) {
                 graph_json.nodes.push({
                     name: value._source.id.toString(),
                     color: color,
-                    time: value._source.time
+                    time: value._source.time,
+                    title: "title",
+                    emotion: value._source.emotion,
+                    sentiment: value._source.sentiment,
                 });
                 graph_json.links.push({
                     source: value._source.parent,
