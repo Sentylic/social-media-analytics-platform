@@ -36,7 +36,7 @@ module.exports.getNodes = function (index) {
                     match_all: {}
                 }
             },
-            size: 200
+            size: 1000
         }).then(function (resp) {
             var hits = resp.hits;
             hits.hits.forEach(function (value, index) {
