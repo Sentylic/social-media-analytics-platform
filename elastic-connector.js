@@ -1,25 +1,45 @@
-function populateNodes(drawGraph) {
+/**
+ * Created by chamod on 4/29/18.
+ */
+var express = require('express');
+var elasticsearch = require('elasticsearch');
 
-    var indexName = "tweets"
-    var host = "localhost";
-    var port = 9200;
+module.exports.getNodes = function (index) {
+    return new Promise(function (resolve, reject) {
+        var client = new elasticsearch.Client({
+            host: 'localhost:9200',
+            log: 'trace'
+        });
 
-    var data = {};
+        client.ping({
+            // ping usually has a 3000ms timeout
+            requestTimeout: 1000
+        }, function (err) {
+            if (err) {
+                console.trace('elasticsearch cluster is down!');
+                reject('elasticsearch cluster is down!');
+            } else {
+                console.log('All is well');
+            }
+        });
 
-    var graph_json = {
-        nodes: [],
-        links: []
-    }
+        var graph_json = {
+            nodes: [],
+            links: []
+        }
 
-    $.ajax({
-        type: "POST",
-        url: 'http://' + host + ':' + port + '/' + indexName + '/_search?size=500',
-        data: data,
-        success: function (data) {
-            // data = JSON.parse(data);
-            console.log(data.hits.total);
-            $.each(data.hits.hits, function (index, value) {
-                //     // console.log(value._source.parent);
+        client.search({
+            index: index,
+            type: 'tweet',
+            body: {
+                query: {
+                    match_all: {}
+                }
+            },
+            size: 200
+        }).then(function (resp) {
+            var hits = resp.hits;
+            hits.hits.forEach(function (value, index) {
                 var color = 'green';
                 if (value._source.emotion == 'sad') {
                     color = 'blue';
@@ -34,7 +54,7 @@ function populateNodes(drawGraph) {
                     name: value._source.id.toString(),
                     color: color,
                     time: value._source.time,
-                    title: "title",
+                    title: value._source.text,
                     emotion: value._source.emotion,
                     sentiment: value._source.sentiment,
                 });
@@ -44,13 +64,9 @@ function populateNodes(drawGraph) {
                 });
             });
 
-            // console.log(graph_json);
-            drawGraph(graph_json);
-        },
-
-        error: function (XMLHttpRequest, textStatus, errorThrown) {
-            console.log('Error : ' + errorThrown);
-        }
+            resolve(graph_json);
+        }, function (err) {
+            reject(err.message);
+        });
     });
-
-}
+};

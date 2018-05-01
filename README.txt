@@ -2,6 +2,8 @@
 
 2) Generate dummy.json
 
+Go to 'Data' directory
+
 python dummy.py > dummy.json
 
 3) Add dummy.json to elastic search

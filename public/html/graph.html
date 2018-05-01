@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="https://d3js.org/d3.v3.min.js"></script>
+    <link rel="stylesheet" href="../css/graph.css">
+</head>
+<body>
+    <div>
+        <button>Add File</button>
+        <a href="http://localhost:3000/tweets/kandy">Kandy</a>
+        <a href="http://localhost:3000/tweets/dummy">Dummy</a>
+    </div>
+    <script src="../js/graph.js"></script>
+    <script>
+        $('a').click(function () {
+            location.reload();
+        });
+    </script>
+</body>
+</html>

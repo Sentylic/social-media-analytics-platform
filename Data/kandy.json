@@ -1,0 +1,352 @@
+{"index": {"_type": "tweet", "_id": "0"}}
+{"emotion": "excited", "sentiment": -2, "parent": 0, "text": "unrest kandy alternative route people digana area police 2 vehicle ", "location": "dummy", "time": 1520121600000, "id": 0}
+{"index": {"_type": "tweet", "_id": "1"}}
+{"emotion": "fear", "sentiment": -2, "parent": 1, "text": "2 vehicle police digana area kandy alternative route unrest people ", "location": "dummy", "time": 1520121600000, "id": 1}
+{"index": {"_type": "tweet", "_id": "2"}}
+{"emotion": "happy", "sentiment": -1, "parent": 2, "text": "10 day state emergency govt law order emergency islandwide srilanka metronew crime government ", "location": "dummy", "time": 1520208000000, "id": 2}
+{"index": {"_type": "tweet", "_id": "3"}}
+{"emotion": "excited", "sentiment": -2, "parent": 3, "text": "sri lanka home law communal violence mosque racism kandy order country reason rw unp racial violence ", "location": "dummy", "time": 1520208000000, "id": 3}
+{"index": {"_type": "tweet", "_id": "4"}}
+{"emotion": "fear", "sentiment": -1, "parent": 4, "text": "incident independent impartial investigation violence peace humanity unity home sad minority time ", "location": "dummy", "time": 1520208000000, "id": 4}
+{"index": {"_type": "tweet", "_id": "5"}}
+{"emotion": "angry", "sentiment": -1, "parent": 5, "text": "action year violence digana incident clash victim rw unp politician order night justice ", "location": "dummy", "time": 1520208000000, "id": 5}
+{"index": {"_type": "tweet", "_id": "6"}}
+{"emotion": "excited", "sentiment": 1, "parent": 6, "text": "body burnt house clip mosque srilanka lka victim incident police curfew mob kandy digana racial violence ", "location": "dummy", "time": 1520208000000, "id": 6}
+{"index": {"_type": "tweet", "_id": "7"}}
+{"emotion": "angry", "sentiment": 0, "parent": 7, "text": "kandy district curfew sri lanka tense situation digana town violence don t tomorrow morning racial violence race religion ", "location": "dummy", "time": 1520208000000, "id": 7}
+{"index": {"_type": "tweet", "_id": "8"}}
+{"emotion": "sad", "sentiment": 1, "parent": 1, "text": "kandy sri lanka violence muslim police ampara death racism anti-muslim riot house kandy district ", "location": "dummy", "time": 1520208000000, "id": 8}
+{"index": {"_type": "tweet", "_id": "9"}}
+{"emotion": "sad", "sentiment": -2, "parent": 9, "text": "statement digana violence government ampara violence past srilanka sri lanka muslim president govt ", "location": "dummy", "time": 1520208000000, "id": 9}
+{"index": {"_type": "tweet", "_id": "10"}}
+{"emotion": "excited", "sentiment": 2, "parent": 1, "text": "violence digana area statement srilanka ampara government recent incident clip rw unp racial violence sinhalese ", "location": "dummy", "time": 1520208000000, "id": 10}
+{"index": {"_type": "tweet", "_id": "11"}}
+{"emotion": "excited", "sentiment": 0, "parent": 1, "text": "6am tomorrow effect police police curfew kandy area attack violence digana muslim ampara srilanka ", "location": "dummy", "time": 1520208000000, "id": 11}
+{"index": {"_type": "tweet", "_id": "12"}}
+{"emotion": "happy", "sentiment": 0, "parent": 1, "text": "police recent violence full responsibility kandy violence mahason balakaya picture ampara control group racial violence ", "location": "dummy", "time": 1520208000000, "id": 12}
+{"index": {"_type": "tweet", "_id": "13"}}
+{"emotion": "excited", "sentiment": 0, "parent": 1, "text": "police govt school peaceful situation kandy lka amith weerasinghe today mahason balakaya kandy ampara instruction clip ", "location": "dummy", "time": 1520208000000, "id": 13}
+{"index": {"_type": "tweet", "_id": "14"}}
+{"emotion": "happy", "sentiment": -2, "parent": 14, "text": "yesterday unruly behaviour 19 march violence 24 person member attack today 6am perpetrator police curfew ", "location": "dummy", "time": 1520208000000, "id": 14}
+{"index": {"_type": "tweet", "_id": "15"}}
+{"emotion": "angry", "sentiment": 2, "parent": 1, "text": "police curfew kandy srilanka govt school peaceful situation today digana violence kandy district digana area tomorrow morning ", "location": "dummy", "time": 1520208000000, "id": 15}
+{"index": {"_type": "tweet", "_id": "16"}}
+{"emotion": "happy", "sentiment": 2, "parent": 16, "text": "civic right racial violence leadership enough state period emergency 10 day communal violence sinhalese politician ", "location": "dummy", "time": 1520208000000, "id": 16}
+{"index": {"_type": "tweet", "_id": "17"}}
+{"emotion": "angry", "sentiment": -2, "parent": 1, "text": "police gas crowd kandy group clash mob police fire lka srilanka tear gas racial violence ", "location": "dummy", "time": 1520208000000, "id": 17}
+{"index": {"_type": "tweet", "_id": "18"}}
+{"emotion": "sad", "sentiment": -2, "parent": 0, "text": "religion human people humanity sad ampara race rw unp racial violence sinhalese politician ", "location": "dummy", "time": 1520208000000, "id": 18}
+{"index": {"_type": "tweet", "_id": "19"}}
+{"emotion": "angry", "sentiment": 2, "parent": 19, "text": "srilanka lka anti-muslim violence mosque hand colombo digana kandy kandy digana kandy law srilanka peace ", "location": "dummy", "time": 1520208000000, "id": 19}
+{"index": {"_type": "tweet", "_id": "20"}}
+{"emotion": "excited", "sentiment": 2, "parent": 0, "text": "police people shop digana area 7 house violence 6 shop area fire situation rw unp ", "location": "dummy", "time": 1520208000000, "id": 20}
+{"index": {"_type": "tweet", "_id": "21"}}
+{"emotion": "angry", "sentiment": -1, "parent": 0, "text": "people incident freedom hate kandy muslim night sri lanka religion country nation ", "location": "dummy", "time": 1520208000000, "id": 21}
+{"index": {"_type": "tweet", "_id": "22"}}
+{"emotion": "fear", "sentiment": -2, "parent": 22, "text": "decision state period 10 day emergency today rw unp racial violence sinhalese politician digana lka ", "location": "dummy", "time": 1520208000000, "id": 22}
+{"index": {"_type": "tweet", "_id": "23"}}
+{"emotion": "happy", "sentiment": -2, "parent": 23, "text": "independent incident impartial investigation digana kandy 2 mosque kandy digana kandy 7 house 6 shop racial violence sinhalese ", "location": "dummy", "time": 1520208000000, "id": 23}
+{"index": {"_type": "tweet", "_id": "24"}}
+{"emotion": "angry", "sentiment": -2, "parent": 24, "text": "individual theldeniya digana law ampara incident kandy district 6am tomorrow law enforcement religion action violence book ", "location": "dummy", "time": 1520208000000, "id": 24}
+{"index": {"_type": "tweet", "_id": "25"}}
+{"emotion": "happy", "sentiment": 0, "parent": 25, "text": "update atack muslims masjid clip violence tomorrow morning tense situation curfew government kandy district kandy ", "location": "dummy", "time": 1520208000000, "id": 25}
+{"index": {"_type": "tweet", "_id": "26"}}
+{"emotion": "happy", "sentiment": 2, "parent": 26, "text": "video violence youtube playlist impunity recent incident youtube minority communal disharmony law enforcement country crime ", "location": "dummy", "time": 1520208000000, "id": 26}
+{"index": {"_type": "tweet", "_id": "27"}}
+{"emotion": "sad", "sentiment": 2, "parent": 27, "text": "politician dont use srilanka politicalcrisislk nonsense government sinhalese place solution tear gas kandy lka conflict ", "location": "dummy", "time": 1520208000000, "id": 27}
+{"index": {"_type": "tweet", "_id": "28"}}
+{"emotion": "excited", "sentiment": 0, "parent": 28, "text": "law enforcement place law country racism world kandy district violence lka digana death incident ", "location": "dummy", "time": 1520208000000, "id": 28}
+{"index": {"_type": "tweet", "_id": "29"}}
+{"emotion": "sad", "sentiment": 2, "parent": 29, "text": "house shop tense situation fire digana kandy gas unruly crowd police fire lka srilanka police curfew ", "location": "dummy", "time": 1520208000000, "id": 29}
+{"index": {"_type": "tweet", "_id": "30"}}
+{"emotion": "happy", "sentiment": 2, "parent": 30, "text": "govt recent violence ampara law personal issue house death shop racism hatred cid team ", "location": "dummy", "time": 1520208000000, "id": 30}
+{"index": {"_type": "tweet", "_id": "31"}}
+{"emotion": "excited", "sentiment": 0, "parent": 31, "text": "race community sinhalese clash kandy incident group conflict event religion communal violence incident ", "location": "dummy", "time": 1520208000000, "id": 31}
+{"index": {"_type": "tweet", "_id": "32"}}
+{"emotion": "angry", "sentiment": -1, "parent": 32, "text": "racism justice post action digana incident guilty govt sad video burnt house independent ", "location": "dummy", "time": 1520208000000, "id": 32}
+{"index": {"_type": "tweet", "_id": "33"}}
+{"emotion": "angry", "sentiment": 0, "parent": 33, "text": "future buddhist violence muslim hatred sri lanka country government sinhalese peace nation ", "location": "dummy", "time": 1520208000000, "id": 33}
+{"index": {"_type": "tweet", "_id": "34"}}
+{"emotion": "excited", "sentiment": -2, "parent": 34, "text": "violence responsibility lka http world muslim incitement hate post communal violence sri lanka maithripala ", "location": "dummy", "time": 1520208000000, "id": 34}
+{"index": {"_type": "tweet", "_id": "35"}}
+{"emotion": "sad", "sentiment": 0, "parent": 1, "text": "police srilanka digana effect pallekele area situation kandy lka srilanka law rw unp racial violence sinhalese ", "location": "dummy", "time": 1520208000000, "id": 35}
+{"index": {"_type": "tweet", "_id": "36"}}
+{"emotion": "happy", "sentiment": 0, "parent": 1, "text": "police digana town tense situation kandy unruly crowd kandy district update youtube fire picture srilanka ", "location": "dummy", "time": 1520208000000, "id": 36}
+{"index": {"_type": "tweet", "_id": "37"}}
+{"emotion": "excited", "sentiment": 2, "parent": 1, "text": "mahason balakaya report amith weerasinghe racism kandy violence srilanka cid team rw unp racial violence sinhalese ", "location": "dummy", "time": 1520208000000, "id": 37}
+{"index": {"_type": "tweet", "_id": "38"}}
+{"emotion": "angry", "sentiment": -2, "parent": 1, "text": "police law justice perpetrator violence kandy 6am ampara peace clip rw unp ", "location": "dummy", "time": 1520208000000, "id": 38}
+{"index": {"_type": "tweet", "_id": "39"}}
+{"emotion": "angry", "sentiment": 2, "parent": 1, "text": "cid team digana area instruction igp kandy police lka srilanka police spokesman srilanka news update yesterday ", "location": "dummy", "time": 1520208000000, "id": 39}
+{"index": {"_type": "tweet", "_id": "40"}}
+{"emotion": "excited", "sentiment": 0, "parent": 1, "text": "police tear gas shop violence home time tomorrow morning community unruly crowd rule body ", "location": "dummy", "time": 1520208000000, "id": 40}
+{"index": {"_type": "tweet", "_id": "41"}}
+{"emotion": "sad", "sentiment": -1, "parent": 1, "text": "police mob gas video srilanka news violence full responsibility rw unp racial violence sinhalese politician ", "location": "dummy", "time": 1520208000000, "id": 41}
+{"index": {"_type": "tweet", "_id": "42"}}
+{"emotion": "happy", "sentiment": -2, "parent": 42, "text": "violence iccpr silence law enforcement incitement incident benefit leader muslim rule report ", "location": "dummy", "time": 1520208000000, "id": 42}
+{"index": {"_type": "tweet", "_id": "43"}}
+{"emotion": "sad", "sentiment": 2, "parent": 43, "text": "muslim temple tree night theldeniya incident police inaction protest lka digana picture fire update area ", "location": "dummy", "time": 1520208000000, "id": 43}
+{"index": {"_type": "tweet", "_id": "44"}}
+{"emotion": "excited", "sentiment": 1, "parent": 44, "text": "rw unp maithripala aluthgama law government communal disharmony event order racism fire book ", "location": "dummy", "time": 1520208000000, "id": 44}
+{"index": {"_type": "tweet", "_id": "45"}}
+{"emotion": "sad", "sentiment": 1, "parent": 45, "text": "incident racism country group srilanka violence guilty president lka digana lka theldeniya justice ", "location": "dummy", "time": 1520208000000, "id": 45}
+{"index": {"_type": "tweet", "_id": "46"}}
+{"emotion": "happy", "sentiment": 1, "parent": 45, "text": "sudden uprising racism rajitha dont connection kandy digana brother mosque current situation decision human right whatsapp ", "location": "dummy", "time": 1520294400000, "id": 46}
+{"index": {"_type": "tweet", "_id": "47"}}
+{"emotion": "excited", "sentiment": -2, "parent": 8, "text": "violence lka govt friend spread internet access law facebook kandy brother mosque current situation ", "location": "dummy", "time": 1520294400000, "id": 47}
+{"index": {"_type": "tweet", "_id": "48"}}
+{"emotion": "happy", "sentiment": 0, "parent": 15, "text": "srilanka current situation country act nation tomorrow kandy violence population silence decision ", "location": "dummy", "time": 1520294400000, "id": 48}
+{"index": {"_type": "tweet", "_id": "49"}}
+{"emotion": "sad", "sentiment": 2, "parent": 38, "text": "perpetrator violence sectarian violence worship issue statement human right pray basic freedom place law order ", "location": "dummy", "time": 1520294400000, "id": 49}
+{"index": {"_type": "tweet", "_id": "50"}}
+{"emotion": "fear", "sentiment": -2, "parent": 8, "text": "emergency sri lanka human right mob violence violence antimuslimviolence kandy digana brother mosque current situation decision ", "location": "dummy", "time": 1520294400000, "id": 50}
+{"index": {"_type": "tweet", "_id": "51"}}
+{"emotion": "fear", "sentiment": -1, "parent": 39, "text": "prosecute individual lka srilanka national racial arrest swift action violence statement sri lanka sinhala stern action maithripala ", "location": "dummy", "time": 1520294400000, "id": 51}
+{"index": {"_type": "tweet", "_id": "52"}}
+{"emotion": "fear", "sentiment": 0, "parent": 42, "text": "incitement violence law speech governance sri lanka change structure opposition time lka digana ", "location": "dummy", "time": 1520294400000, "id": 52}
+{"index": {"_type": "tweet", "_id": "53"}}
+{"emotion": "excited", "sentiment": -2, "parent": 44, "text": "maithripala minority group drive google communal violence sinhala stern action order www facebook masumanthiran lka srilanka rw unp ", "location": "dummy", "time": 1520294400000, "id": 53}
+{"index": {"_type": "tweet", "_id": "54"}}
+{"emotion": "excited", "sentiment": 0, "parent": 11, "text": "violence emergency state attack area kandy srilanka muslim people minority community curfew ", "location": "dummy", "time": 1520294400000, "id": 54}
+{"index": {"_type": "tweet", "_id": "55"}}
+{"emotion": "excited", "sentiment": 2, "parent": 26, "text": "impunity culture video violence change ampara teldeniya buddhist question governance structure sinhalese ", "location": "dummy", "time": 1520294400000, "id": 55}
+{"index": {"_type": "tweet", "_id": "56"}}
+{"emotion": "happy", "sentiment": -2, "parent": 3, "text": "violence sri lanka ampara digana sudarshana gunawardhana place director general communal disharmony govt kandy district home buddhist mob ", "location": "dummy", "time": 1520294400000, "id": 56}
+{"index": {"_type": "tweet", "_id": "57"}}
+{"emotion": "fear", "sentiment": -1, "parent": 13, "text": "report curfew kandy mob violence yesterday internet access govt tension state person emergency ", "location": "dummy", "time": 1520294400000, "id": 57}
+{"index": {"_type": "tweet", "_id": "58"}}
+{"emotion": "fear", "sentiment": -2, "parent": 24, "text": "violence action law silence prime minister friend srilankaemergency racial violence wrong police mosque ", "location": "dummy", "time": 1520294400000, "id": 58}
+{"index": {"_type": "tweet", "_id": "59"}}
+{"emotion": "angry", "sentiment": -2, "parent": 5, "text": "violence parliament justice ampara teldeniya leader lka digana politician victim govt measure state ", "location": "dummy", "time": 1520294400000, "id": 59}
+{"index": {"_type": "tweet", "_id": "60"}}
+{"emotion": "angry", "sentiment": -1, "parent": 60, "text": "speech sinhala person parliament daily mirror tamil tension fake news muslim mp effect ppl ", "location": "dummy", "time": 1520294400000, "id": 60}
+{"index": {"_type": "tweet", "_id": "61"}}
+{"emotion": "happy", "sentiment": -2, "parent": 28, "text": "place fake news govt srilanka decision facebook impunity kandy digana brother mosque current situation ", "location": "dummy", "time": 1520294400000, "id": 61}
+{"index": {"_type": "tweet", "_id": "62"}}
+{"emotion": "angry", "sentiment": 0, "parent": 6, "text": "allah evidence victim lka digana violence police muslim law attack day srilanka digana ", "location": "dummy", "time": 1520294400000, "id": 62}
+{"index": {"_type": "tweet", "_id": "63"}}
+{"emotion": "angry", "sentiment": 0, "parent": 14, "text": "unruly behaviour police menikhinna people kandy lka http yesterday digana lka brother mosque current situation ", "location": "dummy", "time": 1520294400000, "id": 63}
+{"index": {"_type": "tweet", "_id": "64"}}
+{"emotion": "fear", "sentiment": -1, "parent": 27, "text": "politician wrong opposition game govt government school tomorrow incitement whatsapp nation human right ", "location": "dummy", "time": 1520294400000, "id": 64}
+{"index": {"_type": "tweet", "_id": "65"}}
+{"emotion": "fear", "sentiment": 1, "parent": 45, "text": "violence arrest incident leader lka parliament group ampara teldeniya ppl digana town brother mosque ", "location": "dummy", "time": 1520294400000, "id": 65}
+{"index": {"_type": "tweet", "_id": "66"}}
+{"emotion": "happy", "sentiment": -2, "parent": 23, "text": "further notice effect police curfew police kandy digana current situation kandy srilanka sinhala srilanka digana impunity ", "location": "dummy", "time": 1520294400000, "id": 66}
+{"index": {"_type": "tweet", "_id": "67"}}
+{"emotion": "happy", "sentiment": 0, "parent": 36, "text": "police army update nation kandy digana brother mosque current situation decision human right whatsapp ", "location": "dummy", "time": 1520294400000, "id": 67}
+{"index": {"_type": "tweet", "_id": "68"}}
+{"emotion": "excited", "sentiment": 1, "parent": 11, "text": "religious violence attack government problem end area facebook srilanka muslim sinhala kandy digana ", "location": "dummy", "time": 1520294400000, "id": 68}
+{"index": {"_type": "tweet", "_id": "69"}}
+{"emotion": "fear", "sentiment": 0, "parent": 29, "text": "house body digana kandy fire facebook report srilanka tense situation mosque current situation decision ", "location": "dummy", "time": 1520294400000, "id": 69}
+{"index": {"_type": "tweet", "_id": "70"}}
+{"emotion": "happy", "sentiment": -2, "parent": 45, "text": "part country president state emergency society nation brother mosque current situation decision human right ", "location": "dummy", "time": 1520294400000, "id": 70}
+{"index": {"_type": "tweet", "_id": "71"}}
+{"emotion": "angry", "sentiment": 2, "parent": 45, "text": "part kandy http whatsapp lka digana nation brother mosque current situation decision human right incitement ", "location": "dummy", "time": 1520294400000, "id": 71}
+{"index": {"_type": "tweet", "_id": "72"}}
+{"emotion": "angry", "sentiment": -2, "parent": 2, "text": "perpetrator place human right basic freedom govt sectarian violence worship state emergency srilanka mosque ", "location": "dummy", "time": 1520294400000, "id": 72}
+{"index": {"_type": "tweet", "_id": "73"}}
+{"emotion": "angry", "sentiment": -2, "parent": 21, "text": "incident people sri lanka state law minister issue impunity lka digana act friend ", "location": "dummy", "time": 1520294400000, "id": 73}
+{"index": {"_type": "tweet", "_id": "74"}}
+{"emotion": "fear", "sentiment": 1, "parent": 31, "text": "violence buddhist connection parliament muslim resolution stern action emergency breaking country srilanka lka ", "location": "dummy", "time": 1520294400000, "id": 74}
+{"index": {"_type": "tweet", "_id": "75"}}
+{"emotion": "angry", "sentiment": 1, "parent": 2, "text": "law order government 10 day state monk escalation govt violence emergency digana lka ", "location": "dummy", "time": 1520294400000, "id": 75}
+{"index": {"_type": "tweet", "_id": "76"}}
+{"emotion": "excited", "sentiment": 2, "parent": 34, "text": "lka http violence emergency state stern action problem world buddhist society responsibility man ", "location": "dummy", "time": 1520294400000, "id": 76}
+{"index": {"_type": "tweet", "_id": "77"}}
+{"emotion": "sad", "sentiment": 2, "parent": 35, "text": "kandy situation lka digana twitter stern action curfew srilanka digana game kandy digana community brother ", "location": "dummy", "time": 1520294400000, "id": 77}
+{"index": {"_type": "tweet", "_id": "78"}}
+{"emotion": "happy", "sentiment": -1, "parent": 8, "text": "muslim house wrong mob sri lanka racism time kandy digana brother mosque current situation ", "location": "dummy", "time": 1520294400000, "id": 78}
+{"index": {"_type": "tweet", "_id": "79"}}
+{"emotion": "fear", "sentiment": -1, "parent": 17, "text": "kandy incident mob group people police area clash discussion community kandy digana ", "location": "dummy", "time": 1520294400000, "id": 79}
+{"index": {"_type": "tweet", "_id": "80"}}
+{"emotion": "angry", "sentiment": -1, "parent": 8, "text": "police 8pm today buddhist-muslim clash sri lanka stern action kandy emergency state mosque current situation human right ", "location": "dummy", "time": 1520294400000, "id": 80}
+{"index": {"_type": "tweet", "_id": "81"}}
+{"emotion": "angry", "sentiment": -2, "parent": 15, "text": "srilanka kandy http nation brother mosque current situation decision human right whatsapp incitement president ", "location": "dummy", "time": 1520294400000, "id": 81}
+{"index": {"_type": "tweet", "_id": "82"}}
+{"emotion": "angry", "sentiment": 1, "parent": 8, "text": "violence ampara kandy sri lanka police muslim country inaction tuesday kandy digana brother ", "location": "dummy", "time": 1520294400000, "id": 82}
+{"index": {"_type": "tweet", "_id": "83"}}
+{"emotion": "sad", "sentiment": -2, "parent": 18, "text": "people sudden uprising mob violence presrajapaksa racism connection fake news rajitha dont brother mosque current situation ", "location": "dummy", "time": 1520294400000, "id": 83}
+{"index": {"_type": "tweet", "_id": "84"}}
+{"emotion": "angry", "sentiment": 1, "parent": 9, "text": "violence lka parliament ampara teldeniya masumanthiran govt muslim community statement pray ppl incident minister ", "location": "dummy", "time": 1520294400000, "id": 84}
+{"index": {"_type": "tweet", "_id": "85"}}
+{"emotion": "angry", "sentiment": -2, "parent": 18, "text": "kandy fire end people racism religion curfew country sri lanka brother current situation ", "location": "dummy", "time": 1520294400000, "id": 85}
+{"index": {"_type": "tweet", "_id": "86"}}
+{"emotion": "excited", "sentiment": -2, "parent": 36, "text": "kandy tense situation kandy district police curfew police digana teldeniya sri lanka digana town curfew facebook kandy digana ", "location": "dummy", "time": 1520294400000, "id": 86}
+{"index": {"_type": "tweet", "_id": "87"}}
+{"emotion": "angry", "sentiment": -1, "parent": 7, "text": "racial violence religion culprit tense situation situation lka digana curfew religious violence digana riot menikhinna drive google ", "location": "dummy", "time": 1520294400000, "id": 87}
+{"index": {"_type": "tweet", "_id": "88"}}
+{"emotion": "excited", "sentiment": -1, "parent": 15, "text": "digana violence wimal govt attention daily mirror first time tension facebook incident kandy srilanka ", "location": "dummy", "time": 1520294400000, "id": 88}
+{"index": {"_type": "tweet", "_id": "89"}}
+{"emotion": "angry", "sentiment": 2, "parent": 39, "text": "instruction president internet access kandy district kandy lka srilanka communal violence srilankaemergency fake news further notice power ", "location": "dummy", "time": 1520294400000, "id": 89}
+{"index": {"_type": "tweet", "_id": "90"}}
+{"emotion": "sad", "sentiment": 2, "parent": 8, "text": "kandy victory racism person ppl lka parliament ampara teldeniya violence country srilanka digana impunity ", "location": "dummy", "time": 1520294400000, "id": 90}
+{"index": {"_type": "tweet", "_id": "91"}}
+{"emotion": "happy", "sentiment": -2, "parent": 40, "text": "time home shop police violence anti-muslim attack community day kandy srilanka digana riot ", "location": "dummy", "time": 1520294400000, "id": 91}
+{"index": {"_type": "tweet", "_id": "92"}}
+{"emotion": "angry", "sentiment": -1, "parent": 43, "text": "protest attack middle muslim mp group community island part srilanka digana kandy discussion ", "location": "dummy", "time": 1520294400000, "id": 92}
+{"index": {"_type": "tweet", "_id": "93"}}
+{"emotion": "angry", "sentiment": -2, "parent": 45, "text": "nation kandy digana brother mosque current situation decision human right whatsapp incitement president hatred ", "location": "dummy", "time": 1520294400000, "id": 93}
+{"index": {"_type": "tweet", "_id": "94"}}
+{"emotion": "happy", "sentiment": -2, "parent": 12, "text": "recent violence emergency police local authorities 7-day state security instruction kandy district comply ampara commence srilanka ", "location": "dummy", "time": 1520294400000, "id": 94}
+{"index": {"_type": "tweet", "_id": "95"}}
+{"emotion": "angry", "sentiment": -1, "parent": 24, "text": "r sampanthan law ampara teldeniya lka parliament lka srilanka ppl action act instigator violence silence ", "location": "dummy", "time": 1520294400000, "id": 95}
+{"index": {"_type": "tweet", "_id": "96"}}
+{"emotion": "happy", "sentiment": -1, "parent": 3, "text": "violence escalation 46 shop teldeniya area 37 house muslim 35 vehicle state sri lanka emergency mosque ", "location": "dummy", "time": 1520294400000, "id": 96}
+{"index": {"_type": "tweet", "_id": "97"}}
+{"emotion": "happy", "sentiment": 0, "parent": 97, "text": "groundview quote beast ride instigator discussion law order nation brother mosque current situation decision ", "location": "dummy", "time": 1520294400000, "id": 97}
+{"index": {"_type": "tweet", "_id": "98"}}
+{"emotion": "fear", "sentiment": -2, "parent": 23, "text": "police violence kandy digana theldeniya area police curfew lka http government army tomorrow attack muslim ", "location": "dummy", "time": 1520294400000, "id": 98}
+{"index": {"_type": "tweet", "_id": "99"}}
+{"emotion": "excited", "sentiment": 2, "parent": 4, "text": "minority army violence peace power kandy incident home world victim buddhist-muslim clash time ", "location": "dummy", "time": 1520294400000, "id": 99}
+{"index": {"_type": "tweet", "_id": "100"}}
+{"emotion": "sad", "sentiment": -2, "parent": 100, "text": "35 vehicle teldeniya area 46 shop 37 house spread whatsapp facebook stern action attack drive google prime minister ", "location": "dummy", "time": 1520294400000, "id": 100}
+{"index": {"_type": "tweet", "_id": "101"}}
+{"emotion": "angry", "sentiment": 0, "parent": 27, "text": "government muslim sinhalese sri lankan whatsapp group facebook kandy district tension politician week ", "location": "dummy", "time": 1520294400000, "id": 101}
+{"index": {"_type": "tweet", "_id": "102"}}
+{"emotion": "fear", "sentiment": 1, "parent": 6, "text": "mob mosque curfew shop victim kandy perpetrator srilanka lka law minority group army ", "location": "dummy", "time": 1520294400000, "id": 102}
+{"index": {"_type": "tweet", "_id": "103"}}
+{"emotion": "happy", "sentiment": -2, "parent": 14, "text": "perpetrator lka digana yesterday leader tamil tuesday problem arrest attack sectarian violence sri lanka ", "location": "dummy", "time": 1520294400000, "id": 103}
+{"index": {"_type": "tweet", "_id": "104"}}
+{"emotion": "angry", "sentiment": 1, "parent": 27, "text": "further notice government school power government fact impunity kandy digana brother mosque current situation decision ", "location": "dummy", "time": 1520294400000, "id": 104}
+{"index": {"_type": "tweet", "_id": "105"}}
+{"emotion": "angry", "sentiment": 0, "parent": 45, "text": "violence srilanka first time lka digana twitter culprit good kandy http end current situation decision ", "location": "dummy", "time": 1520294400000, "id": 105}
+{"index": {"_type": "tweet", "_id": "106"}}
+{"emotion": "happy", "sentiment": 0, "parent": 22, "text": "defence secretary srilanka trcsl decision whatsapp facebook government country kandy digana brother mosque ", "location": "dummy", "time": 1520294400000, "id": 106}
+{"index": {"_type": "tweet", "_id": "107"}}
+{"emotion": "angry", "sentiment": 1, "parent": 36, "text": "kandy digana town man group population update anti-muslim attack groundview fire arrest violence ", "location": "dummy", "time": 1520294400000, "id": 107}
+{"index": {"_type": "tweet", "_id": "108"}}
+{"emotion": "fear", "sentiment": -1, "parent": 45, "text": "kandy violence racism srilanka anti-muslim attack tragedy community kandy digana brother mosque current situation ", "location": "dummy", "time": 1520294400000, "id": 108}
+{"index": {"_type": "tweet", "_id": "109"}}
+{"emotion": "happy", "sentiment": 1, "parent": 10, "text": "recent incident ampara theldeniya parliament island kandy brother friend president recent violence ampara sectarian violence ", "location": "dummy", "time": 1520294400000, "id": 109}
+{"index": {"_type": "tweet", "_id": "110"}}
+{"emotion": "excited", "sentiment": 0, "parent": 28, "text": "place mob srilanka shop police escalation peace world violence muslim game ", "location": "dummy", "time": 1520294400000, "id": 110}
+{"index": {"_type": "tweet", "_id": "111"}}
+{"emotion": "angry", "sentiment": 1, "parent": 45, "text": "violence srilanka sinhala drive google muslim tamil group kandy digana brother mosque current situation ", "location": "dummy", "time": 1520294400000, "id": 111}
+{"index": {"_type": "tweet", "_id": "112"}}
+{"emotion": "excited", "sentiment": 2, "parent": 2, "text": "emergency state srilanka 10 day muslim tuesday govt anti-muslim attack nation whatsapp human right ", "location": "dummy", "time": 1520294400000, "id": 112}
+{"index": {"_type": "tweet", "_id": "113"}}
+{"emotion": "angry", "sentiment": -1, "parent": 11, "text": "area kandy attack muslim community digana teldeniya curfew buddhist mob law order kandy digana brother mosque ", "location": "dummy", "time": 1520294400000, "id": 113}
+{"index": {"_type": "tweet", "_id": "114"}}
+{"emotion": "happy", "sentiment": 1, "parent": 30, "text": "hatred srilanka law ampara theldeniya country world authorities incitement whatsapp human right nation ", "location": "dummy", "time": 1520294400000, "id": 114}
+{"index": {"_type": "tweet", "_id": "115"}}
+{"emotion": "fear", "sentiment": -1, "parent": 31, "text": "community muslim buddhist violence sri lanka antimuslimviolence sri lankan part group kandy law ", "location": "dummy", "time": 1520294400000, "id": 115}
+{"index": {"_type": "tweet", "_id": "116"}}
+{"emotion": "excited", "sentiment": -2, "parent": 35, "text": "srilanka digana part area inaction society state emergency country violence anti-muslim attack current situation decision ", "location": "dummy", "time": 1520294400000, "id": 116}
+{"index": {"_type": "tweet", "_id": "117"}}
+{"emotion": "happy", "sentiment": 0, "parent": 17, "text": "no violence group buddhist mob antimuslimviolence digana teldeniya measure situation fact clash ppl game ", "location": "dummy", "time": 1520294400000, "id": 117}
+{"index": {"_type": "tweet", "_id": "118"}}
+{"emotion": "excited", "sentiment": -1, "parent": 8, "text": "violence ampara teldeniya lka parliament speech masumanthiran structure governance r sampanthan population current situation decision ", "location": "dummy", "time": 1520294400000, "id": 118}
+{"index": {"_type": "tweet", "_id": "119"}}
+{"emotion": "angry", "sentiment": 1, "parent": 15, "text": "sri lanka lesson digana violence minister police army law nation whatsapp human right current situation ", "location": "dummy", "time": 1520294400000, "id": 119}
+{"index": {"_type": "tweet", "_id": "120"}}
+{"emotion": "happy", "sentiment": 2, "parent": 8, "text": "violence ampara teldeniya lka parliament question ppl srilankaemergency r sampanthan authorities current situation decision human right ", "location": "dummy", "time": 1520294400000, "id": 120}
+{"index": {"_type": "tweet", "_id": "121"}}
+{"emotion": "fear", "sentiment": 2, "parent": 19, "text": "day racism game brother colombo india mosque digana kandy situation srilanka lka current situation ", "location": "dummy", "time": 1520294400000, "id": 121}
+{"index": {"_type": "tweet", "_id": "122"}}
+{"emotion": "angry", "sentiment": -2, "parent": 8, "text": "ampara emergency kandy state country violence sri lanka government recent incident curfew incident ", "location": "dummy", "time": 1520294400000, "id": 122}
+{"index": {"_type": "tweet", "_id": "123"}}
+{"emotion": "sad", "sentiment": -1, "parent": 18, "text": "country religion nation people maithripala situation hatred racism ampara brother kandy incident ", "location": "dummy", "time": 1520294400000, "id": 123}
+{"index": {"_type": "tweet", "_id": "124"}}
+{"emotion": "angry", "sentiment": 0, "parent": 15, "text": "srilanka ampara digana sectarian violence masumanthiran swift action parliament nation kandy digana brother mosque current situation ", "location": "dummy", "time": 1520294400000, "id": 124}
+{"index": {"_type": "tweet", "_id": "125"}}
+{"emotion": "fear", "sentiment": 1, "parent": 55, "text": "impunity violence culture history past heavy heart sri lanka govt instagram lack perpetrator ", "location": "dummy", "time": 1520380800000, "id": 125}
+{"index": {"_type": "tweet", "_id": "126"}}
+{"emotion": "sad", "sentiment": 0, "parent": 95, "text": "violence act kandy lka srilanka culprit recent incident community world digana kandy srilanka religion ", "location": "dummy", "time": 1520380800000, "id": 126}
+{"index": {"_type": "tweet", "_id": "127"}}
+{"emotion": "excited", "sentiment": 2, "parent": 54, "text": "state violence kandy declaration britain australia march 8 united state igp pujith curfew groundview colombo anti-muslim violence ", "location": "dummy", "time": 1520380800000, "id": 127}
+{"index": {"_type": "tweet", "_id": "128"}}
+{"emotion": "sad", "sentiment": 0, "parent": 87, "text": "lka digana violence reason religion emergency war hope culprit victim sinhalese sporadic ", "location": "dummy", "time": 1520380800000, "id": 128}
+{"index": {"_type": "tweet", "_id": "129"}}
+{"emotion": "angry", "sentiment": -2, "parent": 61, "text": "govt place citizen work fake news goon kandy district mob country info digana lka ", "location": "dummy", "time": 1520380800000, "id": 129}
+{"index": {"_type": "tweet", "_id": "130"}}
+{"emotion": "angry", "sentiment": 0, "parent": 123, "text": "country nation people racism today hatred spreading violence state communal violence thought digana lka ", "location": "dummy", "time": 1520380800000, "id": 130}
+{"index": {"_type": "tweet", "_id": "131"}}
+{"emotion": "happy", "sentiment": 1, "parent": 57, "text": "kandy incident curfew kandy srilanka precursor travel yesterday groundview muslim shop bloodshed cricketer ", "location": "dummy", "time": 1520380800000, "id": 131}
+{"index": {"_type": "tweet", "_id": "132"}}
+{"emotion": "fear", "sentiment": 2, "parent": 105, "text": "first time good violence twitter street curfew today government kandy digana country lka digana ", "location": "dummy", "time": 1520380800000, "id": 132}
+{"index": {"_type": "tweet", "_id": "133"}}
+{"emotion": "excited", "sentiment": 1, "parent": 133, "text": "fcohumanright foreignoffice unhumanright restriction law enforcement lack concern iwd2018 responsible vikalpavoice minister ", "location": "dummy", "time": 1520380800000, "id": 133}
+{"index": {"_type": "tweet", "_id": "134"}}
+{"emotion": "sad", "sentiment": -1, "parent": 64, "text": "violence politician voice sri lankan monk lka srilanka religion theldeniya incident war communal violence outsider ", "location": "dummy", "time": 1520380800000, "id": 134}
+{"index": {"_type": "tweet", "_id": "135"}}
+{"emotion": "happy", "sentiment": 2, "parent": 32, "text": "violence government rw unp measure perpetrator action authorities kandy incident racism people word ", "location": "dummy", "time": 1520380800000, "id": 135}
+{"index": {"_type": "tweet", "_id": "136"}}
+{"emotion": "happy", "sentiment": 2, "parent": 20, "text": "stone country facebook situation issue violence fire action good incident island ", "location": "dummy", "time": 1520380800000, "id": 136}
+{"index": {"_type": "tweet", "_id": "137"}}
+{"emotion": "angry", "sentiment": 1, "parent": 69, "text": "digana kandy fire violence stf house kandy incident facebook victim country racism muslim ", "location": "dummy", "time": 1520380800000, "id": 137}
+{"index": {"_type": "tweet", "_id": "138"}}
+{"emotion": "sad", "sentiment": 2, "parent": 111, "text": "recent past sinhala tamil country kumarsanga2 people srilanka buddhist racism message fake news ", "location": "dummy", "time": 1520380800000, "id": 138}
+{"index": {"_type": "tweet", "_id": "139"}}
+{"emotion": "excited", "sentiment": -2, "parent": 66, "text": "further notice igp kandy digana violence cricketer srilanka instruction facebook state escalation fake news ", "location": "dummy", "time": 1520380800000, "id": 139}
+{"index": {"_type": "tweet", "_id": "140"}}
+{"emotion": "excited", "sentiment": 2, "parent": 109, "text": "island parliament violence favour tension service provider no-confidence motion srilankaemergency digana 72-hour event government ", "location": "dummy", "time": 1520380800000, "id": 140}
+{"index": {"_type": "tweet", "_id": "141"}}
+{"emotion": "sad", "sentiment": 2, "parent": 80, "text": "sri lanka violence lesson authorities incitement crime muslim digana http unity canada minister ", "location": "dummy", "time": 1520380800000, "id": 141}
+{"index": {"_type": "tweet", "_id": "142"}}
+{"emotion": "angry", "sentiment": 2, "parent": 48, "text": "current situation law sri lanka outsider army maithripala statement citizen situation colombo act ", "location": "dummy", "time": 1520380800000, "id": 142}
+{"index": {"_type": "tweet", "_id": "143"}}
+{"emotion": "sad", "sentiment": 2, "parent": 72, "text": "perpetrator violence place socialmedia street law digana lka war communal violence vpn kandy ", "location": "dummy", "time": 1520380800000, "id": 143}
+{"index": {"_type": "tweet", "_id": "144"}}
+{"emotion": "angry", "sentiment": 1, "parent": 46, "text": "day kandy violence update violence racism srilanka country lka srilanka message end lka digana ", "location": "dummy", "time": 1520380800000, "id": 144}
+{"index": {"_type": "tweet", "_id": "145"}}
+{"emotion": "happy", "sentiment": 2, "parent": 120, "text": "violence friend evidence link people curfew state spread mob presrajapaksa fear ", "location": "dummy", "time": 1520380800000, "id": 145}
+{"index": {"_type": "tweet", "_id": "146"}}
+{"emotion": "sad", "sentiment": 1, "parent": 122, "text": "kandy recent incident curfew state emergency srilanka ampara house kandy incident violence info ", "location": "dummy", "time": 1520380800000, "id": 146}
+{"index": {"_type": "tweet", "_id": "147"}}
+{"emotion": "angry", "sentiment": 1, "parent": 54, "text": "kandy emergency state area mob attack sri lanka spreading violence violence srilanka service provider minister ", "location": "dummy", "time": 1520380800000, "id": 147}
+{"index": {"_type": "tweet", "_id": "148"}}
+{"emotion": "sad", "sentiment": -1, "parent": 84, "text": "statement violence ongoing violence support canada attack state chief communal violence inter-religious violence solidarity ", "location": "dummy", "time": 1520380800000, "id": 148}
+{"index": {"_type": "tweet", "_id": "149"}}
+{"emotion": "sad", "sentiment": -2, "parent": 81, "text": "srilanka viber whatsapp spread hate speech night facebook akurana communal violence curfew violence ", "location": "dummy", "time": 1520380800000, "id": 149}
+{"index": {"_type": "tweet", "_id": "150"}}
+{"emotion": "happy", "sentiment": 0, "parent": 118, "text": "muslim violence mob violence business curfew moment united state viber escalation fake news info ", "location": "dummy", "time": 1520380800000, "id": 150}
+{"index": {"_type": "tweet", "_id": "151"}}
+{"emotion": "fear", "sentiment": -1, "parent": 56, "text": "home kandy district communal violence chief curfew violence srilanka majority info reason govt ", "location": "dummy", "time": 1520380800000, "id": 151}
+{"index": {"_type": "tweet", "_id": "152"}}
+{"emotion": "sad", "sentiment": 1, "parent": 91, "text": "time army personnel conflict police srilanka resident people shop date government home ", "location": "dummy", "time": 1520380800000, "id": 152}
+{"index": {"_type": "tweet", "_id": "153"}}
+{"emotion": "happy", "sentiment": 1, "parent": 54, "text": "continuing episode people muslim ethnic recurring mob violence unhumanright hate violence lka srilankaemergency beauty love ", "location": "dummy", "time": 1520380800000, "id": 153}
+{"index": {"_type": "tweet", "_id": "154"}}
+{"emotion": "fear", "sentiment": 0, "parent": 87, "text": "situation culprit police video word srilanka escalation fake news ethnicity fear info ", "location": "dummy", "time": 1520380800000, "id": 154}
+{"index": {"_type": "tweet", "_id": "155"}}
+{"emotion": "excited", "sentiment": 1, "parent": 62, "text": "attack law enforcement evidence sinhalese mob katugastota escalation incident communal violence akurana building ", "location": "dummy", "time": 1520380800000, "id": 155}
+{"index": {"_type": "tweet", "_id": "156"}}
+{"emotion": "sad", "sentiment": -1, "parent": 58, "text": "action violence petition perpetrator groundview muslim sri lanka cricketer date link igp ", "location": "dummy", "time": 1520380800000, "id": 156}
+{"index": {"_type": "tweet", "_id": "157"}}
+{"emotion": "sad", "sentiment": -2, "parent": 97, "text": "37 house four mosque 35 vehicle enough attack 46 shop teldeniya area law order srilanka president impunity ", "location": "dummy", "time": 1520380800000, "id": 157}
+{"index": {"_type": "tweet", "_id": "158"}}
+{"emotion": "angry", "sentiment": -2, "parent": 16, "text": "emergency state communal violence violence srilanka srilanka lka incident war first time control lka digana ", "location": "dummy", "time": 1520380800000, "id": 158}
+{"index": {"_type": "tweet", "_id": "159"}}
+{"emotion": "sad", "sentiment": -2, "parent": 106, "text": "facebook srilanka prevailing situation country trc instruction whatsapp 72-hour access service provider fresh round ", "location": "dummy", "time": 1520380800000, "id": 159}
+{"index": {"_type": "tweet", "_id": "160"}}
+{"emotion": "sad", "sentiment": 2, "parent": 63, "text": "violence lka http yesterday tension situation communal violence government srilanka people kandy attack ", "location": "dummy", "time": 1520380800000, "id": 160}
+{"index": {"_type": "tweet", "_id": "161"}}
+{"emotion": "sad", "sentiment": -1, "parent": 161, "text": "muslim shop building info anti-muslim violence fresh round 0711261261 email service provider trc racism kandy order ", "location": "dummy", "time": 1520380800000, "id": 161}
+{"index": {"_type": "tweet", "_id": "162"}}
+{"emotion": "fear", "sentiment": -1, "parent": 52, "text": "history violence leader don t people kandy incident attack government canada sri lanka viber ", "location": "dummy", "time": 1520380800000, "id": 162}
+{"index": {"_type": "tweet", "_id": "163"}}
+{"emotion": "sad", "sentiment": 0, "parent": 70, "text": "don t racism part unite political propaganda war end country communal violence president digana lka ", "location": "dummy", "time": 1520380800000, "id": 163}
+{"index": {"_type": "tweet", "_id": "164"}}
+{"emotion": "excited", "sentiment": 0, "parent": 110, "text": "stf police escalation place shop mob resident violence srilanka sri lanka day ", "location": "dummy", "time": 1520380800000, "id": 164}
+{"index": {"_type": "tweet", "_id": "165"}}
+{"emotion": "sad", "sentiment": 1, "parent": 67, "text": "today army curfew police fire akurana house law violence update muslim ", "location": "dummy", "time": 1520380800000, "id": 165}
+{"index": {"_type": "tweet", "_id": "166"}}
+{"emotion": "angry", "sentiment": 0, "parent": 108, "text": "srilanka violence kandy colombo majority viber community war history lka digana vpn ", "location": "dummy", "time": 1520380800000, "id": 166}
+{"index": {"_type": "tweet", "_id": "167"}}
+{"emotion": "happy", "sentiment": 2, "parent": 47, "text": "facebook spread hate speech srilanka anti-muslim violence sri lanka lka govt whatsapp socialmedia law enforcement govt ", "location": "dummy", "time": 1520380800000, "id": 167}
+{"index": {"_type": "tweet", "_id": "168"}}
+{"emotion": "happy", "sentiment": 2, "parent": 73, "text": "law order minister violence spread incident kandy emergency petition govt sri lanka ", "location": "dummy", "time": 1520380800000, "id": 168}
+{"index": {"_type": "tweet", "_id": "169"}}
+{"emotion": "excited", "sentiment": -2, "parent": 114, "text": "hatred racist gosl violence war love crime chief info minister service provider ", "location": "dummy", "time": 1520380800000, "id": 169}
+{"index": {"_type": "tweet", "_id": "170"}}
+{"emotion": "excited", "sentiment": -1, "parent": 118, "text": "violence person hand shop kandy srilanka time colombo mosque ethnicity viber escalation ", "location": "dummy", "time": 1520380800000, "id": 170}
+{"index": {"_type": "tweet", "_id": "171"}}
+{"emotion": "happy", "sentiment": 1, "parent": 121, "text": "colombo violence day buddhist mob mosque reuter srilanka lka business wednesday situation muslim ", "location": "dummy", "time": 1520380800000, "id": 171}
+{"index": {"_type": "tweet", "_id": "172"}}
+{"emotion": "excited", "sentiment": 2, "parent": 53, "text": "violence sinhala presrajapaksa statement communal violence rw unp minister order srilanka control police ", "location": "dummy", "time": 1520380800000, "id": 172}
+{"index": {"_type": "tweet", "_id": "173"}}
+{"emotion": "angry", "sentiment": -2, "parent": 86, "text": "kandy district violence sporadic katugastota muslim shop akurana different part resident police attack vikalpavoice ", "location": "dummy", "time": 1520380800000, "id": 173}
+{"index": {"_type": "tweet", "_id": "174"}}
+{"emotion": "happy", "sentiment": -2, "parent": 37, "text": "today violence srilanka time war world antimuslimviolence vikalpavoice kandy srilanka buddhism issue ", "location": "dummy", "time": 1520380800000, "id": 174}
+{"index": {"_type": "tweet", "_id": "175"}}
+{"emotion": "fear", "sentiment": 0, "parent": 115, "text": "group rhetoric srilanka outsider muslim antimuslimviolence theldeniya incident buddhist violence part lka srilanka ", "location": "dummy", "time": 1520380800000, "id": 175}

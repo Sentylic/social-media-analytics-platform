@@ -1,0 +1,21 @@
+{
+  "name": "pathway-visualizer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Chamod",
+  "license": "ISC",
+  "dependencies": {
+    "d3": "^3.5.12",
+    "elasticsearch": "^14.2.2",
+    "express": "^4.16.3",
+    "html": "^1.0.0",
+    "jquery": "^3.3.1",
+    "jsdom": "^11.9.0",
+    "jsonfile": "^4.0.0",
+    "pug": "^2.0.3"
+  }
+}
