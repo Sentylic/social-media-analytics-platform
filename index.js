@@ -5,9 +5,18 @@ var express = require('express');
 var app = express();
 var tweets = require('./tweets');
 
+const exphbs = require('express-handlebars');
+const path = require('path');
+
 app.use(express.static(__dirname + '/public'));
 
-app.set('view engine', 'pug');
+app.engine('.hbs', exphbs({
+    defaultLayout: 'main',
+    extname: '.hbs',
+    layoutsDir: path.join(__dirname, 'views/layouts')
+}));
+
+app.set('view engine', '.hbs');
 app.set('views','./views');
 
 app.use('/tweets', tweets);

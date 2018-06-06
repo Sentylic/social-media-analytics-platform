@@ -10,37 +10,33 @@ var fs = require("fs");
 function readJsonFiles() {
     return new Promise(function (resolve, reject) {
         var json_files = [];
-        fs.readdir('./public/json', (err, files) => {
+        fs.readdir('./Data', (err, files) => {
             if (err) {
                 reject(err);
             }
             files.forEach(file => {
-                json_files.push(file);
+                json_files.push(file.split(".")[0]);
             });
             resolve(json_files);
         });
     });
 }
 
+router.get('/', function (req, res) {
+
+    readJsonFiles().then(function (json_files) {
+        res.render('index', {files : json_files, req: req});
+    });
+});
+
 router.get('/:index', function (req, res) {
+    var files = null;
     readJsonFiles().then(
         function (json_files) {
-
-            console.log(json_files);
-            // res.send(result);
+            files = json_files;
             elastic_connector.getNodes(req.params.index).then(
                 function (data) {
-                    jsonfile.writeFile('./public/json/graph.json', data, function () {
-                        return res.sendfile('./public/html/graph.html');
-                        // res.send(data);
-                        // console.log('Hello');
-                        // res.render('graph')
-                        // return res.render('index',{}, function (err, html) {
-                        //     console.log('came ' + err + html);
-                        //     if (err) res.send(err);
-                        //     else res.send(html)
-                        // });
-                    });
+                    jsonfile.writeFile('./public/json/graph.json', data);
                 },
                 function (err) {
                     console.log(err);
@@ -52,7 +48,9 @@ router.get('/:index', function (req, res) {
             console.log(err);
             return res.send(err);
         }
-    );
+    ).then(function () {
+        res.render('graph', {files : files, req: req});
+    });
 });
 
 
