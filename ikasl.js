@@ -28,13 +28,21 @@ router.get('/:dataset', (req, res) => {
 
         command = 'java -cp IKASL.jar com.algorithms.test.TestIKASL_TextDatabased_EventDetection_new_data -p '+ dataset_path + '-htf 0.5';
         exec(command, (err, stdout, stderr) => {
-            if (err) return res.send("Error :0 + err");
+            if (err) return res.send("Error :" + err);
 
             res.send("IKASL completed. Results Saved");
+
+            // now the results are saved
+            // next is to run the python script process_layers
+            command = 'python process_layers.py --dataset ' + dataset;
+            exec(command, (err, stdout, stderr) => {
+                if (err) return res.send("Error: " + err);
+
+                return res.send("JSON Created successfully!. Now it is time for Chamod's visualization :-P")
+            });
         });
     });
 });
-
 
 
 module.exports = router;
