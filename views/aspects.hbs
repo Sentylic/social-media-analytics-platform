@@ -1,0 +1,108 @@
+<link href="https://afeld.github.io/emoji-css/emoji.css" rel="stylesheet">
+
+<style>
+    ::-webkit-input-placeholder {
+        font-size: 20px;
+    }
+
+    :-moz-placeholder { /* Firefox 18- */
+        font-size: 20px;
+    }
+
+    ::-moz-placeholder { /* Firefox 19+ */
+        font-size: 20px;
+    }
+
+    .label-xsmall {
+        vertical-align: super;
+        font-size: x-small;
+    }
+
+    .label-small {
+        vertical-align: super;
+        font-size: small;
+    }
+
+    .label-medium {
+        vertical-align: super;
+        font-size: medium;
+    }
+
+    .label-large {
+        vertical-align: super;
+        font-size: large;
+    }
+
+    .label-bs {
+        vertical-align: super;
+    }
+
+    .emoji-style {
+        height: 6.5em;
+        width: 6.5em;
+    }
+</style>
+
+<div class="container">
+    <h3 style="padding: 10px;">Aspect Based Sentiment Analysis</h3>
+
+    <!--<div class="form-header">-->
+        <!--{{#if errors}}-->
+    <!--<h2 class="errors-heading">Oops, please correct the following:</h2>-->
+    <!--<ul class="errors-list">-->
+        <!--{{#each errors as |error|}}-->
+        <!--<li>{{error.msg}}</li>-->
+            <!--{{/each}}-->
+    <!--</ul>-->
+        <!--{{else}}-->
+    <!--<h2>Send us a message</h2>-->
+        <!--{{/if}}-->
+    <!--</div>-->
+
+    <form method="post" action="/aspects/findAspects" novalidate>
+        <div class="form-group">
+            <textarea id="message" name="message" autofocus class="input form-control "
+                      placeholder="Enter a review .....">{{data.message}}</textarea>
+            {{# if errors.message }}
+                <br>
+                <span class="label label-danger label-large error">{{errors.message.msg}}</span>
+            {{/if}}
+        </div>
+        <div class="form-actions">
+            <button class="btn btn-primary" type="submit">Analyze Aspects</button>
+        </div>
+    </form>
+    <br>
+    <div>
+        {{#if aspects}}
+            <table class="table table-dark">
+                <thead>
+                <tr>
+                    <th><h3>Aspect</h3></th>
+                    <th><h3>Sentiment</h3></th>
+                </tr>
+                </thead>
+                <tbody>
+                {{#each aspects}}
+                    <tr>
+                        <td>
+                            <h4>{{this.aspect}}</h4>
+                        </td>
+                        <td>
+                            {{#equal this.sentiment 0}}
+                                <i class="em-svg em-neutral_face emoji-style"></i>
+                            {{/equal}}
+                            {{#equal this.sentiment 1}}
+                                <i class="em-svg em-grinning emoji-style"></i>
+                            {{/equal}}
+                            {{#equal this.sentiment -1}}
+                                <i class="em-svg em-angry emoji-style"></i>
+                            {{/equal}}
+                        </td>
+                    </tr>
+                {{/each}}
+                </tbody>
+            </table>
+        {{/if}}
+    </div>
+</div>
