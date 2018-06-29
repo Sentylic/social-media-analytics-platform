@@ -7,31 +7,11 @@ var elastic_connector = require('./elastic-connector');
 var jsonfile = require("jsonfile");
 var fs = require("fs");
 
-function readJsonFiles() {
-    return new Promise(function (resolve, reject) {
-        var json_files = [];
-        fs.readdir('./Data', (err, files) => {
-            if (err) {
-                reject(err);
-            }
-            files.forEach(file => {
-                json_files.push(file.split(".")[0]);
-            });
-            resolve(json_files);
-        });
-    });
-}
-
-router.get('/', function (req, res) {
-
-    readJsonFiles().then(function (json_files) {
-        res.render('index', {files: json_files, req: req});
-    });
-});
+var util = require("./util");
 
 router.get('/:index', function (req, res) {
     var files = null;
-    readJsonFiles().then(
+    util.readJsonFiles().then(
         function (json_files) {
             files = json_files;
             elastic_connector.getNodes(req.params.index).then(

@@ -3,11 +3,14 @@
  */
 var express = require('express');
 var router = express.Router();
+var util = require("./util");
 
-const { check, validationResult } = require('express-validator/check')
+const {check, validationResult} = require('express-validator/check')
 
 router.get('/', function (req, res) {
-    res.render('aspects');
+    util.readJsonFiles().then(function (json_files) {
+        res.render('aspects', {files: json_files, req: req});
+    });
 });
 
 router.post('/findAspects', [
@@ -19,21 +22,24 @@ router.post('/findAspects', [
     if (!errors.isEmpty()) {
         return res.render('aspects', {
             data: req.body,
-            errors: errors.mapped()
+            errors: errors.mapped(),
         })
     }
 
     //find aspects and sentiments
-    aspects  = [
-        {aspect : 'food', sentiment : -1},
-        {aspect : 'drinks', sentiment : 0},
-        {aspect : 'service', sentiment : 1},
+    aspects = [
+        {aspect: 'food', sentiment: -1},
+        {aspect: 'drinks', sentiment: 0},
+        {aspect: 'service', sentiment: 1},
     ]
 
-    return res.render('aspects', {
-        data: req.body,
-        aspects: aspects,
-    })
+    util.readJsonFiles().then(function (json_files) {
+        return res.render('aspects', {
+            data: req.body,
+            aspects: aspects,
+            files: json_files, req: req
+        })
+    });
 })
 
 //export this router to use in our index.js

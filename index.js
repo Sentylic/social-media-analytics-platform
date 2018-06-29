@@ -5,6 +5,7 @@ var express = require('express');
 var app = express();
 var tweets = require('./tweets');
 var aspects = require('./aspects');
+var util = require("./util");
 
 const exphbs = require('express-handlebars');
 
@@ -45,7 +46,9 @@ app.use('/aspects', aspects);
 
 //home route
 app.get('/', function (req, res) {
-    res.render('index', {title: 'Helooo', author: 'Chamod'})
+    util.readJsonFiles().then(function (json_files) {
+        res.render('index', {files: json_files, req: req});
+    });
 });
 
 //unmatched routes(404)
