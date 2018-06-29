@@ -19,3 +19,10 @@ curl -XPOST 'http://localhost:9200/tweets/_bulk?pretty' -H "Content-Type:applica
 * To delete index
 
 curl -XDELETE localhost:9200/tweets
+
+
+///////////////////////////////////////////////////////
+
+* To run server
+
+node index.js
