@@ -3,21 +3,42 @@
 <head>
     <meta charset="utf-8">
     <title>Example App</title>
+    <!-- Bootstrap -->
+    <link href="/bootstrap/dist/css/bootstrap.css" rel="stylesheet">
+    <link rel="stylesheet" href="/css/graph.css">
+
+
     <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
     <script src="https://d3js.org/d3.v3.min.js"></script>
-    <link rel="stylesheet" href="/css/graph.css">
+    <script src="/bootstrap/dist/js/bootstrap.js"></script>
 </head>
 <body>
-
-<select name="files" id="files">
-    {{#each files}}
-        <option value="http://localhost:3000/tweets/{{this}}">{{this}}</option>
-    {{/each}}
-</select>
-
-{{{body}}}
-{{res}}
-
+<div>
+    <nav class="navbar navbar-default">
+        <div class="container-fluid">
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-left">
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown"
+                           role="button" aria-haspopup="true" aria-expanded="false">
+                            Discussions
+                            <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            {{#each files}}
+                                <li><a href="http://localhost:3000/tweets/{{this}}">{{this}}</a></li>
+                            {{/each}}
+                        </ul>
+                    </li>
+                </ul>
+            </div><!-- /.navbar-collapse -->
+        </div><!-- /.container-fluid -->
+    </nav>
+</div>
+<div>
+    {{{body}}}
+    {{res}}
+</div>
 <script>
     $('#files').change(function () {
         window.location.href = $(this).val();

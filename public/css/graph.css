@@ -10,8 +10,8 @@ line {
 div.tooltip {
     position: absolute;
     text-align: left;
-    width: 400px;
-    height: 200px;
+    width: auto;
+    height: auto;
     padding: 10px;
     font: 25px sans-serif;
     background: lightsteelblue;

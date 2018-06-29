@@ -3,7 +3,7 @@
  */
 
 var width = 1500,
-    height = 900,
+    height = 1000,
     radius = 10,
     padding = 50;
 
@@ -25,10 +25,13 @@ var div = d3.select("body").append("div")
     .attr("class", "tooltip")
     .style("opacity", 0);
 
+$(function () {
+
 //.......................
-$.getJSON("../json/graph.json", function (json) {
-    console.log(json);
-    drawDiagram(json);
+    $.getJSON("../json/graph.json", function (json) {
+        console.log(json);
+        drawDiagram(json);
+    });
 });
 
 function drawDiagram(json) {

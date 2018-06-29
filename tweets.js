@@ -25,7 +25,7 @@ function readJsonFiles() {
 router.get('/', function (req, res) {
 
     readJsonFiles().then(function (json_files) {
-        res.render('index', {files : json_files, req: req});
+        res.render('index', {files: json_files, req: req});
     });
 });
 
@@ -49,7 +49,8 @@ router.get('/:index', function (req, res) {
             return res.send(err);
         }
     ).then(function () {
-        res.render('graph', {files : files, req: req});
+        res.set({'Cache-Control': 'no-cache'});
+        res.render('graph', {files: files, req: req, title:req.params.index});
     });
 });
 
