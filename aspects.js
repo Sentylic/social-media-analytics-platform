@@ -5,6 +5,9 @@ var express = require('express');
 var router = express.Router();
 var util = require("./util");
 
+var PythonShell = require('python-shell');
+
+
 const {check, validationResult} = require('express-validator/check')
 
 router.get('/', function (req, res) {
@@ -26,20 +29,37 @@ router.post('/findAspects', [
         })
     }
 
-    //find aspects and sentiments
-    aspects = [
-        {aspect: 'food', sentiment: -1},
-        {aspect: 'drinks', sentiment: 0},
-        {aspect: 'service', sentiment: 1},
-    ]
+    // sends a message to the Python script via stdin
+    // pyshell.send('I love food');
 
-    util.readJsonFiles().then(function (json_files) {
-        return res.render('aspects', {
-            data: req.body,
-            aspects: aspects,
-            files: json_files, req: req
-        })
+    var options = {
+        args: [
+            req.body.message
+        ]
+    }
+
+    PythonShell.run("lstm_crf_pos_run.py", options, function (err, data) {
+        if (err) return res.send(err);
+
+        aspects = []
+        data = data.toString().replace('[', '').replace(']', '').replace("'", '').split(',');
+        for (a in data) {
+            aspects.push(
+                {
+                    aspect: data[a].replace("'", '').replace("'", "").trim(),
+                    sentiment: Math.floor(Math.random() * (2 - (-1)) ) + (-1)
+                }
+            );
+        }
+        util.readJsonFiles().then(function (json_files) {
+                return res.render('aspects', {
+                    data: req.body,
+                    aspects: aspects,
+                    files: json_files, req: req
+                })
+            });
     });
+
 })
 
 //export this router to use in our index.js

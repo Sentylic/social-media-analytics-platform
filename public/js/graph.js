@@ -148,7 +148,4 @@ function drawGraph(json) {
                 return d.y;
             });
     }
-
-    // drawTimeAxis(json.nodes);
-    // });
 }
