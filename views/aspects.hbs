@@ -68,6 +68,31 @@
                 <span class="label label-danger label-large error">{{errors.message.msg}}</span>
             {{/if}}
         </div>
+        <div class="form-group">
+            <select class="form-control" id="sample_review">
+                <option value="" disabled selected>Select a sample review</option>
+                <option value="The food was good, the place was clean and affordable.">
+                    The food was good, the place was clean and affordable.</option>
+                <option value="The meat is fresh, the sauces are great, you get kimchi and a salad free with your meal and service is good too.">
+                    The meat is fresh, the sauces are great, you get kimchi and a salad free with your meal and service is good too.
+                </option>
+                <option value="Even though the place is not beautiful, the food speaks for itself.">
+                    Even though the place is not beautiful, the food speaks for itself.</option>
+                <option value="The wine list was extensive - though the staff did not seem knowledgeable about wine pairings.">
+                    The wine list was extensive - though the staff did not seem knowledgeable about wine pairings.</option>
+                <option value="The food was ok and fair nothing to go crazy.">
+                    The food was ok and fair nothing to go crazy.</option>
+                <option value="Highly impressed from the decor to the food to the hospitality to the great night I had!">
+                    Highly impressed from the decor to the food to the hospitality to the great night I had!</option>
+                <option value="The atmosphere is relaxed and casual.">The atmosphere is relaxed and casual.</option>
+                <option value="Despite the confusing mirrors this will likely be my go-to for modern Japanese food for the foreseeable future.">
+                    Despite the confusing mirrors this will likely be my go-to for modern Japanese food for the foreseeable future.
+                </option>
+                <option value="i love margherita pizza i looove east village pizza">
+                    i love margherita pizza i looove east village pizza
+                </option>
+            </select>
+        </div>
         <div class="form-actions">
             <button class="btn btn-primary" type="submit">Analyze Aspects</button>
         </div>
@@ -106,3 +131,9 @@
         {{/if}}
     </div>
 </div>
+
+<script>
+    $('#sample_review').change(function () {
+        $("#message").text($(this).val());
+    });
+</script>
