@@ -9,11 +9,13 @@
   "author": "Chamod",
   "license": "ISC",
   "dependencies": {
+    "bootstrap": "^3.3.7",
     "d3": "^3.5.12",
     "elasticsearch": "^14.2.2",
     "express": "^4.16.3",
     "express-handlebars": "^3.0.0",
     "express-validator": "^5.2.0",
+    "fs": "0.0.1-security",
     "handlebars": "^4.0.11",
     "handlebars-helper-equal": "^1.0.0",
     "html": "^1.0.0",
