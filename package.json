@@ -10,10 +10,13 @@
   "license": "ISC",
   "dependencies": {
     "bootstrap": "^3.3.7",
+    "cookie-parser": "^1.4.3",
     "d3": "^3.5.12",
     "elasticsearch": "^14.2.2",
     "express": "^4.16.3",
+    "express-flash": "0.0.2",
     "express-handlebars": "^3.0.0",
+    "express-session": "^1.15.6",
     "express-validator": "^5.2.0",
     "fs": "0.0.1-security",
     "handlebars": "^4.0.11",
