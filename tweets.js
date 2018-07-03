@@ -17,10 +17,14 @@ router.get('/:index', function (req, res) {
             elastic_connector.getNodes(req.params.index).then(
                 function (data) {
                     jsonfile.writeFile('./public/json/graph.json', data);
+                    res.render('graph', {files: files, req: req, title: req.params.index});
                 },
                 function (err) {
                     console.log(err);
-                    return res.send(err);
+                    if (err.toString().includes("[index_not_found_exception]")) {
+                        req.flash('danger', "<" + req.params.index + "> file is not added to elasticsearch!");
+                    }
+                    res.redirect('/');
                 }
             );
         },
@@ -28,10 +32,7 @@ router.get('/:index', function (req, res) {
             console.log(err);
             return res.send(err);
         }
-    ).then(function () {
-        res.set({'Cache-Control': 'no-cache'});
-        res.render('graph', {files: files, req: req, title:req.params.index});
-    });
+    );
 });
 
 

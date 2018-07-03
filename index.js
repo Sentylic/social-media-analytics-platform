@@ -13,6 +13,14 @@ const path = require('path');
 const bodyParser = require('body-parser')
 const validator = require('express-validator')
 
+var flash = require('express-flash');
+var cookieParser = require('cookie-parser')
+var session = require('express-session')
+
+app.use(cookieParser('keyboard cat'));
+app.use(session({ cookie: { maxAge: 60000 }}));
+app.use(flash());
+
 app.engine('.hbs', exphbs({
     helpers: {
         equal: function (lvalue, rvalue, options) {
