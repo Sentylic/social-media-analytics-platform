@@ -11,6 +11,7 @@
   "dependencies": {
     "bootstrap": "^3.3.7",
     "cookie-parser": "^1.4.3",
+    "curlrequest": "^1.0.1",
     "d3": "^3.5.12",
     "elasticsearch": "^14.2.2",
     "express": "^4.16.3",
@@ -18,6 +19,7 @@
     "express-handlebars": "^3.0.0",
     "express-session": "^1.15.6",
     "express-validator": "^5.2.0",
+    "formidable": "^1.2.1",
     "fs": "0.0.1-security",
     "handlebars": "^4.0.11",
     "handlebars-helper-equal": "^1.0.0",
@@ -26,6 +28,7 @@
     "jsdom": "^11.9.0",
     "jsonfile": "^4.0.0",
     "pug": "^2.0.3",
-    "python-shell": "^0.5.0"
+    "python-shell": "^0.5.0",
+    "request": "^2.87.0"
   }
 }

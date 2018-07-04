@@ -29,7 +29,7 @@ router.post('/findAspects', [
         })
     }
 
-    // sends a message to the Python script via stdin
+    // sends e message to the Python script via stdin
     // pyshell.send('I love food');
 
     var options = {
@@ -43,10 +43,10 @@ router.post('/findAspects', [
 
         aspects = []
         data = data.toString().replace('[', '').replace(']', '').replace("'", '').split(',');
-        for (a in data) {
+        for (e in data) {
             aspects.push(
                 {
-                    aspect: data[a].replace("'", '').replace("'", "").trim(),
+                    aspect: data[e].replace("'", '').replace("'", "").trim(),
                     sentiment: Math.floor(Math.random() * (2 - (-1)) ) + (-1)
                 }
             );

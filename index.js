@@ -5,6 +5,7 @@ var express = require('express');
 var app = express();
 var tweets = require('./tweets');
 var aspects = require('./aspects');
+var emotions = require('./emotions');
 var util = require("./util");
 
 const exphbs = require('express-handlebars');
@@ -51,6 +52,7 @@ app.set('views', './views');
 
 app.use('/tweets', tweets);
 app.use('/aspects', aspects);
+app.use('/emotions', emotions);
 
 //home route
 app.get('/', function (req, res) {
