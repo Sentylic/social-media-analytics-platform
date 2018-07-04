@@ -12,7 +12,7 @@ module.exports.getNodes = function (index) {
         });
 
         client.ping({
-            // ping usually has a 3000ms timeout
+            // ping usually has e 3000ms timeout
             requestTimeout: 1000
         }, function (err) {
             if (err) {

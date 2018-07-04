@@ -4,8 +4,9 @@
     <meta charset="utf-8">
     <title>Example App</title>
     <!-- Bootstrap -->
-    <link href="/bootstrap/dist/css/bootstrap.css" rel="stylesheet">
+    <link href="/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="/css/graph.css">
+
 
 
     <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
@@ -25,6 +26,9 @@
                     <li class="nav-item">
                         <a class="nav-link" href="/aspects">Analyze Aspects</a>
                     </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/emotions">Analyze Emotions</a>
+                    </li>
                     <li class="dropdown">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown"
                            role="button" aria-haspopup="true" aria-expanded="false">
@@ -34,6 +38,8 @@
                             {{#each files}}
                                 <li><a href="http://localhost:3000/tweets/{{this}}">{{this}}</a></li>
                             {{/each}}
+                            <li role="separator" class="divider"></li>
+                            <li><a href="/tweets/add">New Discussion</a></li>
                         </ul>
                     </li>
                 </ul>
@@ -41,11 +47,20 @@
         </div><!-- /.container-fluid -->
     </nav>
 </div>
-<div class="container">
+<div class="container" id="bodyContent">
     <!--Flash messages-->
     {{# if messages.danger}}
         <div class="alert alert-danger alert-dismissible" role="alert">
             {{messages.danger}}
+            <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+            </button>
+        </div>
+    {{/if}}
+
+    {{# if messages.success}}
+        <div class="alert alert-success alert-dismissible" role="alert">
+            {{messages.success}}
             <button type="button" class="close" data-dismiss="alert" aria-label="Close">
                 <span aria-hidden="true">&times;</span>
             </button>

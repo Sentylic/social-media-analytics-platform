@@ -44,7 +44,7 @@
 </style>
 
 <div class="container">
-    <h3 style="padding: 10px;">Aspect Based Sentiment Analysis</h3>
+    <h3 style="padding: 10px;">Emotion Analysis</h3>
 
     <!--<div class="form-header">-->
         <!--{{#if errors}}-->
@@ -59,7 +59,7 @@
         <!--{{/if}}-->
     <!--</div>-->
 
-    <form method="post" action="/aspects/findAspects" novalidate>
+    <form method="post" action="/emotions/findEmotions" novalidate>
         <div class="form-group">
             <textarea id="message" name="message" autofocus class="input form-control "
                       placeholder="Enter a review .....">{{data.message}}</textarea>
@@ -72,21 +72,28 @@
             <select class="form-control" id="sample_review">
                 <option value="" disabled selected>Select a sample review</option>
                 <option value="The food was good, the place was clean and affordable.">
-                    The food was good, the place was clean and affordable.</option>
+                    The food was good, the place was clean and affordable.
+                </option>
                 <option value="The meat is fresh, the sauces are great, you get kimchi and a salad free with your meal and service is good too.">
-                    The meat is fresh, the sauces are great, you get kimchi and a salad free with your meal and service is good too.
+                    The meat is fresh, the sauces are great, you get kimchi and a salad free with your meal and service
+                    is good too.
                 </option>
                 <option value="Even though the place is not beautiful, the food speaks for itself.">
-                    Even though the place is not beautiful, the food speaks for itself.</option>
+                    Even though the place is not beautiful, the food speaks for itself.
+                </option>
                 <option value="The wine list was extensive - though the staff did not seem knowledgeable about wine pairings.">
-                    The wine list was extensive - though the staff did not seem knowledgeable about wine pairings.</option>
+                    The wine list was extensive - though the staff did not seem knowledgeable about wine pairings.
+                </option>
                 <option value="The food was ok and fair nothing to go crazy.">
-                    The food was ok and fair nothing to go crazy.</option>
+                    The food was ok and fair nothing to go crazy.
+                </option>
                 <option value="Highly impressed from the decor to the food to the hospitality to the great night I had!">
-                    Highly impressed from the decor to the food to the hospitality to the great night I had!</option>
+                    Highly impressed from the decor to the food to the hospitality to the great night I had!
+                </option>
                 <option value="The atmosphere is relaxed and casual.">The atmosphere is relaxed and casual.</option>
                 <option value="Despite the confusing mirrors this will likely be my go-to for modern Japanese food for the foreseeable future.">
-                    Despite the confusing mirrors this will likely be my go-to for modern Japanese food for the foreseeable future.
+                    Despite the confusing mirrors this will likely be my go-to for modern Japanese food for the
+                    foreseeable future.
                 </option>
                 <option value="i love margherita pizza i looove east village pizza">
                     i love margherita pizza i looove east village pizza
@@ -94,40 +101,52 @@
             </select>
         </div>
         <div class="form-actions">
-            <button class="btn btn-primary" type="submit">Analyze Aspects</button>
+            <button class="btn btn-primary" type="submit">Analyze Emotions</button>
         </div>
     </form>
     <br>
     <div>
-        {{#if aspects}}
-            <table class="table table-dark">
-                <thead>
-                <tr>
-                    <th><h3>Aspect</h3></th>
-                    <th><h3>Sentiment</h3></th>
-                </tr>
-                </thead>
-                <tbody>
-                {{#each aspects}}
-                    <tr>
-                        <td>
-                            <h4>{{this.aspect}}</h4>
-                        </td>
-                        <td>
-                            {{#equal this.sentiment 0}}
-                                <i class="em-svg em-neutral_face emoji-style"></i>
-                            {{/equal}}
-                            {{#equal this.sentiment 1}}
-                                <i class="em-svg em-grinning emoji-style"></i>
-                            {{/equal}}
-                            {{#equal this.sentiment -1}}
-                                <i class="em-svg em-angry emoji-style"></i>
-                            {{/equal}}
-                        </td>
-                    </tr>
+        {{#if emotions}}
+            <div class="row">
+                {{#each emotions}}
+                    <div class="col-md-3" style="text-align: center">
+                        {{#equal this 'anger'}}
+                            <i class="em-svg em-angry emoji-style"></i>
+                        {{/equal}}
+                        {{#equal this 'disgust'}}
+                            <i class="em-svg em-confused emoji-style"></i>
+                        {{/equal}}
+                        {{#equal this 'anticipation'}}
+                            <i class="em-svg em-neutral_face emoji-style"></i>
+                        {{/equal}}
+                        {{#equal this 'fear'}}
+                            <i class="em-svg em-fearful emoji-style"></i>
+                        {{/equal}}
+                        {{#equal this 'joy'}}
+                            <i class="em-svg em-joy emoji-style"></i>
+                        {{/equal}}
+                        {{#equal this 'love'}}
+                            <i class="em-svg em-heart_eyes emoji-style"></i>
+                        {{/equal}}
+                        {{#equal this 'optimism'}}
+                            <i class="em-svg em-grinning emoji-style"></i>
+                        {{/equal}}
+                        {{#equal this 'pessimism'}}
+                            <i class="em-svg em-angry emoji-style"></i>
+                        {{/equal}}
+                        {{#equal this 'sadness'}}
+                            <i class="em-svg em-slightly_frowning_face emoji-style"></i>
+                        {{/equal}}
+                        {{#equal this 'surprise'}}
+                            <i class="em-svg em-astonished emoji-style"></i>
+                        {{/equal}}
+                        {{#equal this 'trust'}}
+                            <i class="em-svg em-blush emoji-style"></i>
+                        {{/equal}}
+                        <h3>{{this}}</h3>
+                    </div>
                 {{/each}}
-                </tbody>
-            </table>
+            </div>
         {{/if}}
     </div>
 </div>

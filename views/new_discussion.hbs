@@ -1,0 +1,13 @@
+<div class="container">
+    <h3 style="text-align: left; font-family: 'Courier 10 Pitch'">New discussion record</h3>
+    <br>
+    <form method="post" action="/tweets/add" enctype="multipart/form-data" novalidate >
+        <div class="form-group">
+            <label for="discussion_file">Select a file(*.json)</label>
+            <input type="file" accept=".json" class="form-control-file" id="discussion_file" name="discussion_file">
+        </div>
+        <div class="form-actions">
+            <button class="btn btn-primary" type="submit">Save</button>
+        </div>
+    </form>
+</div>

@@ -14,7 +14,7 @@ var force = d3.layout.force()
     .linkDistance(30)
     .size([width, height]);
 
-var svg = d3.select("body").append("svg")
+var svg = d3.select("#bodyContent").append("svg")
     .attr("width", width)
     .attr("height", height);
 
@@ -59,7 +59,7 @@ function drawTimeAxis(nodes) {
 
     // draw x axis with labels and move to the bottom of the chart area
     svg.append("g")
-        .attr("class", "xaxis")   // give it a class so it can be used to select only xaxis labels  below
+        .attr("class", "xaxis")   // give it e class so it can be used to select only xaxis labels  below
         .attr("transform", "translate(0," + (height - padding) + ")")
         .call(xAxis);
 
@@ -122,7 +122,7 @@ function drawGraph(json) {
     function tick(e) {
         var k = 6 * e.alpha;
 
-        // Push sources up and targets down to form a weak tree.
+        // Push sources up and targets down to form e weak tree.
         link
             .each(function (d) {
                 d.source.x -= k, d.target.x += k;
