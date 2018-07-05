@@ -14,7 +14,10 @@ module.exports = {
                     reject(err);
                 }
                 files.forEach(file => {
-                    json_files.push(file.split(".")[0]);
+                    var f = file.split(".");
+                    if (f[1] == 'json') {
+                        json_files.push(f[0]);
+                    }
                 });
                 resolve(json_files);
             });
