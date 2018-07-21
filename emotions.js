@@ -48,5 +48,18 @@ router.post('/findEmotions', [
     });
 })
 
+router.post('/findReviewEmotions', function (req, res) {
+    request("http://127.0.0.1:5000/emo?tweet='" + req.body.review + "'", function (error, response, body) {
+        emotions = []
+        data = body.toString().replace('[', '').replace(']', '').replace("'", '').split(',');
+        for (e in data) {
+            emotions.push(data[e].replace("\"", '').replace("\"", '').replace("\n", ''));
+        }
+
+        return res.send(emotions);
+    });
+});
+
+
 //export this router to use in our index.js
 module.exports = router;

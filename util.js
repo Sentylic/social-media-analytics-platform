@@ -6,6 +6,7 @@ var jsonfile = require("jsonfile");
 var fs = require("fs");
 var pyshell = require('python-shell');
 var path = require('path');
+var request = require('request');
 
 module.exports = {
 
@@ -53,6 +54,37 @@ module.exports = {
                         data: JSON.parse(data_str)
                     });
                 }
+            });
+        });
+    },
+
+    extractAspects: function(review) {
+        return new Promise(function(resolve, reject) {
+            request("http://127.0.0.1:5001/" + review, function (error, response, body) {
+                if (error) {
+                    reject(error);
+                }
+                if (response && response.body && response.body.toString().indexOf("404 Not Found") <= -1) {
+                    resolve(response.body.toString().split(';'));
+                } else {
+                    resolve(null);
+                }
+            });
+        });
+    },
+
+    extractEmotions: function(review) {
+        return new Promise(function(resolve, reject) {
+            request("http://127.0.0.1:5000/emo?tweet='" + review + "'", function (error, response, body) {
+                emotions = []
+                data = body.toString().replace('[', '').replace(']', '').replace("'", '').split(',');
+                for (e in data) {
+                    emotions.push(data[e].replace("\"", '').replace("\"", '').replace("\n", ''));
+                }
+                if (error) {
+                    reject(error);
+                }
+                resolve(emotions);
             });
         });
     }

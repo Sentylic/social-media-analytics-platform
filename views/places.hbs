@@ -1,7 +1,44 @@
+<link href="https://afeld.github.io/emoji-css/emoji.css" rel="stylesheet">
+
 <style>
     .pre-scrollable {
         max-height: 600px;
         overflow-y: scroll;
+    }
+</style>
+<style>
+    .loader {
+        border: 16px solid #f3f3f3;
+        border-radius: 50%;
+        border-top: 16px solid #3498db;
+        width: 120px;
+        height: 120px;
+        -webkit-animation: spin 2s linear infinite; /* Safari */
+        animation: spin 2s linear infinite;
+    }
+
+    .emoji-style {
+        height: 3.5em;
+        width: 3.5em;
+    }
+
+    /* Safari */
+    @-webkit-keyframes spin {
+        0% {
+            -webkit-transform: rotate(0deg);
+        }
+        100% {
+            -webkit-transform: rotate(360deg);
+        }
+    }
+
+    @keyframes spin {
+        0% {
+            transform: rotate(0deg);
+        }
+        100% {
+            transform: rotate(360deg);
+        }
     }
 </style>
 
@@ -10,16 +47,28 @@
     <div class="row">
         <div class="form-group col-md-6">
             <select class="form-control" id="place_select">
-                {{# each files }}
+                {{# each review_files }}
                     <option value="{{this}}" selected>{{this}}</option>
                 {{/each}}
             </select>
             <br>
             <div class="form-actions">
                 <button class="btn btn-primary" type="button" id="btn_analyze_reviews">Analyze Reviews</button>
+                <button class="btn btn-secondary" type="button" id="btn_add_place">Add Place</button>
             </div>
+            <br>
+            <div id="loader_div" class="row" style="align: center" hidden>
+                <div class="loader col-md-4"></div>
+                <div class="row">
+                    <br><br>
+                    <div class="col-md-8">Collecting Reviews ...</div>
+                </div>
+            </div>
+
             <div id="aspects">
 
+            </div>
+            <div id="emotions">
             </div>
         </div>
         <div class="col-md-6 pre-scrollable border border-primary">
@@ -27,8 +76,93 @@
             </div>
         </div>
     </div>
+    <input type="hidden" id="place_name" value="{{place_name}}"></input>
 </div>
 
+<!--aspect modal-->
+<div class="modal" tabindex="-1" role="dialog" id="aspect_modal">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <p id="review_text">Modal body text goes here.</p>
+                <table class="table">
+                    <tbody id="review_aspects"></tbody>
+                </table>
+                <div id="emotion_modal" style="text-align: center">
+
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary custom-close" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--scraper modal-->
+<div class="modal" tabindex="-1" role="dialog" id="scraper_modal">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+                <h5 class="modal-title" id="exampleModalLabel">New Place</h5>
+            </div>
+            <div class="modal-body">
+                <form>
+                    <div class="form-group">
+                        <label for="recipient-name" class="col-form-label">Tripadvisor Url</label>
+                        <input type="text" class="form-control" id="place_url">
+                    </div>
+                </form>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-primary" id="btn_save_place">Save</button>
+                <button type="button" class="btn btn-secondary custom-close" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+    $('#btn_add_place').click(function () {
+        $('#place_url').val(null);
+        $('#scraper_modal').show();
+    });
+
+    $('#btn_save_place').click(function () {
+        $('#scraper_modal').hide();
+        $('#loader_div').show();
+
+        $.ajax({
+            type: 'GET',
+            data: null,
+            contentType: 'application/json',
+            url: '/aspects/scrape?link=' + $('#place_url').val().trim(),
+            success: function (response) {
+                console.log(response);
+                $('#loader_div').hide();
+
+                var temp = response.output_file_name.split("/");
+                var filename = temp[temp.length - 1].replace(".json", "");
+
+                window.location.href = "/places/" + filename;
+            },
+            error: function (err) {
+                console.log(err);
+                $('#loader_div').hide();
+                alert("Review collecting Failed!");
+            }
+        });
+
+    });
+</script>
 
 <script>
     $('#btn_analyze_reviews').click(function () {
@@ -43,10 +177,12 @@
             contentType: 'application/json',
             url: '/places/reviews',
             success: function (response) {
-                var reviews_html = '', aspects_html = '<h3>Mostly Discussed Aspects</h3><table class="table">';
+                var reviews_html = '';
+                var aspects_html = '<h3>Mostly Discussed Aspects</h3><table class="table" style="text-align: left">' +
+                        '<thead><tr><th></th><th><i class="em-svg em-grinning emoji-style"></i></th></tr></thead>';
                 console.log('success');
 
-//              truncate rerviews
+//              truncate reviews
                 const LENGTH_OF_REVIEW = 100;
                 var reviews = response.reviews.filter(function (d) {
                     if (d.text.length > LENGTH_OF_REVIEW) {
@@ -63,7 +199,7 @@
                             'data-text="' + review.text + '">'
                             + review.text_truncated +
                             '<br>' +
-                            '<button class="btn btn-warning" type="button" class="btn-analyze">Analyze</button>' +
+                            '<button class="btn btn-warning btn-analyze" type="button">Analyze</button>' +
                             '</div>'
                 });
                 $("#reviews").html(reviews_html);
@@ -77,7 +213,121 @@
                 });
                 aspects_html += '</table>';
                 $("#aspects").html(aspects_html);
+
+//              show emotions
+                var emotions_html = '<h3>Popular Emotions</h3><table class="table" id="emotions" style="text-align: center">';
+                var emotions_html1 = '<tr>';
+                var emotions_html2 = '<tr>';
+                var temp_emotions = response.emotions.slice(0, 5);
+                temp_emotions.forEach(function (emotion) {
+                    console.log(emotion.emotion);
+                    if (emotion.emotion == 'anger') {
+                        emotions_html1 += '<td><i style="margin: 5px;" class="em-svg em-angry emoji-style"></i></td>';
+                    } else if (emotion.emotion == 'disgust') {
+                        emotions_html1 += '<td><i style="margin: 5px;" class="em-svg em-confused emoji-style"></i></td>';
+                    } else if (emotion.emotion == 'anticipation') {
+                        emotions_html1 += '<td><i style="margin: 5px;" class="em-svg em-neutral_face emoji-style"></i></td>';
+                    } else if (emotion.emotion == 'fear') {
+                        emotions_html1 += '<td><i style="margin: 5px;" class="em-svg em-fearful emoji-style"></i></td>';
+                    } else if (emotion.emotion == 'joy') {
+                        emotions_html1 += '<td><i style="margin: 5px;" class="em-svg em-joy emoji-style"></i></td>';
+                    } else if (emotion.emotion == 'love') {
+                        emotions_html1 += '<td><i style="margin: 5px;" class="em-svg em-heart_eyes emoji-style"></i></td>';
+                    } else if (emotion.emotion == 'optimism') {
+                        emotions_html1 += '<td><i style="margin: 5px;" class="em-svg em-grinning emoji-style"></i></td>';
+                    } else if (emotion.emotion == 'pessimism') {
+                        emotions_html1 += '<td><i style="margin: 5px;" class="em-svg em-angry emoji-style"></i></td>';
+                    } else if (emotion.emotion == 'sadness') {
+                        emotions_html1 += '<td><i style="margin: 5px;" class="em-svg em-slightly_frowning_face emoji-style"></i></td>';
+                    } else if (emotion.emotion == 'surprise') {
+                        emotions_html1 += '<td><i style="margin: 5px;" class="em-svg em-astonished emoji-style"></i></td>';
+                    } else if (emotion.emotion == 'trust') {
+                        emotions_html1 += '<td><i style="margin: 5px;" class="em-svg em-blush emoji-style"></i></td>';
+                    }
+                    emotions_html2 += '<td>' + emotion.percentage + '%</td>';
+                });
+                emotions_html += emotions_html1 + "</tr>" + emotions_html2 + "</tr></table>";
+                $('#emotions').html(emotions_html);
             }
         });
+    });
+
+
+    //  show individual review analysis
+    $(document).on('click', '.btn-analyze', function () { // because button is dynamically added
+        $('#review_text').text($(this).parent().attr('data-text'));
+//       find aspects
+        var data = {
+            review: $(this).parent().attr('data-text'),
+        }
+        $.ajax({
+            type: 'POST',
+            data: JSON.stringify(data),
+            contentType: 'application/json',
+            url: '/aspects/findReviewAspects',
+            success: function (aspects) {
+                var aspects_html = '';
+                aspects.forEach(function (a) {
+                    aspects_html += '<tr>' +
+                            '<td>' + a.aspect + '</td>' +
+                            '<td><i class="em-svg em-neutral_face emoji-style"></i></td>' +
+                            '</tr>';
+                });
+                $('#review_aspects').html(aspects_html);
+
+//              show emotions
+                $.ajax({
+                    type: 'POST',
+                    data: JSON.stringify(data),
+                    contentType: 'application/json',
+                    url: '/emotions/findReviewEmotions',
+                    success: function (emotions) {
+                        var emotions_html = '<h4>Emotions</h4>';
+                        for (e in emotions) {
+                            if (emotions[e] == 'anger') {
+                                emotions_html += '<i style="margin: 5px;" class="em-svg em-angry emoji-style"></i>';
+                            } else if (emotions[e] == 'disgust') {
+                                emotions_html += '<i style="margin: 5px;" class="em-svg em-confused emoji-style"></i>';
+                            } else if (emotions[e] == 'anticipation') {
+                                emotions_html += '<i style="margin: 5px;" class="em-svg em-neutral_face emoji-style"></i>';
+                            } else if (emotions[e] == 'fear') {
+                                emotions_html += '<i style="margin: 5px;" class="em-svg em-fearful emoji-style"></i>';
+                            } else if (emotions[e] == 'joy') {
+                                emotions_html += '<i style="margin: 5px;" class="em-svg em-joy emoji-style"></i>';
+                            } else if (emotions[e] == 'love') {
+                                emotions_html += '<i style="margin: 5px;" class="em-svg em-heart_eyes emoji-style"></i>';
+                            } else if (emotions[e] == 'optimism') {
+                                emotions_html += '<i style="margin: 5px;" class="em-svg em-grinning emoji-style"></i>';
+                            } else if (emotions[e] == 'pessimism') {
+                                emotions_html += '<i style="margin: 5px;" class="em-svg em-angry emoji-style"></i>';
+                            } else if (emotions[e] == 'sadness') {
+                                emotions_html += '<i style="margin: 5px;" class="em-svg em-slightly_frowning_face emoji-style"></i>';
+                            } else if (emotions[e] == 'surprise') {
+                                emotions_html += '<i style="margin: 5px;" class="em-svg em-astonished emoji-style"></i>';
+                            } else if (emotions[e] == 'trust') {
+                                emotions_html += '<i style="margin: 5px;" class="em-svg em-blush emoji-style"></i>';
+                            }
+                        }
+                        $('#emotion_modal').html(emotions_html);
+                        $('#aspect_modal').show();
+                    }
+                });
+            }
+        });
+    });
+
+    $(function () {
+        $(".close, .custom-close").on('click', function () {
+            $('#aspect_modal').hide();
+            $('#scraper_modal').hide();
+        });
+    });
+
+    $(document).ready(function () {
+        var place_name = $('#place_name').val();
+        if (place_name != '') {
+            $('#place_select').val(place_name);
+            $('#btn_analyze_reviews').trigger("click");
+        }
     });
 </script>

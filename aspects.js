@@ -7,28 +7,30 @@ var util = require("./util");
 
 var PythonShell = require('python-shell');
 
-const { check, validationResult } = require('express-validator/check')
+const {check, validationResult} = require('express-validator/check')
 
 
-router.get('/scrape', function(req, res) {
+router.get('/scrape', function (req, res) {
     max_reviews = req.query.max_reviews || 20
     link = req.query.link || 'https://www.tripadvisor.com/Restaurant_Review-g293962-d1132743-Reviews-Barefoot_Garden_Cafe-Colombo_Western_Province.html'
     output_file = req.query.output_file // may or may note be undefined
-    util.scrapeTripAdvisor(link, max_reviews, output_file).then(function(data) {
+    util.scrapeTripAdvisor(link, max_reviews, output_file).then(function (data) {
         res.send(data);
+    }, function (err) {
+        res.send(err)
     });
 });
 
-router.get('/', function(req, res) {
-    util.readJsonFiles('./Data').then(function(json_files) {
-        res.render('aspects', { files: json_files, req: req });
+router.get('/', function (req, res) {
+    util.readJsonFiles('./Data').then(function (json_files) {
+        res.render('aspects', {files: json_files, req: req});
     });
 });
 
-router.post('/findAspects', [
+router.post('/findPopularAspects', [
     check('message')
-    .isLength({ min: 1 })
-    .withMessage('Review is required'),
+        .isLength({min: 1})
+        .withMessage('Review is required'),
 ], (req, res) => {
     const errors = validationResult(req)
     if (!errors.isEmpty()) {
@@ -47,7 +49,7 @@ router.post('/findAspects', [
         ]
     }
 
-    PythonShell.run("lstm_crf_pos_run.py", options, function(err, data) {
+    PythonShell.run("lstm_crf_pos_run.py", options, function (err, data) {
         if (err) return res.send(err);
 
         aspects = []
@@ -58,7 +60,7 @@ router.post('/findAspects', [
                 sentiment: Math.floor(Math.random() * (2 - (-1))) + (-1)
             });
         }
-        util.readJsonFiles('./Data').then(function(json_files) {
+        util.readJsonFiles('./Data').then(function (json_files) {
             return res.render('aspects', {
                 data: req.body,
                 aspects: aspects,
@@ -69,6 +71,43 @@ router.post('/findAspects', [
     });
 
 })
+
+
+router.post('/findReviewAspects', function (req, res) {
+    util.extractAspects(req.body.review).then(function (aspects) {
+        var obj = [];
+
+        for (a in aspects) {
+            obj.push({
+                aspect: aspects[a],
+                sentiment: Math.floor(Math.random() * 3) - 1,
+            });
+        }
+        return res.send(obj);
+    }, function (err) {
+        return res.send(err);
+    });
+
+    // fs.readFile('./tripadvisor-scraper/' + req.body.place + ".json", function (err, review_data) {
+    //     if (err) {
+    //         return res.send(err);
+    //     }
+    //     review_data = JSON.parse(review_data);
+    //
+    //     aspect_analyzer.findPopularAspects(review_data).then(function (data) {
+    //         var obj = {
+    //             aspects : data,
+    //             reviews : review_data
+    //         };
+    //         return res.send(obj);
+    //         console.log(data);
+    //     }, function (err) {
+    //         console.log(err);
+    //         return res.send(err);
+    //     });
+    //     // console.log(temp);
+    // })
+});
 
 //export this router to use in our index.js
 module.exports = router;
