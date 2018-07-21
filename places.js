@@ -23,12 +23,16 @@ router.post('/reviews', function(req, res){
         }
         review_data = JSON.parse(review_data);
 
-        aspect_analyzer.findAspects().then(function (data) {
+        aspect_analyzer.findPopularAspects(review_data).then(function (data) {
             var obj = {
                 aspects : data,
                 reviews : review_data
             };
             return res.send(obj);
+            console.log(data);
+        }, function (err) {
+            console.log(err);
+            return res.send(err);
         });
         // console.log(temp);
     })

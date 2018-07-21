@@ -6,6 +6,7 @@ var jsonfile = require("jsonfile");
 var fs = require("fs");
 var pyshell = require('python-shell');
 var path = require('path');
+var request = require('request');
 
 module.exports = {
 
@@ -53,6 +54,30 @@ module.exports = {
                         data: JSON.parse(data_str)
                     });
                 }
+            });
+        });
+    },
+
+    extractAspects: function(review) {
+        return new Promise(function(resolve, reject) {
+            request("http://127.0.0.1:5001/" + review, function (error, response, body) {
+                // emotions = []
+                // data = body.toString().replace('[', '').replace(']', '').replace("'", '').split(',');
+                // for (e in data) {
+                //     emotions.push(data[e].replace("\"", '').replace("\"", '').replace("\n", ''));
+                // }
+                if (error) {
+                    reject(error);
+                }
+                resolve(response);
+
+                // util.readJsonFiles('./Data').then(function (json_files) {
+                //     return res.render('emotions', {
+                //         data: req.body,
+                //         emotions: emotions,
+                //         files: json_files, req: req
+                //     })
+                // });
             });
         });
     }

@@ -25,7 +25,7 @@ router.get('/', function(req, res) {
     });
 });
 
-router.post('/findAspects', [
+router.post('/findPopularAspects', [
     check('message')
     .isLength({ min: 1 })
     .withMessage('Review is required'),
