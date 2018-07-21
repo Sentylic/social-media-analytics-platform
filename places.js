@@ -9,8 +9,10 @@ var fs = require("fs");
 
 
 router.get('/', function (req, res) {
-    util.readJsonFiles('./tripadvisor-scraper/').then(function (json_files) {
-        res.render('places', {files: json_files, req: req});
+    util.readJsonFiles('./tripadvisor-scraper/').then(function (review_files) {
+        util.readJsonFiles('./Data/').then(function (json_files) {
+            res.render('places', {files : json_files, review_files: review_files, req: req});
+        });
     });
 });
 

@@ -1,3 +1,5 @@
+<link href="https://afeld.github.io/emoji-css/emoji.css" rel="stylesheet">
+
 <style>
     .pre-scrollable {
         max-height: 600px;
@@ -10,7 +12,7 @@
     <div class="row">
         <div class="form-group col-md-6">
             <select class="form-control" id="place_select">
-                {{# each files }}
+                {{# each review_files }}
                     <option value="{{this}}" selected>{{this}}</option>
                 {{/each}}
             </select>
@@ -24,6 +26,28 @@
         </div>
         <div class="col-md-6 pre-scrollable border border-primary">
             <div id="reviews">
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--aspect modal-->
+<div class="modal" tabindex="-1" role="dialog" id="aspect_modal">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <p id="review_text">Modal body text goes here.</p>
+                <table class="table" >
+                    <tbody id="review_aspects"></tbody>
+                </table>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary custom-close" data-dismiss="modal">Close</button>
             </div>
         </div>
     </div>
@@ -63,7 +87,7 @@
                             'data-text="' + review.text + '">'
                             + review.text_truncated +
                             '<br>' +
-                            '<button class="btn btn-warning" type="button" class="btn-analyze">Analyze</button>' +
+                            '<button class="btn btn-warning btn-analyze" type="button">Analyze</button>' +
                             '</div>'
                 });
                 $("#reviews").html(reviews_html);
@@ -78,6 +102,43 @@
                 aspects_html += '</table>';
                 $("#aspects").html(aspects_html);
             }
+        });
+    });
+
+
+    //  show individual review analysis
+    $(document).on('click', '.btn-analyze', function () { // because button is dynamically added
+        $('#review_text').text($(this).parent().attr('data-text'));
+//       find aspects
+        var aspects = [
+            {
+                aspect: 'food',
+                sentiment: -1,
+            },
+            {
+                aspect: 'service',
+                sentiment: 1,
+            },
+            {
+                aspect: 'drinks',
+                sentiment: -1,
+            },
+        ];
+        var aspects_html = '';
+        aspects.forEach(function (a) {
+            aspects_html += '<tr>' +
+                    '<td>' + a.aspect + '</td>' +
+                    '<td><i class="em-svg em-neutral_face emoji-style"></i></td>' +
+                    '</tr>';
+        });
+        $('#review_aspects').html(aspects_html);
+
+        $('#aspect_modal').show();
+    });
+
+    $(function () {
+        $(".close, .custom-close").on('click', function () {
+            $('#aspect_modal').hide();
         });
     });
 </script>
