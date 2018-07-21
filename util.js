@@ -9,8 +9,8 @@ var path = require('path');
 
 module.exports = {
 
-    readJsonFiles: function (path) {
-        return new Promise(function (resolve, reject) {
+    readJsonFiles: function(path) {
+        return new Promise(function(resolve, reject) {
             var json_files = [];
             fs.readdir(path, (err, files) => {
                 if (err) {
@@ -27,21 +27,30 @@ module.exports = {
         });
     },
 
-    scrapeTripAdvisor: function(link, max_reviews) {
+    scrapeTripAdvisor: function(link, max_reviews, output_file) {
         return new Promise(function(resolve, reject) {
             var options = {
                 mode: 'text',
-                args: ['-o', path.resolve(__dirname, 'tripadvisor-scraper/output.json'), '-n', max_reviews.toString(), '-e', 'phantomjs', link]
+                args: ['-o', path.resolve(__dirname, 'tripadvisor-scraper'), '-n', max_reviews.toString(), '-e', 'phantomjs', link]
             };
             var shell = new pyshell('tripadvisor-scraper/scraper.py', options);
+            var output_file = path.resolve(__dirname, 'tripadvisor-scraper/output.json');
+            shell.on('message', function(msg) {
+                if (msg.startsWith('output_file:')) {
+                    output_file = msg.substring(12);
+                }
+            })
             shell.end(function(err, code, signal) {
                 if (err) {
                     console.log('tripadvisor-scraper error');
                     console.log(err);
                     reject(err);
                 } else {
-                    var data = fs.readFileSync(path.resolve(__dirname, 'tripadvisor-scraper/output.json'), 'utf8');
-                    resolve(data);
+                    var data_str = fs.readFileSync(output_file, 'utf8');
+                    resolve({
+                        output_file_name: output_file,
+                        data: JSON.parse(data_str)
+                    });
                 }
             });
         });

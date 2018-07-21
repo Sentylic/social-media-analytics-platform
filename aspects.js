@@ -13,14 +13,15 @@ const { check, validationResult } = require('express-validator/check')
 router.get('/scrape', function(req, res) {
     max_reviews = req.query.max_reviews || 20
     link = req.query.link || 'https://www.tripadvisor.com/Restaurant_Review-g304141-d9694624-Reviews-Rithu_Restaurant-Sigiriya_Central_Province.html'
-    util.scrapeTripAdvisor(link, max_reviews).then(function(data) {
+    output_file = req.query.output_file // may or may note be undefined
+    util.scrapeTripAdvisor(link, max_reviews, output_file).then(function(data) {
         res.send(data);
     });
 });
 
-router.get('/', function (req, res) {
-    util.readJsonFiles('./Data').then(function (json_files) {
-        res.render('aspects', {files: json_files, req: req});
+router.get('/', function(req, res) {
+    util.readJsonFiles('./Data').then(function(json_files) {
+        res.render('aspects', { files: json_files, req: req });
     });
 });
 
@@ -52,20 +53,19 @@ router.post('/findAspects', [
         aspects = []
         data = data.toString().replace('[', '').replace(']', '').replace("'", '').split(',');
         for (e in data) {
-            aspects.push(
-                {
-                    aspect: data[e].replace("'", '').replace("'", "").trim(),
-                    sentiment: Math.floor(Math.random() * (2 - (-1)) ) + (-1)
-                }
-            );
-        }
-        util.readJsonFiles('./Data').then(function (json_files) {
-                return res.render('aspects', {
-                    data: req.body,
-                    aspects: aspects,
-                    files: json_files, req: req
-                })
+            aspects.push({
+                aspect: data[e].replace("'", '').replace("'", "").trim(),
+                sentiment: Math.floor(Math.random() * (2 - (-1))) + (-1)
             });
+        }
+        util.readJsonFiles('./Data').then(function(json_files) {
+            return res.render('aspects', {
+                data: req.body,
+                aspects: aspects,
+                files: json_files,
+                req: req
+            })
+        });
     });
 
 })
