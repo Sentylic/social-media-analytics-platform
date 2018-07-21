@@ -71,5 +71,21 @@ module.exports = {
                 }
             });
         });
+    },
+
+    extractEmotions: function(review) {
+        return new Promise(function(resolve, reject) {
+            request("http://127.0.0.1:5000/emo?tweet='" + review + "'", function (error, response, body) {
+                emotions = []
+                data = body.toString().replace('[', '').replace(']', '').replace("'", '').split(',');
+                for (e in data) {
+                    emotions.push(data[e].replace("\"", '').replace("\"", '').replace("\n", ''));
+                }
+                if (error) {
+                    reject(error);
+                }
+                resolve(emotions);
+            });
+        });
     }
 };
