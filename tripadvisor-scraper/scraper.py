@@ -137,7 +137,7 @@ def get_id_by_url(url):
 
 
 if __name__ == '__main__':
-    parser = argparse.ArgumentParser(description='Scrape restaurant reviews from Tripadvisor (.com or .de).')
+    parser = argparse.ArgumentParser(descriptionoutpu='Scrape restaurant reviews from Tripadvisor (.com or .de).')
     parser.add_argument('url', help='URL to a Tripadvisor restaurant page')
     parser.add_argument('-o', '--out', dest='outfile', help='Path for output JSON file', default='reviews.json')
     parser.add_argument('-n', dest='max', help='Maximum number of reviews to fetch', default=sys.maxsize, type=int)

@@ -66,7 +66,6 @@ router.post('/findAspects', [
                     files: json_files, req: req
                 })
             });
-        }
     });
 
 })
