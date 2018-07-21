@@ -31,7 +31,7 @@ module.exports = {
         return new Promise(function(resolve, reject) {
             var options = {
                 mode: 'text',
-                args: ['-o', path.resolve(__dirname, 'tripadvisor-scraper/output.json'), '-n', max_reviews.toString(), '-e', 'phantomjs', link]
+                args: ['-o', path.resolve(__dirname, 'tripadvisor-scraper/Rithu_Restaurant-Sigiriya_Central_Province.json'), '-n', max_reviews.toString(), '-e', 'phantomjs', link]
             };
             var shell = new pyshell('tripadvisor-scraper/scraper.py', options);
             shell.end(function(err, code, signal) {
@@ -40,7 +40,7 @@ module.exports = {
                     console.log(err);
                     reject(err);
                 } else {
-                    var data = fs.readFileSync(path.resolve(__dirname, 'tripadvisor-scraper/output.json'), 'utf8');
+                    var data = fs.readFileSync(path.resolve(__dirname, 'tripadvisor-scraper/Rithu_Restaurant-Sigiriya_Central_Province.json'), 'utf8');
                     resolve(data);
                 }
             });

@@ -18,10 +18,13 @@
             <div class="form-actions">
                 <button class="btn btn-primary" type="button" id="btn_analyze_reviews">Analyze Reviews</button>
             </div>
+            <div id="aspects">
+
+            </div>
         </div>
         <div class="col-md-6 pre-scrollable border border-primary">
-            <ul id="reviews">
-            </ul>
+            <div id="reviews">
+            </div>
         </div>
     </div>
 </div>
@@ -40,13 +43,40 @@
             contentType: 'application/json',
             url: '/places/reviews',
             success: function (response) {
-                var html = '';
+                var reviews_html = '', aspects_html = '<h3>Mostly Discussed Aspects</h3><table class="table">';
                 console.log('success');
-                response.forEach(function (review) {
-                    console.log(review.Review);
-                    html += '<li style="margin: 10px">' + review.Review + '</li>'
+
+//              truncate rerviews
+                const LENGTH_OF_REVIEW = 100;
+                var reviews = response.reviews.filter(function (d) {
+                    if (d.text.length > LENGTH_OF_REVIEW) {
+                        return d.text_truncated = d.text.toString().slice(0, LENGTH_OF_REVIEW) + "...";
+                    } else {
+                        d.text_truncated = d.text;
+                    }
+
                 });
-                $("#reviews").html(html);
+
+                reviews.forEach(function (review) {
+                    console.log(review.text);
+                    reviews_html += '<div style="margin: 10px; background-color: gainsboro; padding: 5px; border-radius: 5px"' +
+                            'data-text="' + review.text + '">'
+                            + review.text_truncated +
+                            '<br>' +
+                            '<button class="btn btn-warning" type="button" class="btn-analyze">Analyze</button>' +
+                            '</div>'
+                });
+                $("#reviews").html(reviews_html);
+
+                response.aspects.forEach(function (aspect) {
+                    console.log(aspect.aspect);
+                    aspects_html += '<tr>' +
+                            '<td style="margin: 10px">' + aspect.aspect + '</td>' +
+                            '<td style="margin: 10px">' + aspect.percentage + ' %</td>' +
+                            '</tr>'
+                });
+                aspects_html += '</table>';
+                $("#aspects").html(aspects_html);
             }
         });
     });
