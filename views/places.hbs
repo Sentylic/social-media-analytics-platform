@@ -16,7 +16,10 @@
         -webkit-animation: spin 2s linear infinite; /* Safari */
         animation: spin 2s linear infinite;
     }
-
+    .emoji-style {
+        height: 3.5em;
+        width: 3.5em;
+    }
     /* Safari */
     @-webkit-keyframes spin {
         0% {
@@ -86,6 +89,9 @@
                 <table class="table">
                     <tbody id="review_aspects"></tbody>
                 </table>
+                <div id="emotion_modal" style="text-align: center">
+
+                </div>
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary custom-close" data-dismiss="modal">Close</button>
@@ -230,7 +236,43 @@
                 });
                 $('#review_aspects').html(aspects_html);
 
-                $('#aspect_modal').show();
+//              show emotions
+                $.ajax({
+                    type: 'POST',
+                    data: JSON.stringify(data),
+                    contentType: 'application/json',
+                    url: '/emotions/findReviewEmotions',
+                    success: function (emotions) {
+                        var emotions_html = '';
+                        for (e in emotions) {
+                            if (emotions[e] == 'anger') {
+                                emotions_html += '<i style="margin: 5px;" class="em-svg em-angry emoji-style"></i>';
+                            } else if (emotions[e] == 'disgust') {
+                                emotions_html += '<i style="margin: 5px;" class="em-svg em-confused emoji-style"></i>';
+                            } else if (emotions[e] == 'anticipation') {
+                                emotions_html += '<i style="margin: 5px;" class="em-svg em-neutral_face emoji-style"></i>';
+                            } else if (emotions[e] == 'fear') {
+                                emotions_html += '<i style="margin: 5px;" class="em-svg em-fearful emoji-style"></i>';
+                            } else if (emotions[e] == 'joy') {
+                                emotions_html += '<i style="margin: 5px;" class="em-svg em-joy emoji-style"></i>';
+                            } else if (emotions[e] == 'love') {
+                                emotions_html += '<i style="margin: 5px;" class="em-svg em-heart_eyes emoji-style"></i>';
+                            } else if (emotions[e] == 'optimism') {
+                                emotions_html += '<i style="margin: 5px;" class="em-svg em-grinning emoji-style"></i>';
+                            } else if (emotions[e] == 'pessimism') {
+                                emotions_html += '<i style="margin: 5px;" class="em-svg em-angry emoji-style"></i>';
+                            } else if (emotions[e] == 'sadness') {
+                                emotions_html += '<i style="margin: 5px;" class="em-svg em-slightly_frowning_face emoji-style"></i>';
+                            } else if (emotions[e] == 'surprise') {
+                                emotions_html += '<i style="margin: 5px;" class="em-svg em-astonished emoji-style"></i>';
+                            } else if (emotions[e] == 'trust') {
+                                emotions_html += '<i style="margin: 5px;" class="em-svg em-blush emoji-style"></i>';
+                            }
+                        }
+                        $('#emotion_modal').html(emotions_html);
+                        $('#aspect_modal').show();
+                    }
+                });
             }
         });
     });
