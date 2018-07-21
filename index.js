@@ -6,6 +6,7 @@ var app = express();
 var tweets = require('./tweets');
 var aspects = require('./aspects');
 var emotions = require('./emotions');
+var places = require('./places');
 var util = require("./util");
 
 const exphbs = require('express-handlebars');
@@ -42,10 +43,13 @@ app.engine('.hbs', exphbs({
 const middleware = [
     express.static(path.join(__dirname, '/public')),
     express.static(__dirname + '/node_modules'),
-    bodyParser.urlencoded(),
+    bodyParser.urlencoded({
+        extended: false
+    }),
     validator(),
 ]
 app.use(middleware)
+app.use(bodyParser.json())
 
 app.set('view engine', '.hbs');
 app.set('views', './views');
@@ -53,10 +57,11 @@ app.set('views', './views');
 app.use('/tweets', tweets);
 app.use('/aspects', aspects);
 app.use('/emotions', emotions);
+app.use('/places', places);
 
 //home route
 app.get('/', function (req, res) {
-    util.readJsonFiles().then(function (json_files) {
+    util.readJsonFiles('./Data').then(function (json_files) {
         res.render('index', {files: json_files, req: req});
     });
 });

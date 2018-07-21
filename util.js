@@ -8,15 +8,19 @@ var pyshell = require('python-shell');
 var path = require('path');
 
 module.exports = {
-    readJsonFiles: function() {
-        return new Promise(function(resolve, reject) {
+
+    readJsonFiles: function (path) {
+        return new Promise(function (resolve, reject) {
             var json_files = [];
-            fs.readdir('./Data', (err, files) => {
+            fs.readdir(path, (err, files) => {
                 if (err) {
                     reject(err);
                 }
                 files.forEach(file => {
-                    json_files.push(file.split(".")[0]);
+                    var f = file.split(".");
+                    if (f[1] == 'json') {
+                        json_files.push(f[0]);
+                    }
                 });
                 resolve(json_files);
             });

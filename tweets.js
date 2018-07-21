@@ -11,37 +11,13 @@ var formidable = require('formidable');
 
 var util = require("./util");
 var curl = require('curlrequest');
+var elasticsearch = require('elasticsearch');
+var read = require('read-file');
 
 router.get('/add', function (req, res) {
-    return res.render('new_discussion');
-});
-
-router.get('/x', function (req, res) {
-    // var options = {
-    //     url: 'localhost:9200/dummy'
-    //     , method: 'DELETE'
-    // };
-
-    // curl -XPOST 'http://localhost:9200/dummy/_bulk?pretty' -H "Content-Type:application/x-ndjson" --data-binary @dummy.json
-
-    var options = {
-            url: 'localhost:9200/dummy/_bulk?pretty'
-            , method: 'POST',
-            headers: {'Content-Type': 'application/x-ndjson'},
-            data: ['data-binary @Data/dummy.json']
-        };
-
-    // var options = {
-    //     url: 'localhost:9200/dummy?pretty'
-    //     , method: 'PUT',
-    //     headers: {'Content-Type': 'application/json'}
-    // };
-    curl.request(options, function (err, data) {
-        if (err) return res.send(err);
-
-        return res.send(data);
+    util.readJsonFiles('./Data').then(function (json_files) {
+        res.render('new_discussion', {files: json_files, req: req});
     });
-
 });
 
 router.post('/add', function (req, res) {
@@ -69,36 +45,51 @@ router.post('/add', function (req, res) {
                     headers: {'Content-Type': 'application/json'}
                 };
                 var options_post_to_index = {
-                    url: 'localhost:9200/'+index_name+'/_bulk?pretty'
+                    url: 'localhost:9200/' + index_name + '/_bulk?pretty'
                     , method: 'POST',
                     headers: {'Content-Type': 'application/x-ndjson'},
                     json: true,
                 };
 
 
-                // curl.request(options_delete_index, function (err, data) {
-                //     if (err) {
-                //         req.flash('danger', err.toString());
-                //         res.redirect('/');
-                //     }
-                //
-                //     curl.request(options_create_index, function (err, data) {
-                //         if (err) {
-                //             req.flash('danger', err.toString());
-                //             res.redirect('/');
-                //         }
-                //
-                //         curl.request(options_post_to_index, function (err, data) {
-                //             if (err) {
-                //                 req.flash('danger', err.toString());
-                //                 res.redirect('/');
-                //             }
-                //
-                //             return res.send(data);
-                //         });
-                //     });
-                // });
-                res.send(files.discussion_file);
+                curl.request(options_delete_index, function (err, data) {
+                    if (err) {
+                        req.flash('danger', err.toString());
+                        res.redirect('/');
+                    }
+
+                    curl.request(options_create_index, function (err, data) {
+                        if (err) {
+                            req.flash('danger', err.toString());
+                            res.redirect('/');
+                        }
+
+
+                        fs.readFile(newpath, 'utf8', function (err, file_data) {
+                            if (err) {
+                                req.flash('danger', err.toString());
+                                res.redirect('/');
+                            }
+
+                            var client = new elasticsearch.Client({
+                                host: 'localhost:9200',
+                                log: 'trace'
+                            });
+
+                            file_data = file_data.toString().split('\n')
+                            client.bulk({
+                                body: file_data
+                            }, function (err, resp) {
+                                if (err) {
+                                    req.flash('danger', err.toString());
+                                    return res.redirect('/');
+                                }
+                                req.flash('success', 'New discussion <' + index_name + '> was added!');
+                                res.redirect('/');
+                            });
+                        })
+                    });
+                });
             } else {
                 fs.unlink(newpath, (err) => {
                     if (err) res.send(err);
