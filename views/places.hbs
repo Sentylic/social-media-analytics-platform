@@ -67,7 +67,9 @@
             contentType: 'application/json',
             url: '/places/reviews',
             success: function (response) {
-                var reviews_html = '', aspects_html = '<h3>Mostly Discussed Aspects</h3><table class="table">';
+                var reviews_html = '';
+                var aspects_html = '<h3>Mostly Discussed Aspects</h3><table class="table">' +
+                        '<thead><tr><th></th><th><i class="em-svg em-grinning emoji-style"></i></th></tr></thead>';
                 console.log('success');
 
 //              truncate rerviews

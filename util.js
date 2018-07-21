@@ -64,7 +64,11 @@ module.exports = {
                 if (error) {
                     reject(error);
                 }
-                resolve(response.body.toString().split(';'));
+                if (response) {
+                    resolve(response.body.toString().split(';'));
+                } else {
+                    resolve(null);
+                }
             });
         });
     }
