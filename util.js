@@ -6,10 +6,10 @@ var jsonfile = require("jsonfile");
 var fs = require("fs");
 
 module.exports = {
-    readJsonFiles: function () {
+    readJsonFiles: function (path) {
         return new Promise(function (resolve, reject) {
             var json_files = [];
-            fs.readdir('./Data', (err, files) => {
+            fs.readdir(path, (err, files) => {
                 if (err) {
                     reject(err);
                 }

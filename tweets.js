@@ -15,7 +15,7 @@ var elasticsearch = require('elasticsearch');
 var read = require('read-file');
 
 router.get('/add', function (req, res) {
-    util.readJsonFiles().then(function (json_files) {
+    util.readJsonFiles('./Data').then(function (json_files) {
         res.render('new_discussion', {files: json_files, req: req});
     });
 });

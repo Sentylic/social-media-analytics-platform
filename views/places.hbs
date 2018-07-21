@@ -1,0 +1,53 @@
+<style>
+    .pre-scrollable {
+        max-height: 600px;
+        overflow-y: scroll;
+    }
+</style>
+
+<div class="container">
+    <h3 style="font-family: 'Courier 10 Pitch'">Analysis of reviews on places</h3>
+    <div class="row">
+        <div class="form-group col-md-6">
+            <select class="form-control" id="place_select">
+                {{# each files }}
+                    <option value="{{this}}" selected>{{this}}</option>
+                {{/each}}
+            </select>
+            <br>
+            <div class="form-actions">
+                <button class="btn btn-primary" type="button" id="btn_analyze_reviews">Analyze Reviews</button>
+            </div>
+        </div>
+        <div class="col-md-6 pre-scrollable border border-primary">
+            <ul id="reviews">
+            </ul>
+        </div>
+    </div>
+</div>
+
+
+<script>
+    $('#btn_analyze_reviews').click(function () {
+        var place = $("#place_select").val();
+        var data = {
+            place: place
+        };
+
+        $.ajax({
+            type: 'POST',
+            data: JSON.stringify(data),
+            contentType: 'application/json',
+            url: '/places/reviews',
+            success: function (response) {
+                var html = '';
+                console.log('success');
+                response.forEach(function (review) {
+                    console.log(review.Review);
+                    html += '<li style="margin: 10px">' + review.Review + '</li>'
+                });
+                $("#reviews").html(html);
+            }
+        });
+    });
+</script>
