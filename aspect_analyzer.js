@@ -25,6 +25,7 @@ module.exports = {
                         }
                     }
                 }, function (err) {
+                    console.log(err)
                 }));
             }
 
@@ -40,7 +41,7 @@ module.exports = {
                 obj.sort(function (a, b) {
                     return b.count - a.count;
                 });
-                console.log(aspect_obj);
+                // console.log(aspect_obj);
                 resolve(obj.slice(0, Math.min(10, obj.length)));
             }).catch(function (err) {
                 reject(err);
