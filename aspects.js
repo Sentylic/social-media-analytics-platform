@@ -11,7 +11,7 @@ var PythonShell = require('python-shell');
 const {check, validationResult} = require('express-validator/check')
 
 router.get('/', function (req, res) {
-    util.readJsonFiles().then(function (json_files) {
+    util.readJsonFiles('./Data').then(function (json_files) {
         res.render('aspects', {files: json_files, req: req});
     });
 });
@@ -51,7 +51,7 @@ router.post('/findAspects', [
                 }
             );
         }
-        util.readJsonFiles().then(function (json_files) {
+        util.readJsonFiles('./Data').then(function (json_files) {
                 return res.render('aspects', {
                     data: req.body,
                     aspects: aspects,
