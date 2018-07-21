@@ -64,7 +64,7 @@ module.exports = {
                 if (error) {
                     reject(error);
                 }
-                if (response.body && response.body.toString().indexOf("404 Not Found") <= -1) {
+                if (response && response.body && response.body.toString().indexOf("404 Not Found") <= -1) {
                     resolve(response.body.toString().split(';'));
                 } else {
                     resolve(null);
