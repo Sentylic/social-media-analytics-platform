@@ -42,7 +42,7 @@
             </div>
             <div class="modal-body">
                 <p id="review_text">Modal body text goes here.</p>
-                <table class="table" >
+                <table class="table">
                     <tbody id="review_aspects"></tbody>
                 </table>
             </div>
@@ -110,30 +110,27 @@
     $(document).on('click', '.btn-analyze', function () { // because button is dynamically added
         $('#review_text').text($(this).parent().attr('data-text'));
 //       find aspects
-        var aspects = [
-            {
-                aspect: 'food',
-                sentiment: -1,
-            },
-            {
-                aspect: 'service',
-                sentiment: 1,
-            },
-            {
-                aspect: 'drinks',
-                sentiment: -1,
-            },
-        ];
-        var aspects_html = '';
-        aspects.forEach(function (a) {
-            aspects_html += '<tr>' +
-                    '<td>' + a.aspect + '</td>' +
-                    '<td><i class="em-svg em-neutral_face emoji-style"></i></td>' +
-                    '</tr>';
-        });
-        $('#review_aspects').html(aspects_html);
+        var data = {
+            review: $(this).parent().attr('data-text'),
+        }
+        $.ajax({
+            type: 'POST',
+            data: JSON.stringify(data),
+            contentType: 'application/json',
+            url: '/aspects/findReviewAspects',
+            success: function (aspects) {
+                var aspects_html = '';
+                aspects.forEach(function (a) {
+                    aspects_html += '<tr>' +
+                            '<td>' + a.aspect + '</td>' +
+                            '<td><i class="em-svg em-neutral_face emoji-style"></i></td>' +
+                            '</tr>';
+                });
+                $('#review_aspects').html(aspects_html);
 
-        $('#aspect_modal').show();
+                $('#aspect_modal').show();
+            }
+        });
     });
 
     $(function () {

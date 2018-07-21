@@ -13,8 +13,7 @@ module.exports = {
             var promises = [];
 
             for (j in reviews) {
-                promises.push(util.extractAspects(reviews[j].text).then(function (data) {
-                    aspects = data.body.toString().split(';');
+                promises.push(util.extractAspects(reviews[j].text).then(function (aspects) {
                     for (i in aspects) {
                         var aspect = aspects[i].trim(" ").trim(".").trim(",").trim("'").toLowerCase();
                         if (aspect != '') {
