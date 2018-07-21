@@ -8,10 +8,10 @@ var aspect_analyzer = require("./aspect_analyzer");
 var fs = require("fs");
 
 
-router.get('/', function (req, res) {
+router.get('/:place_name*?', function (req, res) {
     util.readJsonFiles('./tripadvisor-scraper/').then(function (review_files) {
         util.readJsonFiles('./Data/').then(function (json_files) {
-            res.render('places', {files : json_files, review_files: review_files, req: req});
+            res.render('places', {files : json_files, review_files: review_files, req: req, place_name: req.params.place_name});
         });
     });
 });

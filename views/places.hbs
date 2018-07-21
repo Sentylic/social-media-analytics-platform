@@ -6,6 +6,36 @@
         overflow-y: scroll;
     }
 </style>
+<style>
+    .loader {
+        border: 16px solid #f3f3f3;
+        border-radius: 50%;
+        border-top: 16px solid #3498db;
+        width: 120px;
+        height: 120px;
+        -webkit-animation: spin 2s linear infinite; /* Safari */
+        animation: spin 2s linear infinite;
+    }
+
+    /* Safari */
+    @-webkit-keyframes spin {
+        0% {
+            -webkit-transform: rotate(0deg);
+        }
+        100% {
+            -webkit-transform: rotate(360deg);
+        }
+    }
+
+    @keyframes spin {
+        0% {
+            transform: rotate(0deg);
+        }
+        100% {
+            transform: rotate(360deg);
+        }
+    }
+</style>
 
 <div class="container">
     <h3 style="font-family: 'Courier 10 Pitch'">Analysis of reviews on places</h3>
@@ -19,7 +49,17 @@
             <br>
             <div class="form-actions">
                 <button class="btn btn-primary" type="button" id="btn_analyze_reviews">Analyze Reviews</button>
+                <button class="btn btn-secondary" type="button" id="btn_add_place">Add Place</button>
             </div>
+            <br>
+            <div id="loader_div" class="row" style="align: center" hidden>
+                <div class="loader col-md-4"></div>
+                <div class="row">
+                    <br><br>
+                    <div class="col-md-8">Collecting Reviews ...</div>
+                </div>
+            </div>
+
             <div id="aspects">
 
             </div>
@@ -29,6 +69,7 @@
             </div>
         </div>
     </div>
+    <input type="hidden" id="place_name" value="{{place_name}}"></input>
 </div>
 
 <!--aspect modal-->
@@ -53,6 +94,65 @@
     </div>
 </div>
 
+<!--scraper modal-->
+<div class="modal" tabindex="-1" role="dialog" id="scraper_modal">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+                <h5 class="modal-title" id="exampleModalLabel">New Place</h5>
+            </div>
+            <div class="modal-body">
+                <form>
+                    <div class="form-group">
+                        <label for="recipient-name" class="col-form-label">Tripadvisor Url</label>
+                        <input type="text" class="form-control" id="place_url">
+                    </div>
+                </form>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-primary" id="btn_save_place">Save</button>
+                <button type="button" class="btn btn-secondary custom-close" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+    $('#btn_add_place').click(function () {
+        $('#place_url').val(null);
+        $('#scraper_modal').show();
+    });
+
+    $('#btn_save_place').click(function () {
+        $('#scraper_modal').hide();
+        $('#loader_div').show();
+
+        $.ajax({
+            type: 'GET',
+            data: null,
+            contentType: 'application/json',
+            url: '/aspects/scrape?link=' + $('#place_url').val().trim(),
+            success: function (response) {
+                console.log(response);
+                $('#loader_div').hide();
+
+                var temp = response.output_file_name.split("/");
+                var filename = temp[temp.length - 1].replace(".json", "");
+
+                window.location.href = "/places/" + filename;
+            },
+            error: function (err) {
+                console.log(err);
+                $('#loader_div').hide();
+                alert("Review collecting Failed!");
+            }
+        });
+
+    });
+</script>
 
 <script>
     $('#btn_analyze_reviews').click(function () {
@@ -138,6 +238,15 @@
     $(function () {
         $(".close, .custom-close").on('click', function () {
             $('#aspect_modal').hide();
+            $('#scraper_modal').hide();
         });
+    });
+
+    $(document).ready(function () {
+        var place_name = $('#place_name').val();
+        if (place_name != '') {
+            $('#place_select').val(place_name);
+            $('#btn_analyze_reviews').trigger("click");
+        }
     });
 </script>

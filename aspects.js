@@ -16,6 +16,8 @@ router.get('/scrape', function (req, res) {
     output_file = req.query.output_file // may or may note be undefined
     util.scrapeTripAdvisor(link, max_reviews, output_file).then(function (data) {
         res.send(data);
+    }, function (err) {
+        res.send(err)
     });
 });
 
