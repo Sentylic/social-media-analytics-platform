@@ -28,18 +28,26 @@ module.exports = {
         });
     },
 
-    scrapeTripAdvisor: function(link, max_reviews, output_file) {
+    scrapeTripAdvisor: function(link, max_reviews, out_f) {
         return new Promise(function(resolve, reject) {
             var options = {
                 mode: 'text',
+                pythonOptions: ['-u'],
                 args: ['-o', path.resolve(__dirname, 'tripadvisor-scraper'), '-n', max_reviews.toString(), '-e', 'phantomjs', link]
             };
+            console.log('util.scrapeTripAdvisor')
+            console.log('link=' + link)
+            console.log('max_reviews=' + max_reviews)
+            if (out_f !== undefined) {
+                console.log('output_file=' + out_f)
+            }
             var shell = new pyshell('tripadvisor-scraper/scraper.py', options);
             var output_file = path.resolve(__dirname, 'tripadvisor-scraper/output.json');
             shell.on('message', function(msg) {
-                if (msg.startsWith('output_file:')) {
+                if (msg.startsWith('output_file:') && out_f === undefined) {
                     output_file = msg.substring(12);
                 }
+                console.log('tripadvisor-scraper::stdout: ' + msg);
             })
             shell.end(function(err, code, signal) {
                 if (err) {
@@ -47,7 +55,6 @@ module.exports = {
                     console.log(err);
                     reject(err);
                 } else {
-
                     var data_str = fs.readFileSync(output_file, 'utf8');
                     resolve({
                         output_file_name: output_file,
@@ -60,7 +67,7 @@ module.exports = {
 
     extractAspects: function(review) {
         return new Promise(function(resolve, reject) {
-            request("http://127.0.0.1:5001/" + review, function (error, response, body) {
+            request("http://127.0.0.1:5001/" + review, function(error, response, body) {
                 if (error) {
                     reject(error);
                 }
@@ -75,7 +82,7 @@ module.exports = {
 
     extractEmotions: function(review) {
         return new Promise(function(resolve, reject) {
-            request("http://127.0.0.1:5000/emo?tweet='" + review + "'", function (error, response, body) {
+            request("http://127.0.0.1:5000/emo?tweet='" + review + "'", function(error, response, body) {
                 emotions = []
                 data = body.toString().replace('[', '').replace(']', '').replace("'", '').split(',');
                 for (e in data) {

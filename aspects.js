@@ -7,30 +7,35 @@ var util = require("./util");
 
 var PythonShell = require('python-shell');
 
-const {check, validationResult} = require('express-validator/check')
+const { check, validationResult } = require('express-validator/check')
 
 
-router.get('/scrape', function (req, res) {
+router.get('/scrape', function(req, res) {
+    var example_restaurant_review = 'https://www.tripadvisor.com/Restaurant_Review-g304141-d9694624-Reviews-Rithu_Restaurant-Sigiriya_Central_Province.html';
+    var example_hotel_review = 'https://www.tripadvisor.com/Hotel_Review-g304141-d613020-Reviews-Hotel_Sigiriya-Sigiriya_Central_Province.html';
+    var example_attraction_review = 'https://www.tripadvisor.com/Hotel_Review-g304141-d613020-Reviews-Hotel_Sigiriya-Sigiriya_Central_Province.html';
+
     max_reviews = req.query.max_reviews || 20
-    link = req.query.link || 'https://www.tripadvisor.com/Restaurant_Review-g293962-d1132743-Reviews-Barefoot_Garden_Cafe-Colombo_Western_Province.html'
+    link = req.query.link || example_restaurant_review
     output_file = req.query.output_file // may or may note be undefined
-    util.scrapeTripAdvisor(link, max_reviews, output_file).then(function (data) {
+
+    util.scrapeTripAdvisor(link, max_reviews, output_file).then(function(data) {
         res.send(data);
-    }, function (err) {
+    }, function(err) {
         res.send(err)
     });
 });
 
-router.get('/', function (req, res) {
-    util.readJsonFiles('./Data').then(function (json_files) {
-        res.render('aspects', {files: json_files, req: req});
+router.get('/', function(req, res) {
+    util.readJsonFiles('./Data').then(function(json_files) {
+        res.render('aspects', { files: json_files, req: req });
     });
 });
 
 router.post('/findPopularAspects', [
     check('message')
-        .isLength({min: 1})
-        .withMessage('Review is required'),
+    .isLength({ min: 1 })
+    .withMessage('Review is required'),
 ], (req, res) => {
     const errors = validationResult(req)
     if (!errors.isEmpty()) {
@@ -49,7 +54,7 @@ router.post('/findPopularAspects', [
         ]
     }
 
-    PythonShell.run("lstm_crf_pos_run.py", options, function (err, data) {
+    PythonShell.run("lstm_crf_pos_run.py", options, function(err, data) {
         if (err) return res.send(err);
 
         aspects = []
@@ -60,7 +65,7 @@ router.post('/findPopularAspects', [
                 sentiment: Math.floor(Math.random() * (2 - (-1))) + (-1)
             });
         }
-        util.readJsonFiles('./Data').then(function (json_files) {
+        util.readJsonFiles('./Data').then(function(json_files) {
             return res.render('aspects', {
                 data: req.body,
                 aspects: aspects,
@@ -73,8 +78,8 @@ router.post('/findPopularAspects', [
 })
 
 
-router.post('/findReviewAspects', function (req, res) {
-    util.extractAspects(req.body.review).then(function (aspects) {
+router.post('/findReviewAspects', function(req, res) {
+    util.extractAspects(req.body.review).then(function(aspects) {
         var obj = [];
 
         for (a in aspects) {
@@ -84,7 +89,7 @@ router.post('/findReviewAspects', function (req, res) {
             });
         }
         return res.send(obj);
-    }, function (err) {
+    }, function(err) {
         return res.send(err);
     });
 
