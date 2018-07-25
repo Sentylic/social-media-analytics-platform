@@ -5,6 +5,11 @@
         max-height: 600px;
         overflow-y: scroll;
     }
+
+    .pre-scrollable-aspect {
+        max-height: 700px;
+        overflow-y: scroll;
+    }
 </style>
 <style>
     .loader {
@@ -89,7 +94,7 @@
                     <span aria-hidden="true">&times;</span>
                 </button>
             </div>
-            <div class="modal-body">
+            <div class="modal-body pre-scrollable-aspect">
                 <p id="review_text">Modal body text goes here.</p>
                 <table class="table">
                     <tbody id="review_aspects"></tbody>
@@ -219,6 +224,7 @@
                 var emotions_html = '<h3>Popular Emotions</h3><table class="table" id="emotions" style="text-align: center">';
                 var emotions_html1 = '<tr>';
                 var emotions_html2 = '<tr>';
+                var emotions_html3 = '<tr>';
                 var temp_emotions = response.emotions.slice(0, 5);
                 temp_emotions.forEach(function (emotion) {
                     console.log(emotion.emotion);
@@ -245,9 +251,10 @@
                     } else if (emotion.emotion == 'trust') {
                         emotions_html1 += '<td><i style="margin: 5px;" class="em-svg em-blush emoji-style"></i></td>';
                     }
-                    emotions_html2 += '<td>' + emotion.percentage + '%</td>';
+                    emotions_html2 += '<td><b>' + emotion.percentage + '%</b></td>';
+                    emotions_html3 += '<td><b>' + emotion.emotion + '</b></td>';
                 });
-                emotions_html += emotions_html1 + "</tr>" + emotions_html2 + "</tr></table>";
+                emotions_html += emotions_html3 + "</tr>" + emotions_html1 + "</tr>" + emotions_html2 + "</tr></table>";
                 $('#emotions').html(emotions_html);
             }
         });
@@ -283,32 +290,34 @@
                     contentType: 'application/json',
                     url: '/emotions/findReviewEmotions',
                     success: function (emotions) {
-                        var emotions_html = '<h4>Emotions</h4>';
+                        var emotions_html = '<h4>Emotions</h4><div class="row">';
                         for (e in emotions) {
                             if (emotions[e] == 'anger') {
-                                emotions_html += '<i style="margin: 5px;" class="em-svg em-angry emoji-style"></i>';
+                                emotions_html += '<div class="col-md-4"><i style="margin: 5px;" class="em-svg em-angry emoji-style"></i>';
                             } else if (emotions[e] == 'disgust') {
-                                emotions_html += '<i style="margin: 5px;" class="em-svg em-confused emoji-style"></i>';
+                                emotions_html += '<div class="col-md-4"><i style="margin: 5px;" class="em-svg em-confused emoji-style"></i>';
                             } else if (emotions[e] == 'anticipation') {
-                                emotions_html += '<i style="margin: 5px;" class="em-svg em-neutral_face emoji-style"></i>';
+                                emotions_html += '<div class="col-md-4"><i style="margin: 5px;" class="em-svg em-neutral_face emoji-style"></i>';
                             } else if (emotions[e] == 'fear') {
-                                emotions_html += '<i style="margin: 5px;" class="em-svg em-fearful emoji-style"></i>';
+                                emotions_html += '<div class="col-md-4"><i style="margin: 5px;" class="em-svg em-fearful emoji-style"></i>';
                             } else if (emotions[e] == 'joy') {
-                                emotions_html += '<i style="margin: 5px;" class="em-svg em-joy emoji-style"></i>';
+                                emotions_html += '<div class="col-md-4"><i style="margin: 5px;" class="em-svg em-joy emoji-style"></i>';
                             } else if (emotions[e] == 'love') {
-                                emotions_html += '<i style="margin: 5px;" class="em-svg em-heart_eyes emoji-style"></i>';
+                                emotions_html += '<div class="col-md-4"><i style="margin: 5px;" class="em-svg em-heart_eyes emoji-style"></i>';
                             } else if (emotions[e] == 'optimism') {
-                                emotions_html += '<i style="margin: 5px;" class="em-svg em-grinning emoji-style"></i>';
+                                emotions_html += '<div class="col-md-4"><i style="margin: 5px;" class="em-svg em-grinning emoji-style"></i>';
                             } else if (emotions[e] == 'pessimism') {
-                                emotions_html += '<i style="margin: 5px;" class="em-svg em-angry emoji-style"></i>';
+                                emotions_html += '<div class="col-md-4"><i style="margin: 5px;" class="em-svg em-angry emoji-style"></i>';
                             } else if (emotions[e] == 'sadness') {
-                                emotions_html += '<i style="margin: 5px;" class="em-svg em-slightly_frowning_face emoji-style"></i>';
+                                emotions_html += '<div class="col-md-4"><i style="margin: 5px;" class="em-svg em-slightly_frowning_face emoji-style"></i>';
                             } else if (emotions[e] == 'surprise') {
-                                emotions_html += '<i style="margin: 5px;" class="em-svg em-astonished emoji-style"></i>';
+                                emotions_html += '<div class="col-md-4"><i style="margin: 5px;" class="em-svg em-astonished emoji-style"></i>';
                             } else if (emotions[e] == 'trust') {
-                                emotions_html += '<i style="margin: 5px;" class="em-svg em-blush emoji-style"></i>';
+                                emotions_html += '<div class="col-md-4"><i style="margin: 5px;" class="em-svg em-blush emoji-style"></i>';
                             }
+                            emotions_html += '<br><b>' + emotions[e] + '</b></div>'
                         }
+                        emotions_html += '</div>';
                         $('#emotion_modal').html(emotions_html);
                         $('#aspect_modal').show();
                     }

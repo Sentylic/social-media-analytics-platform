@@ -8,10 +8,13 @@ var pyshell = require('python-shell');
 var path = require('path');
 var request = require('request');
 
+const EMOTION_HOST = '127.0.0.1';
+const EMOTION_PORT = 5000;
+
 module.exports = {
 
-    readJsonFiles: function(path) {
-        return new Promise(function(resolve, reject) {
+    readJsonFiles: function (path) {
+        return new Promise(function (resolve, reject) {
             var json_files = [];
             fs.readdir(path, (err, files) => {
                 if (err) {
@@ -28,8 +31,8 @@ module.exports = {
         });
     },
 
-    scrapeTripAdvisor: function(link, max_reviews, out_f) {
-        return new Promise(function(resolve, reject) {
+    scrapeTripAdvisor: function (link, max_reviews, out_f) {
+        return new Promise(function (resolve, reject) {
             var options = {
                 mode: 'text',
                 pythonOptions: ['-u'],
@@ -43,13 +46,13 @@ module.exports = {
             }
             var shell = new pyshell('tripadvisor-scraper/scraper.py', options);
             var output_file = path.resolve(__dirname, 'tripadvisor-scraper/output.json');
-            shell.on('message', function(msg) {
+            shell.on('message', function (msg) {
                 if (msg.startsWith('output_file:') && out_f === undefined) {
                     output_file = msg.substring(12);
                 }
                 console.log('tripadvisor-scraper::stdout: ' + msg);
             })
-            shell.end(function(err, code, signal) {
+            shell.end(function (err, code, signal) {
                 if (err) {
                     console.log('tripadvisor-scraper error');
                     console.log(err);
@@ -65,9 +68,9 @@ module.exports = {
         });
     },
 
-    extractAspects: function(review) {
-        return new Promise(function(resolve, reject) {
-            request("http://127.0.0.1:5001/" + review, function(error, response, body) {
+    extractAspects: function (review) {
+        return new Promise(function (resolve, reject) {
+            request("http://127.0.0.1:5001/" + review, function (error, response, body) {
                 if (error) {
                     reject(error);
                 }
@@ -80,19 +83,22 @@ module.exports = {
         });
     },
 
-    extractEmotions: function(review) {
-        return new Promise(function(resolve, reject) {
-            request("http://127.0.0.1:5000/emo?tweet='" + review + "'", function(error, response, body) {
-                emotions = []
-                data = body.toString().replace('[', '').replace(']', '').replace("'", '').split(',');
-                for (e in data) {
-                    emotions.push(data[e].replace("\"", '').replace("\"", '').replace("\n", ''));
-                }
-                if (error) {
-                    reject(error);
-                }
-                resolve(emotions);
-            });
+    extractEmotions: function (review) {
+        return new Promise(function (resolve, reject) { //111.223.150.141
+            request("http://" + EMOTION_HOST + ":" + EMOTION_PORT + "/emo?tweet='" + review + "'",
+                function (error, response, body) {
+                    emotions = []
+                    if (body) {
+                        data = body.toString().replace('[', '').replace(']', '').replace("'", '').split(',');
+                        for (e in data) {
+                            emotions.push(data[e].trim(" ").replace("\"", '').replace("\"", '').replace("\n", ''));
+                        }
+                    }
+                    if (error) {
+                        reject(error);
+                    }
+                    resolve(emotions);
+                });
         });
     }
 };
