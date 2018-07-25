@@ -31,13 +31,14 @@ module.exports = {
                     obj.push({
                         emotion : i,
                         count : emotion_obj[i],
-                        percentage: 100 * emotion_obj[i]/ reviews.length,
+                        percentage: Math.round(100 * emotion_obj[i]/ reviews.length),
                     });
                 }
 
                 obj.sort(function (a, b) {
                     return b.count - a.count;
                 });
+                console.log(obj);
                 resolve(obj);
             }).catch(function (err) {
                 reject(err);

@@ -9,6 +9,8 @@ var request = require('request');
 
 var PythonShell = require('python-shell');
 
+const EMOTION_HOST = '127.0.0.1';
+const EMOTION_PORT = 5000;
 
 const {check, validationResult} = require('express-validator/check')
 
@@ -31,33 +33,35 @@ router.post('/findEmotions', [
         })
     }
 
-    request("http://127.0.0.1:5000/emo?tweet='" + req.body.message + "'", function (error, response, body) {
-        emotions = []
-        data = body.toString().replace('[', '').replace(']', '').replace("'", '').split(',');
-        for (e in data) {
-            emotions.push(data[e].replace("\"", '').replace("\"", '').replace("\n", ''));
-        }
+    request("http://" + EMOTION_HOST + ":" + EMOTION_PORT + "/emo?tweet='" + req.body.message + "'",
+        function (error, response, body) {
+            emotions = []
+            data = body.toString().replace('[', '').replace(']', '').replace("'", '').split(',');
+            for (e in data) {
+                emotions.push(data[e].trim(" ").replace("\"", '').replace("\"", '').replace("\n", ''));
+            }
 
-        util.readJsonFiles('./Data').then(function (json_files) {
-            return res.render('emotions', {
-                data: req.body,
-                emotions: emotions,
-                files: json_files, req: req
-            })
+            util.readJsonFiles('./Data').then(function (json_files) {
+                return res.render('emotions', {
+                    data: req.body,
+                    emotions: emotions,
+                    files: json_files, req: req
+                })
+            });
         });
-    });
 })
 
-router.post('/findReviewEmotions', function (req, res) {
-    request("http://127.0.0.1:5000/emo?tweet='" + req.body.review + "'", function (error, response, body) {
-        emotions = []
-        data = body.toString().replace('[', '').replace(']', '').replace("'", '').split(',');
-        for (e in data) {
-            emotions.push(data[e].replace("\"", '').replace("\"", '').replace("\n", ''));
-        }
+router.post('/findReviewEmotions', function (req, res) { //111.223.150.141
+    request("http://" + EMOTION_HOST + ":" + EMOTION_PORT + "/emo?tweet='" + req.body.review + "'",
+        function (error, response, body) {
+            emotions = []
+            data = body.toString().replace('[', '').replace(']', '').replace("'", '').split(',');
+            for (e in data) {
+                emotions.push(data[e].trim(" ").replace("\"", '').replace("\"", '').replace("\n", ''));
+            }
 
-        return res.send(emotions);
-    });
+            return res.send(emotions);
+        });
 });
 
 
