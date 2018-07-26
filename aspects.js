@@ -4,6 +4,7 @@
 var express = require('express');
 var router = express.Router();
 var util = require("./util");
+var request = require('request');
 
 var PythonShell = require('python-shell');
 
@@ -45,27 +46,24 @@ router.post('/findPopularAspects', [
         })
     }
 
-    // sends e message to the Python script via stdin
-    // pyshell.send('I love food');
-
-    var options = {
-        args: [
-            req.body.message
-        ]
-    }
-
-    PythonShell.run("lstm_crf_pos_run.py", options, function(err, data) {
-        if (err) return res.send(err);
+    request("http://127.0.0.1:5001/" + req.body.message, (err, response, body)=> {
+        if (err){
+            res.send("Please make sure the Aspect Extraction server is running in port 127.0.0.1:5001");
+        }
 
         aspects = []
-        data = data.toString().replace('[', '').replace(']', '').replace("'", '').split(',');
-        for (e in data) {
+        aspect_terms = body.split(';');
+
+        // put a random sentiment for now (aspect based sentiment part is not implemented yet)
+        for(var i in aspect_terms){
             aspects.push({
-                aspect: data[e].replace("'", '').replace("'", "").trim(),
+                aspect : aspect_terms[i],
                 sentiment: Math.floor(Math.random() * (2 - (-1))) + (-1)
             });
         }
-        util.readJsonFiles('./Data').then(function(json_files) {
+
+        // send with sample data json
+        util.readJsonFiles('./Data').then(function (json_files) {
             return res.render('aspects', {
                 data: req.body,
                 aspects: aspects,
