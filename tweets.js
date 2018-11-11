@@ -108,7 +108,7 @@ router.post('/add', function (req, res) {
 
 router.get('/:index', function (req, res) {
     var files = null;
-    util.readJsonFiles().then(
+    util.readJsonFiles('./Data').then(
         function (json_files) {
             files = json_files;
             elastic_connector.getNodes(req.params.index).then(

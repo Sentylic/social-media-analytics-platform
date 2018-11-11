@@ -1,1110 +1,1110 @@
-{"index": {"_type": "tweet", "_id": "0"}}
+{"index": {"_type": "tweet", "_id": "0", "_index":"cricket"}}
 {"emotion": "angry", "sentiment": 0, "parent": 0, "text": "ipl2018 ipl contest game time lot team msdhoni catch confidence 2 test lionsdenkxip ", "location": "dummy", "time": 1523730600, "id": 0}
-{"index": {"_type": "tweet", "_id": "1"}}
+{"index": {"_type": "tweet", "_id": "1", "_index":"cricket"}}
 {"emotion": "sad", "sentiment": 2, "parent": 1, "text": "ipl ipl2018 chance age run domestic circuit alam newcomer cskvskxip word download ipl2018 cricket ", "location": "dummy", "time": 1523730600, "id": 1}
-{"index": {"_type": "tweet", "_id": "2"}}
+{"index": {"_type": "tweet", "_id": "2", "_index":"cricket"}}
 {"emotion": "happy", "sentiment": 2, "parent": 2, "text": "dhoni jadeja captain indian cricket ipl2018 chennai cricket news india sport time big ", "location": "dummy", "time": 1523730600, "id": 2}
-{"index": {"_type": "tweet", "_id": "3"}}
+{"index": {"_type": "tweet", "_id": "3", "_index":"cricket"}}
 {"emotion": "angry", "sentiment": 0, "parent": 3, "text": "today score crickhit time year 0 http sport phase love younis khan 193 test ", "location": "dummy", "time": 1523730600, "id": 3}
-{"index": {"_type": "tweet", "_id": "4"}}
+{"index": {"_type": "tweet", "_id": "4", "_index":"cricket"}}
 {"emotion": "angry", "sentiment": 1, "parent": 4, "text": "match rcbtweet game ipl 2018 today ipl2018 loveforcricket ipl11 ipl season chennaisuperking ", "location": "dummy", "time": 1523730600, "id": 4}
-{"index": {"_type": "tweet", "_id": "5"}}
+{"index": {"_type": "tweet", "_id": "5", "_index":"cricket"}}
 {"emotion": "excited", "sentiment": 0, "parent": 5, "text": "ali test psl trafford cricket engvpak pace wicket peace option ball wahab ", "location": "dummy", "time": 1523730600, "id": 5}
-{"index": {"_type": "tweet", "_id": "6"}}
+{"index": {"_type": "tweet", "_id": "6", "_index":"cricket"}}
 {"emotion": "sad", "sentiment": -2, "parent": 6, "text": "victory st david season all-round effort rcbvrr read toss middlesex fawad alam test team ", "location": "dummy", "time": 1523730600, "id": 6}
-{"index": {"_type": "tweet", "_id": "7"}}
+{"index": {"_type": "tweet", "_id": "7", "_index":"cricket"}}
 {"emotion": "sad", "sentiment": -2, "parent": 7, "text": "msdhoni ipl cricket ipl2018 place csk show bcci hand world result match ", "location": "dummy", "time": 1523730600, "id": 7}
-{"index": {"_type": "tweet", "_id": "8"}}
+{"index": {"_type": "tweet", "_id": "8", "_index":"cricket"}}
 {"emotion": "excited", "sentiment": 2, "parent": 8, "text": "csk ipl 2018 ipl2018 kxip dhoni cricket ironman match 12 barinder sran live chris gayle murali vijay ", "location": "dummy", "time": 1523730600, "id": 8}
-{"index": {"_type": "tweet", "_id": "9"}}
+{"index": {"_type": "tweet", "_id": "9", "_index":"cricket"}}
 {"emotion": "happy", "sentiment": 1, "parent": 9, "text": "england test t20 team test match ipl2018 reason glimpse pakistan ireland chennaiipl ", "location": "dummy", "time": 1523730600, "id": 9}
-{"index": {"_type": "tweet", "_id": "10"}}
+{"index": {"_type": "tweet", "_id": "10", "_index":"cricket"}}
 {"emotion": "excited", "sentiment": 0, "parent": 10, "text": "imam domestic cricket fawad alam interest batsman alam selection saad ali abba team read ", "location": "dummy", "time": 1523730600, "id": 10}
-{"index": {"_type": "tweet", "_id": "11"}}
+{"index": {"_type": "tweet", "_id": "11", "_index":"cricket"}}
 {"emotion": "angry", "sentiment": -2, "parent": 11, "text": "rcb squad match 11 6 over 193 test younis khan 242 test phase ipl 2018 http test ", "location": "dummy", "time": 1523730600, "id": 11}
-{"index": {"_type": "tweet", "_id": "12"}}
+{"index": {"_type": "tweet", "_id": "12", "_index":"cricket"}}
 {"emotion": "excited", "sentiment": 1, "parent": 12, "text": "ipl2018 cricket ironman ipl11 iplt20 cricket ipl abbott hampshire tye ball today game ", "location": "dummy", "time": 1523730600, "id": 12}
-{"index": {"_type": "tweet", "_id": "13"}}
+{"index": {"_type": "tweet", "_id": "13", "_index":"cricket"}}
 {"emotion": "happy", "sentiment": 2, "parent": 13, "text": "middlesex deepti average domestic career-best ranking mandhana cricket vivoipl squad higgins wreck run wasim akram ", "location": "dummy", "time": 1523730600, "id": 13}
-{"index": {"_type": "tweet", "_id": "14"}}
+{"index": {"_type": "tweet", "_id": "14", "_index":"cricket"}}
 {"emotion": "happy", "sentiment": 0, "parent": 14, "text": "pakistan peshawar saj pakpassion alam player cricket http thought bangladesh confidence country performance ", "location": "dummy", "time": 1523730600, "id": 14}
-{"index": {"_type": "tweet", "_id": "15"}}
+{"index": {"_type": "tweet", "_id": "15", "_index":"cricket"}}
 {"emotion": "angry", "sentiment": 0, "parent": 15, "text": "ipl2018 ipl18 toss congratulation india cricket arifraza507 season rajasthanroyal today australia inning ", "location": "dummy", "time": 1523730600, "id": 15}
-{"index": {"_type": "tweet", "_id": "16"}}
+{"index": {"_type": "tweet", "_id": "16", "_index":"cricket"}}
 {"emotion": "happy", "sentiment": 2, "parent": 16, "text": "ipl18 cricket vivoipl ipl11 india pawan negi rajasthan royal http royal challenger rajasthanroyal gambhir return confidence ", "location": "dummy", "time": 1523730600, "id": 16}
-{"index": {"_type": "tweet", "_id": "17"}}
+{"index": {"_type": "tweet", "_id": "17", "_index":"cricket"}}
 {"emotion": "angry", "sentiment": 0, "parent": 17, "text": "rajasthan royal ipl2018 19 run vivoipl2018 congratulation sanju samson part royal challenger hat pawan negi hand team ", "location": "dummy", "time": 1523730600, "id": 17}
-{"index": {"_type": "tweet", "_id": "18"}}
+{"index": {"_type": "tweet", "_id": "18", "_index":"cricket"}}
 {"emotion": "angry", "sentiment": -2, "parent": 18, "text": "olly stone world lionsdenkxip fawad pulse county championship ability wicket stone ipl2018 pakistan ", "location": "dummy", "time": 1523730600, "id": 18}
-{"index": {"_type": "tweet", "_id": "19"}}
+{"index": {"_type": "tweet", "_id": "19", "_index":"cricket"}}
 {"emotion": "sad", "sentiment": 2, "parent": 19, "text": "cricket news fifty chris gayle cricket rcbvrr ipl2018 punjab csk bowl gayle ipl 2018 dew chennai ", "location": "dummy", "time": 1523730600, "id": 19}
-{"index": {"_type": "tweet", "_id": "20"}}
+{"index": {"_type": "tweet", "_id": "20", "_index":"cricket"}}
 {"emotion": "happy", "sentiment": 0, "parent": 20, "text": "day player fawad alam training kit saj pakpassion country ipl2018 ashwin iplt20 imvkohli team ", "location": "dummy", "time": 1523730600, "id": 20}
-{"index": {"_type": "tweet", "_id": "21"}}
+{"index": {"_type": "tweet", "_id": "21", "_index":"cricket"}}
 {"emotion": "sad", "sentiment": -2, "parent": 21, "text": "sehwag iamfawadalam25 ground opposition team dhoni inzithelegend warner big god ipl2018 ", "location": "dummy", "time": 1523730600, "id": 21}
-{"index": {"_type": "tweet", "_id": "22"}}
+{"index": {"_type": "tweet", "_id": "22", "_index":"cricket"}}
 {"emotion": "happy", "sentiment": 2, "parent": 22, "text": "today talent spotter saad ali 2 test viral ipl rcbvrr kxipvcsk whistlepodu vivoipl2018 india teamindia hero cycle jadeja www facebook ", "location": "dummy", "time": 1523730600, "id": 22}
-{"index": {"_type": "tweet", "_id": "23"}}
+{"index": {"_type": "tweet", "_id": "23", "_index":"cricket"}}
 {"emotion": "fear", "sentiment": 0, "parent": 23, "text": "ipl11 ipl2018 prediction retweet rcb rcbvrr cskvskxip ipl2018 ipl play day kolkata rcbvrr ", "location": "dummy", "time": 1523730600, "id": 23}
-{"index": {"_type": "tweet", "_id": "24"}}
+{"index": {"_type": "tweet", "_id": "24", "_index":"cricket"}}
 {"emotion": "fear", "sentiment": 2, "parent": 12, "text": "sachin tendulkar iplt20 street cricket prosportsimage publication cricket pic countychamp ecb cricket today hampshire legend ", "location": "dummy", "time": 1523817000, "id": 24}
-{"index": {"_type": "tweet", "_id": "25"}}
+{"index": {"_type": "tweet", "_id": "25", "_index":"cricket"}}
 {"emotion": "fear", "sentiment": 2, "parent": 11, "text": "rcb mumbai room tomorrow player kkr word squad test squad team preview ", "location": "dummy", "time": 1523817000, "id": 25}
-{"index": {"_type": "tweet", "_id": "26"}}
+{"index": {"_type": "tweet", "_id": "26", "_index":"cricket"}}
 {"emotion": "excited", "sentiment": 2, "parent": 8, "text": "ipl2018 delhidaredevil kkr match team ipl 2018 71 run yesterday gully cricket staff india teamindia ", "location": "dummy", "time": 1523817000, "id": 26}
-{"index": {"_type": "tweet", "_id": "27"}}
+{"index": {"_type": "tweet", "_id": "27", "_index":"cricket"}}
 {"emotion": "sad", "sentiment": -2, "parent": 8, "text": "ipl2018 person passion commentary ipl csk sachin staff india teamindia cricketer series ", "location": "dummy", "time": 1523817000, "id": 27}
-{"index": {"_type": "tweet", "_id": "28"}}
+{"index": {"_type": "tweet", "_id": "28", "_index":"cricket"}}
 {"emotion": "excited", "sentiment": 0, "parent": 12, "text": "ipl2018 cricket ipl ipl11 today preview mivrcb edward man tomorrow rcb hampshire ", "location": "dummy", "time": 1523817000, "id": 28}
-{"index": {"_type": "tweet", "_id": "29"}}
+{"index": {"_type": "tweet", "_id": "29", "_index":"cricket"}}
 {"emotion": "sad", "sentiment": -2, "parent": 8, "text": "thought leader free tool ipl2018 1990s1 ipl 2018 staff india teamindia cricketer series 18 over street ", "location": "dummy", "time": 1523817000, "id": 29}
-{"index": {"_type": "tweet", "_id": "30"}}
+{"index": {"_type": "tweet", "_id": "30", "_index":"cricket"}}
 {"emotion": "happy", "sentiment": 2, "parent": 30, "text": "night late bandra car younis khan thought leader series room uthappa bowler cricket pakistan ", "location": "dummy", "time": 1523817000, "id": 30}
-{"index": {"_type": "tweet", "_id": "31"}}
+{"index": {"_type": "tweet", "_id": "31", "_index":"cricket"}}
 {"emotion": "happy", "sentiment": -2, "parent": 31, "text": "legend tamil sachin staff india teamindia cricketer series 18 over street 71 run selector ", "location": "dummy", "time": 1523817000, "id": 31}
-{"index": {"_type": "tweet", "_id": "32"}}
+{"index": {"_type": "tweet", "_id": "32", "_index":"cricket"}}
 {"emotion": "happy", "sentiment": 1, "parent": 18, "text": "fawad player year county championship future day tour cricket vivoipl cricket pakistan wicket www ", "location": "dummy", "time": 1523817000, "id": 32}
-{"index": {"_type": "tweet", "_id": "33"}}
+{"index": {"_type": "tweet", "_id": "33", "_index":"cricket"}}
 {"emotion": "angry", "sentiment": -1, "parent": 22, "text": "viral ipl whistlepodu vivoipl2018 india teamindia rcbvrr kxipvcsk game hero cycle andre russell herosprintpro side staff selector ", "location": "dummy", "time": 1523817000, "id": 33}
-{"index": {"_type": "tweet", "_id": "34"}}
+{"index": {"_type": "tweet", "_id": "34", "_index":"cricket"}}
 {"emotion": "fear", "sentiment": 0, "parent": 23, "text": "cricket http ipl2018 ipl www ipl18 ipl ipl11 country follower content http year ipl 2018 ", "location": "dummy", "time": 1523817000, "id": 34}
-{"index": {"_type": "tweet", "_id": "35"}}
+{"index": {"_type": "tweet", "_id": "35", "_index":"cricket"}}
 {"emotion": "angry", "sentiment": 2, "parent": 0, "text": "player season lot rcb msdhoni game ipl2018 history match ipl18 year ", "location": "dummy", "time": 1523817000, "id": 35}
-{"index": {"_type": "tweet", "_id": "36"}}
+{"index": {"_type": "tweet", "_id": "36", "_index":"cricket"}}
 {"emotion": "happy", "sentiment": 0, "parent": 1, "text": "chance ipl2018 ipl team day tamil sachin staff india teamindia cricketer series ", "location": "dummy", "time": 1523817000, "id": 36}
-{"index": {"_type": "tweet", "_id": "37"}}
+{"index": {"_type": "tweet", "_id": "37", "_index":"cricket"}}
 {"emotion": "excited", "sentiment": 2, "parent": 4, "text": "game cricket fan cricket http start ipl2018 child download year ipl 2018 april yorkshire ", "location": "dummy", "time": 1523817000, "id": 37}
-{"index": {"_type": "tweet", "_id": "38"}}
+{"index": {"_type": "tweet", "_id": "38", "_index":"cricket"}}
 {"emotion": "sad", "sentiment": -2, "parent": 6, "text": "read risk match kkrvdd ipl18 ipl11 ipl2018 performance staff india teamindia late ", "location": "dummy", "time": 1523817000, "id": 38}
-{"index": {"_type": "tweet", "_id": "39"}}
+{"index": {"_type": "tweet", "_id": "39", "_index":"cricket"}}
 {"emotion": "sad", "sentiment": 2, "parent": 9, "text": "t20 ipl2018 ipl ipl11 team passion fawadalam nitish rana man place end ", "location": "dummy", "time": 1523817000, "id": 39}
-{"index": {"_type": "tweet", "_id": "40"}}
+{"index": {"_type": "tweet", "_id": "40", "_index":"cricket"}}
 {"emotion": "angry", "sentiment": 0, "parent": 7, "text": "ipl cricket side place virat kohli maxwell end kkrvdd bcci sport team time ", "location": "dummy", "time": 1523817000, "id": 40}
-{"index": {"_type": "tweet", "_id": "41"}}
+{"index": {"_type": "tweet", "_id": "41", "_index":"cricket"}}
 {"emotion": "angry", "sentiment": 2, "parent": 7, "text": "ipl cricket nitish rana ipl2018 kkrider uthappa chris lynn iamfawadalam25 india teamindia cricketer series 18 over ", "location": "dummy", "time": 1523817000, "id": 41}
-{"index": {"_type": "tweet", "_id": "42"}}
+{"index": {"_type": "tweet", "_id": "42", "_index":"cricket"}}
 {"emotion": "happy", "sentiment": -1, "parent": 7, "text": "ipl cricket eden garden kkr delhi daredevil kolkataknightrider 71 run place delhidaredevil match ipl2018 ms dhoni ", "location": "dummy", "time": 1523817000, "id": 42}
-{"index": {"_type": "tweet", "_id": "43"}}
+{"index": {"_type": "tweet", "_id": "43", "_index":"cricket"}}
 {"emotion": "sad", "sentiment": 2, "parent": 7, "text": "kkr match 13 ipl cricket ipl 2018 commentary legend sachin staff india teamindia cricketer series ", "location": "dummy", "time": 1523817000, "id": 43}
-{"index": {"_type": "tweet", "_id": "44"}}
+{"index": {"_type": "tweet", "_id": "44", "_index":"cricket"}}
 {"emotion": "angry", "sentiment": 2, "parent": 5, "text": "ball essex hint wiese power yorkshire stone wicket child county championship link ", "location": "dummy", "time": 1523817000, "id": 44}
-{"index": {"_type": "tweet", "_id": "45"}}
+{"index": {"_type": "tweet", "_id": "45", "_index":"cricket"}}
 {"emotion": "angry", "sentiment": 2, "parent": 5, "text": "play jewel 21st april led screen sport pulse sana jewel kaamya diamond heera jeweller game link ", "location": "dummy", "time": 1523817000, "id": 45}
-{"index": {"_type": "tweet", "_id": "46"}}
+{"index": {"_type": "tweet", "_id": "46", "_index":"cricket"}}
 {"emotion": "happy", "sentiment": -2, "parent": 3, "text": "score click commentator time contest legend sachin staff india teamindia cricketer series ", "location": "dummy", "time": 1523817000, "id": 46}
-{"index": {"_type": "tweet", "_id": "47"}}
+{"index": {"_type": "tweet", "_id": "47", "_index":"cricket"}}
 {"emotion": "happy", "sentiment": -1, "parent": 3, "text": "www facebook year time younis khan nca lahore tomorrow team room game good ", "location": "dummy", "time": 1523817000, "id": 47}
-{"index": {"_type": "tweet", "_id": "48"}}
+{"index": {"_type": "tweet", "_id": "48", "_index":"cricket"}}
 {"emotion": "angry", "sentiment": -1, "parent": 3, "text": "today score crickhit time ipl2018 cricketer fan sport cricket season season day ", "location": "dummy", "time": 1523817000, "id": 48}
-{"index": {"_type": "tweet", "_id": "49"}}
+{"index": {"_type": "tweet", "_id": "49", "_index":"cricket"}}
 {"emotion": "sad", "sentiment": 0, "parent": 49, "text": "kkr 71 run maxwell 18 over kolkataknightrider andre russell match 13 delhidaredevil end season performance ", "location": "dummy", "time": 1523817000, "id": 49}
-{"index": {"_type": "tweet", "_id": "50"}}
+{"index": {"_type": "tweet", "_id": "50", "_index":"cricket"}}
 {"emotion": "happy", "sentiment": 2, "parent": 13, "text": "average fawad alam opportunity domestic run squad day read street country player ", "location": "dummy", "time": 1523817000, "id": 50}
-{"index": {"_type": "tweet", "_id": "51"}}
+{"index": {"_type": "tweet", "_id": "51", "_index":"cricket"}}
 {"emotion": "sad", "sentiment": 0, "parent": 15, "text": "australia season today toss change tomorrow bowler delhi daredevil day ipl2018 game ", "location": "dummy", "time": 1523817000, "id": 51}
-{"index": {"_type": "tweet", "_id": "52"}}
+{"index": {"_type": "tweet", "_id": "52", "_index":"cricket"}}
 {"emotion": "angry", "sentiment": 0, "parent": 17, "text": "run ipl2018 win csk county championship hampshire ipl11 season today kkr score ", "location": "dummy", "time": 1523817000, "id": 52}
-{"index": {"_type": "tweet", "_id": "53"}}
+{"index": {"_type": "tweet", "_id": "53", "_index":"cricket"}}
 {"emotion": "sad", "sentiment": -2, "parent": 14, "text": "pakistan day selector www facebook pcb performance room bangladesh 3 point tamil sachin ", "location": "dummy", "time": 1523817000, "id": 53}
-{"index": {"_type": "tweet", "_id": "54"}}
+{"index": {"_type": "tweet", "_id": "54", "_index":"cricket"}}
 {"emotion": "angry", "sentiment": 2, "parent": 10, "text": "fawad alam nephew performance inzithelegend iamfawadalam25 player selector fan fawadalam lot history ", "location": "dummy", "time": 1523817000, "id": 54}
-{"index": {"_type": "tweet", "_id": "55"}}
+{"index": {"_type": "tweet", "_id": "55", "_index":"cricket"}}
 {"emotion": "excited", "sentiment": -1, "parent": 55, "text": "morris daredevils bowl experience series cricket vivoipl staff india teamindia cricketer 18 over street 71 run ", "location": "dummy", "time": 1523817000, "id": 55}
-{"index": {"_type": "tweet", "_id": "56"}}
+{"index": {"_type": "tweet", "_id": "56", "_index":"cricket"}}
 {"emotion": "sad", "sentiment": 2, "parent": 16, "text": "ipl18 india ipl11 ipl2018 ipl 2018 morning nottinghamshire commentator www money series ", "location": "dummy", "time": 1523817000, "id": 56}
-{"index": {"_type": "tweet", "_id": "57"}}
+{"index": {"_type": "tweet", "_id": "57", "_index":"cricket"}}
 {"emotion": "happy", "sentiment": 2, "parent": 57, "text": "4th spot privaa jewel jewel hissaria diamond bullmen realty mydiamondjewellery rb jeweller 620 point content http follower click ", "location": "dummy", "time": 1523817000, "id": 57}
-{"index": {"_type": "tweet", "_id": "58"}}
+{"index": {"_type": "tweet", "_id": "58", "_index":"cricket"}}
 {"emotion": "happy", "sentiment": 0, "parent": 16, "text": "cricket vivoipl maxwell staff kkr http delhi daredevil 18 over slc potha search defiant leach ", "location": "dummy", "time": 1523817000, "id": 58}
-{"index": {"_type": "tweet", "_id": "59"}}
+{"index": {"_type": "tweet", "_id": "59", "_index":"cricket"}}
 {"emotion": "happy", "sentiment": -2, "parent": 59, "text": "record stewart hotstar curran departure hotstartweets akamai www imam-ul-haq ecb cricket vivoipl book hotstartweet ", "location": "dummy", "time": 1523817000, "id": 59}
-{"index": {"_type": "tweet", "_id": "60"}}
+{"index": {"_type": "tweet", "_id": "60", "_index":"cricket"}}
 {"emotion": "angry", "sentiment": 2, "parent": 20, "text": "player ipl2018 rcbtweet royal solid win deadline good time iplt20 team word csa ", "location": "dummy", "time": 1523817000, "id": 60}
-{"index": {"_type": "tweet", "_id": "61"}}
+{"index": {"_type": "tweet", "_id": "61", "_index":"cricket"}}
 {"emotion": "sad", "sentiment": 1, "parent": 61, "text": "future cricket season today cricketer week season video side staff india teamindia play ", "location": "dummy", "time": 1523817000, "id": 61}
-{"index": {"_type": "tweet", "_id": "62"}}
+{"index": {"_type": "tweet", "_id": "62", "_index":"cricket"}}
 {"emotion": "fear", "sentiment": 2, "parent": 19, "text": "cricket news ipl ipl 2018 ipl2018 virat kohli money car hotstartweet bcci team dhoni ", "location": "dummy", "time": 1523817000, "id": 62}
-{"index": {"_type": "tweet", "_id": "63"}}
+{"index": {"_type": "tweet", "_id": "63", "_index":"cricket"}}
 {"emotion": "happy", "sentiment": 0, "parent": 63, "text": "touch job coach contest cricket icc gloucestershire ecb selector cricket vivoipl detail click ", "location": "dummy", "time": 1523817000, "id": 63}
-{"index": {"_type": "tweet", "_id": "64"}}
+{"index": {"_type": "tweet", "_id": "64", "_index":"cricket"}}
 {"emotion": "fear", "sentiment": 1, "parent": 64, "text": "mumbai heart sachin street road video car time gully cricket youtube passion ", "location": "dummy", "time": 1523817000, "id": 64}
-{"index": {"_type": "tweet", "_id": "65"}}
+{"index": {"_type": "tweet", "_id": "65", "_index":"cricket"}}
 {"emotion": "angry", "sentiment": -2, "parent": 21, "text": "god big street cricket test squad sachin tendulkar opposition legend today street tip nephew ", "location": "dummy", "time": 1523817000, "id": 65}
-{"index": {"_type": "tweet", "_id": "66"}}
+{"index": {"_type": "tweet", "_id": "66", "_index":"cricket"}}
 {"emotion": "excited", "sentiment": 2, "parent": 35, "text": "season lot rohit sharma msdhoni ipl2018 ipl guy kohli player imvkohli heart ", "location": "dummy", "time": 1523903400, "id": 66}
-{"index": {"_type": "tweet", "_id": "67"}}
+{"index": {"_type": "tweet", "_id": "67", "_index":"cricket"}}
 {"emotion": "sad", "sentiment": 0, "parent": 34, "text": "country ipl11 www club iplt20 india action ipl venue read mysterious snubbing ", "location": "dummy", "time": 1523903400, "id": 67}
-{"index": {"_type": "tweet", "_id": "68"}}
+{"index": {"_type": "tweet", "_id": "68", "_index":"cricket"}}
 {"emotion": "angry", "sentiment": -2, "parent": 27, "text": "ipl2018 mipaltan sri lanka vivoipl2018 congratulation god milestone season mumbai indian cricket playing kohli team ", "location": "dummy", "time": 1523903400, "id": 68}
-{"index": {"_type": "tweet", "_id": "69"}}
+{"index": {"_type": "tweet", "_id": "69", "_index":"cricket"}}
 {"emotion": "sad", "sentiment": 2, "parent": 46, "text": "time profit psl2018 edition najam sethi ipl sport batsman happy birthday support england ", "location": "dummy", "time": 1523903400, "id": 69}
-{"index": {"_type": "tweet", "_id": "70"}}
+{"index": {"_type": "tweet", "_id": "70", "_index":"cricket"}}
 {"emotion": "excited", "sentiment": -2, "parent": 26, "text": "gully cricket ipl2018 sachin tendulkar legend sport fan game side viral ipl first tonight ", "location": "dummy", "time": 1523903400, "id": 70}
-{"index": {"_type": "tweet", "_id": "71"}}
+{"index": {"_type": "tweet", "_id": "71", "_index":"cricket"}}
 {"emotion": "sad", "sentiment": -2, "parent": 47, "text": "year rs1 billion upgrade pindi stadium pcb tomorrow www facebook answer hero cycle book kohli ", "location": "dummy", "time": 1523903400, "id": 71}
-{"index": {"_type": "tweet", "_id": "72"}}
+{"index": {"_type": "tweet", "_id": "72", "_index":"cricket"}}
 {"emotion": "fear", "sentiment": 1, "parent": 29, "text": "match team yesterday today rcb catch imro45 ipl2018 kolkata inning first ", "location": "dummy", "time": 1523903400, "id": 72}
-{"index": {"_type": "tweet", "_id": "73"}}
+{"index": {"_type": "tweet", "_id": "73", "_index":"cricket"}}
 {"emotion": "fear", "sentiment": -2, "parent": 46, "text": "ipl2018 hallabol cricket royal tune junadkat time musical show impchopra itsmeanureet sport ipl 2018 www facebook viral ipl ", "location": "dummy", "time": 1523903400, "id": 73}
-{"index": {"_type": "tweet", "_id": "74"}}
+{"index": {"_type": "tweet", "_id": "74", "_index":"cricket"}}
 {"emotion": "fear", "sentiment": 2, "parent": 28, "text": "ipl2018 ipl11 today cricket ipl preview mumbai indian retweet ipl tonight world mivrcb ", "location": "dummy", "time": 1523903400, "id": 74}
-{"index": {"_type": "tweet", "_id": "75"}}
+{"index": {"_type": "tweet", "_id": "75", "_index":"cricket"}}
 {"emotion": "excited", "sentiment": 1, "parent": 46, "text": "score manufacturer today rest 4 http mumbai indian favorite team sport job first win imvkohli ", "location": "dummy", "time": 1523903400, "id": 75}
-{"index": {"_type": "tweet", "_id": "76"}}
+{"index": {"_type": "tweet", "_id": "76", "_index":"cricket"}}
 {"emotion": "happy", "sentiment": 0, "parent": 31, "text": "mumbai ipl2018 bangalore sachin today wankhede sports cricket first street cricket ipl18 ipl11 ", "location": "dummy", "time": 1523903400, "id": 76}
-{"index": {"_type": "tweet", "_id": "77"}}
+{"index": {"_type": "tweet", "_id": "77", "_index":"cricket"}}
 {"emotion": "sad", "sentiment": 2, "parent": 51, "text": "season ipl2018 change toss uae team ipl club mumbai hitman bowl ", "location": "dummy", "time": 1523903400, "id": 77}
-{"index": {"_type": "tweet", "_id": "78"}}
+{"index": {"_type": "tweet", "_id": "78", "_index":"cricket"}}
 {"emotion": "happy", "sentiment": -1, "parent": 30, "text": "car bandra night late sachin reason game mumbai iplt20 love www facebook ", "location": "dummy", "time": 1523903400, "id": 78}
-{"index": {"_type": "tweet", "_id": "79"}}
+{"index": {"_type": "tweet", "_id": "79", "_index":"cricket"}}
 {"emotion": "sad", "sentiment": -2, "parent": 52, "text": "win head today mumbai indian ipl2018 sports cricket county championship congratulation rcbtweet ipl11 guy ", "location": "dummy", "time": 1523903400, "id": 79}
-{"index": {"_type": "tweet", "_id": "80"}}
+{"index": {"_type": "tweet", "_id": "80", "_index":"cricket"}}
 {"emotion": "excited", "sentiment": 0, "parent": 33, "text": "viral ipl side weather victoria stadium whistlepodu vivoipl2018 rock gibraltar crick gibraltar rcb mivrcb support ", "location": "dummy", "time": 1523903400, "id": 80}
-{"index": {"_type": "tweet", "_id": "81"}}
+{"index": {"_type": "tweet", "_id": "81", "_index":"cricket"}}
 {"emotion": "excited", "sentiment": 2, "parent": 48, "text": "score today crickhit 4 http ipl2018 game ipl place viral ipl first tonight ", "location": "dummy", "time": 1523903400, "id": 81}
-{"index": {"_type": "tweet", "_id": "82"}}
+{"index": {"_type": "tweet", "_id": "82", "_index":"cricket"}}
 {"emotion": "happy", "sentiment": 2, "parent": 32, "text": "auction ipl tour alam year ipl2018 merit bbctm world england player ", "location": "dummy", "time": 1523903400, "id": 82}
-{"index": {"_type": "tweet", "_id": "83"}}
+{"index": {"_type": "tweet", "_id": "83", "_index":"cricket"}}
 {"emotion": "fear", "sentiment": 0, "parent": 50, "text": "fawad alam mysterious snubbing pakistan cricket cricket vivoipl cricket pakistan job reason tonight read rohit sharma heart ", "location": "dummy", "time": 1523903400, "id": 83}
-{"index": {"_type": "tweet", "_id": "84"}}
+{"index": {"_type": "tweet", "_id": "84", "_index":"cricket"}}
 {"emotion": "happy", "sentiment": -2, "parent": 2, "text": "captain cricshot imvkohli bangalore wankhede tonight decision death mumbaiindian mumbai indian ipl cricket ", "location": "dummy", "time": 1523903400, "id": 84}
-{"index": {"_type": "tweet", "_id": "85"}}
+{"index": {"_type": "tweet", "_id": "85", "_index":"cricket"}}
 {"emotion": "excited", "sentiment": -1, "parent": 45, "text": "mivrcb mi free today play ball bangalore job mumbai batsman man team ", "location": "dummy", "time": 1523903400, "id": 85}
-{"index": {"_type": "tweet", "_id": "86"}}
+{"index": {"_type": "tweet", "_id": "86", "_index":"cricket"}}
 {"emotion": "sad", "sentiment": 1, "parent": 65, "text": "god sachin tendulkar mumbai street cricket playing sachin sachintendulkar play boy game legend congratulation ", "location": "dummy", "time": 1523903400, "id": 86}
-{"index": {"_type": "tweet", "_id": "87"}}
+{"index": {"_type": "tweet", "_id": "87", "_index":"cricket"}}
 {"emotion": "happy", "sentiment": -1, "parent": 63, "text": "detail job coach national selector manufacturer people sachin pakistan player india itune ", "location": "dummy", "time": 1523903400, "id": 87}
-{"index": {"_type": "tweet", "_id": "88"}}
+{"index": {"_type": "tweet", "_id": "88", "_index":"cricket"}}
 {"emotion": "angry", "sentiment": -1, "parent": 25, "text": "team player today retweet fica alert world home kid club icc imvkohli ", "location": "dummy", "time": 1523903400, "id": 88}
-{"index": {"_type": "tweet", "_id": "89"}}
+{"index": {"_type": "tweet", "_id": "89", "_index":"cricket"}}
 {"emotion": "happy", "sentiment": 1, "parent": 54, "text": "fawad alam fan history pakistan cricket test mumbai milestone international cricket england player interview ", "location": "dummy", "time": 1523903400, "id": 89}
-{"index": {"_type": "tweet", "_id": "90"}}
+{"index": {"_type": "tweet", "_id": "90", "_index":"cricket"}}
 {"emotion": "sad", "sentiment": -1, "parent": 24, "text": "game sachin tendulkar car street cricket iplt20 ipl2018 decision rcb ipl11 ipl18 ipl 2018 ", "location": "dummy", "time": 1523903400, "id": 90}
-{"index": {"_type": "tweet", "_id": "91"}}
+{"index": {"_type": "tweet", "_id": "91", "_index":"cricket"}}
 {"emotion": "happy", "sentiment": -2, "parent": 53, "text": "pakistan test 3 over day bowling action international cricket rounder australia pcb world side ", "location": "dummy", "time": 1523903400, "id": 91}
-{"index": {"_type": "tweet", "_id": "92"}}
+{"index": {"_type": "tweet", "_id": "92", "_index":"cricket"}}
 {"emotion": "excited", "sentiment": -2, "parent": 44, "text": "wicket girl boy sign ipl2018 excitement link weather test lot answer ", "location": "dummy", "time": 1523903400, "id": 92}
-{"index": {"_type": "tweet", "_id": "93"}}
+{"index": {"_type": "tweet", "_id": "93", "_index":"cricket"}}
 {"emotion": "sad", "sentiment": -1, "parent": 58, "text": "cricket vivoipl lynn groove anderson http death mumbai indian mccullum vettori fica alert russell ", "location": "dummy", "time": 1523903400, "id": 93}
-{"index": {"_type": "tweet", "_id": "94"}}
+{"index": {"_type": "tweet", "_id": "94", "_index":"cricket"}}
 {"emotion": "sad", "sentiment": -2, "parent": 25, "text": "rcb kohli today batsman bat news rohit sharma first win wankhede ipl18 match ", "location": "dummy", "time": 1523903400, "id": 94}
-{"index": {"_type": "tweet", "_id": "95"}}
+{"index": {"_type": "tweet", "_id": "95", "_index":"cricket"}}
 {"emotion": "happy", "sentiment": 0, "parent": 56, "text": "india pakistan ipl2018 england match ipl18 boy sachin tendulkar ipl11 weather world ", "location": "dummy", "time": 1523903400, "id": 95}
-{"index": {"_type": "tweet", "_id": "96"}}
+{"index": {"_type": "tweet", "_id": "96", "_index":"cricket"}}
 {"emotion": "angry", "sentiment": 0, "parent": 60, "text": "rcbtweet ipl2018 ipl18 royal rcb in-form kkr cricket vivoipl excitement player mipaltan today ", "location": "dummy", "time": 1523903400, "id": 96}
-{"index": {"_type": "tweet", "_id": "97"}}
+{"index": {"_type": "tweet", "_id": "97", "_index":"cricket"}}
 {"emotion": "fear", "sentiment": 2, "parent": 59, "text": "ecb ipl2018 book fa cup-style bowler father surrey bbctm day catch star ", "location": "dummy", "time": 1523903400, "id": 97}
-{"index": {"_type": "tweet", "_id": "98"}}
+{"index": {"_type": "tweet", "_id": "98", "_index":"cricket"}}
 {"emotion": "happy", "sentiment": -2, "parent": 62, "text": "ipl ipl2018 ipl 2018 cricket news first win royalchallengersbangalore action mumbai people rcb mumbaiindian ", "location": "dummy", "time": 1523903400, "id": 98}
-{"index": {"_type": "tweet", "_id": "99"}}
+{"index": {"_type": "tweet", "_id": "99", "_index":"cricket"}}
 {"emotion": "angry", "sentiment": 1, "parent": 61, "text": "video reason mumbai street player guy cricket season profit mysterious snubbing job first win imvkohli ", "location": "dummy", "time": 1523903400, "id": 99}
-{"index": {"_type": "tweet", "_id": "100"}}
+{"index": {"_type": "tweet", "_id": "100", "_index":"cricket"}}
 {"emotion": "fear", "sentiment": -2, "parent": 100, "text": "congratulation bet fundraiser milestone russell today ipl2018 cricket fun mumbai indian thursday tamil ", "location": "dummy", "time": 1523903400, "id": 100}
-{"index": {"_type": "tweet", "_id": "101"}}
+{"index": {"_type": "tweet", "_id": "101", "_index":"cricket"}}
 {"emotion": "happy", "sentiment": 0, "parent": 39, "text": "ipl day team ipl2018 man sport place mumbai ipl11 england match ", "location": "dummy", "time": 1523903400, "id": 101}
-{"index": {"_type": "tweet", "_id": "102"}}
+{"index": {"_type": "tweet", "_id": "102", "_index":"cricket"}}
 {"emotion": "happy", "sentiment": -1, "parent": 37, "text": "cricket http child game bowl ipl2018 sachintendulkar first kid ball lot sport ", "location": "dummy", "time": 1523903400, "id": 102}
-{"index": {"_type": "tweet", "_id": "103"}}
+{"index": {"_type": "tweet", "_id": "103", "_index":"cricket"}}
 {"emotion": "fear", "sentiment": 1, "parent": 103, "text": "zippyfeed ans -a umesh yadav lewis kohli viratkohli play place viral ipl captain first ", "location": "dummy", "time": 1523903400, "id": 103}
-{"index": {"_type": "tweet", "_id": "104"}}
+{"index": {"_type": "tweet", "_id": "104", "_index":"cricket"}}
 {"emotion": "happy", "sentiment": 2, "parent": 42, "text": "ipl cricket end place rcb test mipaltan reason viral ipl first tonight read ", "location": "dummy", "time": 1523903400, "id": 104}
-{"index": {"_type": "tweet", "_id": "105"}}
+{"index": {"_type": "tweet", "_id": "105", "_index":"cricket"}}
 {"emotion": "angry", "sentiment": 2, "parent": 43, "text": "ipl 2018 tom curran hoping cricshot content rcb lewis mipaltan imro45 today ipl cricket ", "location": "dummy", "time": 1523903400, "id": 105}
-{"index": {"_type": "tweet", "_id": "106"}}
+{"index": {"_type": "tweet", "_id": "106", "_index":"cricket"}}
 {"emotion": "fear", "sentiment": 0, "parent": 40, "text": "virat kohli dwayne bravo bcci ipl2018 inning sachin tendulkar picture twitter cricket vivoipl mumbai indian first ", "location": "dummy", "time": 1523903400, "id": 106}
-{"index": {"_type": "tweet", "_id": "107"}}
+{"index": {"_type": "tweet", "_id": "107", "_index":"cricket"}}
 {"emotion": "excited", "sentiment": 1, "parent": 41, "text": "kkrider win ipl2018 congratulation iplt20 ipl11 today car man place viral ipl ", "location": "dummy", "time": 1523903400, "id": 107}
-{"index": {"_type": "tweet", "_id": "108"}}
+{"index": {"_type": "tweet", "_id": "108", "_index":"cricket"}}
 {"emotion": "fear", "sentiment": 2, "parent": 36, "text": "team chance ipl18 ipl2018 mumbai viral ipl first tonight read rohit sharma heart ", "location": "dummy", "time": 1523903400, "id": 108}
-{"index": {"_type": "tweet", "_id": "109"}}
+{"index": {"_type": "tweet", "_id": "109", "_index":"cricket"}}
 {"emotion": "happy", "sentiment": -1, "parent": 88, "text": "home team england year saturday weekend date good luck australia cricket news school ", "location": "dummy", "time": 1523989800, "id": 109}
-{"index": {"_type": "tweet", "_id": "110"}}
+{"index": {"_type": "tweet", "_id": "110", "_index":"cricket"}}
 {"emotion": "happy", "sentiment": 2, "parent": 70, "text": "legend full swing summer sport answer ipl season time fan 10 year chance today april ", "location": "dummy", "time": 1523989800, "id": 110}
-{"index": {"_type": "tweet", "_id": "111"}}
+{"index": {"_type": "tweet", "_id": "111", "_index":"cricket"}}
 {"emotion": "happy", "sentiment": -2, "parent": 73, "text": "time borren sun cricket vivoipl game india friday incompetent gora https tamil april partnership ", "location": "dummy", "time": 1523989800, "id": 111}
-{"index": {"_type": "tweet", "_id": "112"}}
+{"index": {"_type": "tweet", "_id": "112", "_index":"cricket"}}
 {"emotion": "excited", "sentiment": -1, "parent": 108, "text": "chance win cricket club competition front field eye team india international cricket champion ", "location": "dummy", "time": 1523989800, "id": 112}
-{"index": {"_type": "tweet", "_id": "113"}}
+{"index": {"_type": "tweet", "_id": "113", "_index":"cricket"}}
 {"emotion": "angry", "sentiment": -1, "parent": 74, "text": "ipl2018 ipl11 retweet cricket ipl srh kkr kxip news team iplt20 april ", "location": "dummy", "time": 1523989800, "id": 113}
-{"index": {"_type": "tweet", "_id": "114"}}
+{"index": {"_type": "tweet", "_id": "114", "_index":"cricket"}}
 {"emotion": "fear", "sentiment": 1, "parent": 68, "text": "sri lanka right radio talksport england politics bbc tms cricket place ipl11 politician ", "location": "dummy", "time": 1523989800, "id": 114}
-{"index": {"_type": "tweet", "_id": "115"}}
+{"index": {"_type": "tweet", "_id": "115", "_index":"cricket"}}
 {"emotion": "happy", "sentiment": 2, "parent": 105, "text": "rcb ipl 2018 ipl match rajasthanroyal ipl2018 virat kohli mumbai indian breakingnew 10 year t20 ipl11 ", "location": "dummy", "time": 1523989800, "id": 115}
-{"index": {"_type": "tweet", "_id": "116"}}
+{"index": {"_type": "tweet", "_id": "116", "_index":"cricket"}}
 {"emotion": "fear", "sentiment": -2, "parent": 79, "text": "win ipl11 guy ipl2018 ipl incompetent gora head abdul qadir ipl2018 ipl 2018 season cricket lover ", "location": "dummy", "time": 1523989800, "id": 116}
-{"index": {"_type": "tweet", "_id": "117"}}
+{"index": {"_type": "tweet", "_id": "117", "_index":"cricket"}}
 {"emotion": "sad", "sentiment": -2, "parent": 117, "text": "photo girl fun a4 b2 a4 95 a4 82 b0 e0 free download a4 a6 8d e0 a5 81 blouse style ", "location": "dummy", "time": 1523989800, "id": 117}
-{"index": {"_type": "tweet", "_id": "118"}}
+{"index": {"_type": "tweet", "_id": "118", "_index":"cricket"}}
 {"emotion": "excited", "sentiment": -1, "parent": 83, "text": "ireland fawad alam tear england report sri lanka pakistan board april partnership tomorrow ", "location": "dummy", "time": 1523989800, "id": 118}
-{"index": {"_type": "tweet", "_id": "119"}}
+{"index": {"_type": "tweet", "_id": "119", "_index":"cricket"}}
 {"emotion": "sad", "sentiment": -1, "parent": 77, "text": "club winter saturday season week tomorrow ground team bat thing effort ", "location": "dummy", "time": 1523989800, "id": 119}
-{"index": {"_type": "tweet", "_id": "120"}}
+{"index": {"_type": "tweet", "_id": "120", "_index":"cricket"}}
 {"emotion": "happy", "sentiment": 2, "parent": 120, "text": "darren lehmann justin langer cricket australia wake cricng breakingnew game day effort result day royal ", "location": "dummy", "time": 1523989800, "id": 120}
-{"index": {"_type": "tweet", "_id": "121"}}
+{"index": {"_type": "tweet", "_id": "121", "_index":"cricket"}}
 {"emotion": "sad", "sentiment": 0, "parent": 89, "text": "interview april view nhoultcricket future ipl role podcast history day career time ", "location": "dummy", "time": 1523989800, "id": 121}
-{"index": {"_type": "tweet", "_id": "122"}}
+{"index": {"_type": "tweet", "_id": "122", "_index":"cricket"}}
 {"emotion": "excited", "sentiment": 2, "parent": 93, "text": "http cricket vivoipl afghan girl cricket league ed smith interim agreement csa smith kings xi maximum australia ", "location": "dummy", "time": 1523989800, "id": 122}
-{"index": {"_type": "tweet", "_id": "123"}}
+{"index": {"_type": "tweet", "_id": "123", "_index":"cricket"}}
 {"emotion": "sad", "sentiment": 2, "parent": 49, "text": "kkr 161 v end player ipl game report home afternoon news eye ", "location": "dummy", "time": 1523989800, "id": 123}
-{"index": {"_type": "tweet", "_id": "124"}}
+{"index": {"_type": "tweet", "_id": "124", "_index":"cricket"}}
 {"emotion": "happy", "sentiment": -2, "parent": 98, "text": "cricket news ipl 2018 rajasthan royal ipl virat kohli ed smith action punjab rajasthan news smith ", "location": "dummy", "time": 1523989800, "id": 124}
-{"index": {"_type": "tweet", "_id": "125"}}
+{"index": {"_type": "tweet", "_id": "125", "_index":"cricket"}}
 {"emotion": "happy", "sentiment": 0, "parent": 84, "text": "training sun tonight season team ipl2018 ipl kkr ipl season bat imvkohli ", "location": "dummy", "time": 1523989800, "id": 125}
-{"index": {"_type": "tweet", "_id": "126"}}
+{"index": {"_type": "tweet", "_id": "126", "_index":"cricket"}}
 {"emotion": "angry", "sentiment": -2, "parent": 95, "text": "india board control purview india bcci law commission afghanistan bcb rti act england pakistan ", "location": "dummy", "time": 1523989800, "id": 126}
-{"index": {"_type": "tweet", "_id": "127"}}
+{"index": {"_type": "tweet", "_id": "127", "_index":"cricket"}}
 {"emotion": "angry", "sentiment": 1, "parent": 104, "text": "place photo cricket djsl2018 contestalert winner prediction michael papp link hunt punjab www ", "location": "dummy", "time": 1523989800, "id": 127}
-{"index": {"_type": "tweet", "_id": "128"}}
+{"index": {"_type": "tweet", "_id": "128", "_index":"cricket"}}
 {"emotion": "sad", "sentiment": -2, "parent": 91, "text": "summer sport ground busy mowing groundskeeper seaford college athletics line lavington park rounder summer day sunshine ", "location": "dummy", "time": 1523989800, "id": 128}
-{"index": {"_type": "tweet", "_id": "129"}}
+{"index": {"_type": "tweet", "_id": "129", "_index":"cricket"}}
 {"emotion": "angry", "sentiment": -1, "parent": 102, "text": "child cricket http day today winner t20 team school ball incompetent gora april ", "location": "dummy", "time": 1523989800, "id": 129}
-{"index": {"_type": "tweet", "_id": "130"}}
+{"index": {"_type": "tweet", "_id": "130", "_index":"cricket"}}
 {"emotion": "angry", "sentiment": 1, "parent": 66, "text": "lot season ready today effort word date weekend warner royal www ", "location": "dummy", "time": 1523989800, "id": 130}
-{"index": {"_type": "tweet", "_id": "131"}}
+{"index": {"_type": "tweet", "_id": "131", "_index":"cricket"}}
 {"emotion": "happy", "sentiment": 1, "parent": 101, "text": "sri lanka match 7 wicket ipl2018 place t20 kkr rr day team ipl11 today ", "location": "dummy", "time": 1523989800, "id": 131}
-{"index": {"_type": "tweet", "_id": "132"}}
+{"index": {"_type": "tweet", "_id": "132", "_index":"cricket"}}
 {"emotion": "excited", "sentiment": -2, "parent": 97, "text": "australia khawaja t20 campaign glamorgan book front time match cricket vivoipl moment pitch ", "location": "dummy", "time": 1523989800, "id": 132}
-{"index": {"_type": "tweet", "_id": "133"}}
+{"index": {"_type": "tweet", "_id": "133", "_index":"cricket"}}
 {"emotion": "sad", "sentiment": 1, "parent": 85, "text": "ball chetan sharma javed miandad 4 run famous onthisday 1986 history cricket play day batsman year ", "location": "dummy", "time": 1523989800, "id": 133}
-{"index": {"_type": "tweet", "_id": "134"}}
+{"index": {"_type": "tweet", "_id": "134", "_index":"cricket"}}
 {"emotion": "fear", "sentiment": 2, "parent": 67, "text": "country county cricket virat kohli sport bcb game royal www boy punjab hunt ", "location": "dummy", "time": 1523989800, "id": 134}
-{"index": {"_type": "tweet", "_id": "135"}}
+{"index": {"_type": "tweet", "_id": "135", "_index":"cricket"}}
 {"emotion": "fear", "sentiment": 0, "parent": 76, "text": "ipl2018 ipl18 ipl punjab team ipl11 www match india ipl 2018 league ", "location": "dummy", "time": 1523989800, "id": 135}
-{"index": {"_type": "tweet", "_id": "136"}}
+{"index": {"_type": "tweet", "_id": "136", "_index":"cricket"}}
 {"emotion": "angry", "sentiment": -2, "parent": 107, "text": "kkrider ipl2018 win ipl 2018 kkr team ipl11 fact rajasthanroyal photo politician ", "location": "dummy", "time": 1523989800, "id": 136}
-{"index": {"_type": "tweet", "_id": "137"}}
+{"index": {"_type": "tweet", "_id": "137", "_index":"cricket"}}
 {"emotion": "excited", "sentiment": 2, "parent": 71, "text": "year comment contracts list bcb tomorrow answer ipl2018 instagram weekend front cricket vivoipl ", "location": "dummy", "time": 1523989800, "id": 137}
-{"index": {"_type": "tweet", "_id": "138"}}
+{"index": {"_type": "tweet", "_id": "138", "_index":"cricket"}}
 {"emotion": "excited", "sentiment": 0, "parent": 72, "text": "match ball yesterday michael papp india famous time kkr history people pakistan ", "location": "dummy", "time": 1523989800, "id": 138}
-{"index": {"_type": "tweet", "_id": "139"}}
+{"index": {"_type": "tweet", "_id": "139", "_index":"cricket"}}
 {"emotion": "angry", "sentiment": -2, "parent": 103, "text": "replay glitch umesh yadav cricket vivoipl michael papp front boy link hunt punjab www royal ", "location": "dummy", "time": 1523989800, "id": 139}
-{"index": {"_type": "tweet", "_id": "140"}}
+{"index": {"_type": "tweet", "_id": "140", "_index":"cricket"}}
 {"emotion": "fear", "sentiment": 0, "parent": 75, "text": "rest day bbctm wicket chetan sharma league history action boy link michael papp ", "location": "dummy", "time": 1523989800, "id": 140}
-{"index": {"_type": "tweet", "_id": "141"}}
+{"index": {"_type": "tweet", "_id": "141", "_index":"cricket"}}
 {"emotion": "sad", "sentiment": 2, "parent": 141, "text": "justin langer langer cricketaustralia report right rajasthan royal prediction team money link hunt ", "location": "dummy", "time": 1523989800, "id": 141}
-{"index": {"_type": "tweet", "_id": "142"}}
+{"index": {"_type": "tweet", "_id": "142", "_index":"cricket"}}
 {"emotion": "happy", "sentiment": -2, "parent": 82, "text": "talksport bbc bbctm england news cricket commentary gutted sport right april thing ", "location": "dummy", "time": 1523989800, "id": 142}
-{"index": {"_type": "tweet", "_id": "143"}}
+{"index": {"_type": "tweet", "_id": "143", "_index":"cricket"}}
 {"emotion": "happy", "sentiment": 1, "parent": 81, "text": "today score crickhit india bcci control ambit law commission information law board date warner ", "location": "dummy", "time": 1523989800, "id": 143}
-{"index": {"_type": "tweet", "_id": "144"}}
+{"index": {"_type": "tweet", "_id": "144", "_index":"cricket"}}
 {"emotion": "sad", "sentiment": 0, "parent": 144, "text": "head coach abdul qadir racism cricket incompetent gora langer bcb front boy link hunt michael papp ", "location": "dummy", "time": 1523989800, "id": 144}
-{"index": {"_type": "tweet", "_id": "145"}}
+{"index": {"_type": "tweet", "_id": "145", "_index":"cricket"}}
 {"emotion": "excited", "sentiment": -1, "parent": 145, "text": "bpl team cricket smith warner maximum www dhakatribune bcbtiger sun visit rajasthanroyal ipl11 cricket vivoipl ", "location": "dummy", "time": 1523989800, "id": 145}
-{"index": {"_type": "tweet", "_id": "146"}}
+{"index": {"_type": "tweet", "_id": "146", "_index":"cricket"}}
 {"emotion": "happy", "sentiment": -1, "parent": 106, "text": "bcci law commission rti law panel public scrutiny india rti act politician sport cricket http time ", "location": "dummy", "time": 1523989800, "id": 146}
-{"index": {"_type": "tweet", "_id": "147"}}
+{"index": {"_type": "tweet", "_id": "147", "_index":"cricket"}}
 {"emotion": "excited", "sentiment": 2, "parent": 92, "text": "girl part boy game fact term politician head kkrider time chance ", "location": "dummy", "time": 1523989800, "id": 147}
-{"index": {"_type": "tweet", "_id": "148"}}
+{"index": {"_type": "tweet", "_id": "148", "_index":"cricket"}}
 {"emotion": "angry", "sentiment": -2, "parent": 90, "text": "iplt20 game ipl11 ipl2018 ipl www today saturday india world weekend ", "location": "dummy", "time": 1523989800, "id": 148}
-{"index": {"_type": "tweet", "_id": "149"}}
+{"index": {"_type": "tweet", "_id": "149", "_index":"cricket"}}
 {"emotion": "fear", "sentiment": -2, "parent": 96, "text": "royal game kkr time t20 cricket http action rajasthan royal winner kkrider people ", "location": "dummy", "time": 1523989800, "id": 149}
-{"index": {"_type": "tweet", "_id": "150"}}
+{"index": {"_type": "tweet", "_id": "150", "_index":"cricket"}}
 {"emotion": "angry", "sentiment": -2, "parent": 87, "text": "coach cricket australia hunt national selector report detail ipl2018 friday justin langer part head coach ", "location": "dummy", "time": 1523989800, "id": 150}
-{"index": {"_type": "tweet", "_id": "151"}}
+{"index": {"_type": "tweet", "_id": "151", "_index":"cricket"}}
 {"emotion": "excited", "sentiment": -2, "parent": 57, "text": "link part saturday sport sri lanka icc hunt punjab www warner boy ", "location": "dummy", "time": 1523989800, "id": 151}
-{"index": {"_type": "tweet", "_id": "152"}}
+{"index": {"_type": "tweet", "_id": "152", "_index":"cricket"}}
 {"emotion": "fear", "sentiment": 0, "parent": 100, "text": "rajasthan congratulation bet england contestalert appointment day partnership winner link hunt ", "location": "dummy", "time": 1523989800, "id": 152}
-{"index": {"_type": "tweet", "_id": "153"}}
+{"index": {"_type": "tweet", "_id": "153", "_index":"cricket"}}
 {"emotion": "fear", "sentiment": 2, "parent": 94, "text": "ipl bat kohli ipl2018 rcb answer tms cricket field world news cricket http ", "location": "dummy", "time": 1523989800, "id": 153}
-{"index": {"_type": "tweet", "_id": "154"}}
+{"index": {"_type": "tweet", "_id": "154", "_index":"cricket"}}
 {"emotion": "excited", "sentiment": -2, "parent": 64, "text": "ecb cricket youtube cricket history ipl advert today cricket lover talksport world cricket commentary day ", "location": "dummy", "time": 1523989800, "id": 154}
-{"index": {"_type": "tweet", "_id": "155"}}
+{"index": {"_type": "tweet", "_id": "155", "_index":"cricket"}}
 {"emotion": "sad", "sentiment": -1, "parent": 55, "text": "south africa man today ipl year iplt20 match podcast link hunt punjab ", "location": "dummy", "time": 1523989800, "id": 155}
-{"index": {"_type": "tweet", "_id": "156"}}
+{"index": {"_type": "tweet", "_id": "156", "_index":"cricket"}}
 {"emotion": "fear", "sentiment": 1, "parent": 99, "text": "cricket season player guy ipl2018 number contract negotiation csa world net interim agreement bcbtiger ", "location": "dummy", "time": 1523989800, "id": 156}
-{"index": {"_type": "tweet", "_id": "157"}}
+{"index": {"_type": "tweet", "_id": "157", "_index":"cricket"}}
 {"emotion": "fear", "sentiment": 0, "parent": 110, "text": "time game fan format 100-ball format ecb tournament plan england heart bit ", "location": "dummy", "time": 1524076200, "id": 157}
-{"index": {"_type": "tweet", "_id": "158"}}
+{"index": {"_type": "tweet", "_id": "158", "_index":"cricket"}}
 {"emotion": "excited", "sentiment": -2, "parent": 127, "text": "place cricket djsl2018 ground water support android cricket ecb first weather pitch friday ", "location": "dummy", "time": 1524076200, "id": 158}
-{"index": {"_type": "tweet", "_id": "159"}}
+{"index": {"_type": "tweet", "_id": "159", "_index":"cricket"}}
 {"emotion": "sad", "sentiment": 0, "parent": 145, "text": "sun morning stand ground week lord day bird hand ecb cricket time ", "location": "dummy", "time": 1524076200, "id": 159}
-{"index": {"_type": "tweet", "_id": "160"}}
+{"index": {"_type": "tweet", "_id": "160", "_index":"cricket"}}
 {"emotion": "sad", "sentiment": 1, "parent": 129, "text": "child gayle cricket http club cricket season shot friday coach steve ecb cricket skill inning ", "location": "dummy", "time": 1524076200, "id": 160}
-{"index": {"_type": "tweet", "_id": "161"}}
+{"index": {"_type": "tweet", "_id": "161", "_index":"cricket"}}
 {"emotion": "excited", "sentiment": 2, "parent": 161, "text": "participation realshoaibmalik pererathisara cricketrelief t20i shahid afridi big boy shoaibmalik homeofcricket safridiofficial bowler shoaib malik ", "location": "dummy", "time": 1524076200, "id": 161}
-{"index": {"_type": "tweet", "_id": "162"}}
+{"index": {"_type": "tweet", "_id": "162", "_index":"cricket"}}
 {"emotion": "fear", "sentiment": 0, "parent": 134, "text": "country county cricket virat kohli ipl2018 number pakistan interest kohli thing rule article ", "location": "dummy", "time": 1524076200, "id": 162}
-{"index": {"_type": "tweet", "_id": "163"}}
+{"index": {"_type": "tweet", "_id": "163", "_index":"cricket"}}
 {"emotion": "happy", "sentiment": 0, "parent": 156, "text": "player cricket season number ecb cricket thing game ball sun heart support sport ", "location": "dummy", "time": 1524076200, "id": 163}
-{"index": {"_type": "tweet", "_id": "164"}}
+{"index": {"_type": "tweet", "_id": "164", "_index":"cricket"}}
 {"emotion": "sad", "sentiment": -1, "parent": 136, "text": "kkrider ipl2018 win lionsdenkxip twenty20 cricket congratulation ipl cricket sunriser t20 cricket kkr csk ", "location": "dummy", "time": 1524076200, "id": 164}
-{"index": {"_type": "tweet", "_id": "165"}}
+{"index": {"_type": "tweet", "_id": "165", "_index":"cricket"}}
 {"emotion": "fear", "sentiment": -2, "parent": 154, "text": "world 100 ball game ecb cricket ecb t20 15 year team cricket http t20 cricket cricket history ", "location": "dummy", "time": 1524076200, "id": 165}
-{"index": {"_type": "tweet", "_id": "166"}}
+{"index": {"_type": "tweet", "_id": "166", "_index":"cricket"}}
 {"emotion": "sad", "sentiment": 2, "parent": 113, "text": "ipl2018 srh ipl11 ipl cricket ipl2018 cricket cricket ipl retweet dhawan cricskill henrygayle 15 run ", "location": "dummy", "time": 1524076200, "id": 166}
-{"index": {"_type": "tweet", "_id": "167"}}
+{"index": {"_type": "tweet", "_id": "167", "_index":"cricket"}}
 {"emotion": "angry", "sentiment": -1, "parent": 111, "text": "state borren cricket vivoipl http michael papp inning audience ipl2018 cricket link option touch ", "location": "dummy", "time": 1524076200, "id": 167}
-{"index": {"_type": "tweet", "_id": "168"}}
+{"index": {"_type": "tweet", "_id": "168", "_index":"cricket"}}
 {"emotion": "angry", "sentiment": -2, "parent": 132, "text": "australia moment paine india bangladesh world game 15 year format sun inning ", "location": "dummy", "time": 1524076200, "id": 168}
-{"index": {"_type": "tweet", "_id": "169"}}
+{"index": {"_type": "tweet", "_id": "169", "_index":"cricket"}}
 {"emotion": "fear", "sentiment": -2, "parent": 117, "text": "photo free download girl fun blouse style good luck great game ecb game sunriser ipl cricket gaylestorm ", "location": "dummy", "time": 1524076200, "id": 169}
-{"index": {"_type": "tweet", "_id": "170"}}
+{"index": {"_type": "tweet", "_id": "170", "_index":"cricket"}}
 {"emotion": "fear", "sentiment": -2, "parent": 115, "text": "t20 t10 ipl match ipl 2018 kkr ipl2018 video skysport t20 cricket chris gayle brendon mccullum ", "location": "dummy", "time": 1524076200, "id": 170}
-{"index": {"_type": "tweet", "_id": "171"}}
+{"index": {"_type": "tweet", "_id": "171", "_index":"cricket"}}
 {"emotion": "fear", "sentiment": 1, "parent": 138, "text": "lord shoaib malik t20i match raise fund caribbean shahid afridi hurricanes irma maria summer season ", "location": "dummy", "time": 1524076200, "id": 171}
-{"index": {"_type": "tweet", "_id": "172"}}
+{"index": {"_type": "tweet", "_id": "172", "_index":"cricket"}}
 {"emotion": "sad", "sentiment": 0, "parent": 78, "text": "ipl2018 person www facebook fun couple bar today ipl virat kohli catch fan ", "location": "dummy", "time": 1524076200, "id": 172}
-{"index": {"_type": "tweet", "_id": "173"}}
+{"index": {"_type": "tweet", "_id": "173", "_index":"cricket"}}
 {"emotion": "excited", "sentiment": 1, "parent": 140, "text": "wicket day chance run 10 ball life ebay start inning competition ball ", "location": "dummy", "time": 1524076200, "id": 173}
-{"index": {"_type": "tweet", "_id": "174"}}
+{"index": {"_type": "tweet", "_id": "174", "_index":"cricket"}}
 {"emotion": "angry", "sentiment": 1, "parent": 122, "text": "cricket vivoipl http innings victory arafat ecb cricket season australia year csk win sunriser ", "location": "dummy", "time": 1524076200, "id": 174}
-{"index": {"_type": "tweet", "_id": "175"}}
+{"index": {"_type": "tweet", "_id": "175", "_index":"cricket"}}
 {"emotion": "excited", "sentiment": -1, "parent": 144, "text": "result match pakistan cricket pakistan today ipl tomorrow ipl match people inning audience ", "location": "dummy", "time": 1524076200, "id": 175}
-{"index": {"_type": "tweet", "_id": "176"}}
+{"index": {"_type": "tweet", "_id": "176", "_index":"cricket"}}
 {"emotion": "angry", "sentiment": -2, "parent": 146, "text": "ipl2018 india bcci video game people whistlepodu vivoipl2018 part 20 over cricskill time ", "location": "dummy", "time": 1524076200, "id": 176}
-{"index": {"_type": "tweet", "_id": "177"}}
+{"index": {"_type": "tweet", "_id": "177", "_index":"cricket"}}
 {"emotion": "happy", "sentiment": -1, "parent": 124, "text": "ipl 2018 cricket news ipl cricket rajasthan royal punjab chris gayle gayle sport ipl2018 sunrisers hyderabad shoaib malik ", "location": "dummy", "time": 1524076200, "id": 177}
-{"index": {"_type": "tweet", "_id": "178"}}
+{"index": {"_type": "tweet", "_id": "178", "_index":"cricket"}}
 {"emotion": "fear", "sentiment": 0, "parent": 38, "text": "fan ipl2018 ecb ipl18 tone tim paine gayle idea kid cricket news team ", "location": "dummy", "time": 1524076200, "id": 178}
-{"index": {"_type": "tweet", "_id": "179"}}
+{"index": {"_type": "tweet", "_id": "179", "_index":"cricket"}}
 {"emotion": "sad", "sentiment": -1, "parent": 179, "text": "ecb 100-ball format competition cricket secret talk hundred tournament audience talk thought twenty20 cricket cricket ecb ", "location": "dummy", "time": 1524076200, "id": 179}
-{"index": {"_type": "tweet", "_id": "180"}}
+{"index": {"_type": "tweet", "_id": "180", "_index":"cricket"}}
 {"emotion": "excited", "sentiment": -2, "parent": 141, "text": "prediction tip win pune kxipvsrh ipl11 tonight afridi april 21 20 over saturday ", "location": "dummy", "time": 1524076200, "id": 180}
-{"index": {"_type": "tweet", "_id": "181"}}
+{"index": {"_type": "tweet", "_id": "181", "_index":"cricket"}}
 {"emotion": "fear", "sentiment": 2, "parent": 143, "text": "today score crickhit first coach steve cricket vivoipl michael papp 20 over april 21 tim paine inning ", "location": "dummy", "time": 1524076200, "id": 181}
-{"index": {"_type": "tweet", "_id": "182"}}
+{"index": {"_type": "tweet", "_id": "182", "_index":"cricket"}}
 {"emotion": "fear", "sentiment": 1, "parent": 152, "text": "day contestalert bet punjab congratulation lord win team lionsdenkxip rajasthan link ", "location": "dummy", "time": 1524076200, "id": 182}
-{"index": {"_type": "tweet", "_id": "183"}}
+{"index": {"_type": "tweet", "_id": "183", "_index":"cricket"}}
 {"emotion": "angry", "sentiment": -1, "parent": 150, "text": "detail enjoy game cricket fever friday pune fan ipl 2018 ipl cricket match ipl2018 cricket ", "location": "dummy", "time": 1524076200, "id": 183}
-{"index": {"_type": "tweet", "_id": "184"}}
+{"index": {"_type": "tweet", "_id": "184", "_index":"cricket"}}
 {"emotion": "sad", "sentiment": 1, "parent": 148, "text": "iplt20 ipl11 ipl2018 saturday game bar preview crap sunriser member rain ", "location": "dummy", "time": 1524076200, "id": 184}
-{"index": {"_type": "tweet", "_id": "185"}}
+{"index": {"_type": "tweet", "_id": "185", "_index":"cricket"}}
 {"emotion": "sad", "sentiment": -1, "parent": 130, "text": "ipl guy ipl2018 good first episode manjit interest ball sunriser win format ", "location": "dummy", "time": 1524076200, "id": 185}
-{"index": {"_type": "tweet", "_id": "186"}}
+{"index": {"_type": "tweet", "_id": "186", "_index":"cricket"}}
 {"emotion": "angry", "sentiment": 0, "parent": 126, "text": "india april 21 board www aninew pakistan ipl2018 test cricket winner srilanka cricket game icc ", "location": "dummy", "time": 1524076200, "id": 186}
-{"index": {"_type": "tweet", "_id": "187"}}
+{"index": {"_type": "tweet", "_id": "187", "_index":"cricket"}}
 {"emotion": "fear", "sentiment": 1, "parent": 187, "text": "world xi afridi shoaib malik shahid afridi www cricskill cricket pakistan csk lord 31st cricket vivoipl free ", "location": "dummy", "time": 1524076200, "id": 187}
-{"index": {"_type": "tweet", "_id": "188"}}
+{"index": {"_type": "tweet", "_id": "188", "_index":"cricket"}}
 {"emotion": "sad", "sentiment": -2, "parent": 109, "text": "date article latest news derbyshireccc 3aaa co-owner di mcevoy-robinson home audience attempt year ", "location": "dummy", "time": 1524076200, "id": 188}
-{"index": {"_type": "tweet", "_id": "189"}}
+{"index": {"_type": "tweet", "_id": "189", "_index":"cricket"}}
 {"emotion": "sad", "sentiment": -2, "parent": 128, "text": "t20 100 ball ecb cricket ecb test icc audience tip aggerscricket cricket http t10 ", "location": "dummy", "time": 1524076200, "id": 189}
-{"index": {"_type": "tweet", "_id": "190"}}
+{"index": {"_type": "tweet", "_id": "190", "_index":"cricket"}}
 {"emotion": "fear", "sentiment": 1, "parent": 133, "text": "ball run batsman stand question team audience inning gayle decision kkr ", "location": "dummy", "time": 1524076200, "id": 190}
-{"index": {"_type": "tweet", "_id": "191"}}
+{"index": {"_type": "tweet", "_id": "191", "_index":"cricket"}}
 {"emotion": "happy", "sentiment": 1, "parent": 135, "text": "ipl11 ipl2018 punjab ipl18 ipl india balochistan kpk sindh 25th april 6th ", "location": "dummy", "time": 1524076200, "id": 191}
-{"index": {"_type": "tweet", "_id": "192"}}
+{"index": {"_type": "tweet", "_id": "192", "_index":"cricket"}}
 {"emotion": "happy", "sentiment": 2, "parent": 155, "text": "man ball day ipl2018 people end england game ipl11 score ipl2018 cricket ", "location": "dummy", "time": 1524076200, "id": 192}
-{"index": {"_type": "tweet", "_id": "193"}}
+{"index": {"_type": "tweet", "_id": "193", "_index":"cricket"}}
 {"emotion": "angry", "sentiment": -2, "parent": 114, "text": "county cricket kohli game india captain test debut 31st sri lanka world xi lord history today ", "location": "dummy", "time": 1524076200, "id": 193}
-{"index": {"_type": "tweet", "_id": "194"}}
+{"index": {"_type": "tweet", "_id": "194", "_index":"cricket"}}
 {"emotion": "angry", "sentiment": 0, "parent": 153, "text": "bat toss world ipl2018 wicket year punjab ball ecb cricket england news ", "location": "dummy", "time": 1524076200, "id": 194}
-{"index": {"_type": "tweet", "_id": "195"}}
+{"index": {"_type": "tweet", "_id": "195", "_index":"cricket"}}
 {"emotion": "happy", "sentiment": -2, "parent": 112, "text": "competition 100-ball format ecb shahid afridi chance t20i talk world xi international cricket cricket http people ", "location": "dummy", "time": 1524076200, "id": 195}
-{"index": {"_type": "tweet", "_id": "196"}}
+{"index": {"_type": "tweet", "_id": "196", "_index":"cricket"}}
 {"emotion": "sad", "sentiment": 1, "parent": 131, "text": "match flights hotel sri lanka transfer ecb 100 ball team srilanka cricket place inning audience ", "location": "dummy", "time": 1524076200, "id": 196}
-{"index": {"_type": "tweet", "_id": "197"}}
+{"index": {"_type": "tweet", "_id": "197", "_index":"cricket"}}
 {"emotion": "happy", "sentiment": -1, "parent": 120, "text": "breakingnew faisalabad cricket people inning audience ipl2018 cricket link option michael papp ebay heart ", "location": "dummy", "time": 1524076200, "id": 197}
-{"index": {"_type": "tweet", "_id": "198"}}
+{"index": {"_type": "tweet", "_id": "198", "_index":"cricket"}}
 {"emotion": "fear", "sentiment": 0, "parent": 116, "text": "ipl2018 ipl11 kxip win srh catch chris gayle ipl 2018 cricket news batsman 20 over ", "location": "dummy", "time": 1524076200, "id": 198}
-{"index": {"_type": "tweet", "_id": "199"}}
+{"index": {"_type": "tweet", "_id": "199", "_index":"cricket"}}
 {"emotion": "angry", "sentiment": -1, "parent": 137, "text": "answer preview innovation ipl cricket http tomorrow year ecb cricket ipl2018 yesterday t20 ", "location": "dummy", "time": 1524076200, "id": 199}
-{"index": {"_type": "tweet", "_id": "200"}}
+{"index": {"_type": "tweet", "_id": "200", "_index":"cricket"}}
 {"emotion": "happy", "sentiment": 1, "parent": 121, "text": "future country people aggerscricket year cricket http idea ecb cricket game article ecb ", "location": "dummy", "time": 1524076200, "id": 200}
-{"index": {"_type": "tweet", "_id": "201"}}
+{"index": {"_type": "tweet", "_id": "201", "_index":"cricket"}}
 {"emotion": "angry", "sentiment": -2, "parent": 139, "text": "cricket vivoipl mou key element csk stronghold saca home csa train inning audience ", "location": "dummy", "time": 1524076200, "id": 201}
-{"index": {"_type": "tweet", "_id": "202"}}
+{"index": {"_type": "tweet", "_id": "202", "_index":"cricket"}}
 {"emotion": "excited", "sentiment": -1, "parent": 147, "text": "girl part sport lord shahid afridi skill passion week home cricket ecb coach steve ", "location": "dummy", "time": 1524076200, "id": 202}
-{"index": {"_type": "tweet", "_id": "203"}}
+{"index": {"_type": "tweet", "_id": "203", "_index":"cricket"}}
 {"emotion": "happy", "sentiment": -1, "parent": 123, "text": "end ipl2018 kxipvsrh ipl team sunriser game ipl cricket point gaylestorm people match ", "location": "dummy", "time": 1524076200, "id": 203}
-{"index": {"_type": "tweet", "_id": "204"}}
+{"index": {"_type": "tweet", "_id": "204", "_index":"cricket"}}
 {"emotion": "angry", "sentiment": -2, "parent": 69, "text": "sport sunrisers hyderabad 15 run ipl2018 freeze pay team time run pakistan t20 blast srh ", "location": "dummy", "time": 1524076200, "id": 204}
-{"index": {"_type": "tweet", "_id": "205"}}
+{"index": {"_type": "tweet", "_id": "205", "_index":"cricket"}}
 {"emotion": "happy", "sentiment": 1, "parent": 205, "text": "100 ball english cricket 20 over t20 cricket idea bit twenty20 crap radissonpune an game rain ", "location": "dummy", "time": 1524076200, "id": 205}
-{"index": {"_type": "tweet", "_id": "206"}}
+{"index": {"_type": "tweet", "_id": "206", "_index":"cricket"}}
 {"emotion": "sad", "sentiment": -2, "parent": 125, "text": "team tonight ipl2018 ipl rajasthan sunriser win year csk wait home ", "location": "dummy", "time": 1524076200, "id": 206}
-{"index": {"_type": "tweet", "_id": "207"}}
+{"index": {"_type": "tweet", "_id": "207", "_index":"cricket"}}
 {"emotion": "angry", "sentiment": -1, "parent": 80, "text": "viral ipl whistlepodu vivoipl2018 gayle storm ipl2018 fan inning audience ipl2018 cricket link option ebay ", "location": "dummy", "time": 1524076200, "id": 207}
-{"index": {"_type": "tweet", "_id": "208"}}
+{"index": {"_type": "tweet", "_id": "208", "_index":"cricket"}}
 {"emotion": "happy", "sentiment": 0, "parent": 208, "text": "register option deal life tour game sunrisers hyderabad touch heart ebay preview ", "location": "dummy", "time": 1524076200, "id": 208}
-{"index": {"_type": "tweet", "_id": "209"}}
+{"index": {"_type": "tweet", "_id": "209", "_index":"cricket"}}
 {"emotion": "angry", "sentiment": 1, "parent": 86, "text": "god watch video shot day cricket history chris gayle rain ipl cricket preview talk ", "location": "dummy", "time": 1524076200, "id": 209}
-{"index": {"_type": "tweet", "_id": "210"}}
+{"index": {"_type": "tweet", "_id": "210", "_index":"cricket"}}
 {"emotion": "fear", "sentiment": 1, "parent": 142, "text": "england news sport year 100-ball format pakistan t20 blast competition big shoaib malik test squad ", "location": "dummy", "time": 1524076200, "id": 210}
-{"index": {"_type": "tweet", "_id": "211"}}
+{"index": {"_type": "tweet", "_id": "211", "_index":"cricket"}}
 {"emotion": "fear", "sentiment": -2, "parent": 151, "text": "link sri lanka touch england content format virat kohli 20 over heart talk option ", "location": "dummy", "time": 1524076200, "id": 211}
-{"index": {"_type": "tweet", "_id": "212"}}
+{"index": {"_type": "tweet", "_id": "212", "_index":"cricket"}}
 {"emotion": "fear", "sentiment": 1, "parent": 149, "text": "winner chance team end lionsdenkxip contestalert toss place prediction virat kohli touch ", "location": "dummy", "time": 1524076200, "id": 212}
-{"index": {"_type": "tweet", "_id": "213"}}
+{"index": {"_type": "tweet", "_id": "213", "_index":"cricket"}}
 {"emotion": "fear", "sentiment": 1, "parent": 203, "text": "inning end cricket season game start t20 toss v player iplt20 100 ball point ", "location": "dummy", "time": 1524162600, "id": 213}
-{"index": {"_type": "tweet", "_id": "214"}}
+{"index": {"_type": "tweet", "_id": "214", "_index":"cricket"}}
 {"emotion": "excited", "sentiment": -2, "parent": 181, "text": "today score crickhit order live headphone tune india idea support rajasthanroyal ", "location": "dummy", "time": 1524162600, "id": 214}
-{"index": {"_type": "tweet", "_id": "215"}}
+{"index": {"_type": "tweet", "_id": "215", "_index":"cricket"}}
 {"emotion": "fear", "sentiment": 1, "parent": 202, "text": "part team girl evening game season player coach sun level champion ", "location": "dummy", "time": 1524162600, "id": 215}
-{"index": {"_type": "tweet", "_id": "216"}}
+{"index": {"_type": "tweet", "_id": "216", "_index":"cricket"}}
 {"emotion": "angry", "sentiment": 0, "parent": 173, "text": "wicket hand first opening day round 2 renshaw sussex cricket season cricket sport countychampionship tatamotors rahul ", "location": "dummy", "time": 1524162600, "id": 216}
-{"index": {"_type": "tweet", "_id": "217"}}
+{"index": {"_type": "tweet", "_id": "217", "_index":"cricket"}}
 {"emotion": "excited", "sentiment": 0, "parent": 196, "text": "match ipl2018 ipl11 cricskill log iplt20 ipl cricket source week century sri lanka ", "location": "dummy", "time": 1524162600, "id": 217}
-{"index": {"_type": "tweet", "_id": "218"}}
+{"index": {"_type": "tweet", "_id": "218", "_index":"cricket"}}
 {"emotion": "sad", "sentiment": -2, "parent": 160, "text": "ecb cricket gayle ipl fan sehwag t20 today sport idea cricket http people ", "location": "dummy", "time": 1524162600, "id": 218}
-{"index": {"_type": "tweet", "_id": "219"}}
+{"index": {"_type": "tweet", "_id": "219", "_index":"cricket"}}
 {"emotion": "excited", "sentiment": -2, "parent": 175, "text": "pakistan hero cycle final match indian cricket face sussex cup cricket teamindia game ipl2018 cricket ", "location": "dummy", "time": 1524162600, "id": 219}
-{"index": {"_type": "tweet", "_id": "220"}}
+{"index": {"_type": "tweet", "_id": "220", "_index":"cricket"}}
 {"emotion": "excited", "sentiment": -2, "parent": 220, "text": "countychamp round 2 yuvstrong12 cskvrr coach whistlepodu hero cycle countychampionship journey inning bowl ", "location": "dummy", "time": 1524162600, "id": 220}
-{"index": {"_type": "tweet", "_id": "221"}}
+{"index": {"_type": "tweet", "_id": "221", "_index":"cricket"}}
 {"emotion": "happy", "sentiment": 0, "parent": 118, "text": "england coach odi captain t20 ed smith t20 cricket india april hero cycle game rajasthan royal ", "location": "dummy", "time": 1524162600, "id": 221}
-{"index": {"_type": "tweet", "_id": "222"}}
+{"index": {"_type": "tweet", "_id": "222", "_index":"cricket"}}
 {"emotion": "excited", "sentiment": -1, "parent": 177, "text": "bowl rajasthan royal royals opt raina live update sport csk ipl 2018 live preview ipl cricket ", "location": "dummy", "time": 1524162600, "id": 222}
-{"index": {"_type": "tweet", "_id": "223"}}
+{"index": {"_type": "tweet", "_id": "223", "_index":"cricket"}}
 {"emotion": "angry", "sentiment": -1, "parent": 223, "text": "face hero cycle indian cricket park ms dhoni cricket teamindia tatamotors rahul live change final inning ", "location": "dummy", "time": 1524162600, "id": 223}
-{"index": {"_type": "tweet", "_id": "224"}}
+{"index": {"_type": "tweet", "_id": "224", "_index":"cricket"}}
 {"emotion": "fear", "sentiment": -1, "parent": 158, "text": "place ground sunday history support time drink interview love excited 1st team ", "location": "dummy", "time": 1524162600, "id": 224}
-{"index": {"_type": "tweet", "_id": "225"}}
+{"index": {"_type": "tweet", "_id": "225", "_index":"cricket"}}
 {"emotion": "happy", "sentiment": 1, "parent": 179, "text": "tournament ecb sri lanka hero cycle final ground form match day today side ", "location": "dummy", "time": 1524162600, "id": 225}
-{"index": {"_type": "tweet", "_id": "226"}}
+{"index": {"_type": "tweet", "_id": "226", "_index":"cricket"}}
 {"emotion": "excited", "sentiment": 2, "parent": 199, "text": "preview first century today ipl delhi daredevil chris gayle ball cricket http innovation player cricket news ", "location": "dummy", "time": 1524162600, "id": 226}
-{"index": {"_type": "tweet", "_id": "227"}}
+{"index": {"_type": "tweet", "_id": "227", "_index":"cricket"}}
 {"emotion": "angry", "sentiment": 2, "parent": 195, "text": "chance rajasthan team point week source 2011with brilliance idea support rajasthanroyal amazing ", "location": "dummy", "time": 1524162600, "id": 227}
-{"index": {"_type": "tweet", "_id": "228"}}
+{"index": {"_type": "tweet", "_id": "228", "_index":"cricket"}}
 {"emotion": "excited", "sentiment": 0, "parent": 168, "text": "australia frame india world hero cycle cup performance amazing 2011with brilliance watson cricket vivoipl ", "location": "dummy", "time": 1524162600, "id": 228}
-{"index": {"_type": "tweet", "_id": "229"}}
+{"index": {"_type": "tweet", "_id": "229", "_index":"cricket"}}
 {"emotion": "fear", "sentiment": 2, "parent": 194, "text": "bat yorkshire game day gambia headingley tomorrow end support ball countychampionship sunshine ", "location": "dummy", "time": 1524162600, "id": 229}
-{"index": {"_type": "tweet", "_id": "230"}}
+{"index": {"_type": "tweet", "_id": "230", "_index":"cricket"}}
 {"emotion": "fear", "sentiment": 0, "parent": 171, "text": "lord summer shahid afridi t20i weekend tonight junior cricket club work start match ", "location": "dummy", "time": 1524162600, "id": 230}
-{"index": {"_type": "tweet", "_id": "231"}}
+{"index": {"_type": "tweet", "_id": "231", "_index":"cricket"}}
 {"emotion": "fear", "sentiment": 2, "parent": 185, "text": "ipl ipl2018 manjit good season first episode healthy recipe year watson cskvrr benstoke lot ", "location": "dummy", "time": 1524162600, "id": 231}
-{"index": {"_type": "tweet", "_id": "232"}}
+{"index": {"_type": "tweet", "_id": "232", "_index":"cricket"}}
 {"emotion": "angry", "sentiment": 1, "parent": 206, "text": "rajasthan team chennai sponsor tonight fact preview today cricket team benefit ipl2018 ", "location": "dummy", "time": 1524162600, "id": 232}
-{"index": {"_type": "tweet", "_id": "233"}}
+{"index": {"_type": "tweet", "_id": "233", "_index":"cricket"}}
 {"emotion": "fear", "sentiment": 0, "parent": 161, "text": "zippyfeed mumbaifoods mumbaifoodlover csk yesterday dhoni catch cskvrr benstoke rajasthanroyal chris gayle season hero cycle ", "location": "dummy", "time": 1524162600, "id": 233}
-{"index": {"_type": "tweet", "_id": "234"}}
+{"index": {"_type": "tweet", "_id": "234", "_index":"cricket"}}
 {"emotion": "sad", "sentiment": 1, "parent": 187, "text": "sehwag world xi chris gayle shahid afridi interview ipl2018 cricket http support rajasthanroyal amazing source ", "location": "dummy", "time": 1524162600, "id": 234}
-{"index": {"_type": "tweet", "_id": "235"}}
+{"index": {"_type": "tweet", "_id": "235", "_index":"cricket"}}
 {"emotion": "happy", "sentiment": 2, "parent": 209, "text": "day bottom-placed team afternoon cricket history rain book weather sunshine cricket vivoipl work power ", "location": "dummy", "time": 1524162600, "id": 235}
-{"index": {"_type": "tweet", "_id": "236"}}
+{"index": {"_type": "tweet", "_id": "236", "_index":"cricket"}}
 {"emotion": "happy", "sentiment": -2, "parent": 163, "text": "player world cup sachin hero cycle ipl2018 cricket season weather number age yuvstrong12 chennai ", "location": "dummy", "time": 1524162600, "id": 236}
-{"index": {"_type": "tweet", "_id": "237"}}
+{"index": {"_type": "tweet", "_id": "237", "_index":"cricket"}}
 {"emotion": "fear", "sentiment": 0, "parent": 189, "text": "t20 test virat kohli dhoni icc ball ipl today cricket icc ipl11 viratkohli inning ", "location": "dummy", "time": 1524162600, "id": 237}
-{"index": {"_type": "tweet", "_id": "238"}}
+{"index": {"_type": "tweet", "_id": "238", "_index":"cricket"}}
 {"emotion": "angry", "sentiment": -1, "parent": 211, "text": "link ipl2018 virat kohli congratulation t20 cricket fan match csk click rahul surrey ", "location": "dummy", "time": 1524162600, "id": 238}
-{"index": {"_type": "tweet", "_id": "239"}}
+{"index": {"_type": "tweet", "_id": "239", "_index":"cricket"}}
 {"emotion": "happy", "sentiment": 0, "parent": 165, "text": "world ipl2018 comment view player change manjit t20 cricket cricket ecb journey 100 ball ", "location": "dummy", "time": 1524162600, "id": 239}
-{"index": {"_type": "tweet", "_id": "240"}}
+{"index": {"_type": "tweet", "_id": "240", "_index":"cricket"}}
 {"emotion": "happy", "sentiment": -1, "parent": 191, "text": "ipl2018 ipl11 ipl 2018 csk ipl match 17 iplt20 batting youtube india season ", "location": "dummy", "time": 1524162600, "id": 240}
-{"index": {"_type": "tweet", "_id": "241"}}
+{"index": {"_type": "tweet", "_id": "241", "_index":"cricket"}}
 {"emotion": "angry", "sentiment": 2, "parent": 204, "text": "sport time ipl2018 century year day cricketau tatamotors rahul age pakistan congrat ", "location": "dummy", "time": 1524162600, "id": 241}
-{"index": {"_type": "tweet", "_id": "242"}}
+{"index": {"_type": "tweet", "_id": "242", "_index":"cricket"}}
 {"emotion": "fear", "sentiment": 1, "parent": 157, "text": "format ecb game year bit pakistan book people innovation cricket http time ", "location": "dummy", "time": 1524162600, "id": 242}
-{"index": {"_type": "tweet", "_id": "243"}}
+{"index": {"_type": "tweet", "_id": "243", "_index":"cricket"}}
 {"emotion": "happy", "sentiment": 0, "parent": 180, "text": "prediction rajasthanroyal year start tomorrow winner tip cricket season wicket chennaisuperking rajasthan royal ", "location": "dummy", "time": 1524162600, "id": 243}
-{"index": {"_type": "tweet", "_id": "244"}}
+{"index": {"_type": "tweet", "_id": "244", "_index":"cricket"}}
 {"emotion": "happy", "sentiment": -2, "parent": 182, "text": "contestalert ipl2018 bet visit win tip play iplt20 cricket fan april ipl11 ", "location": "dummy", "time": 1524162600, "id": 244}
-{"index": {"_type": "tweet", "_id": "245"}}
+{"index": {"_type": "tweet", "_id": "245", "_index":"cricket"}}
 {"emotion": "fear", "sentiment": 2, "parent": 245, "text": "boriamajumdar xtratime virendersehwag jason gillespie xi cricket county championship career debut ipl gurusinha slc day ", "location": "dummy", "time": 1524162600, "id": 245}
-{"index": {"_type": "tweet", "_id": "246"}}
+{"index": {"_type": "tweet", "_id": "246", "_index":"cricket"}}
 {"emotion": "happy", "sentiment": 1, "parent": 174, "text": "cricket vivoipl http england tour coach odi captain ed smith england champion mosaddek support rajasthanroyal ", "location": "dummy", "time": 1524162600, "id": 246}
-{"index": {"_type": "tweet", "_id": "247"}}
+{"index": {"_type": "tweet", "_id": "247", "_index":"cricket"}}
 {"emotion": "happy", "sentiment": 2, "parent": 247, "text": "game day lost rahul tatamotor helmet batting top spot ball watson week rajasthanroyal ", "location": "dummy", "time": 1524162600, "id": 247}
-{"index": {"_type": "tweet", "_id": "248"}}
+{"index": {"_type": "tweet", "_id": "248", "_index":"cricket"}}
 {"emotion": "fear", "sentiment": 0, "parent": 119, "text": "tomorrow season t20i club thing good luck enjoy first episode good rajasthanroyal amazing ", "location": "dummy", "time": 1524162600, "id": 248}
-{"index": {"_type": "tweet", "_id": "249"}}
+{"index": {"_type": "tweet", "_id": "249", "_index":"cricket"}}
 {"emotion": "angry", "sentiment": 0, "parent": 176, "text": "cricskill log ipl2018 rs10 000 india dream11 cricskill team time people cricket ecb sport ", "location": "dummy", "time": 1524162600, "id": 249}
-{"index": {"_type": "tweet", "_id": "250"}}
+{"index": {"_type": "tweet", "_id": "250", "_index":"cricket"}}
 {"emotion": "sad", "sentiment": 0, "parent": 198, "text": "win source won easy message kxip kick match no kkr ipl2018 point ipl11 ", "location": "dummy", "time": 1524162600, "id": 250}
-{"index": {"_type": "tweet", "_id": "251"}}
+{"index": {"_type": "tweet", "_id": "251", "_index":"cricket"}}
 {"emotion": "happy", "sentiment": -1, "parent": 159, "text": "game start season time sun fan cricketer cricket season hand april rain ", "location": "dummy", "time": 1524162600, "id": 251}
-{"index": {"_type": "tweet", "_id": "252"}}
+{"index": {"_type": "tweet", "_id": "252", "_index":"cricket"}}
 {"emotion": "sad", "sentiment": -1, "parent": 178, "text": "idea 100ball level cricket fan 2011with brilliance book support rajasthanroyal amazing source icc ", "location": "dummy", "time": 1524162600, "id": 252}
-{"index": {"_type": "tweet", "_id": "253"}}
+{"index": {"_type": "tweet", "_id": "253", "_index":"cricket"}}
 {"emotion": "angry", "sentiment": 1, "parent": 201, "text": "surrey cricket vivoipl end dawson beer snake game lange gloucestershire lot club opening day ", "location": "dummy", "time": 1524162600, "id": 253}
-{"index": {"_type": "tweet", "_id": "254"}}
+{"index": {"_type": "tweet", "_id": "254", "_index":"cricket"}}
 {"emotion": "fear", "sentiment": 2, "parent": 169, "text": "good luck great game season amazing home frame weekend weather ground countychamp cricket sport ", "location": "dummy", "time": 1524162600, "id": 254}
-{"index": {"_type": "tweet", "_id": "255"}}
+{"index": {"_type": "tweet", "_id": "255", "_index":"cricket"}}
 {"emotion": "excited", "sentiment": 2, "parent": 193, "text": "county cricket sri lanka reservation live game week test lord world xi 100ballcricket field ", "location": "dummy", "time": 1524162600, "id": 255}
-{"index": {"_type": "tweet", "_id": "256"}}
+{"index": {"_type": "tweet", "_id": "256", "_index":"cricket"}}
 {"emotion": "angry", "sentiment": 0, "parent": 172, "text": "fun website android app match friend ipl2018 drink shanerwatson33 delhi daredevil side team ", "location": "dummy", "time": 1524162600, "id": 256}
-{"index": {"_type": "tweet", "_id": "257"}}
+{"index": {"_type": "tweet", "_id": "257", "_index":"cricket"}}
 {"emotion": "excited", "sentiment": 2, "parent": 184, "text": "iplt20 ipl11 ipl2018 saturday match 17 whistlepodu sunday today bar drink home ", "location": "dummy", "time": 1524162600, "id": 257}
-{"index": {"_type": "tweet", "_id": "258"}}
+{"index": {"_type": "tweet", "_id": "258", "_index":"cricket"}}
 {"emotion": "angry", "sentiment": 1, "parent": 207, "text": "whistlepodu vivoipl2018 viral ipl side age raina book idea support rajasthanroyal amazing 2011with brilliance ", "location": "dummy", "time": 1524162600, "id": 258}
-{"index": {"_type": "tweet", "_id": "259"}}
+{"index": {"_type": "tweet", "_id": "259", "_index":"cricket"}}
 {"emotion": "happy", "sentiment": -1, "parent": 186, "text": "india yesterday hero cycle rajasthanroyal catch final kolkata virendersehwag indian cricket day cup ", "location": "dummy", "time": 1524162600, "id": 259}
-{"index": {"_type": "tweet", "_id": "260"}}
+{"index": {"_type": "tweet", "_id": "260", "_index":"cricket"}}
 {"emotion": "happy", "sentiment": 2, "parent": 210, "text": "bowler week cricket sport t20 cricket people match rajasthanroyal amazing source icc 2011with brilliance ", "location": "dummy", "time": 1524162600, "id": 260}
-{"index": {"_type": "tweet", "_id": "261"}}
+{"index": {"_type": "tweet", "_id": "261", "_index":"cricket"}}
 {"emotion": "angry", "sentiment": 0, "parent": 162, "text": "country virat kohli county cricket game hero cycle episode book idea support rajasthanroyal amazing ", "location": "dummy", "time": 1524162600, "id": 261}
-{"index": {"_type": "tweet", "_id": "262"}}
+{"index": {"_type": "tweet", "_id": "262", "_index":"cricket"}}
 {"emotion": "fear", "sentiment": 1, "parent": 212, "text": "winner congratulation ipl2018 app point match team rajasthan royal face inning idea ", "location": "dummy", "time": 1524162600, "id": 262}
-{"index": {"_type": "tweet", "_id": "263"}}
+{"index": {"_type": "tweet", "_id": "263", "_index":"cricket"}}
 {"emotion": "fear", "sentiment": -1, "parent": 164, "text": "chris gayle top spot kings xi ipl cricket kkr csk cricket team end park cricket vivoipl t20 cricket ", "location": "dummy", "time": 1524162600, "id": 263}
-{"index": {"_type": "tweet", "_id": "264"}}
+{"index": {"_type": "tweet", "_id": "264", "_index":"cricket"}}
 {"emotion": "excited", "sentiment": -1, "parent": 188, "text": "year home trip youtube video derbyshireccc weekend team day cricket season coach chennai ", "location": "dummy", "time": 1524162600, "id": 264}
-{"index": {"_type": "tweet", "_id": "265"}}
+{"index": {"_type": "tweet", "_id": "265", "_index":"cricket"}}
 {"emotion": "excited", "sentiment": 0, "parent": 166, "text": "cricket ipl ipl2018 kolkata ipl2018 cricket match no yuvstrong12 india iplt20 book idea support ", "location": "dummy", "time": 1524162600, "id": 265}
-{"index": {"_type": "tweet", "_id": "266"}}
+{"index": {"_type": "tweet", "_id": "266", "_index":"cricket"}}
 {"emotion": "sad", "sentiment": -2, "parent": 190, "text": "ball ipl cricket run shanerwatson33 tatamotors rahul power inning fact rahul tatamotor yesterday ", "location": "dummy", "time": 1524162600, "id": 266}
-{"index": {"_type": "tweet", "_id": "267"}}
+{"index": {"_type": "tweet", "_id": "267", "_index":"cricket"}}
 {"emotion": "sad", "sentiment": 2, "parent": 250, "text": "kxip ipl2018 vivoipl2018 congratulation win guy couple sport delhidaredevil bangalore kkr match 18 ", "location": "dummy", "time": 1524249000, "id": 267}
-{"index": {"_type": "tweet", "_id": "268"}}
+{"index": {"_type": "tweet", "_id": "268", "_index":"cricket"}}
 {"emotion": "fear", "sentiment": -2, "parent": 170, "text": "match 19 ipl 2018 rcb big screen sport free wifi ipl2018 kkr iplfever ipl2018 century play ", "location": "dummy", "time": 1524249000, "id": 268}
-{"index": {"_type": "tweet", "_id": "269"}}
+{"index": {"_type": "tweet", "_id": "269", "_index":"cricket"}}
 {"emotion": "excited", "sentiment": 1, "parent": 255, "text": "week bat world ipl2018 bowl ipl team wicket rcbtweet dream shane watson ", "location": "dummy", "time": 1524249000, "id": 269}
-{"index": {"_type": "tweet", "_id": "270"}}
+{"index": {"_type": "tweet", "_id": "270", "_index":"cricket"}}
 {"emotion": "fear", "sentiment": -1, "parent": 256, "text": "friend fun family sport ipl2018 cricket action afternoon season hour tea ball ", "location": "dummy", "time": 1524249000, "id": 270}
-{"index": {"_type": "tweet", "_id": "271"}}
+{"index": {"_type": "tweet", "_id": "271", "_index":"cricket"}}
 {"emotion": "sad", "sentiment": -2, "parent": 252, "text": "cricket fan match today world delhi t20 ipl11 gayle score century staffs cricket ", "location": "dummy", "time": 1524249000, "id": 271}
-{"index": {"_type": "tweet", "_id": "272"}}
+{"index": {"_type": "tweet", "_id": "272", "_index":"cricket"}}
 {"emotion": "happy", "sentiment": 2, "parent": 200, "text": "people today rcb youtube iplt20 cricket http time www facebook t20 match hope ", "location": "dummy", "time": 1524249000, "id": 272}
-{"index": {"_type": "tweet", "_id": "273"}}
+{"index": {"_type": "tweet", "_id": "273", "_index":"cricket"}}
 {"emotion": "excited", "sentiment": 1, "parent": 219, "text": "pakistan onthisday ball time debut cricket season first time india t20 cricket wicket sharjah ", "location": "dummy", "time": 1524249000, "id": 273}
-{"index": {"_type": "tweet", "_id": "274"}}
+{"index": {"_type": "tweet", "_id": "274", "_index":"cricket"}}
 {"emotion": "fear", "sentiment": 0, "parent": 247, "text": "side bowl ankit rajpoot ambrose kings xi vohra first game field mumbai cricket vivoipl cricket fever ", "location": "dummy", "time": 1524249000, "id": 274}
-{"index": {"_type": "tweet", "_id": "275"}}
+{"index": {"_type": "tweet", "_id": "275", "_index":"cricket"}}
 {"emotion": "sad", "sentiment": 2, "parent": 216, "text": "minute today season touch action world century staffs cricket viral ipl ball match 19 ", "location": "dummy", "time": 1524249000, "id": 275}
-{"index": {"_type": "tweet", "_id": "276"}}
+{"index": {"_type": "tweet", "_id": "276", "_index":"cricket"}}
 {"emotion": "fear", "sentiment": 0, "parent": 276, "text": "top great deal price shaun marsh table glamorgan control talent boult mumbai srh kohli ", "location": "dummy", "time": 1524249000, "id": 276}
-{"index": {"_type": "tweet", "_id": "277"}}
+{"index": {"_type": "tweet", "_id": "277", "_index":"cricket"}}
 {"emotion": "happy", "sentiment": -1, "parent": 224, "text": "kolkata today first time support sunday lot action tomorrow india cricket season place ", "location": "dummy", "time": 1524249000, "id": 277}
-{"index": {"_type": "tweet", "_id": "278"}}
+{"index": {"_type": "tweet", "_id": "278", "_index":"cricket"}}
 {"emotion": "fear", "sentiment": -1, "parent": 221, "text": "parade england squad important tour inspiration wagah border sarfaraz ahmed today wicket shane watson match 18 ", "location": "dummy", "time": 1524249000, "id": 278}
-{"index": {"_type": "tweet", "_id": "279"}}
+{"index": {"_type": "tweet", "_id": "279", "_index":"cricket"}}
 {"emotion": "sad", "sentiment": 1, "parent": 249, "text": "ipl2018 ipl18 guy top free year shane watson points table century staffs cricket viral ipl ", "location": "dummy", "time": 1524249000, "id": 279}
-{"index": {"_type": "tweet", "_id": "280"}}
+{"index": {"_type": "tweet", "_id": "280", "_index":"cricket"}}
 {"emotion": "sad", "sentiment": 2, "parent": 257, "text": "iplt20 ipl2018 ipl11 preview kkr saturday cricket http time today ipl abdevilliers17 ", "location": "dummy", "time": 1524249000, "id": 280}
-{"index": {"_type": "tweet", "_id": "281"}}
+{"index": {"_type": "tweet", "_id": "281", "_index":"cricket"}}
 {"emotion": "fear", "sentiment": -1, "parent": 167, "text": "match 18 http iplfever ipl2018 kxip free wifi ipl 2018 big screen kkr bowl ipl2018 cricket cricket vivoipl ", "location": "dummy", "time": 1524249000, "id": 281}
-{"index": {"_type": "tweet", "_id": "282"}}
+{"index": {"_type": "tweet", "_id": "282", "_index":"cricket"}}
 {"emotion": "sad", "sentiment": -1, "parent": 242, "text": "bit captain end god season lot youngster staffs cricket viral ipl ball match 19 ", "location": "dummy", "time": 1524249000, "id": 282}
-{"index": {"_type": "tweet", "_id": "283"}}
+{"index": {"_type": "tweet", "_id": "283", "_index":"cricket"}}
 {"emotion": "fear", "sentiment": 1, "parent": 240, "text": "ipl11 ipl2018 youtube ipl18 srh xtratime ipl 2018 csk england video lot ", "location": "dummy", "time": 1524249000, "id": 283}
-{"index": {"_type": "tweet", "_id": "284"}}
+{"index": {"_type": "tweet", "_id": "284", "_index":"cricket"}}
 {"emotion": "fear", "sentiment": -1, "parent": 264, "text": "year weekend home time reason staffs cricket foster lot allstarscricket family shane watson ", "location": "dummy", "time": 1524249000, "id": 284}
-{"index": {"_type": "tweet", "_id": "285"}}
+{"index": {"_type": "tweet", "_id": "285", "_index":"cricket"}}
 {"emotion": "angry", "sentiment": 0, "parent": 259, "text": "rajasthanroyal crowd win yesterday hasan ali india wagah border ebay punjab match 18 shane watson ", "location": "dummy", "time": 1524249000, "id": 285}
-{"index": {"_type": "tweet", "_id": "286"}}
+{"index": {"_type": "tweet", "_id": "286", "_index":"cricket"}}
 {"emotion": "sad", "sentiment": -1, "parent": 261, "text": "game place goal kolkata punjab catch read reason staffs cricket viral ipl century ", "location": "dummy", "time": 1524249000, "id": 286}
-{"index": {"_type": "tweet", "_id": "287"}}
+{"index": {"_type": "tweet", "_id": "287", "_index":"cricket"}}
 {"emotion": "sad", "sentiment": 1, "parent": 233, "text": "trent boult catch delhidaredevil year rcbvdd hour viral ipl ball match 19 match 18 inspiration ", "location": "dummy", "time": 1524249000, "id": 287}
-{"index": {"_type": "tweet", "_id": "288"}}
+{"index": {"_type": "tweet", "_id": "288", "_index":"cricket"}}
 {"emotion": "excited", "sentiment": 1, "parent": 231, "text": "ipl punjab ipl2018 bangalore ipl11 preityzinta kkrvkxip good field batting line-up shane watson match 18 ", "location": "dummy", "time": 1524249000, "id": 288}
-{"index": {"_type": "tweet", "_id": "289"}}
+{"index": {"_type": "tweet", "_id": "289", "_index":"cricket"}}
 {"emotion": "fear", "sentiment": 1, "parent": 238, "text": "link touch sri lanka video ipl week click dream11 viral ipl kolkata match 19 ", "location": "dummy", "time": 1524249000, "id": 289}
-{"index": {"_type": "tweet", "_id": "290"}}
+{"index": {"_type": "tweet", "_id": "290", "_index":"cricket"}}
 {"emotion": "sad", "sentiment": 0, "parent": 213, "text": "end inn inning first inning season today season ipl sharjah victory ipl2018 cricket team ", "location": "dummy", "time": 1524249000, "id": 290}
-{"index": {"_type": "tweet", "_id": "291"}}
+{"index": {"_type": "tweet", "_id": "291", "_index":"cricket"}}
 {"emotion": "angry", "sentiment": 2, "parent": 236, "text": "cricket season player sachin day tea god bat free dream wicket shane watson ", "location": "dummy", "time": 1524249000, "id": 291}
-{"index": {"_type": "tweet", "_id": "292"}}
+{"index": {"_type": "tweet", "_id": "292", "_index":"cricket"}}
 {"emotion": "happy", "sentiment": -2, "parent": 249, "text": "cricskill dream11 today ipl2018 india free csk srh ipl2018 day ipl abdevilliers17 ", "location": "dummy", "time": 1524249000, "id": 292}
-{"index": {"_type": "tweet", "_id": "293"}}
+{"index": {"_type": "tweet", "_id": "293", "_index":"cricket"}}
 {"emotion": "sad", "sentiment": -2, "parent": 228, "text": "australia 7 wicket pakistan u16 india pakistan day bcci time cricket news reason sharjah ", "location": "dummy", "time": 1524249000, "id": 293}
-{"index": {"_type": "tweet", "_id": "294"}}
+{"index": {"_type": "tweet", "_id": "294", "_index":"cricket"}}
 {"emotion": "fear", "sentiment": 0, "parent": 227, "text": "chance ipl2018 day team squad ipl18 click match winner gayle world ", "location": "dummy", "time": 1524249000, "id": 294}
-{"index": {"_type": "tweet", "_id": "295"}}
+{"index": {"_type": "tweet", "_id": "295", "_index":"cricket"}}
 {"emotion": "angry", "sentiment": -2, "parent": 254, "text": "good luck boy ground read sport bcci people 2018 season whistlepodu vivoipl2018 wicket shane watson ", "location": "dummy", "time": 1524249000, "id": 295}
-{"index": {"_type": "tweet", "_id": "296"}}
+{"index": {"_type": "tweet", "_id": "296", "_index":"cricket"}}
 {"emotion": "angry", "sentiment": -2, "parent": 205, "text": "rain today score t20 cricket somerset century weekend good luck first match bet team ", "location": "dummy", "time": 1524249000, "id": 296}
-{"index": {"_type": "tweet", "_id": "297"}}
+{"index": {"_type": "tweet", "_id": "297", "_index":"cricket"}}
 {"emotion": "sad", "sentiment": 0, "parent": 251, "text": "hand pack team start batting line-up world century staffs cricket viral ipl ball match 19 ", "location": "dummy", "time": 1524249000, "id": 297}
-{"index": {"_type": "tweet", "_id": "298"}}
+{"index": {"_type": "tweet", "_id": "298", "_index":"cricket"}}
 {"emotion": "fear", "sentiment": 1, "parent": 253, "text": "batting line-up bowling line-up world century staffs cricket viral ipl ball match 19 match 18 shane watson wicket ", "location": "dummy", "time": 1524249000, "id": 298}
-{"index": {"_type": "tweet", "_id": "299"}}
+{"index": {"_type": "tweet", "_id": "299", "_index":"cricket"}}
 {"emotion": "fear", "sentiment": -1, "parent": 220, "text": "ms dhoni ipl2018 match ipl11 csk cricket news gayle world century staffs cricket wicket ", "location": "dummy", "time": 1524249000, "id": 299}
-{"index": {"_type": "tweet", "_id": "300"}}
+{"index": {"_type": "tweet", "_id": "300", "_index":"cricket"}}
 {"emotion": "fear", "sentiment": 1, "parent": 245, "text": "county championship debut top victory win kent ambrose day history somerset ball ", "location": "dummy", "time": 1524249000, "id": 300}
-{"index": {"_type": "tweet", "_id": "301"}}
+{"index": {"_type": "tweet", "_id": "301", "_index":"cricket"}}
 {"emotion": "excited", "sentiment": 1, "parent": 217, "text": "match cricskill gameplan time sign borthwick ipl toss cricket vivoipl boy world ", "location": "dummy", "time": 1524249000, "id": 301}
-{"index": {"_type": "tweet", "_id": "302"}}
+{"index": {"_type": "tweet", "_id": "302", "_index":"cricket"}}
 {"emotion": "sad", "sentiment": 2, "parent": 302, "text": "bbc website publication worcestershire lynn hildreth preityzinta kkrvkxip somerset winner century place staffs cricket ", "location": "dummy", "time": 1524249000, "id": 302}
-{"index": {"_type": "tweet", "_id": "303"}}
+{"index": {"_type": "tweet", "_id": "303", "_index":"cricket"}}
 {"emotion": "sad", "sentiment": 0, "parent": 226, "text": "rcb ipl2018 6 wicket ipl delhi daredevil today match 19 preview xtratime player ipl18 ", "location": "dummy", "time": 1524249000, "id": 303}
-{"index": {"_type": "tweet", "_id": "304"}}
+{"index": {"_type": "tweet", "_id": "304", "_index":"cricket"}}
 {"emotion": "angry", "sentiment": 1, "parent": 222, "text": "rajasthan royal rcbtweet ipl2018 cricket vivoipl delhidaredevil ipl 2018 cricket news bowl vohra delhi daredevil toss ", "location": "dummy", "time": 1524249000, "id": 304}
-{"index": {"_type": "tweet", "_id": "305"}}
+{"index": {"_type": "tweet", "_id": "305", "_index":"cricket"}}
 {"emotion": "angry", "sentiment": 2, "parent": 248, "text": "club good luck today 2018 season season tomorrow yesterday run year first game india ", "location": "dummy", "time": 1524249000, "id": 305}
-{"index": {"_type": "tweet", "_id": "306"}}
+{"index": {"_type": "tweet", "_id": "306", "_index":"cricket"}}
 {"emotion": "fear", "sentiment": -2, "parent": 208, "text": "ipl cricket ipl2018 ipl 2018 gameplan cricskill detail iplt20 match ipl11 hope 2nd xi ", "location": "dummy", "time": 1524249000, "id": 306}
-{"index": {"_type": "tweet", "_id": "307"}}
+{"index": {"_type": "tweet", "_id": "307", "_index":"cricket"}}
 {"emotion": "excited", "sentiment": 2, "parent": 258, "text": "viral ipl whistlepodu vivoipl2018 today inning good world century staffs cricket ball match 19 match 18 ", "location": "dummy", "time": 1524249000, "id": 307}
-{"index": {"_type": "tweet", "_id": "308"}}
+{"index": {"_type": "tweet", "_id": "308", "_index":"cricket"}}
 {"emotion": "excited", "sentiment": -1, "parent": 215, "text": "season sun 2nd xi 1st xi first game match first match win news yesterday first inning ", "location": "dummy", "time": 1524249000, "id": 308}
-{"index": {"_type": "tweet", "_id": "309"}}
+{"index": {"_type": "tweet", "_id": "309", "_index":"cricket"}}
 {"emotion": "angry", "sentiment": -2, "parent": 309, "text": "good result hope sarfraz ipl update kkrvkxip bangalore crowd rcbvdd delhidaredevil wicket ball ", "location": "dummy", "time": 1524249000, "id": 309}
-{"index": {"_type": "tweet", "_id": "310"}}
+{"index": {"_type": "tweet", "_id": "310", "_index":"cricket"}}
 {"emotion": "angry", "sentiment": -2, "parent": 241, "text": "allrounder ishant de villiers burgess day century sussex today watch 2nd xi morning cricket vivoipl ", "location": "dummy", "time": 1524249000, "id": 310}
-{"index": {"_type": "tweet", "_id": "311"}}
+{"index": {"_type": "tweet", "_id": "311", "_index":"cricket"}}
 {"emotion": "angry", "sentiment": 1, "parent": 265, "text": "cricket ipl today double header preview toss hour ipl2018 punjab csk tomorrow srh ", "location": "dummy", "time": 1524249000, "id": 311}
-{"index": {"_type": "tweet", "_id": "312"}}
+{"index": {"_type": "tweet", "_id": "312", "_index":"cricket"}}
 {"emotion": "sad", "sentiment": 0, "parent": 260, "text": "bowler performance ipl2018 match kkrvkxip ball game wicket shane watson match 18 batting line-up ", "location": "dummy", "time": 1524249000, "id": 312}
-{"index": {"_type": "tweet", "_id": "313"}}
+{"index": {"_type": "tweet", "_id": "313", "_index":"cricket"}}
 {"emotion": "angry", "sentiment": 1, "parent": 262, "text": "winner today bangalore punjab csk ipl18 ipl2018 ipl11 ipl action 2nd xi ", "location": "dummy", "time": 1524249000, "id": 313}
-{"index": {"_type": "tweet", "_id": "314"}}
+{"index": {"_type": "tweet", "_id": "314", "_index":"cricket"}}
 {"emotion": "excited", "sentiment": -2, "parent": 214, "text": "today score crickhit 0 http staffs cricket tune allstarscricket ipl2018 youngster www facebook first time ", "location": "dummy", "time": 1524249000, "id": 314}
-{"index": {"_type": "tweet", "_id": "315"}}
+{"index": {"_type": "tweet", "_id": "315", "_index":"cricket"}}
 {"emotion": "excited", "sentiment": 0, "parent": 235, "text": "work today www facebook sussex afternoon rain season pakistan u16 ball match 19 match 18 ", "location": "dummy", "time": 1524249000, "id": 315}
-{"index": {"_type": "tweet", "_id": "316"}}
+{"index": {"_type": "tweet", "_id": "316", "_index":"cricket"}}
 {"emotion": "sad", "sentiment": -2, "parent": 232, "text": "team wicket delhi bangalore win morning preityzinta kkrvkxip game pant action ipl11 ", "location": "dummy", "time": 1524249000, "id": 316}
-{"index": {"_type": "tweet", "_id": "317"}}
+{"index": {"_type": "tweet", "_id": "317", "_index":"cricket"}}
 {"emotion": "excited", "sentiment": -2, "parent": 183, "text": "detail today biggest message ipl 2018 ground century staffs cricket viral ipl ball match 19 ", "location": "dummy", "time": 1524249000, "id": 317}
-{"index": {"_type": "tweet", "_id": "318"}}
+{"index": {"_type": "tweet", "_id": "318", "_index":"cricket"}}
 {"emotion": "sad", "sentiment": 0, "parent": 271, "text": "cricket fan t20 today score friend inning day rajasthanroyal 100-ball format fawad alam religion ", "location": "dummy", "time": 1524335400, "id": 318}
-{"index": {"_type": "tweet", "_id": "319"}}
+{"index": {"_type": "tweet", "_id": "319", "_index":"cricket"}}
 {"emotion": "fear", "sentiment": -2, "parent": 290, "text": "end inn toss v great day sunriser pope festival lancashire fact religion fawad alam ", "location": "dummy", "time": 1524335400, "id": 319}
-{"index": {"_type": "tweet", "_id": "320"}}
+{"index": {"_type": "tweet", "_id": "320", "_index":"cricket"}}
 {"emotion": "excited", "sentiment": -1, "parent": 305, "text": "league today year ipl first game call festival lancashire fact religion fawad alam ", "location": "dummy", "time": 1524335400, "id": 320}
-{"index": {"_type": "tweet", "_id": "321"}}
+{"index": {"_type": "tweet", "_id": "321", "_index":"cricket"}}
 {"emotion": "angry", "sentiment": 0, "parent": 268, "text": "post play ipl 2018 sport live sunriser toss delhi daredevil ipl2018 cricket ipl big screen ", "location": "dummy", "time": 1524335400, "id": 321}
-{"index": {"_type": "tweet", "_id": "322"}}
+{"index": {"_type": "tweet", "_id": "322", "_index":"cricket"}}
 {"emotion": "angry", "sentiment": 2, "parent": 234, "text": "cricket http mumbai indian youtube congratulation royal pope festival lancashire fact religion fawad alam ", "location": "dummy", "time": 1524335400, "id": 322}
-{"index": {"_type": "tweet", "_id": "323"}}
+{"index": {"_type": "tweet", "_id": "323", "_index":"cricket"}}
 {"emotion": "excited", "sentiment": -1, "parent": 246, "text": "http tech television ipl debut pope virat ab festival lancashire fact religion fawad alam 100-ball format ", "location": "dummy", "time": 1524335400, "id": 323}
-{"index": {"_type": "tweet", "_id": "324"}}
+{"index": {"_type": "tweet", "_id": "324", "_index":"cricket"}}
 {"emotion": "happy", "sentiment": -1, "parent": 299, "text": "ms dhoni ipl 2018 csk sunriser cricket news sport ipl2018 srhvscsk time andrew strauss rajasthanroyal 100-ball format ", "location": "dummy", "time": 1524335400, "id": 324}
-{"index": {"_type": "tweet", "_id": "325"}}
+{"index": {"_type": "tweet", "_id": "325", "_index":"cricket"}}
 {"emotion": "fear", "sentiment": -1, "parent": 223, "text": "final inning sachin royal day t20 sunriser fact andrew strauss lancashire fawad alam ", "location": "dummy", "time": 1524335400, "id": 325}
-{"index": {"_type": "tweet", "_id": "326"}}
+{"index": {"_type": "tweet", "_id": "326", "_index":"cricket"}}
 {"emotion": "excited", "sentiment": -2, "parent": 295, "text": "read game county cricket today live sport festival lancashire fact religion fawad alam ", "location": "dummy", "time": 1524335400, "id": 326}
-{"index": {"_type": "tweet", "_id": "327"}}
+{"index": {"_type": "tweet", "_id": "327", "_index":"cricket"}}
 {"emotion": "excited", "sentiment": -1, "parent": 275, "text": "season daredevil fortune weekend home delhi daredevil good start cricket vivoipl game fact lancashire ", "location": "dummy", "time": 1524335400, "id": 327}
-{"index": {"_type": "tweet", "_id": "328"}}
+{"index": {"_type": "tweet", "_id": "328", "_index":"cricket"}}
 {"emotion": "excited", "sentiment": -2, "parent": 293, "text": "india temple ipl gods bangalore chinnaswamy festival virat ab religion vivo india pope rajasthanroyal ", "location": "dummy", "time": 1524335400, "id": 328}
-{"index": {"_type": "tweet", "_id": "329"}}
+{"index": {"_type": "tweet", "_id": "329", "_index":"cricket"}}
 {"emotion": "excited", "sentiment": -2, "parent": 301, "text": "cricskill imran tahir toss bat rajasthanroyal pope virat ab festival lancashire fact religion ", "location": "dummy", "time": 1524335400, "id": 329}
-{"index": {"_type": "tweet", "_id": "330"}}
+{"index": {"_type": "tweet", "_id": "330", "_index":"cricket"}}
 {"emotion": "sad", "sentiment": -2, "parent": 273, "text": "india cricket season pakistan celebrate icc match day sachin postage stamp virat ab festival ", "location": "dummy", "time": 1524335400, "id": 330}
-{"index": {"_type": "tweet", "_id": "331"}}
+{"index": {"_type": "tweet", "_id": "331", "_index":"cricket"}}
 {"emotion": "fear", "sentiment": 0, "parent": 239, "text": "world player india sachin virat kohli msdhoni team contestalert ipl2018 guy score ", "location": "dummy", "time": 1524335400, "id": 331}
-{"index": {"_type": "tweet", "_id": "332"}}
+{"index": {"_type": "tweet", "_id": "332", "_index":"cricket"}}
 {"emotion": "excited", "sentiment": 1, "parent": 303, "text": "ipl2018 ipl 2018 preview delhi daredevil first game today cricskill big screen postage stamp virat ab festival ", "location": "dummy", "time": 1524335400, "id": 332}
-{"index": {"_type": "tweet", "_id": "333"}}
+{"index": {"_type": "tweet", "_id": "333", "_index":"cricket"}}
 {"emotion": "angry", "sentiment": 1, "parent": 280, "text": "today abdevilliers17 iplt20 ipl11 ipl2018 harbhajan singh legend football preview match 20 sunriser ", "location": "dummy", "time": 1524335400, "id": 333}
-{"index": {"_type": "tweet", "_id": "334"}}
+{"index": {"_type": "tweet", "_id": "334", "_index":"cricket"}}
 {"emotion": "sad", "sentiment": 1, "parent": 334, "text": "jhulan goswami postage stamp sidebottom misery honour league match 21 glimpse 3 wicket cricket icc fact ", "location": "dummy", "time": 1524335400, "id": 334}
-{"index": {"_type": "tweet", "_id": "335"}}
+{"index": {"_type": "tweet", "_id": "335", "_index":"cricket"}}
 {"emotion": "sad", "sentiment": 1, "parent": 316, "text": "lot life test football cricket pakveng game news wicket lancashire fact religion ", "location": "dummy", "time": 1524335400, "id": 335}
-{"index": {"_type": "tweet", "_id": "336"}}
+{"index": {"_type": "tweet", "_id": "336", "_index":"cricket"}}
 {"emotion": "angry", "sentiment": -1, "parent": 279, "text": "ipl18 ipl2018 start ipl guy home ipl11 festival lancashire fact religion ", "location": "dummy", "time": 1524335400, "id": 336}
-{"index": {"_type": "tweet", "_id": "337"}}
+{"index": {"_type": "tweet", "_id": "337", "_index":"cricket"}}
 {"emotion": "excited", "sentiment": -1, "parent": 244, "text": "day bet punjab www facebook rajasthan royal mumbai indian contestalert football friend 100-ball format fawad alam ", "location": "dummy", "time": 1524335400, "id": 337}
-{"index": {"_type": "tweet", "_id": "338"}}
+{"index": {"_type": "tweet", "_id": "338", "_index":"cricket"}}
 {"emotion": "excited", "sentiment": -1, "parent": 297, "text": "team player ipl pakistan start dhoni country day test idea year ", "location": "dummy", "time": 1524335400, "id": 338}
-{"index": {"_type": "tweet", "_id": "339"}}
+{"index": {"_type": "tweet", "_id": "339", "_index":"cricket"}}
 {"emotion": "fear", "sentiment": -2, "parent": 309, "text": "ipl update ball favourite team today congratulation match day news ipl11 virat ab festival ", "location": "dummy", "time": 1524335400, "id": 339}
-{"index": {"_type": "tweet", "_id": "340"}}
+{"index": {"_type": "tweet", "_id": "340", "_index":"cricket"}}
 {"emotion": "sad", "sentiment": 0, "parent": 267, "text": "yorkshire win county championship game pope virat ab festival lancashire fact religion fawad alam ", "location": "dummy", "time": 1524335400, "id": 340}
-{"index": {"_type": "tweet", "_id": "341"}}
+{"index": {"_type": "tweet", "_id": "341", "_index":"cricket"}}
 {"emotion": "fear", "sentiment": -1, "parent": 230, "text": "summer football county cricket pope festival lancashire fact religion fawad alam 100-ball format rajasthanroyal ", "location": "dummy", "time": 1524335400, "id": 341}
-{"index": {"_type": "tweet", "_id": "342"}}
+{"index": {"_type": "tweet", "_id": "342", "_index":"cricket"}}
 {"emotion": "fear", "sentiment": 1, "parent": 197, "text": "100-ball format mum kid andrew strauss strauss t20 news pope festival lancashire fact ", "location": "dummy", "time": 1524335400, "id": 342}
-{"index": {"_type": "tweet", "_id": "343"}}
+{"index": {"_type": "tweet", "_id": "343", "_index":"cricket"}}
 {"emotion": "happy", "sentiment": 0, "parent": 285, "text": "rajasthanroyal ipl2018 victory 3 wicket mumbai indian ipl 2018 today iplt20 big screen postage stamp virat ab ", "location": "dummy", "time": 1524335400, "id": 343}
-{"index": {"_type": "tweet", "_id": "344"}}
+{"index": {"_type": "tweet", "_id": "344", "_index":"cricket"}}
 {"emotion": "angry", "sentiment": -1, "parent": 344, "text": "ebay uk roken cugayn archer content ipl debut mumbai indian switch lancashire fact religion fawad alam ", "location": "dummy", "time": 1524335400, "id": 344}
-{"index": {"_type": "tweet", "_id": "345"}}
+{"index": {"_type": "tweet", "_id": "345", "_index":"cricket"}}
 {"emotion": "excited", "sentiment": -1, "parent": 312, "text": "game ipl ipl history2013 bengaluru2017 23 april kolkatacricket strauss rajasthanroyal 100-ball format fawad alam pope ", "location": "dummy", "time": 1524335400, "id": 345}
-{"index": {"_type": "tweet", "_id": "346"}}
+{"index": {"_type": "tweet", "_id": "346", "_index":"cricket"}}
 {"emotion": "sad", "sentiment": 2, "parent": 283, "text": "ipl2018 ipl 2018 match ipl11 csk youtube xtratime iplt20 harbhajan singh india srh ", "location": "dummy", "time": 1524335400, "id": 346}
-{"index": {"_type": "tweet", "_id": "347"}}
+{"index": {"_type": "tweet", "_id": "347", "_index":"cricket"}}
 {"emotion": "sad", "sentiment": -2, "parent": 347, "text": "free wifi big screen dhawan sunrisers bowl iplfever ipl2018 stanlake return match 21 match 20 cricket vivoipl rajasthanroyal pope ", "location": "dummy", "time": 1524335400, "id": 347}
-{"index": {"_type": "tweet", "_id": "348"}}
+{"index": {"_type": "tweet", "_id": "348", "_index":"cricket"}}
 {"emotion": "fear", "sentiment": -2, "parent": 314, "text": "score today crickhit ipl2018 game champion rajasthan royal cricskill postage stamp virat ab ", "location": "dummy", "time": 1524335400, "id": 348}
-{"index": {"_type": "tweet", "_id": "349"}}
+{"index": {"_type": "tweet", "_id": "349", "_index":"cricket"}}
 {"emotion": "excited", "sentiment": -2, "parent": 270, "text": "fun player lot day1 pope lancashire fact religion fawad alam 100-ball format rajasthanroyal ", "location": "dummy", "time": 1524335400, "id": 349}
-{"index": {"_type": "tweet", "_id": "350"}}
+{"index": {"_type": "tweet", "_id": "350", "_index":"cricket"}}
 {"emotion": "sad", "sentiment": -1, "parent": 291, "text": "virat ab festival god temple religion ipl chinnaswamy sachin beginning end match ", "location": "dummy", "time": 1524335400, "id": 350}
-{"index": {"_type": "tweet", "_id": "351"}}
+{"index": {"_type": "tweet", "_id": "351", "_index":"cricket"}}
 {"emotion": "happy", "sentiment": -1, "parent": 304, "text": "rajasthan royal cricket news mumbai indian sport delhi daredevil india ipl 2018 player inn whistlepodu vivoipl2018 philatelist ", "location": "dummy", "time": 1524335400, "id": 351}
-{"index": {"_type": "tweet", "_id": "352"}}
+{"index": {"_type": "tweet", "_id": "352", "_index":"cricket"}}
 {"emotion": "excited", "sentiment": 0, "parent": 289, "text": "link ipl2018 pakistan csk place ipl11 ipl weekend virat ab festival lancashire ", "location": "dummy", "time": 1524335400, "id": 352}
-{"index": {"_type": "tweet", "_id": "353"}}
+{"index": {"_type": "tweet", "_id": "353", "_index":"cricket"}}
 {"emotion": "sad", "sentiment": -1, "parent": 307, "text": "whistlepodu vivoipl2018 viral ipl srhvcsk wicket virat ab festival lancashire fact religion fawad alam 100-ball format ", "location": "dummy", "time": 1524335400, "id": 353}
-{"index": {"_type": "tweet", "_id": "354"}}
+{"index": {"_type": "tweet", "_id": "354", "_index":"cricket"}}
 {"emotion": "fear", "sentiment": 1, "parent": 246, "text": "lloyd glamorgan cricket vivoipl pope festival lancashire fact religion fawad alam 100-ball format rajasthanroyal ", "location": "dummy", "time": 1524335400, "id": 354}
-{"index": {"_type": "tweet", "_id": "355"}}
+{"index": {"_type": "tweet", "_id": "355", "_index":"cricket"}}
 {"emotion": "happy", "sentiment": -1, "parent": 288, "text": "good chennai ipl field good start rajasthan match 20 weekend post india cricket ipl ", "location": "dummy", "time": 1524335400, "id": 355}
-{"index": {"_type": "tweet", "_id": "356"}}
+{"index": {"_type": "tweet", "_id": "356", "_index":"cricket"}}
 {"emotion": "angry", "sentiment": -1, "parent": 300, "text": "county championship victory essex supporter today lancashire cricket vivoipl derbyshire history srhvcsk virat ab ", "location": "dummy", "time": 1524335400, "id": 356}
-{"index": {"_type": "tweet", "_id": "357"}}
+{"index": {"_type": "tweet", "_id": "357", "_index":"cricket"}}
 {"emotion": "excited", "sentiment": 2, "parent": 278, "text": "england pakistan ireland number condition call country icc cricket icc test team ", "location": "dummy", "time": 1524335400, "id": 357}
-{"index": {"_type": "tweet", "_id": "358"}}
+{"index": {"_type": "tweet", "_id": "358", "_index":"cricket"}}
 {"emotion": "happy", "sentiment": 0, "parent": 276, "text": "rajasthan mumbai prediction ipl play game match 21 pope virat ab festival lancashire ", "location": "dummy", "time": 1524335400, "id": 358}
-{"index": {"_type": "tweet", "_id": "359"}}
+{"index": {"_type": "tweet", "_id": "359", "_index":"cricket"}}
 {"emotion": "excited", "sentiment": 0, "parent": 274, "text": "dls explainer kings xi cricket vivoipl pope virat ab festival lancashire fact religion fawad alam 100-ball format ", "location": "dummy", "time": 1524335400, "id": 359}
-{"index": {"_type": "tweet", "_id": "360"}}
+{"index": {"_type": "tweet", "_id": "360", "_index":"cricket"}}
 {"emotion": "angry", "sentiment": 0, "parent": 294, "text": "chance score time ipl2018 friend postage stamp virat ab festival lancashire fact religion ", "location": "dummy", "time": 1524335400, "id": 360}
-{"index": {"_type": "tweet", "_id": "361"}}
+{"index": {"_type": "tweet", "_id": "361", "_index":"cricket"}}
 {"emotion": "happy", "sentiment": -2, "parent": 272, "text": "people format cricket http ball msdhoni pope virat ab festival lancashire fact religion ", "location": "dummy", "time": 1524335400, "id": 361}
-{"index": {"_type": "tweet", "_id": "362"}}
+{"index": {"_type": "tweet", "_id": "362", "_index":"cricket"}}
 {"emotion": "sad", "sentiment": -2, "parent": 292, "text": "india cricskill iplt20 dhoni today ipl2018 whistlepodu vivoipl2018 big screen postage stamp virat ab festival lancashire ", "location": "dummy", "time": 1524335400, "id": 362}
-{"index": {"_type": "tweet", "_id": "363"}}
+{"index": {"_type": "tweet", "_id": "363", "_index":"cricket"}}
 {"emotion": "excited", "sentiment": 1, "parent": 302, "text": "srh top sunriser csk today rayudu point msdhoni sport ipl2018 ipl ", "location": "dummy", "time": 1524335400, "id": 363}
-{"index": {"_type": "tweet", "_id": "364"}}
+{"index": {"_type": "tweet", "_id": "364", "_index":"cricket"}}
 {"emotion": "happy", "sentiment": 1, "parent": 282, "text": "youngster bit call team pope lancashire fact religion fawad alam 100-ball format rajasthanroyal ", "location": "dummy", "time": 1524335400, "id": 364}
-{"index": {"_type": "tweet", "_id": "365"}}
+{"index": {"_type": "tweet", "_id": "365", "_index":"cricket"}}
 {"emotion": "fear", "sentiment": 2, "parent": 192, "text": "ipl2018 man game mumbai indian match t20 ipl11 weekend archer ipl tech television ", "location": "dummy", "time": 1524335400, "id": 365}
-{"index": {"_type": "tweet", "_id": "366"}}
+{"index": {"_type": "tweet", "_id": "366", "_index":"cricket"}}
 {"emotion": "angry", "sentiment": 1, "parent": 317, "text": "countychamp prosportsimage ipl 2018 sunriser today ipl2018 srhvscsk content match 21 crickhit postage stamp virat ab ", "location": "dummy", "time": 1524335400, "id": 366}
-{"index": {"_type": "tweet", "_id": "367"}}
+{"index": {"_type": "tweet", "_id": "367", "_index":"cricket"}}
 {"emotion": "excited", "sentiment": 0, "parent": 225, "text": "ecb blow content england game time cricketmanwale virat ab festival lancashire fact ", "location": "dummy", "time": 1524335400, "id": 367}
-{"index": {"_type": "tweet", "_id": "368"}}
+{"index": {"_type": "tweet", "_id": "368", "_index":"cricket"}}
 {"emotion": "sad", "sentiment": -2, "parent": 243, "text": "prediction rajasthan royal contestalert place virat ab festival lancashire fact religion fawad alam 100-ball format ", "location": "dummy", "time": 1524335400, "id": 368}
-{"index": {"_type": "tweet", "_id": "369"}}
+{"index": {"_type": "tweet", "_id": "369", "_index":"cricket"}}
 {"emotion": "happy", "sentiment": -1, "parent": 296, "text": "post office person jhulan goswami philatelist fact cricket icc icc delhi daredevil victory postage stamp virat ab ", "location": "dummy", "time": 1524335400, "id": 369}
-{"index": {"_type": "tweet", "_id": "370"}}
+{"index": {"_type": "tweet", "_id": "370", "_index":"cricket"}}
 {"emotion": "fear", "sentiment": 0, "parent": 310, "text": "time yass 26countrycode 3din dataviz sachintendulkar india srhvcsk format sachin day pope rajasthanroyal ", "location": "dummy", "time": 1524335400, "id": 370}
-{"index": {"_type": "tweet", "_id": "371"}}
+{"index": {"_type": "tweet", "_id": "371", "_index":"cricket"}}
 {"emotion": "fear", "sentiment": 0, "parent": 287, "text": "catch ipl 2018 match 20 score csk match 21 kid andrew strauss rajasthanroyal fawad alam religion ", "location": "dummy", "time": 1524335400, "id": 371}
-{"index": {"_type": "tweet", "_id": "372"}}
+{"index": {"_type": "tweet", "_id": "372", "_index":"cricket"}}
 {"emotion": "sad", "sentiment": -2, "parent": 311, "text": "cricket ipl today delhi daredevil ipl2018 preview top start cricskill virat ab festival lancashire ", "location": "dummy", "time": 1524335400, "id": 372}
-{"index": {"_type": "tweet", "_id": "373"}}
+{"index": {"_type": "tweet", "_id": "373", "_index":"cricket"}}
 {"emotion": "sad", "sentiment": 2, "parent": 286, "text": "place ipl2018 history daredevil virat ab festival lancashire fact religion fawad alam 100-ball format ", "location": "dummy", "time": 1524335400, "id": 373}
-{"index": {"_type": "tweet", "_id": "374"}}
+{"index": {"_type": "tweet", "_id": "374", "_index":"cricket"}}
 {"emotion": "happy", "sentiment": -1, "parent": 374, "text": "pope virdi derbyshire team 100 rare home glimpse fawad alam toss v sunriser condition fact ", "location": "dummy", "time": 1524335400, "id": 374}
-{"index": {"_type": "tweet", "_id": "375"}}
+{"index": {"_type": "tweet", "_id": "375", "_index":"cricket"}}
 {"emotion": "excited", "sentiment": -2, "parent": 313, "text": "ipl11 csk ipl2018 rayudu chahar good start ipl imran tahir chennai cricket vivoipl fawad alam ", "location": "dummy", "time": 1524335400, "id": 375}
-{"index": {"_type": "tweet", "_id": "376"}}
+{"index": {"_type": "tweet", "_id": "376", "_index":"cricket"}}
 {"emotion": "sad", "sentiment": 2, "parent": 284, "text": "iplt20 time cricskill today home ipl2018 year crickhit big screen postage stamp virat ab ", "location": "dummy", "time": 1524335400, "id": 376}
-{"index": {"_type": "tweet", "_id": "377"}}
+{"index": {"_type": "tweet", "_id": "377", "_index":"cricket"}}
 {"emotion": "angry", "sentiment": 2, "parent": 377, "text": "dream11tip csk playing porter star lancashire choice mum champion fact religion fawad alam 100-ball format ", "location": "dummy", "time": 1524335400, "id": 377}
-{"index": {"_type": "tweet", "_id": "378"}}
+{"index": {"_type": "tweet", "_id": "378", "_index":"cricket"}}
 {"emotion": "excited", "sentiment": -1, "parent": 315, "text": "rain today god play first game festival lancashire fact religion fawad alam 100-ball format ", "location": "dummy", "time": 1524335400, "id": 378}
-{"index": {"_type": "tweet", "_id": "379"}}
+{"index": {"_type": "tweet", "_id": "379", "_index":"cricket"}}
 {"emotion": "excited", "sentiment": -1, "parent": 266, "text": "yesterday ipl history cricket http ipl 2018 bat postage stamp virat ab festival lancashire fact ", "location": "dummy", "time": 1524335400, "id": 379}
-{"index": {"_type": "tweet", "_id": "380"}}
+{"index": {"_type": "tweet", "_id": "380", "_index":"cricket"}}
 {"emotion": "excited", "sentiment": -1, "parent": 328, "text": "dhoni dream11 playing11 iplt20 arron finch kl rahul rahul mayank finch kxip ipl2018 cricskill good luck ", "location": "dummy", "time": 1524421800, "id": 380}
-{"index": {"_type": "tweet", "_id": "381"}}
+{"index": {"_type": "tweet", "_id": "381", "_index":"cricket"}}
 {"emotion": "sad", "sentiment": 0, "parent": 348, "text": "ipl2018 yuvi finch time australia rest cricketer side coscoindia an icc mumbai ", "location": "dummy", "time": 1524421800, "id": 381}
-{"index": {"_type": "tweet", "_id": "382"}}
+{"index": {"_type": "tweet", "_id": "382", "_index":"cricket"}}
 {"emotion": "sad", "sentiment": 1, "parent": 348, "text": "today crickhit score ipl2018 ddvskxip maxi change good luck gambhir cricket sport miller ", "location": "dummy", "time": 1524421800, "id": 382}
-{"index": {"_type": "tweet", "_id": "383"}}
+{"index": {"_type": "tweet", "_id": "383", "_index":"cricket"}}
 {"emotion": "fear", "sentiment": 2, "parent": 318, "text": "cricket fan million heart happy birthday god sachin tendulkar ipl 1 style day opportunity master ", "location": "dummy", "time": 1524421800, "id": 383}
-{"index": {"_type": "tweet", "_id": "384"}}
+{"index": {"_type": "tweet", "_id": "384", "_index":"cricket"}}
 {"emotion": "angry", "sentiment": 1, "parent": 322, "text": "cricket http india ball god happy birthday read mumbai finch 3 t20i australia sachin sachin ", "location": "dummy", "time": 1524421800, "id": 384}
-{"index": {"_type": "tweet", "_id": "385"}}
+{"index": {"_type": "tweet", "_id": "385", "_index":"cricket"}}
 {"emotion": "angry", "sentiment": 1, "parent": 324, "text": "ms dhoni style tip play parent coscoindia an icc mumbai finch 3 t20i australia ", "location": "dummy", "time": 1524421800, "id": 385}
-{"index": {"_type": "tweet", "_id": "386"}}
+{"index": {"_type": "tweet", "_id": "386", "_index":"cricket"}}
 {"emotion": "sad", "sentiment": -2, "parent": 326, "text": "sport coscoindia iplcontest touch match coscoindia an book iplcontest saturday ball wicket read ", "location": "dummy", "time": 1524421800, "id": 386}
-{"index": {"_type": "tweet", "_id": "387"}}
+{"index": {"_type": "tweet", "_id": "387", "_index":"cricket"}}
 {"emotion": "angry", "sentiment": 0, "parent": 361, "text": "people cricket sachintendulkar love religion man fan respect africa inspiration t20 birthday ", "location": "dummy", "time": 1524421800, "id": 387}
-{"index": {"_type": "tweet", "_id": "388"}}
+{"index": {"_type": "tweet", "_id": "388", "_index":"cricket"}}
 {"emotion": "angry", "sentiment": -2, "parent": 378, "text": "god happy birthday cricket sachin happybirthdaysachin sachin tendulkar cricketer day man happybirthday billion play ", "location": "dummy", "time": 1524421800, "id": 388}
-{"index": {"_type": "tweet", "_id": "389"}}
+{"index": {"_type": "tweet", "_id": "389", "_index":"cricket"}}
 {"emotion": "angry", "sentiment": -2, "parent": 329, "text": "ipl toss today kxip bat iplt20 delhi order t20 icc mumbai ", "location": "dummy", "time": 1524421800, "id": 389}
-{"index": {"_type": "tweet", "_id": "390"}}
+{"index": {"_type": "tweet", "_id": "390", "_index":"cricket"}}
 {"emotion": "excited", "sentiment": 2, "parent": 281, "text": "kxip match 22 ipl 2018 ipl2018 live action dd v sport catch kingsxipunjab change yorkshire ", "location": "dummy", "time": 1524421800, "id": 390}
-{"index": {"_type": "tweet", "_id": "391"}}
+{"index": {"_type": "tweet", "_id": "391", "_index":"cricket"}}
 {"emotion": "fear", "sentiment": -2, "parent": 391, "text": "sachin sachin word happybirthdaysachin face inspiration sportatsabc supersporttv police contribution chant coward hooligan sachin god ", "location": "dummy", "time": 1524421800, "id": 391}
-{"index": {"_type": "tweet", "_id": "392"}}
+{"index": {"_type": "tweet", "_id": "392", "_index":"cricket"}}
 {"emotion": "happy", "sentiment": 2, "parent": 392, "text": "session month pic parent saturday website detail date ground today coscoindia an ", "location": "dummy", "time": 1524421800, "id": 392}
-{"index": {"_type": "tweet", "_id": "393"}}
+{"index": {"_type": "tweet", "_id": "393", "_index":"cricket"}}
 {"emotion": "fear", "sentiment": 1, "parent": 345, "text": "game frame australia ball ipl2018 change style cricket sachin maxi happy return result ", "location": "dummy", "time": 1524421800, "id": 393}
-{"index": {"_type": "tweet", "_id": "394"}}
+{"index": {"_type": "tweet", "_id": "394", "_index":"cricket"}}
 {"emotion": "excited", "sentiment": 0, "parent": 363, "text": "top ipl2018 table delhi delhidaredevil srh 4 run time issue finch 3 t20i ", "location": "dummy", "time": 1524421800, "id": 394}
-{"index": {"_type": "tweet", "_id": "395"}}
+{"index": {"_type": "tweet", "_id": "395", "_index":"cricket"}}
 {"emotion": "angry", "sentiment": 2, "parent": 340, "text": "win chennaiipl rajasthanroyal ipl2018 delhi delhidaredevil run kingsxipunjab congratulation guy www facebook table ", "location": "dummy", "time": 1524421800, "id": 395}
-{"index": {"_type": "tweet", "_id": "396"}}
+{"index": {"_type": "tweet", "_id": "396", "_index":"cricket"}}
 {"emotion": "sad", "sentiment": -1, "parent": 396, "text": "service maximum option lowest price mohammad amir uk visa pakistan squad wednesday cricket sport srilanka surrey lionsdenkxip ", "location": "dummy", "time": 1524421800, "id": 396}
-{"index": {"_type": "tweet", "_id": "397"}}
+{"index": {"_type": "tweet", "_id": "397", "_index":"cricket"}}
 {"emotion": "fear", "sentiment": -1, "parent": 337, "text": "punjab ipl2018 bet day delhi today plunkett sachintendulkar www facebook hbd god dhoni ", "location": "dummy", "time": 1524421800, "id": 397}
-{"index": {"_type": "tweet", "_id": "398"}}
+{"index": {"_type": "tweet", "_id": "398", "_index":"cricket"}}
 {"emotion": "excited", "sentiment": -2, "parent": 360, "text": "chance delhidaredevil gautamgambhir ipl2018 answer miller ipl friend coscoindia an icc mumbai ", "location": "dummy", "time": 1524421800, "id": 398}
-{"index": {"_type": "tweet", "_id": "399"}}
+{"index": {"_type": "tweet", "_id": "399", "_index":"cricket"}}
 {"emotion": "sad", "sentiment": -1, "parent": 330, "text": "pakistan south africa schedule india srilanka sachin happybirthdaysachin sachinsachin pakistan tour ground december ", "location": "dummy", "time": 1524421800, "id": 399}
-{"index": {"_type": "tweet", "_id": "400"}}
+{"index": {"_type": "tweet", "_id": "400", "_index":"cricket"}}
 {"emotion": "fear", "sentiment": 2, "parent": 332, "text": "delhi daredevil lionsdenkxip ipl 2018 test match ipl game run starsport winner cricskill dream11 playing11 ", "location": "dummy", "time": 1524421800, "id": 400}
-{"index": {"_type": "tweet", "_id": "401"}}
+{"index": {"_type": "tweet", "_id": "401", "_index":"cricket"}}
 {"emotion": "angry", "sentiment": -2, "parent": 333, "text": "legend happy birthday god master blaster sachin man inspiration youth passion cricket sachintendulkar fan ", "location": "dummy", "time": 1524421800, "id": 401}
-{"index": {"_type": "tweet", "_id": "402"}}
+{"index": {"_type": "tweet", "_id": "402", "_index":"cricket"}}
 {"emotion": "angry", "sentiment": 1, "parent": 335, "text": "life hampshire wicket surrey fan people side india issue pakistan lot ", "location": "dummy", "time": 1524421800, "id": 402}
-{"index": {"_type": "tweet", "_id": "403"}}
+{"index": {"_type": "tweet", "_id": "403", "_index":"cricket"}}
 {"emotion": "excited", "sentiment": 0, "parent": 403, "text": "earth gift never-ending bliss line gloucestershire bracey wells hundred feb 2019 africa 5 odi homeofcricket ", "location": "dummy", "time": 1524421800, "id": 403}
-{"index": {"_type": "tweet", "_id": "404"}}
+{"index": {"_type": "tweet", "_id": "404", "_index":"cricket"}}
 {"emotion": "fear", "sentiment": 2, "parent": 351, "text": "cricket news bcci ipl 2018 delhi daredevil 3 test 5 odi ipl fan ball kl rahul part ", "location": "dummy", "time": 1524421800, "id": 404}
-{"index": {"_type": "tweet", "_id": "405"}}
+{"index": {"_type": "tweet", "_id": "405", "_index":"cricket"}}
 {"emotion": "sad", "sentiment": 0, "parent": 370, "text": "time greatest cricketer bharat ratna god format energy money date birthday cricketer sachin tendulkar ", "location": "dummy", "time": 1524421800, "id": 405}
-{"index": {"_type": "tweet", "_id": "406"}}
+{"index": {"_type": "tweet", "_id": "406", "_index":"cricket"}}
 {"emotion": "fear", "sentiment": 2, "parent": 349, "text": "fun touch tuesday delhi daredevil people website day1 tomorrow time match smile ", "location": "dummy", "time": 1524421800, "id": 406}
-{"index": {"_type": "tweet", "_id": "407"}}
+{"index": {"_type": "tweet", "_id": "407", "_index":"cricket"}}
 {"emotion": "angry", "sentiment": -1, "parent": 372, "text": "cricket ipl ipl2018 tomorrow preview mumbai kxip punjab 4 run 3 t20i australia sachin sachin ", "location": "dummy", "time": 1524421800, "id": 407}
-{"index": {"_type": "tweet", "_id": "408"}}
+{"index": {"_type": "tweet", "_id": "408", "_index":"cricket"}}
 {"emotion": "angry", "sentiment": -1, "parent": 356, "text": "county championship yorkshire luke well home middlesex ben coad gloucestershire derbyshire icc mumbai finch ", "location": "dummy", "time": 1524421800, "id": 408}
-{"index": {"_type": "tweet", "_id": "409"}}
+{"index": {"_type": "tweet", "_id": "409", "_index":"cricket"}}
 {"emotion": "fear", "sentiment": -1, "parent": 365, "text": "man sachintendulkar shoulder billion 20 year godofcricket dream billion people world sachinsachin sachin religion ", "location": "dummy", "time": 1524421800, "id": 409}
-{"index": {"_type": "tweet", "_id": "410"}}
+{"index": {"_type": "tweet", "_id": "410", "_index":"cricket"}}
 {"emotion": "excited", "sentiment": 1, "parent": 354, "text": "cricket vivoipl bracey batsman centurion csa rashid shakib world xi gloucestershire tamim day test amla ", "location": "dummy", "time": 1524421800, "id": 410}
-{"index": {"_type": "tweet", "_id": "411"}}
+{"index": {"_type": "tweet", "_id": "411", "_index":"cricket"}}
 {"emotion": "excited", "sentiment": 2, "parent": 308, "text": "season boy friend game girl coscoindia an england icc mumbai finch read ", "location": "dummy", "time": 1524421800, "id": 411}
-{"index": {"_type": "tweet", "_id": "412"}}
+{"index": {"_type": "tweet", "_id": "412", "_index":"cricket"}}
 {"emotion": "fear", "sentiment": 1, "parent": 327, "text": "season weekend hampshire good luck ground ireland people year side week saturday ", "location": "dummy", "time": 1524421800, "id": 412}
-{"index": {"_type": "tweet", "_id": "413"}}
+{"index": {"_type": "tweet", "_id": "413", "_index":"cricket"}}
 {"emotion": "angry", "sentiment": -2, "parent": 348, "text": "today score 3 http cricket lover heart crickhit nation happybirthdaysachin order parent icc ", "location": "dummy", "time": 1524421800, "id": 413}
-{"index": {"_type": "tweet", "_id": "414"}}
+{"index": {"_type": "tweet", "_id": "414", "_index":"cricket"}}
 {"emotion": "angry", "sentiment": -2, "parent": 414, "text": "sri lanka 2 test south africa gatwick airport stars cricket zimbabwe pakistan team opportunity 5 odi tatenda taibu2 3 t20i ", "location": "dummy", "time": 1524421800, "id": 414}
-{"index": {"_type": "tweet", "_id": "415"}}
+{"index": {"_type": "tweet", "_id": "415", "_index":"cricket"}}
 {"emotion": "excited", "sentiment": 1, "parent": 320, "text": "year sir video sad india fan cricket styleyou sunriser ipl2018 india game ipl ", "location": "dummy", "time": 1524421800, "id": 415}
-{"index": {"_type": "tweet", "_id": "416"}}
+{"index": {"_type": "tweet", "_id": "416", "_index":"cricket"}}
 {"emotion": "excited", "sentiment": 1, "parent": 323, "text": "http cricket vivoipl pakistan hit pakistan cricket plunkett legend line yorkshire wells hundred sri lanka coad ", "location": "dummy", "time": 1524421800, "id": 416}
-{"index": {"_type": "tweet", "_id": "417"}}
+{"index": {"_type": "tweet", "_id": "417", "_index":"cricket"}}
 {"emotion": "excited", "sentiment": 0, "parent": 269, "text": "week tuesday sport good luck congratulation session time mumbai finch 3 t20i australia ", "location": "dummy", "time": 1524421800, "id": 417}
-{"index": {"_type": "tweet", "_id": "418"}}
+{"index": {"_type": "tweet", "_id": "418", "_index":"cricket"}}
 {"emotion": "happy", "sentiment": -2, "parent": 375, "text": "match delhijewellerssposts league djsl sri lanka cricket djsl2018 flights hotel transfer captain pakistan cricket member order ", "location": "dummy", "time": 1524421800, "id": 418}
-{"index": {"_type": "tweet", "_id": "419"}}
+{"index": {"_type": "tweet", "_id": "419", "_index":"cricket"}}
 {"emotion": "sad", "sentiment": -1, "parent": 378, "text": "god birthday master happy return fan day generation happy birthday work sachin tendulkar world ", "location": "dummy", "time": 1524421800, "id": 419}
-{"index": {"_type": "tweet", "_id": "420"}}
+{"index": {"_type": "tweet", "_id": "420", "_index":"cricket"}}
 {"emotion": "angry", "sentiment": -2, "parent": 339, "text": "congratulation delhidaredevil winner match kingsxipunjab detail time ipl change instagram mumbai ", "location": "dummy", "time": 1524421800, "id": 420}
-{"index": {"_type": "tweet", "_id": "421"}}
+{"index": {"_type": "tweet", "_id": "421", "_index":"cricket"}}
 {"emotion": "sad", "sentiment": 1, "parent": 421, "text": "shoaib malik sania mirza nation protea zimbabwe happy birthday rashid shakib instagram passion youth world xi ", "location": "dummy", "time": 1524421800, "id": 421}
-{"index": {"_type": "tweet", "_id": "422"}}
+{"index": {"_type": "tweet", "_id": "422", "_index":"cricket"}}
 {"emotion": "happy", "sentiment": 0, "parent": 338, "text": "player legend hundred god happy birthday sachin sachintendulkar international cricket day australia match ", "location": "dummy", "time": 1524421800, "id": 422}
-{"index": {"_type": "tweet", "_id": "423"}}
+{"index": {"_type": "tweet", "_id": "423", "_index":"cricket"}}
 {"emotion": "fear", "sentiment": -1, "parent": 423, "text": "south africa 3 test 5 odi day test feb 2019 december csa dec 2018 centurion batsman 2 test ", "location": "dummy", "time": 1524421800, "id": 423}
-{"index": {"_type": "tweet", "_id": "424"}}
+{"index": {"_type": "tweet", "_id": "424", "_index":"cricket"}}
 {"emotion": "excited", "sentiment": -2, "parent": 346, "text": "srh mumbaiindian ipl2018 cricket news sir part ipl 2018 wankhede battle team record ", "location": "dummy", "time": 1524421800, "id": 424}
-{"index": {"_type": "tweet", "_id": "425"}}
+{"index": {"_type": "tweet", "_id": "425", "_index":"cricket"}}
 {"emotion": "fear", "sentiment": 0, "parent": 362, "text": "cricskill iplt20 dhoni dream11 playing11 india god billion sachintendulkar pride cricket inspiration plunket ", "location": "dummy", "time": 1524421800, "id": 425}
-{"index": {"_type": "tweet", "_id": "426"}}
+{"index": {"_type": "tweet", "_id": "426", "_index":"cricket"}}
 {"emotion": "happy", "sentiment": -1, "parent": 342, "text": "kid love friend work chance congratulation couple game god india mumbai ", "location": "dummy", "time": 1524421800, "id": 426}
-{"index": {"_type": "tweet", "_id": "427"}}
+{"index": {"_type": "tweet", "_id": "427", "_index":"cricket"}}
 {"emotion": "excited", "sentiment": -1, "parent": 298, "text": "wankhede turnaround sunriser lot format pakistan cricket vivoipl good luck coscoindia an icc mumbai ", "location": "dummy", "time": 1524421800, "id": 427}
-{"index": {"_type": "tweet", "_id": "428"}}
+{"index": {"_type": "tweet", "_id": "428", "_index":"cricket"}}
 {"emotion": "excited", "sentiment": 2, "parent": 357, "text": "number series london england country billion ireland master game blaster mohammad amir ", "location": "dummy", "time": 1524421800, "id": 428}
-{"index": {"_type": "tweet", "_id": "429"}}
+{"index": {"_type": "tweet", "_id": "429", "_index":"cricket"}}
 {"emotion": "angry", "sentiment": 0, "parent": 331, "text": "world indian happy birthday guy god gautamgambhir player billion team happybirthdaysachin sachin ", "location": "dummy", "time": 1524421800, "id": 429}
-{"index": {"_type": "tweet", "_id": "430"}}
+{"index": {"_type": "tweet", "_id": "430", "_index":"cricket"}}
 {"emotion": "sad", "sentiment": -2, "parent": 218, "text": "gayle five change cricket vivoipl hand cricket icc game http parent mumbai finch 3 t20i ", "location": "dummy", "time": 1524421800, "id": 430}
-{"index": {"_type": "tweet", "_id": "431"}}
+{"index": {"_type": "tweet", "_id": "431", "_index":"cricket"}}
 {"emotion": "fear", "sentiment": 2, "parent": 334, "text": "derbyshire middlesex hard toil cricket vivoipl news weekend parent icc mumbai finch 3 t20i ", "location": "dummy", "time": 1524421800, "id": 431}
-{"index": {"_type": "tweet", "_id": "432"}}
+{"index": {"_type": "tweet", "_id": "432", "_index":"cricket"}}
 {"emotion": "angry", "sentiment": 1, "parent": 336, "text": "ipl18 ipl2018 iplt20 number ipl11 winner comment mom fan home side ", "location": "dummy", "time": 1524421800, "id": 432}
-{"index": {"_type": "tweet", "_id": "433"}}
+{"index": {"_type": "tweet", "_id": "433", "_index":"cricket"}}
 {"emotion": "happy", "sentiment": -2, "parent": 364, "text": "team ipl2018 friend wicket season ipl game energy match number today ", "location": "dummy", "time": 1524421800, "id": 433}
-{"index": {"_type": "tweet", "_id": "434"}}
+{"index": {"_type": "tweet", "_id": "434", "_index":"cricket"}}
 {"emotion": "excited", "sentiment": 0, "parent": 350, "text": "sachin religion god happy birthday man word happy return life day cricket sachintendulkar country ", "location": "dummy", "time": 1524421800, "id": 434}
-{"index": {"_type": "tweet", "_id": "435"}}
+{"index": {"_type": "tweet", "_id": "435", "_index":"cricket"}}
 {"emotion": "fear", "sentiment": 2, "parent": 371, "text": "boy catch game god iplcontest coscoindia an icc mumbai finch 3 t20i australia ", "location": "dummy", "time": 1524421800, "id": 435}
-{"index": {"_type": "tweet", "_id": "436"}}
+{"index": {"_type": "tweet", "_id": "436", "_index":"cricket"}}
 {"emotion": "sad", "sentiment": 0, "parent": 237, "text": "3 t20i johannesburg 3 test 5 odi test cape town centurion south africa pakistan t20i feb 2019 ", "location": "dummy", "time": 1524421800, "id": 436}
-{"index": {"_type": "tweet", "_id": "437"}}
+{"index": {"_type": "tweet", "_id": "437", "_index":"cricket"}}
 {"emotion": "fear", "sentiment": 0, "parent": 373, "text": "place june programme heart part news season earth sir team god ", "location": "dummy", "time": 1524421800, "id": 437}
-{"index": {"_type": "tweet", "_id": "438"}}
+{"index": {"_type": "tweet", "_id": "438", "_index":"cricket"}}
 {"emotion": "excited", "sentiment": 2, "parent": 355, "text": "ipl2018 ipl field game india god religion billion legend kxip sachin ", "location": "dummy", "time": 1524421800, "id": 438}
-{"index": {"_type": "tweet", "_id": "439"}}
+{"index": {"_type": "tweet", "_id": "439", "_index":"cricket"}}
 {"emotion": "happy", "sentiment": 1, "parent": 368, "text": "prediction ipl update team tip battle man delhi daredevil ball mumbai finch 3 t20i ", "location": "dummy", "time": 1524421800, "id": 439}
-{"index": {"_type": "tweet", "_id": "440"}}
+{"index": {"_type": "tweet", "_id": "440", "_index":"cricket"}}
 {"emotion": "fear", "sentiment": 1, "parent": 353, "text": "viral ipl whistlepodu vivoipl2018 happy birthday parent kingsxipunjab coscoindia an icc mumbai finch 3 t20i australia ", "location": "dummy", "time": 1524421800, "id": 440}
-{"index": {"_type": "tweet", "_id": "441"}}
+{"index": {"_type": "tweet", "_id": "441", "_index":"cricket"}}
 {"emotion": "angry", "sentiment": 0, "parent": 369, "text": "cricket icc icc five odi t20i top name samuel badree andre russell side chris gayle carlos brathwaite marlon samuel ", "location": "dummy", "time": 1524421800, "id": 441}
-{"index": {"_type": "tweet", "_id": "442"}}
+{"index": {"_type": "tweet", "_id": "442", "_index":"cricket"}}
 {"emotion": "happy", "sentiment": 0, "parent": 437, "text": "place report india june 16th pakistan accommodation galle trafford manchester trafford result interview ", "location": "dummy", "time": 1524508200, "id": 442}
-{"index": {"_type": "tweet", "_id": "443"}}
+{"index": {"_type": "tweet", "_id": "443", "_index":"cricket"}}
 {"emotion": "fear", "sentiment": 0, "parent": 439, "text": "mumbaiindian ipl update orangearmy tendulkar birthday sachin ipl2018 cricket victory time thought contestalert ", "location": "dummy", "time": 1524508200, "id": 443}
-{"index": {"_type": "tweet", "_id": "444"}}
+{"index": {"_type": "tweet", "_id": "444", "_index":"cricket"}}
 {"emotion": "angry", "sentiment": 2, "parent": 441, "text": "cricket icc icc sachin tendulkar 45 moment game 24 april carlos brathwaite team england chris gayle part ", "location": "dummy", "time": 1524508200, "id": 444}
-{"index": {"_type": "tweet", "_id": "445"}}
+{"index": {"_type": "tweet", "_id": "445", "_index":"cricket"}}
 {"emotion": "fear", "sentiment": -2, "parent": 396, "text": "uk visa tomorrow morning mohammad amir england amir issued pcb confirm australia career talk pcb ", "location": "dummy", "time": 1524508200, "id": 445}
-{"index": {"_type": "tweet", "_id": "446"}}
+{"index": {"_type": "tweet", "_id": "446", "_index":"cricket"}}
 {"emotion": "sad", "sentiment": 2, "parent": 419, "text": "birthday god happy return love sachin tendulkar reason day drink sachin south africa bat ", "location": "dummy", "time": 1524508200, "id": 446}
-{"index": {"_type": "tweet", "_id": "447"}}
+{"index": {"_type": "tweet", "_id": "447", "_index":"cricket"}}
 {"emotion": "happy", "sentiment": 0, "parent": 394, "text": "top ipl2018 table world csk chance south africa bat cricket fan sunday amir ", "location": "dummy", "time": 1524508200, "id": 447}
-{"index": {"_type": "tweet", "_id": "448"}}
+{"index": {"_type": "tweet", "_id": "448", "_index":"cricket"}}
 {"emotion": "fear", "sentiment": 2, "parent": 417, "text": "week player club australia sport pakistan cup thought contestalert mohammad amir coscoindia answer amir ", "location": "dummy", "time": 1524508200, "id": 448}
-{"index": {"_type": "tweet", "_id": "449"}}
+{"index": {"_type": "tweet", "_id": "449", "_index":"cricket"}}
 {"emotion": "happy", "sentiment": 0, "parent": 415, "text": "year joy inspiration place happybirthdaysachin 5 wicket time coscoindia answer amir cricket fan thought ", "location": "dummy", "time": 1524508200, "id": 449}
-{"index": {"_type": "tweet", "_id": "450"}}
+{"index": {"_type": "tweet", "_id": "450", "_index":"cricket"}}
 {"emotion": "angry", "sentiment": 2, "parent": 382, "text": "master blaster rohit sharma score heart happy birthday god sachin game mipaltan click birthday ", "location": "dummy", "time": 1524508200, "id": 450}
-{"index": {"_type": "tweet", "_id": "451"}}
+{"index": {"_type": "tweet", "_id": "451", "_index":"cricket"}}
 {"emotion": "angry", "sentiment": -2, "parent": 384, "text": "cricket http alastair cook england ash legend d rohit fact australia football ipl2018 ecb cricket ", "location": "dummy", "time": 1524508200, "id": 451}
-{"index": {"_type": "tweet", "_id": "452"}}
+{"index": {"_type": "tweet", "_id": "452", "_index":"cricket"}}
 {"emotion": "fear", "sentiment": -1, "parent": 343, "text": "mumbai indian contestalert sunrisers hyderabad winner www thought ipl sachin tendulkar cricketmerijaan iplt20 ipl2018 ", "location": "dummy", "time": 1524508200, "id": 452}
-{"index": {"_type": "tweet", "_id": "453"}}
+{"index": {"_type": "tweet", "_id": "453", "_index":"cricket"}}
 {"emotion": "excited", "sentiment": 0, "parent": 319, "text": "end love sunriser ecb cricket sport nerve ipl cricket 5 wicket season contestalert mohammad amir ", "location": "dummy", "time": 1524508200, "id": 453}
-{"index": {"_type": "tweet", "_id": "454"}}
+{"index": {"_type": "tweet", "_id": "454", "_index":"cricket"}}
 {"emotion": "happy", "sentiment": 0, "parent": 341, "text": "age football event birthday sport contestalert mohammad amir coscoindia answer amir 5 wicket cricket fan ", "location": "dummy", "time": 1524508200, "id": 454}
-{"index": {"_type": "tweet", "_id": "455"}}
+{"index": {"_type": "tweet", "_id": "455", "_index":"cricket"}}
 {"emotion": "excited", "sentiment": -2, "parent": 420, "text": "congratulation match day legend wankhede detail change cricket djsl2018 world ground instagram ", "location": "dummy", "time": 1524508200, "id": 455}
-{"index": {"_type": "tweet", "_id": "456"}}
+{"index": {"_type": "tweet", "_id": "456", "_index":"cricket"}}
 {"emotion": "angry", "sentiment": -1, "parent": 381, "text": "ipl2018 williamson full video 45th birthday god orangearmy south africa bat cricket fan winner amir ", "location": "dummy", "time": 1524508200, "id": 456}
-{"index": {"_type": "tweet", "_id": "457"}}
+{"index": {"_type": "tweet", "_id": "457", "_index":"cricket"}}
 {"emotion": "angry", "sentiment": 2, "parent": 398, "text": "chance history pakistan lord contestalert read year visit june 16 cricket fan time ", "location": "dummy", "time": 1524508200, "id": 457}
-{"index": {"_type": "tweet", "_id": "458"}}
+{"index": {"_type": "tweet", "_id": "458", "_index":"cricket"}}
 {"emotion": "fear", "sentiment": 0, "parent": 458, "text": "sports cricket jainusha30 bhavnajain189 lord sanghavireena afternoon responsibility jayawardene nerve bat cricket fan 5 wicket ", "location": "dummy", "time": 1524508200, "id": 458}
-{"index": {"_type": "tweet", "_id": "459"}}
+{"index": {"_type": "tweet", "_id": "459", "_index":"cricket"}}
 {"emotion": "happy", "sentiment": 0, "parent": 429, "text": "world master blaster event god part india 45th birthday cricket match comment happy return contestalert ", "location": "dummy", "time": 1524508200, "id": 459}
-{"index": {"_type": "tweet", "_id": "460"}}
+{"index": {"_type": "tweet", "_id": "460", "_index":"cricket"}}
 {"emotion": "sad", "sentiment": 1, "parent": 431, "text": "weekend saturday team king boy rain ipl click full video sport match ", "location": "dummy", "time": 1524508200, "id": 460}
-{"index": {"_type": "tweet", "_id": "461"}}
+{"index": {"_type": "tweet", "_id": "461", "_index":"cricket"}}
 {"emotion": "angry", "sentiment": 1, "parent": 432, "text": "ipl2018 ipl11 ipl18 comment today answer iplt20 ipl winner galle history ", "location": "dummy", "time": 1524508200, "id": 461}
-{"index": {"_type": "tweet", "_id": "462"}}
+{"index": {"_type": "tweet", "_id": "462", "_index":"cricket"}}
 {"emotion": "fear", "sentiment": -2, "parent": 379, "text": "match yesterday indian happy birthday god sachin cricket fan thought ipl update contestalert mohammad amir ", "location": "dummy", "time": 1524508200, "id": 462}
-{"index": {"_type": "tweet", "_id": "463"}}
+{"index": {"_type": "tweet", "_id": "463", "_index":"cricket"}}
 {"emotion": "fear", "sentiment": 0, "parent": 405, "text": "happy return day math quiz alastair cook test cricket format bowler time cricket sachin god hundred ", "location": "dummy", "time": 1524508200, "id": 463}
-{"index": {"_type": "tweet", "_id": "464"}}
+{"index": {"_type": "tweet", "_id": "464", "_index":"cricket"}}
 {"emotion": "sad", "sentiment": -2, "parent": 426, "text": "kid mum test cricket ecb change billion orangearmy chance south africa bat cricket fan ", "location": "dummy", "time": 1524508200, "id": 464}
-{"index": {"_type": "tweet", "_id": "465"}}
+{"index": {"_type": "tweet", "_id": "465", "_index":"cricket"}}
 {"emotion": "angry", "sentiment": -1, "parent": 435, "text": "catch ipl2018 boy captain wicket ipl match winner sunday ipl update contestalert coscoindia answer ", "location": "dummy", "time": 1524508200, "id": 465}
-{"index": {"_type": "tweet", "_id": "466"}}
+{"index": {"_type": "tweet", "_id": "466", "_index":"cricket"}}
 {"emotion": "sad", "sentiment": 2, "parent": 386, "text": "iplcontest sport coscoindia b sports cricket coscoindia an d rohit coscoindia iplcontest coscoindia answer answer mohammad amir amir ", "location": "dummy", "time": 1524508200, "id": 466}
-{"index": {"_type": "tweet", "_id": "467"}}
+{"index": {"_type": "tweet", "_id": "467", "_index":"cricket"}}
 {"emotion": "excited", "sentiment": 1, "parent": 403, "text": "girl pcb career cricket lover india imvkohli life cricket man drink sunday ipl update ", "location": "dummy", "time": 1524508200, "id": 467}
-{"index": {"_type": "tweet", "_id": "468"}}
+{"index": {"_type": "tweet", "_id": "468", "_index":"cricket"}}
 {"emotion": "sad", "sentiment": -1, "parent": 424, "text": "srh 31 run sunrisershyderabad mumbaiindian ipl sunrisers hyderabad srh bowler tournament match mivsrh alex hale ", "location": "dummy", "time": 1524508200, "id": 468}
-{"index": {"_type": "tweet", "_id": "469"}}
+{"index": {"_type": "tweet", "_id": "469", "_index":"cricket"}}
 {"emotion": "sad", "sentiment": 2, "parent": 402, "text": "wicket fan life imvkohli update hundred cricketer era sunday cricketmerijaan bit ", "location": "dummy", "time": 1524508200, "id": 469}
-{"index": {"_type": "tweet", "_id": "470"}}
+{"index": {"_type": "tweet", "_id": "470", "_index":"cricket"}}
 {"emotion": "excited", "sentiment": -1, "parent": 422, "text": "history player first match record carlos brathwaite virat kohli sachin sachin tendulkar alex hale bangalore contestalert ", "location": "dummy", "time": 1524508200, "id": 470}
-{"index": {"_type": "tweet", "_id": "471"}}
+{"index": {"_type": "tweet", "_id": "471", "_index":"cricket"}}
 {"emotion": "sad", "sentiment": -1, "parent": 392, "text": "100 win source today detail ground ipl2018 god child winning godofcricket victory game ", "location": "dummy", "time": 1524508200, "id": 471}
-{"index": {"_type": "tweet", "_id": "472"}}
+{"index": {"_type": "tweet", "_id": "472", "_index":"cricket"}}
 {"emotion": "happy", "sentiment": 2, "parent": 393, "text": "ball bcci sunday 5 wicket result june 16 australia day captain child hyderabad ", "location": "dummy", "time": 1524508200, "id": 472}
-{"index": {"_type": "tweet", "_id": "473"}}
+{"index": {"_type": "tweet", "_id": "473", "_index":"cricket"}}
 {"emotion": "happy", "sentiment": -2, "parent": 388, "text": "happy birthday god sachin tendulkar cricketer cricket sachin moment day ipl icc time instagram ", "location": "dummy", "time": 1524508200, "id": 473}
-{"index": {"_type": "tweet", "_id": "474"}}
+{"index": {"_type": "tweet", "_id": "474", "_index":"cricket"}}
 {"emotion": "happy", "sentiment": -2, "parent": 410, "text": "agreement saca player contract cricket vivoipl orangearmy chance south africa bat cricket fan 5 wicket winner ", "location": "dummy", "time": 1524508200, "id": 474}
-{"index": {"_type": "tweet", "_id": "475"}}
+{"index": {"_type": "tweet", "_id": "475", "_index":"cricket"}}
 {"emotion": "sad", "sentiment": -1, "parent": 367, "text": "ecb content format thought sunday ipl update contestalert mohammad amir coscoindia answer amir 5 wicket ", "location": "dummy", "time": 1524508200, "id": 475}
-{"index": {"_type": "tweet", "_id": "476"}}
+{"index": {"_type": "tweet", "_id": "476", "_index":"cricket"}}
 {"emotion": "sad", "sentiment": 0, "parent": 390, "text": "srh ipl 2018 ipl2018 mumbai ipl cricket today part orangearmy chance south africa bat ", "location": "dummy", "time": 1524508200, "id": 476}
-{"index": {"_type": "tweet", "_id": "477"}}
+{"index": {"_type": "tweet", "_id": "477", "_index":"cricket"}}
 {"emotion": "excited", "sentiment": -1, "parent": 407, "text": "cricket ipl preview ipl2018 tomorrow srh rcb csk shikhar dhawan ipl www facebook today ", "location": "dummy", "time": 1524508200, "id": 477}
-{"index": {"_type": "tweet", "_id": "478"}}
+{"index": {"_type": "tweet", "_id": "478", "_index":"cricket"}}
 {"emotion": "fear", "sentiment": 0, "parent": 366, "text": "swot analysis content ipl 2018 thought contestalert mohammad amir coscoindia answer amir 5 wicket cricket fan bat ", "location": "dummy", "time": 1524508200, "id": 478}
-{"index": {"_type": "tweet", "_id": "479"}}
+{"index": {"_type": "tweet", "_id": "479", "_index":"cricket"}}
 {"emotion": "fear", "sentiment": 2, "parent": 438, "text": "field happy birthday god four performance bit tendulkar 45th birthday billion world sachintendulkar ", "location": "dummy", "time": 1524508200, "id": 479}
-{"index": {"_type": "tweet", "_id": "480"}}
+{"index": {"_type": "tweet", "_id": "480", "_index":"cricket"}}
 {"emotion": "angry", "sentiment": -2, "parent": 440, "text": "viral ipl whistlepodu vivoipl2018 srh ipl update contestalert mohammad amir coscoindia answer amir thought cricket fan bat ", "location": "dummy", "time": 1524508200, "id": 480}
-{"index": {"_type": "tweet", "_id": "481"}}
+{"index": {"_type": "tweet", "_id": "481", "_index":"cricket"}}
 {"emotion": "happy", "sentiment": 2, "parent": 397, "text": "bet day mumbai www facebook contestalert cheer cricketseason sunrisers hyderabad ipl match bat cricket fan ", "location": "dummy", "time": 1524508200, "id": 481}
-{"index": {"_type": "tweet", "_id": "482"}}
+{"index": {"_type": "tweet", "_id": "482", "_index":"cricket"}}
 {"emotion": "angry", "sentiment": 1, "parent": 418, "text": "cricket djsl2018 delhijewellerssposts league wish match winning entry fee life four bat south africa sunday ", "location": "dummy", "time": 1524508200, "id": 482}
-{"index": {"_type": "tweet", "_id": "483"}}
+{"index": {"_type": "tweet", "_id": "483", "_index":"cricket"}}
 {"emotion": "fear", "sentiment": -1, "parent": 358, "text": "mumbai hyderabad mumbaiindian ipl ipl2018 winner world today bowler watch 31 run ", "location": "dummy", "time": 1524508200, "id": 483}
-{"index": {"_type": "tweet", "_id": "484"}}
+{"index": {"_type": "tweet", "_id": "484", "_index":"cricket"}}
 {"emotion": "fear", "sentiment": -2, "parent": 395, "text": "win congratulation ipl2018 mivsrh season sachintendulkar sunriser winner t20 wicket mumbai ", "location": "dummy", "time": 1524508200, "id": 484}
-{"index": {"_type": "tweet", "_id": "485"}}
+{"index": {"_type": "tweet", "_id": "485", "_index":"cricket"}}
 {"emotion": "sad", "sentiment": 0, "parent": 414, "text": "bravo opportunity caribbean people coscoindia an cricket vivoipl rohit sharma bat cricket fan 5 wicket chance million ", "location": "dummy", "time": 1524508200, "id": 485}
-{"index": {"_type": "tweet", "_id": "486"}}
+{"index": {"_type": "tweet", "_id": "486", "_index":"cricket"}}
 {"emotion": "fear", "sentiment": -2, "parent": 321, "text": "sport coscoindia iplcontest coscoindia answer option cricketer problem world birthday inspiration tendulkar coscoindia ", "location": "dummy", "time": 1524508200, "id": 486}
-{"index": {"_type": "tweet", "_id": "487"}}
+{"index": {"_type": "tweet", "_id": "487", "_index":"cricket"}}
 {"emotion": "angry", "sentiment": 1, "parent": 383, "text": "million cricket fan youngster player happybirthdaysachin indian cricket man sachin45 happy birthday birthday chance ", "location": "dummy", "time": 1524508200, "id": 487}
-{"index": {"_type": "tweet", "_id": "488"}}
+{"index": {"_type": "tweet", "_id": "488", "_index":"cricket"}}
 {"emotion": "angry", "sentiment": 0, "parent": 401, "text": "legend game happy birthday india happybirthday sport god sachin tendulkar man life t20 ", "location": "dummy", "time": 1524508200, "id": 488}
-{"index": {"_type": "tweet", "_id": "489"}}
+{"index": {"_type": "tweet", "_id": "489", "_index":"cricket"}}
 {"emotion": "angry", "sentiment": 1, "parent": 400, "text": "cricket knowledge click http entry fee run tendulkar club winner top happy birthday god score ", "location": "dummy", "time": 1524508200, "id": 489}
-{"index": {"_type": "tweet", "_id": "490"}}
+{"index": {"_type": "tweet", "_id": "490", "_index":"cricket"}}
 {"emotion": "angry", "sentiment": -1, "parent": 490, "text": "strong start match report burystedmundscc cricket sudburycc lion bavuma bowler bowl game orangearmy chance ", "location": "dummy", "time": 1524508200, "id": 490}
-{"index": {"_type": "tweet", "_id": "491"}}
+{"index": {"_type": "tweet", "_id": "491", "_index":"cricket"}}
 {"emotion": "fear", "sentiment": 1, "parent": 380, "text": "iplt20 country mipaltan ipl2018 ipl11 happy birthday india religion team day today ", "location": "dummy", "time": 1524508200, "id": 491}
-{"index": {"_type": "tweet", "_id": "492"}}
+{"index": {"_type": "tweet", "_id": "492", "_index":"cricket"}}
 {"emotion": "angry", "sentiment": -1, "parent": 399, "text": "sachin love happybirthdaysachin record part life cricket http religion sachin tendulkar day god ", "location": "dummy", "time": 1524508200, "id": 492}
-{"index": {"_type": "tweet", "_id": "493"}}
+{"index": {"_type": "tweet", "_id": "493", "_index":"cricket"}}
 {"emotion": "fear", "sentiment": 2, "parent": 493, "text": "fielding coach royal king hallabol s tendulkar test200 runs15921 winner sunday ipl update contestalert mohammad amir coscoindia answer ", "location": "dummy", "time": 1524508200, "id": 493}
-{"index": {"_type": "tweet", "_id": "494"}}
+{"index": {"_type": "tweet", "_id": "494", "_index":"cricket"}}
 {"emotion": "fear", "sentiment": 2, "parent": 430, "text": "game religion today passion youngster india bcoz man u sachin happybirthdaysachin fan child ", "location": "dummy", "time": 1524508200, "id": 494}
-{"index": {"_type": "tweet", "_id": "495"}}
+{"index": {"_type": "tweet", "_id": "495", "_index":"cricket"}}
 {"emotion": "sad", "sentiment": -2, "parent": 374, "text": "sunriser ipl2018 ipl cricket carlos brathwaite iplt20 mipaltan alex hale game mumbai indian time coscoindia answer ", "location": "dummy", "time": 1524508200, "id": 495}
-{"index": {"_type": "tweet", "_id": "496"}}
+{"index": {"_type": "tweet", "_id": "496", "_index":"cricket"}}
 {"emotion": "happy", "sentiment": -2, "parent": 385, "text": "play cricketseason player yesterday rain ipl update contestalert mohammad amir coscoindia answer amir 5 wicket ", "location": "dummy", "time": 1524508200, "id": 496}
-{"index": {"_type": "tweet", "_id": "497"}}
+{"index": {"_type": "tweet", "_id": "497", "_index":"cricket"}}
 {"emotion": "excited", "sentiment": 1, "parent": 404, "text": "cricket news ipl 2018 player bangalore june 16 rashid khan ipl india virat kohli world south africa ", "location": "dummy", "time": 1524508200, "id": 497}
-{"index": {"_type": "tweet", "_id": "498"}}
+{"index": {"_type": "tweet", "_id": "498", "_index":"cricket"}}
 {"emotion": "excited", "sentiment": -2, "parent": 306, "text": "ipl cricket srh bowler wicket rashid khan ipl match time thought ipl update contestalert mohammad amir coscoindia answer ", "location": "dummy", "time": 1524508200, "id": 498}
-{"index": {"_type": "tweet", "_id": "499"}}
+{"index": {"_type": "tweet", "_id": "499", "_index":"cricket"}}
 {"emotion": "happy", "sentiment": -2, "parent": 433, "text": "team touch ireland ipl2018 pakistan hope india sport match england first match ", "location": "dummy", "time": 1524508200, "id": 499}
-{"index": {"_type": "tweet", "_id": "500"}}
+{"index": {"_type": "tweet", "_id": "500", "_index":"cricket"}}
 {"emotion": "happy", "sentiment": -2, "parent": 387, "text": "people hundred happy birthday root person india billion history cricket vivoipl place godofcricket ", "location": "dummy", "time": 1524508200, "id": 500}
-{"index": {"_type": "tweet", "_id": "501"}}
+{"index": {"_type": "tweet", "_id": "501", "_index":"cricket"}}
 {"emotion": "fear", "sentiment": 0, "parent": 229, "text": "bat mumbai happy birthday nation india inspiration sachin godofcricket man mohammad amir coscoindia answer ", "location": "dummy", "time": 1524508200, "id": 501}
-{"index": {"_type": "tweet", "_id": "502"}}
+{"index": {"_type": "tweet", "_id": "502", "_index":"cricket"}}
 {"emotion": "sad", "sentiment": 1, "parent": 425, "text": "match cricskill mivsrh sachintendulkar pandya brotherslog today india time happy birthday 24 april indian cricket ", "location": "dummy", "time": 1524508200, "id": 502}
-{"index": {"_type": "tweet", "_id": "503"}}
+{"index": {"_type": "tweet", "_id": "503", "_index":"cricket"}}
 {"emotion": "angry", "sentiment": 1, "parent": 434, "text": "god sachin religion tendulkar sachin45 person child fact test200 runs15921 ipl update contestalert ", "location": "dummy", "time": 1524508200, "id": 503}
-{"index": {"_type": "tweet", "_id": "504"}}
+{"index": {"_type": "tweet", "_id": "504", "_index":"cricket"}}
 {"emotion": "angry", "sentiment": -1, "parent": 423, "text": "sri lanka ipl 2018 table hotel galle contestalert mohammad amir coscoindia answer amir thought 5 wicket ", "location": "dummy", "time": 1524508200, "id": 504}
-{"index": {"_type": "tweet", "_id": "505"}}
+{"index": {"_type": "tweet", "_id": "505", "_index":"cricket"}}
 {"emotion": "fear", "sentiment": 2, "parent": 436, "text": "south africa pakistan india cricket first match india match click trafford manchester tournament england trafford ", "location": "dummy", "time": 1524508200, "id": 505}
-{"index": {"_type": "tweet", "_id": "506"}}
+{"index": {"_type": "tweet", "_id": "506", "_index":"cricket"}}
 {"emotion": "angry", "sentiment": 1, "parent": 421, "text": "nation generation legacy legend sachin youth today passion south africa orangearmy bat ", "location": "dummy", "time": 1524508200, "id": 506}
-{"index": {"_type": "tweet", "_id": "507"}}
+{"index": {"_type": "tweet", "_id": "507", "_index":"cricket"}}
 {"emotion": "fear", "sentiment": 0, "parent": 277, "text": "website tomorrow uk visa lot ipl ipl update contestalert mohammad amir coscoindia answer amir 5 wicket ", "location": "dummy", "time": 1524508200, "id": 507}
-{"index": {"_type": "tweet", "_id": "508"}}
+{"index": {"_type": "tweet", "_id": "508", "_index":"cricket"}}
 {"emotion": "excited", "sentiment": -1, "parent": 352, "text": "rcb csk link ipl ipl2018 cricketmerijaan visit click ipl11 event sri lanka ", "location": "dummy", "time": 1524508200, "id": 508}
-{"index": {"_type": "tweet", "_id": "509"}}
+{"index": {"_type": "tweet", "_id": "509", "_index":"cricket"}}
 {"emotion": "sad", "sentiment": -1, "parent": 389, "text": "ipl cricket bat t20 ipl2018 orangearmy bat time rashid khan detail icc galle ", "location": "dummy", "time": 1524508200, "id": 509}
-{"index": {"_type": "tweet", "_id": "510"}}
+{"index": {"_type": "tweet", "_id": "510", "_index":"cricket"}}
 {"emotion": "angry", "sentiment": 0, "parent": 409, "text": "man happy birthday godofcricket india god happybirthdaysachin reason time fan happy return sachintendulkar ", "location": "dummy", "time": 1524508200, "id": 510}
-{"index": {"_type": "tweet", "_id": "511"}}
+{"index": {"_type": "tweet", "_id": "511", "_index":"cricket"}}
 {"emotion": "sad", "sentiment": -2, "parent": 391, "text": "happy birthday inspiration million god master masterblaster india reason man world life ", "location": "dummy", "time": 1524508200, "id": 511}
-{"index": {"_type": "tweet", "_id": "512"}}
+{"index": {"_type": "tweet", "_id": "512", "_index":"cricket"}}
 {"emotion": "fear", "sentiment": -2, "parent": 406, "text": "canterbury tomorrow team comment match website ipl update contestalert mohammad amir coscoindia answer amir ", "location": "dummy", "time": 1524508200, "id": 512}
-{"index": {"_type": "tweet", "_id": "513"}}
+{"index": {"_type": "tweet", "_id": "513", "_index":"cricket"}}
 {"emotion": "sad", "sentiment": -2, "parent": 428, "text": "england 8 year headline youth prayer country blessings wish alastair cook happy birthday legacy god ", "location": "dummy", "time": 1524508200, "id": 513}
-{"index": {"_type": "tweet", "_id": "514"}}
+{"index": {"_type": "tweet", "_id": "514", "_index":"cricket"}}
 {"emotion": "happy", "sentiment": 1, "parent": 344, "text": "opportunity history piece homeofcricket nation 48 match captain ipl2018 cricket royal spinner espncricinfo year ", "location": "dummy", "time": 1524594600, "id": 514}
-{"index": {"_type": "tweet", "_id": "515"}}
+{"index": {"_type": "tweet", "_id": "515", "_index":"cricket"}}
 {"emotion": "angry", "sentiment": 0, "parent": 486, "text": "sport coscoindia iplcontest coscoindia answer option team coscoindia 48 match captain ipl2018 cricket royal spinner espncricinfo ", "location": "dummy", "time": 1524594600, "id": 515}
-{"index": {"_type": "tweet", "_id": "516"}}
+{"index": {"_type": "tweet", "_id": "516", "_index":"cricket"}}
 {"emotion": "angry", "sentiment": 1, "parent": 462, "text": "match rcbvcsk team t20 48 match captain ipl2018 cricket royal spinner espncricinfo year toss ", "location": "dummy", "time": 1524594600, "id": 516}
-{"index": {"_type": "tweet", "_id": "517"}}
+{"index": {"_type": "tweet", "_id": "517", "_index":"cricket"}}
 {"emotion": "fear", "sentiment": 2, "parent": 443, "text": "ipl2018 cricket tamil rcb msdhoni nation t20 48 match captain royal spinner espncricinfo year ", "location": "dummy", "time": 1524594600, "id": 517}
-{"index": {"_type": "tweet", "_id": "518"}}
+{"index": {"_type": "tweet", "_id": "518", "_index":"cricket"}}
 {"emotion": "excited", "sentiment": 0, "parent": 344, "text": "chinnaswamy religion bengaluru festival virat ab god ipl temple india rcb ipl2018 cricket ", "location": "dummy", "time": 1524594600, "id": 518}
-{"index": {"_type": "tweet", "_id": "519"}}
+{"index": {"_type": "tweet", "_id": "519", "_index":"cricket"}}
 {"emotion": "excited", "sentiment": -2, "parent": 508, "text": "rcb csk ipl dhoni game world book time t20 ipl cricket sport ", "location": "dummy", "time": 1524594600, "id": 519}
-{"index": {"_type": "tweet", "_id": "520"}}
+{"index": {"_type": "tweet", "_id": "520", "_index":"cricket"}}
 {"emotion": "excited", "sentiment": 2, "parent": 344, "text": "cricket icc format player punjab t20 48 match captain ipl2018 cricket royal spinner espncricinfo year ", "location": "dummy", "time": 1524594600, "id": 520}
-{"index": {"_type": "tweet", "_id": "521"}}
+{"index": {"_type": "tweet", "_id": "521", "_index":"cricket"}}
 {"emotion": "happy", "sentiment": 0, "parent": 499, "text": "team schedule today australia format t20 48 match captain ipl2018 cricket royal spinner espncricinfo ", "location": "dummy", "time": 1524594600, "id": 521}
-{"index": {"_type": "tweet", "_id": "522"}}
+{"index": {"_type": "tweet", "_id": "522", "_index":"cricket"}}
 {"emotion": "angry", "sentiment": 0, "parent": 344, "text": "delhi captain shreyas iyer gautam gambhir season t20 48 match ipl2018 cricket royal spinner espncricinfo year ", "location": "dummy", "time": 1524594600, "id": 522}
-{"index": {"_type": "tweet", "_id": "523"}}
+{"index": {"_type": "tweet", "_id": "523", "_index":"cricket"}}
 {"emotion": "fear", "sentiment": -1, "parent": 523, "text": "full final schedule espncricinfo manchester world cup nation t20 48 match captain ipl2018 cricket royal spinner ", "location": "dummy", "time": 1524594600, "id": 523}
-{"index": {"_type": "tweet", "_id": "524"}}
+{"index": {"_type": "tweet", "_id": "524", "_index":"cricket"}}
 {"emotion": "sad", "sentiment": 0, "parent": 344, "text": "cricket cricketplayedlouder link nation 48 match captain ipl2018 cricket royal spinner espncricinfo year toss cricket fan ", "location": "dummy", "time": 1524594600, "id": 524}
-{"index": {"_type": "tweet", "_id": "525"}}
+{"index": {"_type": "tweet", "_id": "525", "_index":"cricket"}}
 {"emotion": "fear", "sentiment": -2, "parent": 344, "text": "chennai chennaiipl ipl ipl2018 cricket bengaluru www facebook bangalore t20 48 match captain royal spinner ", "location": "dummy", "time": 1524594600, "id": 525}
-{"index": {"_type": "tweet", "_id": "526"}}
+{"index": {"_type": "tweet", "_id": "526", "_index":"cricket"}}
 {"emotion": "fear", "sentiment": -2, "parent": 344, "text": "iyer delhi daredevil gambhir nation 48 match captain ipl2018 cricket royal spinner espncricinfo year toss ", "location": "dummy", "time": 1524594600, "id": 526}
-{"index": {"_type": "tweet", "_id": "527"}}
+{"index": {"_type": "tweet", "_id": "527", "_index":"cricket"}}
 {"emotion": "sad", "sentiment": 1, "parent": 466, "text": "sport coscoindia an sports cricket coscoindia iplcontest nation t20 48 match captain ipl2018 cricket royal spinner espncricinfo ", "location": "dummy", "time": 1524594600, "id": 527}
-{"index": {"_type": "tweet", "_id": "528"}}
+{"index": {"_type": "tweet", "_id": "528", "_index":"cricket"}}
 {"emotion": "happy", "sentiment": 1, "parent": 344, "text": "finisher news charge mtrindiakabreakfast mtrfood ipl2018 cricket ms dhoni world cup link msdhoni www facebook rcb ", "location": "dummy", "time": 1524594600, "id": 528}
-{"index": {"_type": "tweet", "_id": "529"}}
+{"index": {"_type": "tweet", "_id": "529", "_index":"cricket"}}
 {"emotion": "angry", "sentiment": -1, "parent": 344, "text": "england oval date south africa pakistan lord information 48 match captain ipl2018 cricket royal spinner ", "location": "dummy", "time": 1524594600, "id": 529}
-{"index": {"_type": "tweet", "_id": "530"}}
+{"index": {"_type": "tweet", "_id": "530", "_index":"cricket"}}
 {"emotion": "angry", "sentiment": -1, "parent": 530, "text": "royal spinner land tiger kohli nation world cup jadeja dhoni kind full captain ", "location": "dummy", "time": 1524594600, "id": 530}
-{"index": {"_type": "tweet", "_id": "531"}}
+{"index": {"_type": "tweet", "_id": "531", "_index":"cricket"}}
 {"emotion": "excited", "sentiment": 1, "parent": 344, "text": "bio link step follower nation 48 match captain ipl2018 cricket royal spinner espncricinfo year ", "location": "dummy", "time": 1524594600, "id": 531}
-{"index": {"_type": "tweet", "_id": "532"}}
+{"index": {"_type": "tweet", "_id": "532", "_index":"cricket"}}
 {"emotion": "sad", "sentiment": -1, "parent": 458, "text": "lord mumbai indians1 sports cricket wall front historic day prison coscoindia sport cricket fan royal spinner ", "location": "dummy", "time": 1524594600, "id": 532}
-{"index": {"_type": "tweet", "_id": "533"}}
+{"index": {"_type": "tweet", "_id": "533", "_index":"cricket"}}
 {"emotion": "excited", "sentiment": 2, "parent": 505, "text": "trafford south africa australia june espncricinfo lord oval tournament pakistan india match ", "location": "dummy", "time": 1524594600, "id": 533}
-{"index": {"_type": "tweet", "_id": "534"}}
+{"index": {"_type": "tweet", "_id": "534", "_index":"cricket"}}
 {"emotion": "fear", "sentiment": -1, "parent": 492, "text": "part world xi summer tournament cricket news dhoni lord msdhoni game team match ", "location": "dummy", "time": 1524594600, "id": 534}
-{"index": {"_type": "tweet", "_id": "535"}}
+{"index": {"_type": "tweet", "_id": "535", "_index":"cricket"}}
 {"emotion": "happy", "sentiment": -1, "parent": 344, "text": "pitch2 day1 india team nation 48 match captain ipl2018 cricket royal spinner espncricinfo year ", "location": "dummy", "time": 1524594600, "id": 535}
-{"index": {"_type": "tweet", "_id": "536"}}
+{"index": {"_type": "tweet", "_id": "536", "_index":"cricket"}}
 {"emotion": "angry", "sentiment": 2, "parent": 413, "text": "rcbvcsk india cricket lover nation 48 match captain ipl2018 cricket royal spinner espncricinfo year toss ", "location": "dummy", "time": 1524594600, "id": 536}
-{"index": {"_type": "tweet", "_id": "537"}}
+{"index": {"_type": "tweet", "_id": "537", "_index":"cricket"}}
 {"emotion": "happy", "sentiment": 1, "parent": 344, "text": "yorkshire northofengland nation 48 match captain ipl2018 cricket royal spinner espncricinfo year toss cricket fan ", "location": "dummy", "time": 1524594600, "id": 537}
-{"index": {"_type": "tweet", "_id": "538"}}
+{"index": {"_type": "tweet", "_id": "538", "_index":"cricket"}}
 {"emotion": "happy", "sentiment": 0, "parent": 344, "text": "respect history rcb ipl team nation 48 match captain ipl2018 cricket royal spinner espncricinfo ", "location": "dummy", "time": 1524594600, "id": 538}
-{"index": {"_type": "tweet", "_id": "539"}}
+{"index": {"_type": "tweet", "_id": "539", "_index":"cricket"}}
 {"emotion": "sad", "sentiment": 0, "parent": 490, "text": "rcb ipl super king toss today harbhajan bowl tahir ground 206 v team ", "location": "dummy", "time": 1524594600, "id": 539}
-{"index": {"_type": "tweet", "_id": "540"}}
+{"index": {"_type": "tweet", "_id": "540", "_index":"cricket"}}
 {"emotion": "angry", "sentiment": -1, "parent": 344, "text": "nation t20 48 match captain ipl2018 cricket royal spinner espncricinfo year toss cricket fan june ", "location": "dummy", "time": 1524594600, "id": 540}
-{"index": {"_type": "tweet", "_id": "541"}}
+{"index": {"_type": "tweet", "_id": "541", "_index":"cricket"}}
 {"emotion": "sad", "sentiment": 1, "parent": 344, "text": "delhi daredevil captain shreyas iyer gautam gambhir ipl2018 t20 place viral ipl today game royalchallengersbangalore cricket ", "location": "dummy", "time": 1524594600, "id": 541}
-{"index": {"_type": "tweet", "_id": "542"}}
+{"index": {"_type": "tweet", "_id": "542", "_index":"cricket"}}
 {"emotion": "happy", "sentiment": 0, "parent": 344, "text": "shreyas iyer gambhir step nation 48 match captain ipl2018 cricket royal spinner espncricinfo year toss cricket fan ", "location": "dummy", "time": 1524594600, "id": 542}
-{"index": {"_type": "tweet", "_id": "543"}}
+{"index": {"_type": "tweet", "_id": "543", "_index":"cricket"}}
 {"emotion": "fear", "sentiment": -2, "parent": 465, "text": "boy action girl t wait nation captain ipl2018 cricket royal spinner espncricinfo year toss ", "location": "dummy", "time": 1524594600, "id": 543}
-{"index": {"_type": "tweet", "_id": "544"}}
+{"index": {"_type": "tweet", "_id": "544", "_index":"cricket"}}
 {"emotion": "excited", "sentiment": 2, "parent": 263, "text": "csk ipl tahir nation punjab t20 48 match captain ipl2018 cricket royal spinner espncricinfo ", "location": "dummy", "time": 1524594600, "id": 544}
-{"index": {"_type": "tweet", "_id": "545"}}
+{"index": {"_type": "tweet", "_id": "545", "_index":"cricket"}}
 {"emotion": "angry", "sentiment": 2, "parent": 445, "text": "amir pakistan nation today match t20 48 match captain ipl2018 cricket royal spinner espncricinfo ", "location": "dummy", "time": 1524594600, "id": 545}
-{"index": {"_type": "tweet", "_id": "546"}}
+{"index": {"_type": "tweet", "_id": "546", "_index":"cricket"}}
 {"emotion": "fear", "sentiment": 0, "parent": 500, "text": "india southafrica june 5 suggestion afghanistan world cup tennis 48 match captain ipl2018 cricket royal spinner ", "location": "dummy", "time": 1524594600, "id": 546}
-{"index": {"_type": "tweet", "_id": "547"}}
+{"index": {"_type": "tweet", "_id": "547", "_index":"cricket"}}
 {"emotion": "fear", "sentiment": -2, "parent": 344, "text": "summer fixture detail 48 match dhoni man front captain ipl2018 cricket royal spinner espncricinfo year ", "location": "dummy", "time": 1524594600, "id": 547}
-{"index": {"_type": "tweet", "_id": "548"}}
+{"index": {"_type": "tweet", "_id": "548", "_index":"cricket"}}
 {"emotion": "happy", "sentiment": -2, "parent": 548, "text": "balochistan t20emirate nationalism atleast poison sanghi captain gautam gambhir gambhir captain ipl2018 cricket royal spinner ", "location": "dummy", "time": 1524594600, "id": 548}
-{"index": {"_type": "tweet", "_id": "549"}}
+{"index": {"_type": "tweet", "_id": "549", "_index":"cricket"}}
 {"emotion": "sad", "sentiment": 1, "parent": 344, "text": "ipl2018 preview cricket ipl srh tomorrow csk tournament rcb iplt20 schedule ipl2018 cricket ", "location": "dummy", "time": 1524594600, "id": 549}
-{"index": {"_type": "tweet", "_id": "550"}}
+{"index": {"_type": "tweet", "_id": "550", "_index":"cricket"}}
 {"emotion": "angry", "sentiment": 0, "parent": 456, "text": "nation t20 48 match captain ipl2018 cricket royal spinner espncricinfo year toss cricket fan june ", "location": "dummy", "time": 1524594600, "id": 550}
-{"index": {"_type": "tweet", "_id": "551"}}
+{"index": {"_type": "tweet", "_id": "551", "_index":"cricket"}}
 {"emotion": "excited", "sentiment": 1, "parent": 344, "text": "cricket season first game friend bat time game season nation 48 match captain ipl2018 cricket ", "location": "dummy", "time": 1524594600, "id": 551}
-{"index": {"_type": "tweet", "_id": "552"}}
+{"index": {"_type": "tweet", "_id": "552", "_index":"cricket"}}
 {"emotion": "angry", "sentiment": 0, "parent": 467, "text": "action cricket lover schedule girl nation 48 match captain ipl2018 cricket royal spinner espncricinfo year ", "location": "dummy", "time": 1524594600, "id": 552}
-{"index": {"_type": "tweet", "_id": "553"}}
+{"index": {"_type": "tweet", "_id": "553", "_index":"cricket"}}
 {"emotion": "happy", "sentiment": -1, "parent": 442, "text": "pakistan june india place manchester southafrica date trafford june 5 ipl2018 cricket 48 match ", "location": "dummy", "time": 1524594600, "id": 553}
-{"index": {"_type": "tweet", "_id": "554"}}
+{"index": {"_type": "tweet", "_id": "554", "_index":"cricket"}}
 {"emotion": "angry", "sentiment": -1, "parent": 344, "text": "balochistan punjab start time sun team tennis iyer 48 match captain ipl2018 cricket ", "location": "dummy", "time": 1524594600, "id": 554}
