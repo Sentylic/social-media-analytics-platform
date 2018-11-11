@@ -13,7 +13,7 @@ const EMOTION_PORT = 5000;
 
 module.exports = {
 
-    readJsonFiles: function (path) {
+        readJsonFiles: function (path) {
         return new Promise(function (resolve, reject) {
             var json_files = [];
             fs.readdir(path, (err, files) => {

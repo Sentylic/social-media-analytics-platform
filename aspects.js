@@ -8,7 +8,7 @@ var request = require('request');
 
 var PythonShell = require('python-shell');
 
-const { check, validationResult } = require('express-validator/check')
+const { check, validationResult } = require('express-validator/check');
 
 
 router.get('/scrape', function(req, res) {
