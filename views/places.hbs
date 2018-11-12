@@ -103,7 +103,7 @@
 
                 </div>
             </div>
-            <div class="modal-footer">
+                <div class="modal-footer">
                 <button type="button" class="btn btn-secondary custom-close" data-dismiss="modal">Close</button>
             </div>
         </div>
@@ -185,7 +185,7 @@
             success: function (response) {
                 var reviews_html = '';
                 var aspects_html = '<h3>Mostly Discussed Aspects</h3><table class="table" style="text-align: left">' +
-                        '<thead><tr><th></th><th><i class="em-svg em-grinning emoji-style"></i></th></tr></thead>';
+                        '<thead><tr><th></th><th>Frequency</th></tr></thead>';
                 console.log('success');
 
 //              truncate reviews
@@ -214,7 +214,7 @@
                     console.log(aspect.aspect);
                     aspects_html += '<tr>' +
                             '<td style="margin: 10px">' + aspect.aspect + '</td>' +
-                            '<td style="margin: 10px">' + aspect.percentage + ' %</td>' +
+                            '<td style="margin: 10px">' + aspect.count + ' </td>' +
                             '</tr>'
                 });
                 aspects_html += '</table>';

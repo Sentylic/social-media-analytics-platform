@@ -34,7 +34,7 @@ module.exports = {
                     obj.push({
                         aspect : i,
                         count : aspect_obj[i],
-                        percentage: Math.floor(Math.random() * 100),
+                        percentage: Math.floor(Math.random() * 100), // replace
                     });
                 }
 

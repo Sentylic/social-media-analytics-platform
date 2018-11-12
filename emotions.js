@@ -9,7 +9,7 @@ var request = require('request');
 
 var PythonShell = require('python-shell');
 
-const EMOTION_HOST = '127.0.0.1';
+const EMOTION_HOST = 'sentylic.projects.mrt.ac.lk';
 const EMOTION_PORT = 5000;
 
 const {check, validationResult} = require('express-validator/check')
