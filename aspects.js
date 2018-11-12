@@ -10,6 +10,8 @@ var PythonShell = require('python-shell');
 
 const { check, validationResult } = require('express-validator/check');
 
+const ASPECTS_HOST = '127.0.0.1';
+const ASPECTS_PORT = 5001;
 
 router.get('/scrape', function(req, res) {
     var example_restaurant_review = 'https://www.tripadvisor.com/Restaurant_Review-g304141-d9694624-Reviews-Rithu_Restaurant-Sigiriya_Central_Province.html';
@@ -111,6 +113,46 @@ router.post('/findReviewAspects', function(req, res) {
     //     // console.log(temp);
     // })
 });
+
+router.post('/findAspects', [
+    check('message')
+        .isLength({min: 1})
+        .withMessage('Review is required'),
+], (req, res) => {
+    const errors = validationResult(req)
+    if (!errors.isEmpty()) {
+        return res.render('aspects', {
+            data: req.body,
+            errors: errors.mapped(),
+        })
+    }
+
+    util.extractAspects(req.body.message).then(function(aspects) {
+        var obj = [];
+
+        for (a in aspects) {
+            obj.push({
+                aspect: aspects[a],
+                sentiment: Math.floor(Math.random() * 3) - 1, // replace
+            });
+        }
+
+        util.readJsonFiles('./Data').then(function (json_files) {
+            return res.render('aspects', {
+                data: req.body,
+                aspects: obj,
+                files: json_files, req: req
+            })
+        });
+
+    }, function(err) {
+        return res.render('aspects', {
+            data: req.body,
+            errors: err,
+        })
+    });
+})
+
 
 //export this router to use in our index.js
 module.exports = router;

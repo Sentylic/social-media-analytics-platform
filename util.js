@@ -10,10 +10,12 @@ var request = require('request');
 
 const EMOTION_HOST = '127.0.0.1';
 const EMOTION_PORT = 5000;
+const ASPECTS_HOST = '127.0.0.1';
+const ASPECTS_PORT = 5001;
 
 module.exports = {
 
-        readJsonFiles: function (path) {
+    readJsonFiles: function (path) {
         return new Promise(function (resolve, reject) {
             var json_files = [];
             fs.readdir(path, (err, files) => {
@@ -70,7 +72,7 @@ module.exports = {
 
     extractAspects: function (review) {
         return new Promise(function (resolve, reject) {
-            request("http://127.0.0.1:5001/" + review, function (error, response, body) {
+            request("http://" + ASPECTS_HOST + ":" + ASPECTS_PORT + "/" + review, function (error, response, body) {
                 if (error) {
                     reject(error);
                 }
