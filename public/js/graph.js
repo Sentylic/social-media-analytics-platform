@@ -111,6 +111,9 @@ function drawGraph(json) {
                 .duration(500)
                 .style("opacity", 0);
         })
+        .on("click", function (d) {
+            window.location.href = window.location.href + "/topic/dummyTopic";
+        })
     ;
 
     force

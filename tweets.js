@@ -132,6 +132,19 @@ router.get('/:index', function (req, res) {
     );
 });
 
+router.get('/:index/topic/:topic', function (req, res) {
+    var files = null;
+    util.readJsonFiles('./Data').then(
+        function (json_files) {
+            files = json_files;
+            res.render('topic', {files: files, req: req, title: req.params.topic, index: req.params.index});
+        },
+        function (err) {
+            console.log(err);
+            return res.send(err);
+        }
+    );
+});
 
 //export this router to use in our index.js
 module.exports = router;
