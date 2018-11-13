@@ -12,41 +12,17 @@
     ::-moz-placeholder { /* Firefox 19+ */
         font-size: 20px;
     }
-
-    .label-xsmall {
-        vertical-align: super;
-        font-size: x-small;
-    }
-
-    .label-small {
-        vertical-align: super;
-        font-size: small;
-    }
-
-    .label-medium {
-        vertical-align: super;
-        font-size: medium;
-    }
-
-    .label-large {
-        vertical-align: super;
-        font-size: large;
-    }
-
-    .label-bs {
-        vertical-align: super;
-    }
-
-    .emoji-style {
-        height: 6.5em;
-        width: 6.5em;
-    }
 </style>
 
 <div class="container">
     <h3 style="font-family: 'Courier 10 Pitch'">Discussion on {{title}}</h3>
     <button class="btn btn-primary" onclick="window.location.href='/tweets/{{index}}'">Back</button>
-    <div>
-
+    <br>
+    <br>
+    <div id="topic_div">
+        {{{graph_html}}}
     </div>
 </div>
+
+<script>
+</script>

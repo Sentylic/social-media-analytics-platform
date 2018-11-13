@@ -137,7 +137,16 @@ router.get('/:index/topic/:topic', function (req, res) {
     util.readJsonFiles('./Data').then(
         function (json_files) {
             files = json_files;
-            res.render('topic', {files: files, req: req, title: req.params.topic, index: req.params.index});
+
+            fs.readFile('./Data/' + req.params.topic, 'utf8', function(err, html){
+                if (err) {
+                    console.log(err);
+                    return res.send(err);
+                }
+                res.render('topic', {files: files, req: req, title: req.params.index, index: req.params.index,
+                    graph_html: html});
+            });
+
         },
         function (err) {
             console.log(err);
