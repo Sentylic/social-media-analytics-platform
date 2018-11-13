@@ -8,9 +8,9 @@ var pyshell = require('python-shell');
 var path = require('path');
 var request = require('request');
 
-const EMOTION_HOST = '127.0.0.1';
+const EMOTION_HOST = '111.223.140.244';
 const EMOTION_PORT = 5000;
-const ASPECTS_HOST = '127.0.0.1';
+const ASPECTS_HOST = 'sentylic.projects.mrt.ac.lk';
 const ASPECTS_PORT = 5001;
 
 module.exports = {

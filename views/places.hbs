@@ -103,7 +103,7 @@
 
                 </div>
             </div>
-                <div class="modal-footer">
+            <div class="modal-footer">
                 <button type="button" class="btn btn-secondary custom-close" data-dismiss="modal">Close</button>
             </div>
         </div>
@@ -275,12 +275,14 @@
             url: '/aspects/findReviewAspects',
             success: function (aspects) {
                 var aspects_html = '';
-                aspects.forEach(function (a) {
-                    aspects_html += '<tr>' +
-                            '<td>' + a.aspect + '</td>' +
-                            '<td><i class="em-svg em-neutral_face emoji-style"></i></td>' +
-                            '</tr>';
-                });
+                if (!jQuery.isEmptyObject(aspects)) {
+                    aspects.forEach(function (a) {
+                        aspects_html += '<tr>' +
+                                '<td>' + a.aspect + '</td>' +
+                                '<td><i class="em-svg em-neutral_face emoji-style"></i></td>' +
+                                '</tr>';
+                    });
+                }
                 $('#review_aspects').html(aspects_html);
 
 //              show emotions
