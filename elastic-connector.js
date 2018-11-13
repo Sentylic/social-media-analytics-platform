@@ -34,7 +34,10 @@ module.exports.getNodes = function (index) {
             body: {
                 query: {
                     match_all: {}
-                }
+                },
+                sort : [
+                    { "id" : {"order" : "asc"}},
+                ],
             },
             size: 1000
         }).then(function (resp) {
@@ -58,11 +61,18 @@ module.exports.getNodes = function (index) {
                     emotion: value._source.emotion,
                     sentiment: value._source.sentiment,
                     html: value._source.html,
+                    id: value._source.id,
+                    parent: value._source.parent,
                 });
+
                 graph_json.links.push({
                     source: value._source.parent,
                     target: value._source.id
                 });
+
+                // if (value._source.parent == 14) {
+                //     console.log(graph_json.links);
+                // }
             });
 
             resolve(graph_json);
