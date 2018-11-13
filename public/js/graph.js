@@ -3,7 +3,7 @@
  */
 
 var width = 1500,
-    height = 1000,
+    height = 800,
     radius = 10,
     padding = 50;
 
@@ -112,7 +112,7 @@ function drawGraph(json) {
                 .style("opacity", 0);
         })
         .on("click", function (d) {
-            window.location.href = window.location.href + "/topic/dummyTopic";
+            window.location.href = window.location.href + "/topic/" + d.html;
         })
     ;
 

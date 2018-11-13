@@ -57,6 +57,7 @@ module.exports.getNodes = function (index) {
                     title: value._source.text,
                     emotion: value._source.emotion,
                     sentiment: value._source.sentiment,
+                    html: value._source.html,
                 });
                 graph_json.links.push({
                     source: value._source.parent,

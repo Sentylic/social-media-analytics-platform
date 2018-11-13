@@ -137,6 +137,8 @@ router.post('/findAspects', [
             });
         }
 
+        console.log("aspects : " + obj);
+
         util.readJsonFiles('./Data').then(function (json_files) {
             return res.render('aspects', {
                 data: req.body,
