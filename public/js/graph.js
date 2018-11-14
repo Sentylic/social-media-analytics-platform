@@ -125,7 +125,9 @@ function drawGraph() {
                     .style("opacity", 0);
             })
             .on("click", function (d) {
-                window.location.href = window.location.href + "/topic/" + d.html;
+                if (d.html) {
+                    window.location.href = window.location.href + "/topic/" + d.html;
+                }
                 // window.location.href = window.location.href + "/" + d.node_id;
             });
 

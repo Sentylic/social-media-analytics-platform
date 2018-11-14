@@ -73,12 +73,12 @@
             <div id="aspects">
 
             </div>
-            <div id="emotions">
-            </div>
         </div>
         <div class="col-md-6 pre-scrollable border border-primary">
             <div id="reviews">
             </div>
+        </div>
+        <div class="col-md-6" id="emotions">
         </div>
     </div>
     <input type="hidden" id="place_name" value="{{place_name}}"></input>
@@ -213,9 +213,18 @@
                 response.aspects.forEach(function (aspect) {
                     console.log(aspect.aspect);
                     aspects_html += '<tr>' +
-                            '<td style="margin: 10px">' + aspect.aspect + '</td>' +
-                            '<td style="margin: 10px">' + aspect.count + ' </td>' +
-                            '</tr>'
+                            '<td style="margin: 10px;"><h3>' + aspect.aspect + '</h3></td>' +
+                            '<td><div class="progress"><div class="progress-bar progress-bar-success" style="width: ' + aspect.positive_percentage + '%">' +
+                            '<span class="sr-only">' + aspect.positive_percentage + '% Positive</span></div>' +
+                            '<div class="progress-bar progress-bar-warning progress-bar-striped" style="width: ' + aspect.negative_percentage + '%">' +
+                            '<span class="sr-only">' + aspect.negative_percentage + '% Neutral</span></div>' +
+                            '<div class="progress-bar progress-bar-danger" style="width: ' + aspect.neutral_percentage + '%">' +
+                            '<span class="sr-only">' + aspect.neutral_percentage + '% Negative</span></div></div></td></tr>'
+
+//                    '<tr>' +
+//                    '<td style="margin: 10px">' + aspect.aspect + '</td>' +
+//                    '<td style="margin: 10px">' + aspect.count + ' </td>' +
+//                    '</tr>' +
                 });
                 aspects_html += '</table>';
                 $("#aspects").html(aspects_html);
