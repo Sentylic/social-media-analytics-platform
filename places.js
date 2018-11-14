@@ -34,6 +34,8 @@ router.post('/reviews', function (req, res) {
                 aspects: data,
                 reviews: review_data
             };
+            console.log(data);
+
             emotion_analyzer.findPopularEmotions(review_data).then(function (emotion_data) {
                 obj.emotions = emotion_data;
                 return res.send(obj);

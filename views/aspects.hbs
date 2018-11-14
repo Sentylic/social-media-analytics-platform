@@ -99,33 +99,31 @@
     </form>
     <br>
     <div>
+        <h3 style="font-family: 'Courier 10 Pitch'">Identified Aspects</h3>
         {{#if aspects}}
             <table class="table table-dark">
                 <thead>
-                <tr>
-                    <th><h3>Aspect</h3></th>
-                    <th><h3>Sentiment</h3></th>
-                </tr>
-                </thead>
+                <!--<tr>-->
+                    <!--<th><h3>Aspect</h3></th>-->
+                    <!--<th><h3>Sentiment</h3></th>-->
+                <!--</tr>-->
+                <!--</thead>-->
                 <tbody>
-                {{#each aspects}}
                     <tr>
+                    {{#each aspects}}
                         <td>
-                            <h4>{{this.aspect}}</h4>
-                        </td>
-                        <td>
-                            {{#equal this.sentiment 0}}
-                                <i class="em-svg em-neutral_face emoji-style"></i>
+                            {{#equal this.sentiment 1}}  <!--neutral = 1-->
+                                <h1><span class="label label-default">{{this.aspect}}</span></h1>
                             {{/equal}}
-                            {{#equal this.sentiment 1}}
-                                <i class="em-svg em-grinning emoji-style"></i>
+                            {{#equal this.sentiment 0}} <!--positive = 0-->
+                                <h1><span class="label label-success">{{this.aspect}}</span></h1>
                             {{/equal}}
-                            {{#equal this.sentiment -1}}
-                                <i class="em-svg em-angry emoji-style"></i>
+                            {{#equal this.sentiment 2}} <!--negative = 2-->
+                                <h1><span class="label label-danger">{{this.aspect}}</span></h1>
                             {{/equal}}
                         </td>
+                    {{/each}}
                     </tr>
-                {{/each}}
                 </tbody>
             </table>
         {{/if}}

@@ -106,7 +106,120 @@ router.post('/add', function (req, res) {
     });
 });
 
+
+router.get('/:index/:node_id', function (req, res) {
+    var files = null;
+    util.readJsonFiles('./Data').then(
+        function (json_files) {
+            files = json_files;
+            elastic_connector.getNodes(req.params.index).then(
+                function (data) {
+
+                    // isolate discussion tree
+                    var discussion_graph_json = {
+                        nodes: [],
+                        links: []
+                    };
+
+                    var node_queue = [data.nodes[req.params.node_id]];
+                    var node;
+                    while (node_queue.length > 0) {
+                        node = node_queue.shift();
+
+                        if (!discussion_graph_json.nodes.includes(node)) {
+                            discussion_graph_json.nodes.push(node);
+                        }
+
+                        // console.log(data.links);
+                        for (var i = 0; i < data.links.length; i++) {
+                            var link = data.links[i];
+                            if (link.source != link.target) {
+                                if (link.source == node.node_id) {
+                                    if (!discussion_graph_json.nodes.includes(data.nodes[link.target])) {
+                                        node_queue.push(data.nodes[link.target]);
+                                        discussion_graph_json.links.push(link);
+                                        console.log("node : " + node.node_id + ", " + link.source + " - " + link.target)
+                                    }
+                                }
+                                else if (link.target == node.node_id) {
+                                    if (!discussion_graph_json.nodes.includes(data.nodes[link.source])) {
+                                        node_queue.push(data.nodes[link.source]);
+                                        discussion_graph_json.links.push(link);
+                                        console.log("node : " + node.node_id + ", " + link.source + " - " + link.target)
+                                    }
+                                }
+                            }
+                        }
+                    }
+
+                    console.log(discussion_graph_json.links);
+
+                    var k = 0;
+                    for (var n = 0; n < discussion_graph_json.nodes.length; n++) {
+                        for (var l = 0; l < discussion_graph_json.links.length; l++) {
+                            if (discussion_graph_json.links[l].source == discussion_graph_json.nodes[n].id) {
+                                discussion_graph_json.links[l].source = k;
+                            }
+                            if (discussion_graph_json.links[l].target == discussion_graph_json.nodes[n].id) {
+                                discussion_graph_json.links[l].target = k;
+                            }
+                        }
+                        discussion_graph_json.nodes[n].node_id = k;
+                        k += 1;
+                    }
+
+
+                    jsonfile.writeFile('./public/json/discussion_graph.json', discussion_graph_json);
+                    res.render('discussion_graph', {files: files, req: req, title: req.params.index});
+                },
+                function (err) {
+                    console.log(err);
+                    if (err.toString().includes("[index_not_found_exception]")) {
+                        req.flash('danger', "<" + req.params.index + "> file is not added to elasticsearch!");
+                    }
+                    res.redirect('/');
+                }
+            );
+        },
+        function (err) {
+            console.log(err);
+            return res.send(err);
+        }
+    );
+
+});
+
+router.get('/:index/topic/:topic', function (req, res) {
+    console.log("Inside index topic")
+
+    var files = null;
+    util.readJsonFiles('./Data').then(
+        function (json_files) {
+            files = json_files;
+
+            fs.readFile('./Data/' + req.params.topic, 'utf8', function (err, html) {
+                if (err) {
+                    console.log(err);
+                    return res.send(err);
+                }
+                res.render('topic', {
+                    files: files, req: req, title: req.params.index, index: req.params.index,
+                    graph_html: html
+                });
+            });
+
+        },
+        function (err) {
+            console.log(err);
+            return res.send(err);
+        }
+    );
+});
+
 router.get('/:index', function (req, res) {
+    console.log("Inside index")
+
+
     var files = null;
     util.readJsonFiles('./Data').then(
         function (json_files) {
@@ -132,28 +245,6 @@ router.get('/:index', function (req, res) {
     );
 });
 
-router.get('/:index/topic/:topic', function (req, res) {
-    var files = null;
-    util.readJsonFiles('./Data').then(
-        function (json_files) {
-            files = json_files;
-
-            fs.readFile('./Data/' + req.params.topic, 'utf8', function(err, html){
-                if (err) {
-                    console.log(err);
-                    return res.send(err);
-                }
-                res.render('topic', {files: files, req: req, title: req.params.index, index: req.params.index,
-                    graph_html: html});
-            });
-
-        },
-        function (err) {
-            console.log(err);
-            return res.send(err);
-        }
-    );
-});
 
 //export this router to use in our index.js
 module.exports = router;
