@@ -8,7 +8,7 @@ module.exports.getNodes = function (index) {
     return new Promise(function (resolve, reject) {
         var client = new elasticsearch.Client({
             host: 'localhost:9200',
-            log: 'trace'
+            log: 'error'
         });
 
         client.ping({
@@ -36,7 +36,7 @@ module.exports.getNodes = function (index) {
                     match_all: {}
                 },
                 sort : [
-                    { "id" : {"order" : "asc"}},
+                    { "id" : {"order" : "asc"}, "time": {"order" : "asc"} },
                 ],
             },
             size: 1000
@@ -73,6 +73,17 @@ module.exports.getNodes = function (index) {
                 // if (value._source.parent == 14) {
                 //     console.log(graph_json.links);
                 // }
+
+
+                // function compare(a,b) {
+                //     if (a.source < b.source)
+                //         return -1;
+                //     if (a.source > b.source)
+                //         return 1;
+                //     return 0;
+                // }
+                //
+                // graph_json.links.sort(compare);
             });
 
             resolve(graph_json);

@@ -28,7 +28,7 @@ var div = d3.select("body").append("div")
 $(function () {
 
 //.......................
-    $.getJSON("/json/graph.json", function (json) {
+    $.getJSON("/json/discussion_graph.json", function (json) {
         console.log(json);
         drawDiagram(json);
     });
@@ -113,8 +113,7 @@ function drawGraph(json) {
                 .style("opacity", 0);
         })
         .on("click", function (d) {
-            // window.location.href = window.location.href + "/topic/" + d.html;
-            window.location.href = window.location.href + "/" + d.id;
+            window.location.href = window.location.href + "/topic/" + d.html;
         })
     ;
 
