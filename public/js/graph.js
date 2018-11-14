@@ -114,11 +114,7 @@ function drawGraph() {
                     .style("opacity", .9);
                 div.html(
                     "Title : " + d.title + "<br/>" +
-                    "Time : " + d.time + "<br/>" +
-                    "Emotion : " + d.emotion + "<br/>" +
-                    "Sentiment : " + d.sentiment + "<br/>" +
-                    "Id : " + d.id + "<br/>" +
-                    "Parent : " + d.parent + "<br/>"
+                    "Time : " + d.time + "<br/>"
                 )
                     .style("left", (d3.event.pageX) + "px")
                     .style("top", (d3.event.pageY - 28) + "px");

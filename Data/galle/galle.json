@@ -1,0 +1,70 @@
+{"index": {"_type": "tweet", "_id": 0, "_index": "galle"}}
+{"emotion": "happy", "html": "ldaseq-500x8-0.05chain_variance-5topics-galledataset-0time.html", "parent": 0, "sentiment": -2, "time": 1477852200, "text": "surf | arafa | hikka | cinnamon | waves | travel | photography | tranz | surfing | surfer | dream | shootingdiaries | follow | zahira | love", "id": 0, "location": "dummy"}
+{"index": {"_type": "tweet", "_id": 1, "_index": "galle"}}
+{"emotion": "happy", "html": "ldaseq-500x8-0.05chain_variance-5topics-galledataset-1time.html", "parent": 0, "sentiment": -1, "time": 1487529000, "text": "surf | hikka | cinnamon | photography | travel | tranz | waves | surfing | shootingdiaries | surfer | dream | tri | arafa | love | follow", "id": 1, "location": "dummy"}
+{"index": {"_type": "tweet", "_id": 2, "_index": "galle"}}
+{"emotion": "sad", "html": "ldaseq-500x8-0.05chain_variance-5topics-galledataset-2time.html", "parent": 1, "sentiment": 0, "time": 1497205800, "text": "surf | shootingdiaries | photography | hikka | travel | cinnamon | surfing | dream | tranz | surfer | waves | tri | love | explore | goodkarmahospital", "id": 2, "location": "dummy"}
+{"index": {"_type": "tweet", "_id": 3, "_index": "galle"}}
+{"emotion": "happy", "html": "ldaseq-500x8-0.05chain_variance-5topics-galledataset-3time.html", "parent": 2, "sentiment": -1, "time": 1506882600, "text": "surf | shootingdiaries | photography | hikka | surfing | surfer | travel | cinnamon | dream | tranz | tri | goodkarmahospital | love | picture | years", "id": 3, "location": "dummy"}
+{"index": {"_type": "tweet", "_id": 4, "_index": "galle"}}
+{"emotion": "happy", "html": "ldaseq-500x8-0.05chain_variance-5topics-galledataset-4time.html", "parent": 3, "sentiment": -2, "time": 1516559400, "text": "surf | shootingdiaries | surfer | surfing | photography | hikka | january | cinnamon | travel | tranz | dream | goodkarmahospital | daily | years | picture", "id": 4, "location": "dummy"}
+{"index": {"_type": "tweet", "_id": 5, "_index": "galle"}}
+{"emotion": "angry", "html": "ldaseq-500x8-0.05chain_variance-5topics-galledataset-5time.html", "parent": 4, "sentiment": 2, "time": 1526236200, "text": "shootingdiaries | surf | goodkarmahospital | hikka | daily | lka | cinnamon | surfer | surfing | tranz | photography | years | january | travel | know", "id": 5, "location": "dummy"}
+{"index": {"_type": "tweet", "_id": 6, "_index": "galle"}}
+{"emotion": "fear", "html": "ldaseq-500x8-0.05chain_variance-5topics-galledataset-6time.html", "parent": 5, "sentiment": -2, "time": 1535913000, "text": "shootingdiaries | lka | goodkarmahospital | liked | parliament | years | unp | surf | daily | know | hikka | january | photography | man | cinnamon", "id": 6, "location": "dummy"}
+{"index": {"_type": "tweet", "_id": 7, "_index": "galle"}}
+{"emotion": "excited", "html": "ldaseq-500x8-0.05chain_variance-5topics-galledataset-0time.html", "parent": 7, "sentiment": -1, "time": 1477852200, "text": "galle | hotel | tea | tuk | happy | spa | villa | life | ocean | friends | cafe | new | time | indian | view", "id": 7, "location": "dummy"}
+{"index": {"_type": "tweet", "_id": 8, "_index": "galle"}}
+{"emotion": "excited", "html": "ldaseq-500x8-0.05chain_variance-5topics-galledataset-1time.html", "parent": 7, "sentiment": 0, "time": 1487529000, "text": "galle | hotel | tuk | cafe | tea | happy | spa | prince | villa | friends | life | ocean | jetwing | indian | new", "id": 8, "location": "dummy"}
+{"index": {"_type": "tweet", "_id": 9, "_index": "galle"}}
+{"emotion": "happy", "html": "ldaseq-500x8-0.05chain_variance-5topics-galledataset-2time.html", "parent": 8, "sentiment": 2, "time": 1497205800, "text": "galle | hotel | cafe | spa | prince | happy | tuk | tea | jetwing | villa | ocean | life | new | friends | love", "id": 9, "location": "dummy"}
+{"index": {"_type": "tweet", "_id": 10, "_index": "galle"}}
+{"emotion": "happy", "html": "ldaseq-500x8-0.05chain_variance-5topics-galledataset-3time.html", "parent": 9, "sentiment": 0, "time": 1506882600, "text": "galle | happy | cafe | hotel | tea | tuk | villa | jetwing | ocean | spa | new | life | prince | indian | vacation", "id": 10, "location": "dummy"}
+{"index": {"_type": "tweet", "_id": 11, "_index": "galle"}}
+{"emotion": "angry", "html": "ldaseq-500x8-0.05chain_variance-5topics-galledataset-4time.html", "parent": 10, "sentiment": 2, "time": 1516559400, "text": "galle | happy | cafe | hotel | villa | ocean | tea | tuk | jetwing | new | life | best | vacation | indian | birthday", "id": 11, "location": "dummy"}
+{"index": {"_type": "tweet", "_id": 12, "_index": "galle"}}
+{"emotion": "excited", "html": "ldaseq-500x8-0.05chain_variance-5topics-galledataset-5time.html", "parent": 11, "sentiment": -2, "time": 1526236200, "text": "galle | happy | tuk | cafe | best | hotel | birthday | ocean | villa | life | video | vacation | jetwing | tea | new", "id": 12, "location": "dummy"}
+{"index": {"_type": "tweet", "_id": 13, "_index": "galle"}}
+{"emotion": "happy", "html": "ldaseq-500x8-0.05chain_variance-5topics-galledataset-6time.html", "parent": 12, "sentiment": 1, "time": 1535913000, "text": "happy | video | galle | birthday | best | life | get | make | tuk | new | vacation | hikkaduwa | villa | good | travel", "id": 13, "location": "dummy"}
+{"index": {"_type": "tweet", "_id": 14, "_index": "galle"}}
+{"emotion": "fear", "html": "ldaseq-500x8-0.05chain_variance-5topics-galledataset-0time.html", "parent": 14, "sentiment": 2, "time": 1477852200, "text": "galle | beach | fort | mirissa | unawatuna | southern | photo | hikkaduwa | posted | dutch | travel | sunset | gallefort | ocean | view", "id": 14, "location": "dummy"}
+{"index": {"_type": "tweet", "_id": 15, "_index": "galle"}}
+{"emotion": "happy", "html": "ldaseq-500x8-0.05chain_variance-5topics-galledataset-1time.html", "parent": 14, "sentiment": 0, "time": 1487529000, "text": "galle | beach | fort | mirissa | southern | unawatuna | photo | posted | travel | sunset | hikkaduwa | dutch | gallefort | ocean | jungle", "id": 15, "location": "dummy"}
+{"index": {"_type": "tweet", "_id": 16, "_index": "galle"}}
+{"emotion": "excited", "html": "ldaseq-500x8-0.05chain_variance-5topics-galledataset-2time.html", "parent": 15, "sentiment": -2, "time": 1497205800, "text": "galle | fort | beach | southern | photo | posted | mirissa | unawatuna | travel | sunset | gallefort | hikkaduwa | dutch | koggala | lighthouse", "id": 16, "location": "dummy"}
+{"index": {"_type": "tweet", "_id": 17, "_index": "galle"}}
+{"emotion": "angry", "html": "ldaseq-500x8-0.05chain_variance-5topics-galledataset-3time.html", "parent": 16, "sentiment": -2, "time": 1506882600, "text": "galle | beach | fort | southern | mirissa | unawatuna | photo | travel | posted | sunset | gallefort | hikkaduwa | koggala | station | dutch", "id": 17, "location": "dummy"}
+{"index": {"_type": "tweet", "_id": 18, "_index": "galle"}}
+{"emotion": "fear", "html": "ldaseq-500x8-0.05chain_variance-5topics-galledataset-4time.html", "parent": 17, "sentiment": 1, "time": 1516559400, "text": "galle | beach | fort | southern | mirissa | travel | unawatuna | photo | posted | sunset | gallefort | dutch | hikkaduwa | koggala | sea", "id": 18, "location": "dummy"}
+{"index": {"_type": "tweet", "_id": 19, "_index": "galle"}}
+{"emotion": "sad", "html": "ldaseq-500x8-0.05chain_variance-5topics-galledataset-5time.html", "parent": 18, "sentiment": 1, "time": 1526236200, "text": "galle | beach | southern | fort | mirissa | travel | unawatuna | photo | posted | dutch | gallefort | sunset | koggala | station | sea", "id": 19, "location": "dummy"}
+{"index": {"_type": "tweet", "_id": 20, "_index": "galle"}}
+{"emotion": "fear", "html": "ldaseq-500x8-0.05chain_variance-5topics-galledataset-6time.html", "parent": 19, "sentiment": -2, "time": 1535913000, "text": "galle | beach | mirissa | southern | fort | travel | unawatuna | posted | photo | cricket | video | sunset | dutch | gallefort | station", "id": 20, "location": "dummy"}
+{"index": {"_type": "tweet", "_id": 21, "_index": "galle"}}
+{"emotion": "angry", "html": "ldaseq-500x8-0.05chain_variance-5topics-galledataset-0time.html", "parent": 21, "sentiment": 0, "time": 1477852200, "text": "day | good | one | place | morning | time | last | new | beach | unawatuna | happy | back | beautiful | first | surf", "id": 21, "location": "dummy"}
+{"index": {"_type": "tweet", "_id": 22, "_index": "galle"}}
+{"emotion": "happy", "html": "ldaseq-500x8-0.05chain_variance-5topics-galledataset-1time.html", "parent": 21, "sentiment": -1, "time": 1487529000, "text": "day | good | morning | one | unawatuna | time | beach | place | last | back | like | love | beautiful | happy | life", "id": 22, "location": "dummy"}
+{"index": {"_type": "tweet", "_id": 23, "_index": "galle"}}
+{"emotion": "sad", "html": "ldaseq-500x8-0.05chain_variance-5topics-galledataset-2time.html", "parent": 22, "sentiment": 1, "time": 1497205800, "text": "day | unawatuna | morning | beach | good | one | time | last | like | love | place | life | back | beautiful | people", "id": 23, "location": "dummy"}
+{"index": {"_type": "tweet", "_id": 24, "_index": "galle"}}
+{"emotion": "happy", "html": "ldaseq-500x8-0.05chain_variance-5topics-galledataset-3time.html", "parent": 23, "sentiment": -1, "time": 1506882600, "text": "beach | unawatuna | day | one | good | like | last | morning | time | life | beautiful | place | back | love | people", "id": 24, "location": "dummy"}
+{"index": {"_type": "tweet", "_id": 25, "_index": "galle"}}
+{"emotion": "sad", "html": "ldaseq-500x8-0.05chain_variance-5topics-galledataset-4time.html", "parent": 24, "sentiment": -1, "time": 1516559400, "text": "day | one | like | unawatuna | life | beach | place | last | good | back | time | love | morning | beautiful | people", "id": 25, "location": "dummy"}
+{"index": {"_type": "tweet", "_id": 26, "_index": "galle"}}
+{"emotion": "happy", "html": "ldaseq-500x8-0.05chain_variance-5topics-galledataset-5time.html", "parent": 25, "sentiment": 0, "time": 1526236200, "text": "day | like | one | dive | unawatuna | life | good | time | love | people | beach | back | padi | first | place", "id": 26, "location": "dummy"}
+{"index": {"_type": "tweet", "_id": 27, "_index": "galle"}}
+{"emotion": "fear", "html": "ldaseq-500x8-0.05chain_variance-5topics-galledataset-6time.html", "parent": 26, "sentiment": -1, "time": 1535913000, "text": "one | day | people | like | good | time | dive | unawatuna | life | via | padi | back | today | morning | love", "id": 27, "location": "dummy"}
+{"index": {"_type": "tweet", "_id": 28, "_index": "galle"}}
+{"emotion": "angry", "html": "ldaseq-500x8-0.05chain_variance-5topics-galledataset-0time.html", "parent": 28, "sentiment": 1, "time": 1477852200, "text": "weligama | hikkaduwa | road | development | authority | beach | galle | bay | super | hotel | resort | gym | sakhno | lana | bodies", "id": 28, "location": "dummy"}
+{"index": {"_type": "tweet", "_id": 29, "_index": "galle"}}
+{"emotion": "excited", "html": "ldaseq-500x8-0.05chain_variance-5topics-galledataset-1time.html", "parent": 28, "sentiment": 1, "time": 1487529000, "text": "weligama | hikkaduwa | road | development | authority | beach | galle | bay | super | gym | hotel | bodies | resort | turtle | sea", "id": 29, "location": "dummy"}
+{"index": {"_type": "tweet", "_id": 30, "_index": "galle"}}
+{"emotion": "happy", "html": "ldaseq-500x8-0.05chain_variance-5topics-galledataset-2time.html", "parent": 29, "sentiment": -2, "time": 1497205800, "text": "weligama | road | development | authority | hikkaduwa | beach | galle | super | gym | bodies | bay | resort | hotel | turtle | sea", "id": 30, "location": "dummy"}
+{"index": {"_type": "tweet", "_id": 31, "_index": "galle"}}
+{"emotion": "happy", "html": "ldaseq-500x8-0.05chain_variance-5topics-galledataset-3time.html", "parent": 30, "sentiment": -1, "time": 1506882600, "text": "weligama | hikkaduwa | beach | galle | road | super | development | authority | gym | bodies | resort | bay | sea | travel | turtle", "id": 31, "location": "dummy"}
+{"index": {"_type": "tweet", "_id": 32, "_index": "galle"}}
+{"emotion": "sad", "html": "ldaseq-500x8-0.05chain_variance-5topics-galledataset-4time.html", "parent": 31, "sentiment": -2, "time": 1516559400, "text": "weligama | hikkaduwa | galle | beach | super | gym | bodies | road | resort | bay | development | authority | travel | spa | sea", "id": 32, "location": "dummy"}
+{"index": {"_type": "tweet", "_id": 33, "_index": "galle"}}
+{"emotion": "fear", "html": "ldaseq-500x8-0.05chain_variance-5topics-galledataset-5time.html", "parent": 32, "sentiment": 0, "time": 1526236200, "text": "weligama | hikkaduwa | galle | super | beach | bodies | gym | resort | bay | road | spa | marriott | season | feel | tourism", "id": 33, "location": "dummy"}
+{"index": {"_type": "tweet", "_id": 34, "_index": "galle"}}
+{"emotion": "sad", "html": "ldaseq-500x8-0.05chain_variance-5topics-galledataset-6time.html", "parent": 33, "sentiment": 0, "time": 1535913000, "text": "weligama | hikkaduwa | galle | super | beach | resort | bay | bodies | gym | spa | road | marriott | season | feel | tourism", "id": 34, "location": "dummy"}
