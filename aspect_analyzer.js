@@ -10,6 +10,9 @@ module.exports = {
         return new Promise(function (resolve, reject) {
             var obj = [];
             var aspect_obj = {};
+            var aspect_neutral_obj = {};
+            var aspect_negative_obj = {};
+            var aspect_positive_obj = {};
             var promises = [];
 
             for (j in reviews) {
@@ -19,8 +22,28 @@ module.exports = {
                         if (aspect[0] != '') {
                             if (aspect[0] in aspect_obj == false) {
                                 aspect_obj[aspect[0]] = 1;
+                                if (aspect[1] == 0) {
+                                    aspect_positive_obj[aspect[0]] = 1;
+                                    aspect_negative_obj[aspect[0]] = 0;
+                                    aspect_neutral_obj[aspect[0]] = 0;
+                                } else if (aspect[1] == 1) {
+                                    aspect_neutral_obj[aspect[0]] = 1;
+                                    aspect_negative_obj[aspect[0]] = 0;
+                                    aspect_positive_obj[aspect[0]] = 0;
+                                } else if (aspect[1] == 2) {
+                                    aspect_negative_obj[aspect[0]] = 1;
+                                    aspect_positive_obj[aspect[0]] = 0;
+                                    aspect_neutral_obj[aspect[0]] = 0;
+                                }
                             } else {
                                 aspect_obj[aspect[0]] += 1;
+                                if (aspect[1] == 0) {
+                                    aspect_positive_obj[aspect[0]] += 1;
+                                } else if (aspect[1] == 1) {
+                                    aspect_neutral_obj[aspect[0]] += 1;
+                                } else if (aspect[1] == 2) {
+                                    aspect_negative_obj[aspect[0]] += 1;
+                                }
                             }
                         }
                     }
@@ -34,7 +57,9 @@ module.exports = {
                     obj.push({
                         aspect : i,
                         count : aspect_obj[i],
-                        percentage: Math.floor(Math.random() * 100), // replace
+                        positive_percentage: aspect_positive_obj[i] * 100 / aspect_obj[i],
+                        negative_percentage: aspect_negative_obj[i] * 100 / aspect_obj[i],
+                        neutral_percentage: aspect_neutral_obj[i] * 100 / aspect_obj[i],
                     });
                 }
 
