@@ -279,18 +279,15 @@
                     aspects.forEach(function (a) {
                         if (a.sentiment == 0) {
                             aspects_html += '<tr>' +
-                                    '<td>' + a.aspect + '</td>' +
-                                    '<td><i class="em-svg em-grinning emoji-style"></i></td>' +
+                                    '<td><h1><span class="label label-success">' + a.aspect + '</span></h1></td>' +
                                     '</tr>';
                         } else if (a.sentiment == 1) {
                             aspects_html += '<tr>' +
-                                    '<td>' + a.aspect + '</td>' +
-                                    '<td><i class="em-svg em-neutral_face emoji-style"></i></td>' +
+                                    '<td><h1><span class="label label-default">' + a.aspect + '</span></h1></td>' +
                                     '</tr>';
                         } else {
                             aspects_html += '<tr>' +
-                                    '<td>' + a.aspect + '</td>' +
-                                    '<td><i class="em-svg em-angry emoji-style"></i></td>' +
+                                    '<td><h1><span class="label label-danger">' + a.aspect + '</span></h1></td>' +
                                     '</tr>';
                         }
                     });
