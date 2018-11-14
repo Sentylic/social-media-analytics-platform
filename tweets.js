@@ -115,7 +115,7 @@ router.get('/:index/:node_id', function (req, res) {
             elastic_connector.getNodes(req.params.index).then(
                 function (data) {
 
-                   // isolate discussion tree
+                    // isolate discussion tree
                     var discussion_graph_json = {
                         nodes: [],
                         links: []
@@ -123,46 +123,51 @@ router.get('/:index/:node_id', function (req, res) {
 
                     var node_queue = [data.nodes[req.params.node_id]];
                     var node;
-                    while (node_queue.length != 0) {
-                        node = node_queue.pop();
+                    while (node_queue.length > 0) {
+                        node = node_queue.shift();
 
-                        if (! discussion_graph_json.nodes.includes(node)) {
+                        if (!discussion_graph_json.nodes.includes(node)) {
                             discussion_graph_json.nodes.push(node);
                         }
 
-                        for (i in data.links) {
+                        // console.log(data.links);
+                        for (var i = 0; i < data.links.length; i++) {
                             var link = data.links[i];
                             if (link.source != link.target) {
-                                if (link.source == node.id) {
-                                    if (! discussion_graph_json.nodes.includes(data.nodes[link.target])) {
+                                if (link.source == node.node_id) {
+                                    if (!discussion_graph_json.nodes.includes(data.nodes[link.target])) {
                                         node_queue.push(data.nodes[link.target]);
                                         discussion_graph_json.links.push(link);
+                                        console.log("node : " + node.node_id + ", " + link.source + " - " + link.target)
                                     }
                                 }
-                                else if (link.target == node.id) {
-                                    if (! discussion_graph_json.nodes.includes(data.nodes[link.source])) {
+                                else if (link.target == node.node_id) {
+                                    if (!discussion_graph_json.nodes.includes(data.nodes[link.source])) {
                                         node_queue.push(data.nodes[link.source]);
                                         discussion_graph_json.links.push(link);
+                                        console.log("node : " + node.node_id + ", " + link.source + " - " + link.target)
                                     }
                                 }
                             }
                         }
-
-                        var k = 0;
-                        for(n in discussion_graph_json.nodes) {
-                            for (l in discussion_graph_json.links) {
-                                if (discussion_graph_json.links[l].source == discussion_graph_json.nodes[n].id){
-                                    discussion_graph_json.links[l].source = k;
-                                }
-                                if (discussion_graph_json.links[l].target == discussion_graph_json.nodes[n].id){
-                                    discussion_graph_json.links[l].target = k;
-                                }
-                            }
-                            discussion_graph_json.nodes[n].id = k;
-                            k += 1;
-                        }
-
                     }
+
+                    console.log(discussion_graph_json.links);
+
+                    var k = 0;
+                    for (var n = 0; n < discussion_graph_json.nodes.length; n++) {
+                        for (var l = 0; l < discussion_graph_json.links.length; l++) {
+                            if (discussion_graph_json.links[l].source == discussion_graph_json.nodes[n].id) {
+                                discussion_graph_json.links[l].source = k;
+                            }
+                            if (discussion_graph_json.links[l].target == discussion_graph_json.nodes[n].id) {
+                                discussion_graph_json.links[l].target = k;
+                            }
+                        }
+                        discussion_graph_json.nodes[n].node_id = k;
+                        k += 1;
+                    }
+
 
                     jsonfile.writeFile('./public/json/discussion_graph.json', discussion_graph_json);
                     res.render('discussion_graph', {files: files, req: req, title: req.params.index});
@@ -192,13 +197,15 @@ router.get('/:index/topic/:topic', function (req, res) {
         function (json_files) {
             files = json_files;
 
-            fs.readFile('./Data/' + req.params.topic, 'utf8', function(err, html){
+            fs.readFile('./Data/' + req.params.topic, 'utf8', function (err, html) {
                 if (err) {
                     console.log(err);
                     return res.send(err);
                 }
-                res.render('topic', {files: files, req: req, title: req.params.index, index: req.params.index,
-                    graph_html: html});
+                res.render('topic', {
+                    files: files, req: req, title: req.params.index, index: req.params.index,
+                    graph_html: html
+                });
             });
 
         },

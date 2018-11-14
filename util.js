@@ -8,10 +8,10 @@ var pyshell = require('python-shell');
 var path = require('path');
 var request = require('request');
 
-const EMOTION_HOST = 'sentylic.projects.mrt.ac.lk';
-const EMOTION_PORT = 5000;
-const ASPECTS_HOST = 'sentylic.projects.mrt.ac.lk';
-const ASPECTS_PORT = 5001;
+const EMOTION_HOST = '192.168.8.102';
+const EMOTION_PORT = 5001;
+const ASPECTS_HOST = '192.168.8.102';
+const ASPECTS_PORT = 5000;
 
 module.exports = {
 
@@ -72,12 +72,16 @@ module.exports = {
 
     extractAspects: function (review) {
         return new Promise(function (resolve, reject) {
-            request("http://" + ASPECTS_HOST + ":" + ASPECTS_PORT + "/" + review, function (error, response, body) {
+            request("http://" + ASPECTS_HOST + ":" + ASPECTS_PORT + "/sentence/" + review, function (error, response, body) {
                 if (error) {
                     reject(error);
                 }
                 if (response && response.body && response.body.toString().indexOf("404 Not Found") <= -1) {
-                    resolve(response.body.toString().split(';'));
+                    var aspect_arr = JSON.parse(response.body);
+                    // console.log(aspect_arr);
+                    resolve(aspect_arr);
+                    // console.log(response.body);
+                    // resolve(response.body.toString().split(';'));
                 } else {
                     resolve(null);
                 }

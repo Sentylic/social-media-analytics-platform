@@ -277,10 +277,22 @@
                 var aspects_html = '';
                 if (!jQuery.isEmptyObject(aspects)) {
                     aspects.forEach(function (a) {
-                        aspects_html += '<tr>' +
-                                '<td>' + a.aspect + '</td>' +
-                                '<td><i class="em-svg em-neutral_face emoji-style"></i></td>' +
-                                '</tr>';
+                        if (a.sentiment == 0) {
+                            aspects_html += '<tr>' +
+                                    '<td>' + a.aspect + '</td>' +
+                                    '<td><i class="em-svg em-grinning emoji-style"></i></td>' +
+                                    '</tr>';
+                        } else if (a.sentiment == 1) {
+                            aspects_html += '<tr>' +
+                                    '<td>' + a.aspect + '</td>' +
+                                    '<td><i class="em-svg em-neutral_face emoji-style"></i></td>' +
+                                    '</tr>';
+                        } else {
+                            aspects_html += '<tr>' +
+                                    '<td>' + a.aspect + '</td>' +
+                                    '<td><i class="em-svg em-angry emoji-style"></i></td>' +
+                                    '</tr>';
+                        }
                     });
                 }
                 $('#review_aspects').html(aspects_html);

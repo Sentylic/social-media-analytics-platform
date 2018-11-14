@@ -15,12 +15,12 @@ module.exports = {
             for (j in reviews) {
                 promises.push(util.extractAspects(reviews[j].text).then(function (aspects) {
                     for (i in aspects) {
-                        var aspect = aspects[i].trim(" ").trim(".").trim(",").trim("'").toLowerCase();
-                        if (aspect != '') {
-                            if (aspect in aspect_obj == false) {
-                                aspect_obj[aspect] = 1;
+                        var aspect = aspects[i]; //.trim(" ").trim(".").trim(",").trim("'").toLowerCase();
+                        if (aspect[0] != '') {
+                            if (aspect[0] in aspect_obj == false) {
+                                aspect_obj[aspect[0]] = 1;
                             } else {
-                                aspect_obj[aspect] += 1;
+                                aspect_obj[aspect[0]] += 1;
                             }
                         }
                     }

@@ -10,8 +10,8 @@ var PythonShell = require('python-shell');
 
 const { check, validationResult } = require('express-validator/check');
 
-const ASPECTS_HOST = '127.0.0.1';
-const ASPECTS_PORT = 5001;
+const ASPECTS_HOST = '192.168.8.102';
+const ASPECTS_PORT = 5000;
 
 router.get('/scrape', function(req, res) {
     var example_restaurant_review = 'https://www.tripadvisor.com/Restaurant_Review-g304141-d9694624-Reviews-Rithu_Restaurant-Sigiriya_Central_Province.html';
@@ -84,8 +84,8 @@ router.post('/findReviewAspects', function(req, res) {
 
         for (a in aspects) {
             obj.push({
-                aspect: aspects[a],
-                sentiment: Math.floor(Math.random() * 3) - 1,
+                aspect: aspects[a][0],
+                sentiment: aspects[a][1],
             });
         }
         return res.send(obj);
@@ -132,12 +132,10 @@ router.post('/findAspects', [
 
         for (a in aspects) {
             obj.push({
-                aspect: aspects[a],
-                sentiment: Math.floor(Math.random() * 3) - 1, // replace
+                aspect: aspects[a][0],
+                sentiment: aspects[a][1],
             });
         }
-
-        console.log("aspects : " + obj);
 
         util.readJsonFiles('./Data').then(function (json_files) {
             return res.render('aspects', {
